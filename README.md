@@ -1,5 +1,5 @@
 ---
-permalink: main
+permalink: /main
 ---
 # Mission
 Our overarching aim is to build technical and
