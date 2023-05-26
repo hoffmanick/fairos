@@ -3,11 +3,11 @@ theme: jekyll-theme-minimal
 layout: post
 title: Past Global Change FAIROS Research Coordination Network
 description: We want to implement FAIR and CARE principles in data repositories for archaeo- and paleo- sciences
-
+---
 defaults:
   -
     scope:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
----
+
