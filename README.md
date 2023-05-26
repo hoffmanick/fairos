@@ -1,6 +1,4 @@
----
-permalink: /main
----
+
 # Mission
 Our overarching aim is to build technical and
 social capacity among community-curated data repositories by supporting technical
