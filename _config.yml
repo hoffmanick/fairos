@@ -1,8 +1,8 @@
 ---
 theme: jekyll-theme-minimal
-layout: post
+layout: page
 title: Past Global Change FAIROS Research Coordination Network
-description: We want to implement FAIR and CARE principles in data repositories for archaeo- and paleo- sciences
+description: Implementing FAIR and CARE principles in the historical sciences
 ---
 defaults:
   -
