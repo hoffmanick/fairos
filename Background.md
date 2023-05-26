@@ -2,6 +2,7 @@
 layout: page
 title: "Background"
 permalink: /background
+theme: jekyll-theme-minimal
 ---
 
 # Background
