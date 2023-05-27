@@ -11,7 +11,7 @@ The Past Global Change FAIROS RCN is an NSF-funded research coordination network
 
 ## Meet the Principal Investigators
 {% for team_member in site.team_members %}
-- { { team_member.name }}, {{team_member.role }}, {{team_member.institution }}
+- {{ team_member.name }}, {{team_member.role }}, {{team_member.institution }}
 {% endfor %} 
 
 <img src="./images/Blois_group_3.jpeg" alt="Group Picture">
