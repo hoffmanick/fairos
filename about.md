@@ -7,8 +7,8 @@ permalink: /about
 <style>
  .container {
   display: flex;
-  align-items: left;
-  justify-content: left
+  align-items: center;
+  justify-content: center
 }
 img {
   max-width: 50%;
@@ -16,7 +16,7 @@ img {
 }
 
 .text {
-  font-size: 15px;
+  font-size: 3px;
   padding-left: 20px;
 }
   </style>
