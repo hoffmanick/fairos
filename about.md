@@ -16,8 +16,8 @@ img {
 }
 
 .text {
-  font-size: 10px;
-  padding-left: 10px;
+  font-size: 15px;
+  padding-left: 20px;
 }
   </style>
 
