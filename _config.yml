@@ -9,32 +9,32 @@ team_members:
     name: "Jessica Blois"
     role: "Principal Investigator"
     institution: "University of California, Merced"
-    picture: "\"./images/blois_headshot.jpeg\""
+    picture: "\"./images/blois_headshot.jpg\""
   -
     name: "Suzanne Pilaar Birch"
     role: "Co-Principal Investigator"
     institution: "University of Georgia"
-    picture: "\"./images/birch_headshot.jpeg\""
+    picture: "\"./images/birch_headshot.jpg\""
   -
     name: "Meghan Balk"
     role: "Co-Principal Investigator"
     institution: "University of Oslo, Natural History Museum"
-    picture: "\"./images/balk_headshot.jpeg\""
+    picture: "\"./images/balk_headshot.jpg\""
   -
     name: "Simon Goring"
     role: "Co-Principal Investigator"
     institution: "University of British Columbia, University of Wisconsin, Madison"
-    picture: "\"./images/goring_headshot.jpeg\""
+    picture: "\"./images/goring_headshot.jpg\""
   -
     name: "John W. Williams"
     role: "Co-Principal Investigator"
     institution: "University of Wisconsin, Madison"
-    picture: "\"./images/williams_headshot.jpeg\""
+    picture: "\"./images/williams_headshot.jpg\""
   -
     name: "Kitty Emery"
     role: "Co-Principal Investigator"
     institution: "University of Florida"   
-    picture: "\"./images/emery_headshot.jpeg\""
+    picture: "\"./images/emery_headshot.jpg\""
 ---
 defaults:
   -
