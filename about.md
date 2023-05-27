@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Background"
-permalink: /background
+title: "about"
+permalink: /about
 ---
 
 {% include navigation.html %}
