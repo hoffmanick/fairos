@@ -16,8 +16,8 @@ img {
 }
 
 .text {
-  font-size: 20px;
-  padding-left: 20px;
+  font-size: 10px;
+  padding-left: 10px;
 }
   </style>
 
@@ -31,7 +31,7 @@ The Past Global Change FAIROS RCN is an NSF-funded research coordination network
 {% for team_member in site.team_members %}
 <div class="container">
   <div class="image">
-    <img src={{ team_member.picture }} width="75" height="115">
+    <img src={{ team_member.picture }} width="105" height="115">
   </div>
   <div class="text">
     <h4>{{ team_member.name }}, {{team_member.role }}, {{team_member.institution }}</h4>
