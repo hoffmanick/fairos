@@ -4,6 +4,31 @@ layout: page
 title: Past Global Change FAIROS Research Coordination Network
 description: Implementing FAIR and CARE principles in the historical sciences
 email: "globalchangefairos@gmail.com"
+team_members:
+  -
+    name: "Jessica Blois"
+    role: "Principal Investigator"
+    institution: "University of California, Merced"
+  -
+    name: "Suzanne Pilaar Birch"
+    role: "Co-Principal Investigator"
+    institution: "University of Georgia"
+  -
+    name: "Meghan Balk"
+    role: "Co-Principal Investigator"
+    institution: "University of Oslo, Natural History Museum"
+  -
+    name: "Simon Goring"
+    role: "Co-Principal Investigator"
+    institution: "University of British Columbia, University of Wisconsin, Madison"
+  -
+    name: "John W. Williams"
+    role: "Co-Principal Investigator"
+    institution: "University of Wisconsin, Madison"
+  -
+    name: "Kitty Emery"
+    role: "Co-Principal Investigator"
+    institution: "University of Florida"   
 ---
 defaults:
   -
@@ -11,4 +36,6 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
+      
+  
 
