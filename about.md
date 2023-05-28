@@ -23,23 +23,22 @@ img {
   text-align: left;
  
 }
- <style>
- .topnav {
+.topnav {
   background-color: #d3d9ed;
   overflow: hidden;
  }
- .topnav a {
+.topnav a {
   float: left;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
  }
- .topnav a:hover {
+.topnav a:hover {
   background-color: #e1e5f0;
   color: #5e72ab;
  }
- .topnav a.active {
+.topnav a.active {
   background-color: #e1e5f0;
   color: #4860a3;
 }
