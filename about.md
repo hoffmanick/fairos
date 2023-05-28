@@ -18,6 +18,9 @@ img {
 .text {
   font-size: 15px;
   padding-left: 3px;
+  align-items: left;
+ justify-content: left;
+ 
 }
   </style>
 
