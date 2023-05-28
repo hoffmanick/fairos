@@ -33,11 +33,19 @@ permalink: /research
 <br>
 <hr>
 
-#Research
+# Research
 
-Three Project Aims
+## Three Project Aims
 
-Case Studies
+### Aim 1
+### Aim 2
+### Aim 3
+
+## Case Studies
+
+### Case Study 1
+### Case Study 2
+### Case Study 3
 
 Return to [main page](home.md)
 
