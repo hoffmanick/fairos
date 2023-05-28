@@ -38,7 +38,9 @@ permalink: /home
 Our overarching aim is to build technical and
 social capacity among community-curated data repositories by supporting technical
 implementation of ethical open science (OS) principles and developing communities of practice focused on CARE (collective benefit, authority to control, responsible, and ethical) and FAIR (findable, accessible, interoperable, and reusable) principles.
-## About
-Learn more [about](about.md) this project!
-## Calendar
+# About
+Learn more [about](about.md) this project.
+# Research
+Find out about our [research](research.md).
+# Calendar
 Join us for upcoming [events](calendar.md)! 
