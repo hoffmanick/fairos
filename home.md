@@ -28,6 +28,7 @@ permalink: /home
 <div class="topnav">
  <a style="border-right: 1px solid blue;" class="active" href="home">Home</a>
  <a style="border-right: 1px solid blue;" href="about">About</a>
+ <a style="border-right: 1px solid blue;" href="research">Research</a> 
  <a style="border-right: 1px solid blue;" href="calendar">Calendar</a>
 </div>
 <br>
