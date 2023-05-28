@@ -11,8 +11,8 @@ permalink: /about
   justify-content: center
 }
 img {
-  max-width: 50%;
-  max-height:50%;
+  max-width: 100%;
+  max-height:100%;
 }
 
 .text {
@@ -34,13 +34,13 @@ The Past Global Change FAIROS RCN is an NSF-funded research coordination network
    <!-- # <img src={{ team_member.picture }}> remove pictures for now -->
   </div>
   <div class="text">
-    <h4>{{ team_member.name }}, {{team_member.role }}, {{team_member.institution }}</h4>
+    <h6>{{ team_member.name }}, {{team_member.role }}, {{team_member.institution }}</h6>
   </div>
 </div>
 {% endfor %} 
 
 <div style="line-height:10px">
-  <img src="./images/Blois_group_3.jpeg" alt="Group Picture" style="display:block; border:5px solid #000000; padding:3px; margin:5px" align="absbottom">
+  <img src="./images/Blois_group_3.jpeg" alt="Group Picture" style="display:block" align="absbottom">
   </div>
 <p><small>Members of the FAIROS RCN gathered at the Biosphere 2 in Arizona to determine project goals. May 16-19, 2023. </small></p>
 
