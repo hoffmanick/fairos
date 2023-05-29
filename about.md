@@ -52,8 +52,6 @@ img {
  <a style="border-right: 1px solid blue;" class="active" href="about">About</a>
  <a style="border-right: 1px solid blue;" href="research">Research</a>
  <a style="border-right: 1px solid blue;" href="calendar">Calendar</a>
- <br>
- <hr>
 </div>
 
 
