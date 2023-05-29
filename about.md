@@ -54,14 +54,14 @@ ul.topnav a.active {
 }
  </style>
 
+<!-- div class="topnav">
+ <a style="border-right: 1px solid blue;" class="active" href="home">Home</a>
+ <a style="border-right: 1px solid blue;" href="about">About</a>
+ <a style="border-right: 1px solid blue;" href="research">Research</a> 
+ <a style="border-right: 1px solid blue;" href="calendar">Calendar</a>
+</div-->
 
-<ul class="topnav">
- <li><a style="border-right: 1px solid blue;" href="home">Home</a></li>
- <li><a style="border-right: 1px solid blue;" class="active" href="about">About</a></li>
- <li><a style="border-right: 1px solid blue;" href="research">Research</a></li>
- <li><a style="border-right: 1px solid blue;" href="calendar">Calendar</a></li>
-</ul>
-
+{% include navigation.html %}
 <br>
 
 <title>About</title>
