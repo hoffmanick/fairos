@@ -7,6 +7,8 @@ permalink: /research
   .topnav {
   background-color: #d3d9ed;
   overflow: hidden;
+  position: sticky;
+  top: 0;
  }
 .topnav a {
   float: left;
@@ -31,7 +33,6 @@ permalink: /research
  <a style="border-right: 1px solid blue;" href="calendar">Calendar</a>
 </div>
 <br>
-<hr>
 
 <h1> Research </h1>
 
