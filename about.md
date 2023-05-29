@@ -27,6 +27,7 @@ img {
   background-color: #d3d9ed;
   overflow: hidden;
   position: sticky;
+  top: 0;
  }
 .topnav a {
   float: left;
