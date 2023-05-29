@@ -27,13 +27,15 @@ permalink: /home
   color: #4860a3;
 }
 </style>
-<div class="topnav">
+<!-- div class="topnav">
  <a style="border-right: 1px solid blue;" class="active" href="home">Home</a>
  <a style="border-right: 1px solid blue;" href="about">About</a>
  <a style="border-right: 1px solid blue;" href="research">Research</a> 
  <a style="border-right: 1px solid blue;" href="calendar">Calendar</a>
-</div>
+</div-->
 <br>
+
+{% include navigation.html %}
 
 <h1> Mission </h1>
 Our overarching aim is to build technical and
