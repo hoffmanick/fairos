@@ -54,7 +54,7 @@ img {
  <a style="border-right: 1px solid blue;" href="calendar">Calendar</a>
 </div>
 
-
+<br>
 
 <title>About</title>
 <h1>About</h1>
