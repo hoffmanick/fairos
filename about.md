@@ -73,9 +73,12 @@ The Past Global Change FAIROS RCN is an NSF-funded research coordination network
 
 <h2>Biosphere Workshop</h2>
 <div style="line-height:10px">
+ <figure>
   <img src="./images/Blois_group_3.jpeg" alt="Group Picture" style="display:block" align="absbottom">
+  <figcaption>Members of the FAIROS RCN gathered at the Biosphere 2 in Arizona to determine project goals. May 16-19, 2023. </figcaption>
+ </figure>
   </div>
-<p><small>Members of the FAIROS RCN gathered at the Biosphere 2 in Arizona to determine project goals. May 16-19, 2023. </small></p>
+
 
 Return to [main page](home.md)
 
