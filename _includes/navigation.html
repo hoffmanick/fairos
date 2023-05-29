@@ -10,7 +10,7 @@
   top: 0;
  }
  .topnav a {
-  /* float: left; */
+  float: left;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -20,6 +20,12 @@
  .topnav a:hover {
   background-color: #e1e5f0;
   color: #5e72ab;
+ }
+ .topnav a.split {
+  float: right;
+  background-color: #d3d9ed;
+  color: #5e72ab;
+ }
 </style>
 
 <div class="topnav">
@@ -28,7 +34,7 @@
  <a style="border-right: 1px solid blue;" href="research">Research</a>
  <a style="border-right: 1px solid blue;" href="resources">Resources</a>
  <a style="border-right: 1px solid blue;" href="news">News</a>
- <a style="border-right: 1px solid blue;" href="calendar">Calendar</a>
+ <a style="border-right: 1px solid blue;" href="calendar" class="split">Calendar</a>
 </div>
 <br>
 
