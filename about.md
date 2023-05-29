@@ -23,24 +23,28 @@ img {
   text-align: left;
  
 }
-.topnav {
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   background-color: #d3d9ed;
   overflow: hidden;
   position: sticky;
   top: 0;
  }
-.topnav a {
+ul.topnav li {float: left;}
+ul.topnav li a {
   float: left;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
  }
-.topnav a:hover {
+ul.topnav li a:hover:not(.active) {
   background-color: #e1e5f0;
   color: #5e72ab;
  }
-.topnav a.active {
+ul.topnav a.active {
   background-color: #e1e5f0;
   color: #4860a3;
 }
@@ -51,12 +55,12 @@ img {
  </style>
 
 
-<div class="topnav">
- <a style="border-right: 1px solid blue;" href="home">Home</a>
- <a style="border-right: 1px solid blue;" class="active" href="about">About</a>
- <a style="border-right: 1px solid blue;" href="research">Research</a>
- <a style="border-right: 1px solid blue;" href="calendar">Calendar</a>
-</div>
+<ul class="topnav">
+ <li><a style="border-right: 1px solid blue;" href="home">Home</a></li>
+ <li><a style="border-right: 1px solid blue;" class="active" href="about">About</a></li>
+ <li><a style="border-right: 1px solid blue;" href="research">Research</a></li>
+ <li><a style="border-right: 1px solid blue;" href="calendar">Calendar</a></li>
+</ul>
 
 <br>
 
