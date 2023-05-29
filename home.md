@@ -45,7 +45,7 @@ Learn more [about](about.md) this project.
 <h1> Research </h1>
 Find out about our [research](research.md).
 <h1>Resources </h1>
-Get connected to [resources](resources.md) to incorporate ethical open science practices in your work.
+Get connected to [resources](resources.md) for incorporating ethical open science practices in your work.
 <h1> News </h1>
 Stay up to date on [news](news.md) about our research coordination network.
 <h1> Calendar </h1>
