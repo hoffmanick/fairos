@@ -26,7 +26,7 @@ permalink: /research
   color: #4860a3;
 }
 </style>
-<--! div class="topnav">
+<!-- div class="topnav">
  <a style="border-right: 1px solid blue;" href="home">Home</a>
  <a style="border-right: 1px solid blue;" href="about">About</a>
  <a style="border-right: 1px solid blue;" class="active" href="research">Research</a>
