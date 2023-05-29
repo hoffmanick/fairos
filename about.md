@@ -26,7 +26,7 @@ img {
 .topnav {
   background-color: #d3d9ed;
   overflow: hidden;
-  position: fixed;
+  position: sticky;
  }
 .topnav a {
   float: left;
@@ -51,9 +51,10 @@ img {
  <a style="border-right: 1px solid blue;" class="active" href="about">About</a>
  <a style="border-right: 1px solid blue;" href="research">Research</a>
  <a style="border-right: 1px solid blue;" href="calendar">Calendar</a>
+ <br>
+ <hr>
 </div>
-<br>
-<hr>
+
 
 
 <title>About</title>
