@@ -71,7 +71,7 @@ The Past Global Change FAIROS RCN is an NSF-funded research coordination network
 {% for team_member in site.team_members %}
 <div class="container">
   <div class="image">
-   <!-- # <img src={{ team_member.picture }}> remove pictures for now -->
+   <!-- # <img style="float:left" src={{ team_member.picture }}> remove pictures for now -->
   </div>
   <div class="text">
   <p style="text-align:left;"> {{ team_member.name }}, {{team_member.role }}, {{team_member.institution }} </p>
