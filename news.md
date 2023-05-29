@@ -6,6 +6,6 @@ permalink: /news
 
 {% include navigation.html %}
 
-<h1> Have you heard the good news? </h1>
+<h1> Ethical Science in the News </h1>
 
 Return to [main page](home.md)
