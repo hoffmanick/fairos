@@ -56,6 +56,7 @@ img {
 
 
 <title>About</title>
+<h1>About</h1>
 The Past Global Change FAIROS RCN is an NSF-funded research coordination network, led by Professor Jessica Blois, University of California - Merced.
 
 <h2>Meet the Principal Investigators</h2>
