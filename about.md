@@ -26,6 +26,7 @@ img {
 .topnav {
   background-color: #d3d9ed;
   overflow: hidden;
+  position: fixed;
  }
 .topnav a {
   float: left;
