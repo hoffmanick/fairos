@@ -62,7 +62,6 @@ ul.topnav a.active {
 </div-->
 
 {% include navigation.html %}
-<br>
 
 <title>About</title>
 <h1>About</h1>
