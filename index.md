@@ -3,7 +3,7 @@ layout: default
 title: "index"
 permalink: /
 ---
-## Where would you like to go?
+<h2> Where would you like to go? </h2>
 {% include navigation.html %}
 
 
