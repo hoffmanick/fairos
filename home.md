@@ -8,6 +8,8 @@ permalink: /home
   .topnav {
   background-color: #d3d9ed;
   overflow: hidden;
+  position: sticky;
+  top: 0;
  }
 .topnav a {
   float: left;
@@ -32,7 +34,6 @@ permalink: /home
  <a style="border-right: 1px solid blue;" href="calendar">Calendar</a>
 </div>
 <br>
-<hr>
 
 <h1> Mission </h1>
 Our overarching aim is to build technical and
