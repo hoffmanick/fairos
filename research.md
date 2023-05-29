@@ -36,17 +36,20 @@ permalink: /research
 
 <h1> Research </h1>
 
-<h2> Three Project Aims </h2>
+<h2> Project Aims </h2>
 
-<h3> Aim 1 </h3>
-<h3> Aim 2 </h3>
-<h3> Aim 3 </h3>
+<h3> Aim 1: Improve Interoperability and Reproducibility </h3>
+<p> We will a) develop guidance for interoperability among long-tail community-curated data resources and
+b) promote adoption of broader metadata standards. </p>
+<h3> Aim 2: Enable FAIR Data Curation and Stewardship </h3>
+<p>  We will a) promote better data science and curation practices among disciplinary practitioners, with a particular focus on early-career disciplinary researchers and b) develop and promote best practices and standards for data stewardship. </p>
+<h3> Aim 3: Support Equity and Improve Access </h3>
+<p> We will democratize science in a manner tha recognizes broader concepts of data ownership and ethical data curation. </p>
 
-<h2> Case Studies </h2>
-
-<h3> Case Study 1 </h3>
-<h3> Case Study 2 </h3>
-<h3> Case Study 3 </h3>
+<figure>
+  <img src="./images/rcn_aims.png" alt="Group Picture" style="display:block" align="absbottom">
+  <figcaption>The central aims, people, and outcomes that motivate this RCN. </figcaption>
+ </figure>
 
 Return to [main page](home.md)
 
