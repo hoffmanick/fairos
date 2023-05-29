@@ -44,6 +44,10 @@ img {
   background-color: #e1e5f0;
   color: #4860a3;
 }
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
  </style>
 
 
