@@ -33,7 +33,6 @@ permalink: /home
  <a style="border-right: 1px solid blue;" href="research">Research</a> 
  <a style="border-right: 1px solid blue;" href="calendar">Calendar</a>
 </div-->
-<br>
 
 {% include navigation.html %}
 
