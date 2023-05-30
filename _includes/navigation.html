@@ -26,19 +26,37 @@
   background-color: #d3d9ed;
   color: #5e72ab;
  }
+ .topnav a.active {
+  background-color: #e1e5f0;
+  color: #4860a3;
+}
  .topnav a.split:hover {
   background-color: #e1e5f0;
   color: #5e72ab;
  }
 </style>
 
+<script>
+ document.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+	if (btns[i].constructor.name == location.pathname.split('/').slice(-1)[0]) {
+		btns[i].classList.add('active');
+}}
+</script>
 <div class="topnav">
- <a style="border-right: 1px solid blue;" href="home">Home</a>
- <a style="border-right: 1px solid blue;" href="about">About</a>
- <a style="border-right: 1px solid blue;" href="research">Research</a>
- <a style="border-right: 1px solid blue;" href="resources">Resources</a>
- <a style="border-right: 1px solid blue;" href="news">News</a>
- <a style="border-right: 1px solid blue;" href="calendar" class="split">Calendar</a>
+ <a style="border-right: 1px solid blue;" href="home" class="btn">Home</a>
+ <a style="border-right: 1px solid blue;" href="about" class="btn">About</a>
+ <a style="border-right: 1px solid blue;" href="research" class="btn">Research</a>
+ <a style="border-right: 1px solid blue;" href="resources" class="btn">Resources</a>
+ <a style="border-right: 1px solid blue;" href="news" class="btn">News</a>
+ <a style="border-right: 1px solid blue;" href="calendar" class="btn split">Calendar</a>
 </div>
 <br>
 
+<script>
+ document.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+	if (btns[i].constructor.name == location.pathname.split('/').slice(-1)[0]) {
+		btns[i].classList.add('active');
+}}
+</script>
