@@ -8,6 +8,20 @@
 
 {% seo %}
 
+  <style>
+  body {
+  background-image: url("./images/background-head-transp.png");
+  background-repeat: no-repeat;
+  background-size: 275px 700px;
+  background-attachment: fixed;
+}
+  @media only screen and (max-width: 1300px) { 
+  body { 
+  background-image:none; 
+  } }
+    </style>
+ 
+<!-- Background Image comes from NPS: https://www.nps.gov/zion/learn/nature/rock-layers.htm -->
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
 
     <link href="data:image/png;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAA
@@ -40,6 +54,7 @@ AAAAAAAAAAAAAA==" rel="icon" type="image/x-icon" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
+    {% include background_image.html %}
   </head>
   <body>
     <div class="wrapper">
