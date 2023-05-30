@@ -4,14 +4,16 @@ title: research
 permalink: /research
 ---
 <style>
- #stakes {
-  display ="inline";
-  float = "right";
- }
  #aims {
   display ="inline";
   float = "left";
  }
+ #aims img{
+  width:50%;
+  display:inline-block;
+  height:50%;
+  float:right;
+}
 </style>
 
 {% include navigation.html %}
@@ -20,12 +22,13 @@ permalink: /research
 
 <h2> Project Aims </h2>
 
+ <div id="aims">
 <figure id = "stakes" style="float:right">
   <img src="./images/fairos-stakeholders.jpg" alt="Stakeholders" style="float:right">
  <figcaption>The sets of lead and affiliated data resources involved in this RCN. </figcaption>
  </figure>
  
- <div id="aims">
+
 <h3> Aim 1: Improve Interoperability and Reproducibility </h3>
 <p> We will a) develop guidance for interoperability among long-tail community-curated data resources and
 b) promote adoption of broader metadata standards. </p>
