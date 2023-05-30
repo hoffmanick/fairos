@@ -19,13 +19,15 @@ permalink: /research
  <figcaption>The sets of lead and affiliated data resources involved in this RCN. </figcaption>
  </figure>
 
-  <h3> Aim 1: Improve Interoperability and Reproducibility </h3>
+<div class="aims" style="float:left;display:inline"> 
+<h3> Aim 1: Improve Interoperability and Reproducibility </h3>
 <p> We will a) develop guidance for interoperability among long-tail community-curated data resources and
 b) promote adoption of broader metadata standards. </p>
 <h3> Aim 2: Enable FAIR Data Curation and Stewardship </h3>
 <p>  We will a) promote better data science and curation practices among disciplinary practitioners, with a particular focus on early-career disciplinary researchers and b) develop and promote best practices and standards for data stewardship. </p>
 <h3> Aim 3: Support Equity and Improve Access </h3>
 <p> We will democratize science in a manner tha recognizes broader concepts of data ownership and ethical data curation. </p>
+ </div>
 </div>
 
 <figure>
