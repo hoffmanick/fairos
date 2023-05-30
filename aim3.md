@@ -1,7 +1,7 @@
 ---
 layout: default
 title: aim3
-permalink: /research/aim3
+permalink: /aim3
 ---
 
 {% include navigation.html %}
