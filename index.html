@@ -3,9 +3,20 @@ layout: default
 title: "index"
 permalink: /
 ---
+
+<p id="demo"></p>
+<a id="nick" href="here"></a>
+
          
 <h2> Where would you like to go? </h2>
 {% include navigation.html %}
 
+<script>
+document.getElementById("demo").innerHTML = location.href;
+const btns = document.getElementsByClassName("btn");
+document.getElementById("nick").innerHTML = btns[0].href;
 
+//const hm = location.pathname;
+
+</script>
 
