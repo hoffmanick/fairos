@@ -8,6 +8,7 @@ permalink: /home
 
   body {
   background-image: url("images/background-head-transp.png");
+  background-repeat: no-repeat;
 }
 </style>
 
@@ -25,7 +26,7 @@ permalink: /home
 
   /* Center and scale the image nicely */
   background-position: center;
-  background-repeat: no-repeat;
+  
   background-size: cover;
 }
   
