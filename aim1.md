@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "aim1"
-permalink: /research/aim1
+permalink: /aim1
 ---
 
 {% include navigation.html %}
