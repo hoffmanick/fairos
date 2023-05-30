@@ -8,12 +8,13 @@ permalink: /research
   display ="inline";
   float = "left";
  }
- #aims img{
-  width:50%;
+ #aims figure{
+  width:80%;
   display:inline-block;
-  height:50%;
+  height:80%;
   float:right;
 }
+
 </style>
 
 {% include navigation.html %}
@@ -23,12 +24,12 @@ permalink: /research
 <h2> Project Aims </h2>
 
  <div id="aims">
-<figure id = "stakes" style="float:right">
+<figure>
   <img src="./images/fairos-stakeholders.jpg" alt="Stakeholders" style="float:right">
  <figcaption>The sets of lead and affiliated data resources involved in this RCN. </figcaption>
  </figure>
  
-
+<div id="aimtext">
 <h3> Aim 1: Improve Interoperability and Reproducibility </h3>
 <p> We will a) develop guidance for interoperability among long-tail community-curated data resources and
 b) promote adoption of broader metadata standards. </p>
@@ -36,6 +37,7 @@ b) promote adoption of broader metadata standards. </p>
 <p>  We will a) promote better data science and curation practices among disciplinary practitioners, with a particular focus on early-career disciplinary researchers and b) develop and promote best practices and standards for data stewardship. </p>
 <h3> Aim 3: Support Equity and Improve Access </h3>
 <p> We will democratize science in a manner that recognizes broader concepts of data ownership and ethical data curation. </p>
+ </div>
  </div>
 
 <figure>
