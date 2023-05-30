@@ -4,43 +4,6 @@ title: "home"
 permalink: /home
 ---
 
-<style>
-
-  body {
-  background-image: url("images/background-head-transp.png");
-  background-repeat: no-repeat;
-  background-size: 275px 700px;
-  background-attachment: fixed;
-}
-  @media only screen and (max-width: 1300px) { 
-  body { 
-  background-image:none; 
-  } }
-</style>
-
-<!-- body, html {
-  
-  margin: 0;
-}
-
-.bg {
-  /* The image used */
-  background-image: url("images/background-head-transp.png");
-
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  
-  background-size: cover;
-}
-  
-<div class="bg"></div> -->
-
-<!-- Background Image comes from NPS: https://www.nps.gov/zion/learn/nature/rock-layers.htm -->
-
-
 {% include navigation.html %}
 
 <h1> Mission </h1>
