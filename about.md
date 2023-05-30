@@ -23,35 +23,6 @@ img {
   text-align: left;
  
 }
-ul.topnav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #d3d9ed;
-  overflow: hidden;
-  position: sticky;
-  top: 0;
- }
-ul.topnav li {float: left;}
-ul.topnav li a {
-  float: left;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
- }
-ul.topnav li a:hover:not(.active) {
-  background-color: #e1e5f0;
-  color: #5e72ab;
- }
-ul.topnav a.active {
-  background-color: #e1e5f0;
-  color: #4860a3;
-}
-@media screen and (max-width: 600px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
-}
  </style>
 
 
