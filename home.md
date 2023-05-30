@@ -9,7 +9,8 @@ permalink: /home
   body {
   background-image: url("images/background-head-transp.png");
   background-repeat: no-repeat;
-  background-size: 275px 800px;
+  background-size: 275px 700px;
+  background-attachment: fixed;
 }
 </style>
 
