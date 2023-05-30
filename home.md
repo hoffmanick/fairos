@@ -5,7 +5,13 @@ permalink: /home
 ---
 
 <style>
-body, html {
+
+  body {
+  background-image: url("images/background-head-transp.png");
+}
+</style>
+
+<!-- body, html {
   height: 100%;
   margin: 0;
 }
@@ -22,9 +28,8 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-</style>
-
-<div class="bg"></div>
+  
+<div class="bg"></div> -->
 
 <!-- Background Image comes from NPS: https://www.nps.gov/zion/learn/nature/rock-layers.htm -->
 
