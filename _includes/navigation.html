@@ -37,8 +37,10 @@
 </style>
 
 <script>
- document.getElementsByClassName("btn");
+document.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
+	var name = btns[i.constructor.name
+	document.write(name);
 	if (btns[i].constructor.name == location.pathname.split('/').slice(-1)[0]) {
 		btns[i].classList.add('active');
 }}
@@ -54,7 +56,7 @@ for (var i = 0; i < btns.length; i++) {
 <br>
 
 <script>
- document.getElementsByClassName("btn");
+document.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
 	if (btns[i].constructor.name == location.pathname.split('/').slice(-1)[0]) {
 		btns[i].classList.add('active');
