@@ -9,11 +9,12 @@ permalink: /home
   body {
   background-image: url("images/background-head-transp.png");
   background-repeat: no-repeat;
+  height: 100%;
 }
 </style>
 
 <!-- body, html {
-  height: 100%;
+  
   margin: 0;
 }
 
