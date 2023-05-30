@@ -12,7 +12,7 @@ permalink: /home
   background-size: 275px 700px;
   background-attachment: fixed;
 }
-  @media only screen and (max-width: 767px) { 
+  @media only screen and (max-width: 1000px) { 
   body { 
   background-image:none; 
   } }
