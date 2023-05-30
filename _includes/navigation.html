@@ -37,12 +37,14 @@
 </style>
 
 <script>
-var btns = document.getElementsByClassName("btn");
+const btns = document.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
-	if (btns[i].href == location.pathname.split('/').slice(-1)[0]) {
+	if (btns[i].href == location.href) {
 		btns[i].classList.add('active');
 }}
 </script>
+
+
 <div class="topnav">
  <a style="border-right: 1px solid blue;" href="home" class="btn">Home</a>
  <a style="border-right: 1px solid blue;" href="about" class="btn">About</a>
