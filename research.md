@@ -49,8 +49,13 @@ b) promote adoption of broader metadata standards. </p>
 <p> We will democratize science in a manner tha recognizes broader concepts of data ownership and ethical data curation. </p>
 
 <figure>
-  <img src="./images/rcn_aims.png" alt="Group Picture" style="display:block" align="absbottom">
+  <img src="./images/rcn_aims.png" alt="goals" style="display:block" align="absbottom">
   <figcaption>The central aims, people, and outcomes that motivate this RCN. </figcaption>
+ </figure>
+ 
+ <figure>
+  <img src="./images/faiross-takeholders.jpg" alt="Stakeholders" style="display:block" align="absbottom">
+  <figcaption>The sets of lead and affiliated data resources involved in this RCN. </figcaption>
  </figure>
 
 Return to [main page](home.md)
