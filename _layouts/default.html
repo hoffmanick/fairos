@@ -7,6 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {% seo %}
+    <style>
+      .logo {
+        float: left;
+        height: 15%;
+        width: 15%;
+      }
+    </style>
 
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
 
@@ -48,7 +55,7 @@ AAAAAAAAAAAAAA==" rel="icon" type="image/x-icon" />
         <h1><a href="{{ "/home" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+          <img src="{{site.logo | relative_url}}" alt="Logo" class="logo"/>
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
