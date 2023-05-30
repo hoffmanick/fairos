@@ -54,7 +54,7 @@ b) promote adoption of broader metadata standards. </p>
  </figure>
  
  <figure>
-  <img src="./images/faiross-takeholders.jpg" alt="Stakeholders" style="display:block" align="absbottom">
+  <img src="./images/fairos-stakeholders.jpg" alt="Stakeholders" style="display:block" align="absbottom">
   <figcaption>The sets of lead and affiliated data resources involved in this RCN. </figcaption>
  </figure>
 
