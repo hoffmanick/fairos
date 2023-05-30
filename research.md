@@ -4,16 +4,6 @@ title: research
 permalink: /research
 ---
 <style>
- #aims {
-  display ="inline";
-  float = "left";
- }
- #aims figure{
-  width:80%;
-  display:inline-block;
-  height:80%;
-  float:right;
-}
 
 </style>
 
@@ -21,13 +11,14 @@ permalink: /research
 
 <h1> Research </h1>
 
-<h2> Project Aims </h2>
 
- <div id="aims">
+
 <figure>
   <img src="./images/fairos-stakeholders.jpg" alt="Stakeholders" style="float:right">
  <figcaption>The sets of lead and affiliated data resources involved in this RCN. </figcaption>
  </figure>
+ 
+ <h2> Project Aims </h2>
  
 <div id="aimtext">
 <h3> Aim 1: Improve Interoperability and Reproducibility </h3>
@@ -38,8 +29,7 @@ b) promote adoption of broader metadata standards. </p>
 <h3> Aim 3: Support Equity and Improve Access </h3>
 <p> We will democratize science in a manner that recognizes broader concepts of data ownership and ethical data curation. </p>
  </div>
- </div>
-
+ 
 <figure>
   <img src="./images/rcn_aims.png" alt="goals" style="display:block" align="absbottom">
   <figcaption>The central aims, people, and outcomes that motivate this RCN. </figcaption>
