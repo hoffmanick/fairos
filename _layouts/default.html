@@ -9,6 +9,7 @@
 {% seo %}
     <style>
       .logo {
+        float: right;
         height: 30%;
         width: 30%;
         padding: 5px;
@@ -53,6 +54,7 @@ AAAAAAAAAAAAAA==" rel="icon" type="image/x-icon" />
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/home" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        
 
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" class="logo"/>
