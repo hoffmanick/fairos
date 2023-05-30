@@ -3,16 +3,17 @@ layout: default
 title: "index"
 permalink: /
 ---
+<h2> Where would you like to go? </h2>
+{% include navigation.html %}
+
+<a style="border-right: 1px solid blue;" href="home" class="btn">Home</a>
 
 <p id="demo">demo</p>
 <a id="nick" href="here">nick</a>
 
          
-<h2> Where would you like to go? </h2>
-{% include navigation.html %}
-
 <script>
-document.getElementById("demo").innerHTML = location.href;
+document.getElementById("demo").innerHTML = window.location.href;
 const btns = document.getElementsByClassName("btn");
 document.getElementById("nick").innerHTML = btns[0].href;
 
