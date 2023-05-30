@@ -1,4 +1,4 @@
-document.getElementById("demo").innerHTML = window.location.href;
+document.getElementById("demo").innerHTML = location.href;
 
 var btns = document.getElementsByClassName("btn");
 
