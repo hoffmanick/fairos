@@ -46,10 +46,9 @@ permalink: /home
   margin-top: 5%;
   margin-bottom: 5%;
   background-image: linear-gradient(to left, white, #97b779); 
-  text-align: justify;
 }
   .text-block-main  p {
-  font-size: 30px;
+  font-size: 20px;
 }
   </style>
 
