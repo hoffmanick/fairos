@@ -3,6 +3,7 @@ layout: post
 title: FAIROS Symposium
 author: Nick Hoffman
 date: 2023-05-20
+tags: tag
 ---
 
 <style>
