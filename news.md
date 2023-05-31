@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Calendar
+title: News
 weight : 98
-permalink: /calendar
+permalink: /news
 ---
 <style>
 #cal {
