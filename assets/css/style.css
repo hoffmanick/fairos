@@ -473,7 +473,8 @@ hr {
 footer {
   /* float:left; */
   position:static;
-  bottom:50px;
+  bottom:0px;
+  padding-bottom: 50px;
   -webkit-font-smoothing:subpixel-antialiased;
   width: 100%;
   text-align: center;
