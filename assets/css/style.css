@@ -265,7 +265,7 @@
 }
 
 body {
-  background-color: #fff;
+  background-color: #ec970b;
   padding: 0px;
   margin: 0px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -463,6 +463,7 @@ section {
   padding-top: 250px;
   margin-left: 25%;
   margin-top: 5%;
+  background-image: linear-gradient(to right, white, #97b779); 
 }
 
 small {
