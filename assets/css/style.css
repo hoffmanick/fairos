@@ -265,7 +265,7 @@
 }
 
 body {
-  background-color: #ec970b;
+  background-image: linear-gradient(to left, #ec970b, white);
   padding: 0px;
   margin: 0px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
