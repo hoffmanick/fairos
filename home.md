@@ -42,7 +42,7 @@ permalink: /home
   padding-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
-  margin-left: 2%;
+  margin-left: -5%;
   margin-top: 5%;
   margin-bottom: 5%;
   background-image: linear-gradient(to left, white, #97b779); 
