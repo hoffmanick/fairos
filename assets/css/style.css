@@ -457,12 +457,12 @@ strong {
 }
 
 section {
-  width:550px;
+  width:100%;
   /* float:right; */
   padding-bottom:50px;
   padding-top: 250px;
   margin-left: 25%;
-  margin-top: 0%;
+  margin-top: 5%;
   background-image: linear-gradient(to right, white, #97b779); 
 }
 
