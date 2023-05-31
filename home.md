@@ -10,7 +10,7 @@ permalink: /home
     color: #42b7bf;
   }
   p {
-    font-size: 24px;
+    font-size: 20px;
   }
 .text-block-right {
   width:500px;
@@ -42,11 +42,11 @@ permalink: /home
   padding-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
-  margin-left: 5%;
+  margin-left: 2%;
   margin-top: 5%;
   margin-bottom: 5%;
   background-image: linear-gradient(to left, white, #97b779); 
-  text-align: center;
+  text-align: justify;
 }
   .text-block-main  p {
   font-size: 30px;
