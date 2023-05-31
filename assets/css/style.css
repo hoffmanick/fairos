@@ -319,7 +319,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:860px;
+  width:900px;
   margin:0 auto;
 }
 
@@ -382,7 +382,7 @@ kbd {
 }
 
 header {
-  width:270px;
+  width:300px;
   /* float:left; */
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -449,7 +449,7 @@ strong {
 }
 
 section {
-  width:500px;
+  width:550px;
   float:right;
   padding-bottom:50px;
 }
@@ -466,7 +466,7 @@ hr {
 }
 
 footer {
-  width:270px;
+  width:300px;
   /* float:left; */
   position:fixed;
   bottom:50px;
