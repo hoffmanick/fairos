@@ -393,6 +393,7 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
   padding-top: 20px;
   padding-bottom: 20px;
+  z-index: 1000;
 }
 
 ul.downloads {
