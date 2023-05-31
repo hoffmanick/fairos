@@ -453,7 +453,7 @@ strong {
 
 section {
   width:550px;
-  float:right;
+  /* float:right; */
   padding-bottom:50px;
 }
 
