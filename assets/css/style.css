@@ -458,7 +458,7 @@ section {
   /* float:right; */
   padding-bottom:50px;
   padding-top: 250px;
-  left: 25%;
+  margin: 25%;
 }
 
 small {
