@@ -23,9 +23,9 @@ img {
   text-align: left;
  
 }
- h1 {
+ h1 h1 h2 h3 h4 h5 {
    color: #42b7bf;
-   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: black;
     }
   p {
