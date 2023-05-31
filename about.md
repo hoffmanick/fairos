@@ -91,11 +91,11 @@ img {
  </div>
 
 <div class="text-box-left">
-<h2>Biosphere Workshop</h2>
-
- <!-- <img src="./images/Blois_group_3.jpeg" alt="Group Picture" style="display:block" align="absbottom"> -->
-  <p><small>Members of the FAIROS RCN gathered at the Biosphere 2 in Arizona to determine project goals. May 16-19, 2023. </small></p>
- 
+  <h2>Biosphere Workshop</h2>
+  <figure>
+  <img src="./images/Blois_group_3.jpeg" alt="Group Picture" style="display:block" align="absbottom"/>
+  <figcaption>Members of the FAIROS RCN gathered at the Biosphere 2 in Arizona to determine project goals. May 16-19, 2023.</figcaption>
+ </figure>
  </div>
 
 
