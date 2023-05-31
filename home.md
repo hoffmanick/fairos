@@ -37,7 +37,7 @@ permalink: /home
   text-align: center;
 }
   .text-block-main {
-  width:500px;
+  width:800px;
   padding-bottom:20px;
   padding-top: 20px;
   padding-left: 10px;
