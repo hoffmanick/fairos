@@ -26,7 +26,6 @@ img {
  </style>
 
 
-{% include navigation.html %}
 
 <title>About</title>
 <h1>About</h1>
