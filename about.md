@@ -10,19 +10,7 @@ permalink: /about
   <!-- align-items: center; -->
   <!-- justify-content: center -->
 }
-img {
-  max-width: 100%;
-  max-height:100%;
-}
 
-.text {
-  font-size: 15px;
-  padding-left: 3px;
-  align-items: left;
-  justify-content: left;
-  text-align: left;
- 
-}
  h1 h1 h2 h3 h4 h5 {
    color: #42b7bf;
    -webkit-text-stroke-width: 1px;
@@ -90,13 +78,6 @@ img {
 {% endfor %} 
  </div>
 
-<div class="text-box-left">
-  <h2>Biosphere Workshop</h2>
-  <figure>
-  <img src="./images/Blois_group_3.jpeg" alt="Group Picture" style="display:inline-block" align="absbottom"/>
-  <figcaption>Members of the FAIROS RCN gathered at the Biosphere 2 in Arizona to determine project goals. May 16-19, 2023.</figcaption>
- </figure>
- </div>
 
 
 
