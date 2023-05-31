@@ -484,7 +484,7 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
   width: 100%;
   text-align: center;
-  background-color: #fff
+  background-color: #42b7bf;
 }
 
 @media print, screen and (max-width: 960px) {
