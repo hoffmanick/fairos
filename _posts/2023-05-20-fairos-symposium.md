@@ -54,16 +54,16 @@ date: 2023-05-20
 }
  </style>
  
-<h1>FAIROS Symposium</h1>
-
-<p> This week, members of the FAIROS team convened at the Biosphere 2 facility in order to meet and develop project goals. 
-  The PI team, the advisory committee, personnel, and other stakeholders had a chance to get to know each other over the course of a 
-  hot week in lizard country. Old friends reconnected; new friends were made. </p>
-  
-  <div class="text-box-left">
+ <div class="text-box-right">
   <h2>Biosphere Workshop</h2>
   <figure>
-  <img src="./images/Blois_group_3.jpeg" alt="Group Picture" style="display:inline-block" align="absbottom"/>
+  <img src="../../../images/Blois_group_3.jpeg" alt="Group Picture" style="display:inline-block" align="absbottom"/>
   <figcaption>Members of the FAIROS RCN gathered at the Biosphere 2 in Arizona to determine project goals. May 16-19, 2023.</figcaption>
  </figure>
  </div>
+
+<div class="text-box-main">
+<p> This week, members of the FAIROS team convened at the Biosphere 2 facility in order to meet and develop project goals. 
+  The PI team, the advisory committee, personnel, and other stakeholders had a chance to get to know each other over the course of a 
+  hot week in lizard country. Old friends reconnected; new friends were made. </p>
+  </div>
