@@ -10,8 +10,8 @@
     <style>
       .logo {
         float: left;
-        height: 35%;
-        width: 35%;
+        height: 5%;
+        width: 5%;
         padding: 5px;
       }
       .describe {
@@ -60,7 +60,7 @@ AAAAAAAAAAAAAA==" rel="icon" type="image/x-icon" />
         
 
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" class="logo"  height="20%" width="20%" />
+          <img src="{{site.logo | relative_url}}" alt="Logo" class="logo"/>
         {% endif %}
 
         <p class="describe">{{ site.description | default: site.github.project_tagline }}</p>
