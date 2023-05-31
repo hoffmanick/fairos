@@ -7,6 +7,7 @@ permalink: /calendar
 <style>
 #cal {
   position: relative;
+  z-index: 0;
   }
 </style>
 
