@@ -7,8 +7,6 @@ permalink: /research
 
 </style>
 
-{% include navigation.html %}
-
 <h1> Research </h1>
 
 
