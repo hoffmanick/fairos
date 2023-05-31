@@ -392,7 +392,7 @@ header {
   background-color: #fff;
   -webkit-font-smoothing:subpixel-antialiased;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
   z-index: 1000;
 }
 
