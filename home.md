@@ -5,47 +5,57 @@ permalink: /home
 ---
 
 <style>
-.text-block {
+.text-block-right {
   width:500px;
-  padding-bottom:50px;
-  padding-top: 10px;
-  padding-left: 50px;
+  padding-bottom:20px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-left: 25%;
   margin-top: 5%;
   margin-bottom: 5%;
   background-image: linear-gradient(to right, white, #97b779); 
   text-align: center;
 }
+  .text-block-left {
+  width:500px;
+  padding-bottom:20px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: -25%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-image: linear-gradient(to left, white, #97b779); 
+  text-align: center;
+}
   </style>
 
-<div class="text-block">
+<div class="text-block-right">
 <h1> Mission </h1>
 <p>Our overarching aim is to build technical and
 social capacity among community-curated data repositories by supporting technical
 implementation of ethical open science (OS) principles and developing communities of practice focused on CARE (collective benefit, authority to control, responsible, and ethical) and FAIR (findable, accessible, interoperable, and reusable) principles. </p>
   </div>
-  
-<div class="text-block">
+
+
+<div class="text-block-left">
 <h1> About </h1>
-  <p>Learn more [about](about.md) this project. </p>
+  <p>Learn more <a href="about">about</a> this project. </p>
   </div>
  
-<div class="text-block">
+<div class="text-block-right">
 <h1> Research </h1>
- <p>Find out about our [research](research.md). </p>
+ <p>Find out about our <a href="research">research</a>. </p>
   </div>
 
-<div class="text-block">
+<div class="text-block-left">
 <h1>Resources </h1>
- <p>Get connected to [resources](resources.md) for incorporating ethical open science practices in your work. </p>
+ <p>Get connected to <a href="resources">resources</a> for incorporating ethical open science practices in your work. </p>
   </div>
   
-  <div class="text-block">
+  <div class="text-block-right">
 <h1> News </h1>
- <p>Stay up to date on [news](news.md) about our research coordination network. </p>
+ <p>Stay up to date on <a href="news">news</a>about our research coordination network. </p>
   </div>
   
- <div class="text-block">
-<h1> Calendar </h1>
- <p>Join us for upcoming [events](calendar.md)! </p>
-  </div>
