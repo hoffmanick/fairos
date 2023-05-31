@@ -391,7 +391,8 @@ header {
   text-align: center;
   background-color: #fff;
   -webkit-font-smoothing:subpixel-antialiased;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 ul.downloads {
