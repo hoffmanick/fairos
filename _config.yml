@@ -59,5 +59,10 @@ defaults:
     values:
       layout: "default"
       
+      
+collections:
+  posts:
+    output: true
+      
   
 
