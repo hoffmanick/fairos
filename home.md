@@ -8,6 +8,8 @@ permalink: /home
   
   h1 {
     color: #42b7bf;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
   }
   p {
     font-size: 20px;
