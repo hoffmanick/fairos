@@ -5,12 +5,6 @@ permalink: /about
 ---
 
 <style>
- .container {
-  display: flex;
-  <!-- align-items: center; -->
-  <!-- justify-content: center -->
-}
-
  h1 h1 h2 h3 h4 h5 {
    color: #42b7bf;
    -webkit-text-stroke-width: 1px;
