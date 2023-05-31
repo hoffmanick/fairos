@@ -11,10 +11,6 @@ permalink: /calendar
   }
 </style>
 
-
-{% include navigation.html %}
-
-
 <h1>News and Upcoming Events</h1>
 
 
