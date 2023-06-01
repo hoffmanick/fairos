@@ -45,7 +45,7 @@ permalink: /people
   </div>
 </div>
 
-    <div id="column2">
+ <div id="column2">
     <h2 style="color:#42b7bf;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black;margin-bottom:0px; 
     background-color:#f0d2a1;margin-left:5%;padding-right:2.8%;padding-left:2%;max-width:350px;
     z-index:954;position:relative;overflow:visible; border-right:1px solid #ec970b; border-bottom:1px solid #ec970b;">
@@ -68,4 +68,4 @@ permalink: /people
         </div>
     {% endfor %} 
     </div>
-    </div>
+  </div>
