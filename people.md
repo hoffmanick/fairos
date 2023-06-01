@@ -11,8 +11,8 @@ permalink: /people
 </style>
 
 
-<div class="text-block-main">
-  <h1 style="width:250px;">Meet our Team</h1>
+<div class="text-block-main" style="width:250px;">
+  <h1>Meet our Team</h1>
 </div>
 
 <div class="text-block-right">
@@ -20,7 +20,7 @@ permalink: /people
   {% for team_member in site.team_members %}
       <div class="text-block-main">
         <div class="image">
-          <img style="float:left" src={{ team_member.picture }}>
+          <img src={{ team_member.picture }}>
         </div>
         <div class="text">
           <p style="text-align:left;"> {{ team_member.name }}, {{team_member.role }}, {{team_member.institution }} </p>
