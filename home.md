@@ -7,11 +7,10 @@ permalink: /home
   .text-block-main, .text-block-right, .text-block-left {
   flex-direction: column;
   box-shadow: none;
-  flex-wrap: wrap;
   }
 </style>
 
-
+<div style="display:flex;flex-direction:row;">
 <div class="text-block-main">
 <h1 style="font-size:40px;"> Mission </h1>
   
@@ -20,8 +19,8 @@ social capacity among community-curated data repositories by supporting technica
 implementation of ethical open science (OS) principles and developing communities 
 of practice focused on CARE (collective benefit, authority to control, responsible, 
 and ethical) and FAIR (findable, accessible, interoperable, and reusable) principles. </p>
-  
-  <img src="images/arrows-transp.png" alt="arrows" style="display:inline-block;vertical-align:middle;float:right;width:228px;height:399.333px">>
+  </div>
+  <img src="images/arrows-transp.png" alt="arrows" style="display:inline-block;vertical-align:middle;float:right;width:228px;height:399.333px">
 </div>
 
 
