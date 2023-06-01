@@ -23,7 +23,7 @@ permalink: /people
   z-index:9;position:relative;overflow:visible; border-right:1px solid #ec970b; border-bottom:1px solid #ec970b;">
   The Principal Investigators</h2>
   
-  <div class="text-block-main" style="flex-direction:column;flex-wrap:wrap;padding-top:0px; background-image:none;">
+  <div class="text-block-main" style="flex-direction:column;flex-wrap:wrap;padding-top:0px; background-image:none; height:100px;">
     
     {% for team_member in site.team_members %}
         <div class="text-block-right" style="flex-direction:row; align-items:center;justify-content:space-around;
