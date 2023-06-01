@@ -21,7 +21,7 @@ permalink: /people
 <div class="text-block-main">
   <h2 style="color:#42b7bf;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black;">The Principal Investigators</h2>
   {% for team_member in site.team_members %}
-      <div class="text-block-right" style="flex-direction:row; align-items:center;justify-content:space-around;borderbottom: 1px solid #ec970b">
+      <div class="text-block-right" style="flex-direction:row; align-items:center;justify-content:space-around;border-bottom:1px solid #ec970b;">
         
         <div class="image">
           <img src={{ team_member.picture }}>
