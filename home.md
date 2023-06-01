@@ -7,6 +7,7 @@ permalink: /home
   .text-block-main, .text-block-right, .text-block-left {
   flex-direction: column;
   box-shadow: none;
+  flex-wrap: wrap;
   }
 </style>
 
