@@ -26,12 +26,12 @@ permalink: /people
   z-index:954;position:relative;overflow:visible; border-right:1px solid #ec970b; border-bottom:1px solid #ec970b;">
   The Principal Investigators</h2>
   
-  <div class="text-block-main" style="flex-direction:column;flex-wrap:wrap;padding-top:0px;">
+  <div class="text-block-main" style="flex-direction:column;flex-wrap:wrap;padding-top:0px; background-image:none;">
     
     {% for team_member in site.team_members %}
         <div class="text-block-right" style="flex-direction:row; align-items:center;justify-content:space-around;
          border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; 
-         max-width:350px;">
+         max-width:350px; flex-wrap:wrap;">
         
           <div class="image">
             <img src={{ team_member.picture }} style="min-width:100px;">
@@ -53,7 +53,7 @@ permalink: /people
     z-index:954;position:relative;overflow:visible; border-right:1px solid #ec970b; border-bottom:1px solid #ec970b;">
     The Advisory Committee</h2>
   
-  <div class="text-block-main" style="flex-direction:column;flex-wrap:wrap;padding-top:0px;">
+  <div class="text-block-main" style="flex-direction:column;flex-wrap:wrap;padding-top:0px; background-image:none;">
  
       {% for advise_member in site.advise_members %}
         <div class="text-block-right" style="flex-direction:row; align-items:center;justify-content:space-around;
