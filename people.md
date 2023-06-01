@@ -18,7 +18,7 @@ permalink: /people
   <h1>Meet our Team</h1>
 </div>
 
-<div class="text-block-main">
+<div class="text-block-main" style="flex-wrap:wrap;">
   <h2 style="color:#42b7bf;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black;">The Principal Investigators</h2>
   {% for team_member in site.team_members %}
       <div class="text-block-right" style="flex-direction:row; align-items:center;justify-content:space-around;border-bottom:1px solid #ec970b;max-width:350px;">
