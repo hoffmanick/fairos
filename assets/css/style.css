@@ -533,6 +533,12 @@ div.text-block-right {
   box-shadow: none;
   }
 
+header, section, footer {
+    float:none;
+    position:static;
+    width:auto;
+  }
+
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
