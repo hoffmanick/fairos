@@ -18,7 +18,7 @@ permalink: /people
   <h1>Meet our Team</h1>
 </div>
 
-<div style="display:flex;flex-direction:row;flex-wrap:wrap;">
+<div style="display:flex;flex-direction:row;flex-wrap:wrap; justify-content:space-around;">
   
  <div id="column1">
   <h2 style="color:#42b7bf;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black;margin-bottom:0px; 
@@ -31,7 +31,7 @@ permalink: /people
     {% for team_member in site.team_members %}
         <div class="text-block-right" style="flex-direction:row; align-items:center;justify-content:space-around;
          border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; 
-         max-width:350px; flex-wrap:wrap;">
+         max-width:350px;">
         
           <div class="image">
             <img src={{ team_member.picture }} style="min-width:100px;">
@@ -39,8 +39,8 @@ permalink: /people
         
           <div class="text" style="text-align:center;">
             <p>{{ team_member.name }}</p>
-            <p style="padding:3px;">{{ team_member.role }}</p>
-            <p>{{ team_member.institution }} </p>
+            <p style="padding:6px;">{{ team_member.role }}</p>
+            <p style="padding:6px;">{{ team_member.institution }} </p>
           </div>
         </div>
     {% endfor %} 
@@ -65,7 +65,7 @@ permalink: /people
         
           <div class="text" style="text-align:center;">
             <p>{{ advise_member.name }}</p>
-            <p>{{ advise_member.institution }} </p>
+            <p style="padding:6px;">{{ advise_member.institution }} </p>
           </div>
         </div>
     {% endfor %} 
