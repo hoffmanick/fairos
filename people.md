@@ -24,7 +24,7 @@ permalink: /people
       <div class="text-block-right" style="flex-direction:row; align-items:center;justify-content:space-around;border-bottom:1px solid #ec970b;max-width:350px;flex-wrap:wrap">
         
         <div class="image">
-          <img src={{ team_member.picture }}>
+          <img src={{ team_member.picture }} style="min-width:100px;">
         </div>
         
         <div class="text" style="text-align:center;">
