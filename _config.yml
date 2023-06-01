@@ -12,45 +12,47 @@ team_members:
     institution: "University of California, Merced"
     picture: "\"./images/blois_headshot.jpg\""
   -
-    name: "Suzanne Pilaar Birch"
-    role: "Co-Principal Investigator"
-    institution: "University of Florida"
-    picture: "\"./images/birch_headshot.jpg\""
-  -
     name: "Meghan Balk"
     role: "Co-Principal Investigator"
     institution: "University of Arizona"
     picture: "\"./images/balk_headshot.jpg\""
   -
-    name: "Simon Goring"
+    name: "Suzanne Pilaar Birch"
     role: "Co-Principal Investigator"
-    institution: "University of Wisconsin, Madison"
-    picture: "\"./images/goring_headshot.jpg\""
-  -
-    name: "John W. Williams"
-    role: "Co-Principal Investigator"
-    institution: "University of Wisconsin, Madison"
-    picture: "\"./images/williams_headshot.jpg\""
+    institution: "University of Florida"
+    picture: "\"./images/birch_headshot.jpg\""
   -
     name: "Kitty Emery"
     role: "Co-Principal Investigator"
     institution: "University of Florida"   
     picture: "\"./images/emery_headshot.jpg\""
   -
-    name: "Leigh Lieberman"
+    name: "Simon Goring"
     role: "Co-Principal Investigator"
-    institution: "Open Context"
-    picture: "\"./images/emery_headshot.jpg\""
-  -
-    name: "Andrea Thomer"
-    role: "Co-Principal Investigator"
-    institution: "University of Arizona"
-    picture: "\"./images/emery_headshot.jpg\""
+    institution: "University of Wisconsin, Madison"
+    picture: "\"./images/goring_headshot.jpg\""
   -
     name: "Michelle LeFebvre"
     role: "Co-Principal Investigator"
     institution: "University of Florida"
-    picture: "\"./images/emery_headshot.jpg\""
+    picture: "\"./images/lefebvre_headshot.png\""
+  -
+    name: "Leigh Lieberman"
+    role: "Co-Principal Investigator"
+    institution: "Open Context"
+    picture: "\"./images/lieberman_headshot.jpg\""
+  -
+    name: "Andrea Thomer"
+    role: "Co-Principal Investigator"
+    institution: "University of Arizona"
+    picture: "\"./images/thomer_headshot.png\""
+  -
+    name: "John W. Williams"
+    role: "Co-Principal Investigator"
+    institution: "University of Wisconsin, Madison"
+    picture: "\"./images/williams_headshot.jpg\""
+
+
 ---
 defaults:
   -
