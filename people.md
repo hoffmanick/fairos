@@ -7,6 +7,9 @@ permalink: /people
 <style>
   div.image {
   object-fit: contain;
+  width: 25%;
+  height: 25%
+  min-width: 100px;
   }  
 </style>
 
