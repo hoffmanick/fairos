@@ -5,7 +5,7 @@ permalink: /people
 ---
 
 <div class="text-block-main">
-<h1>Meet our Team</h1>
+<h1 style="width:250px;">Meet our Team</h1>
   </div>
 
 <div class="text-block-right">
