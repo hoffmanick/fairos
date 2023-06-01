@@ -25,6 +25,7 @@ permalink: /home
   margin-bottom: 5%;
   background-image: linear-gradient(to left, white, #97b779); 
   text-align: center;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
   .text-block-left {
   width:500px;
@@ -37,6 +38,7 @@ permalink: /home
   margin-bottom: 5%;
   background-image: linear-gradient(to right, white, #97b779); 
   text-align: center;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
   .text-block-main {
   width:800px;
@@ -48,6 +50,7 @@ permalink: /home
   margin-top: 5%;
   margin-bottom: 5%;
   background-image: linear-gradient(to left, white, #97b779); 
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
   .text-block-main  p {
   font-size: 20px;
