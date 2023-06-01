@@ -28,9 +28,11 @@ permalink: /people
         </div>
         
         <div class="text">
-          <p style="text-align:left;"> {{ team_member.name }}, {{team_member.role }}, {{team_member.institution }} </p>
+          <p>{{ team_member.name }}</p>
+          <p>{{ team_member.role }}</p>
+          <p>{{ team_member.institution }} </p>
         </div>
-      <hr>
       </div>
+      <hr>
   {% endfor %} 
 </div>
