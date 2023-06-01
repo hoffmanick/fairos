@@ -10,7 +10,7 @@ permalink: /home
   }
 </style>
 
-<div style="display:flex;flex-direction:row;">
+<div style="display:flex;flex-direction:row;background-color:#f0d2a1;">
 <div class="text-block-main">
 <h1 style="font-size:40px;"> Mission </h1>
   
