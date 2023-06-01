@@ -23,7 +23,7 @@ permalink: /people
   z-index:9;position:relative;overflow:visible; border-right:1px solid #ec970b; border-bottom:1px solid #ec970b;">
   The Principal Investigators</h2>
   
-  <div class="text-block-main" style="flex-direction:column;flex-wrap:wrap;padding-top:0px; background-image:none; height:100px;">
+  <div class="text-block-main" style="flex-direction:column;flex-wrap:wrap;padding-top:0px; background-image:none;">
     
     {% for team_member in site.team_members %}
         <div class="text-block-right" style="flex-direction:row; align-items:center;justify-content:space-around;
@@ -43,7 +43,7 @@ permalink: /people
     {% endfor %} 
   </div>
   
-    <h2 style="color:#42b7bf;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black;margin-bottom:0px; 
+   <h2 style="color:#42b7bf;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black;margin-bottom:0px; 
     background-color:#f0d2a1;margin-left:5%;padding-right:2.8%;padding-left:2%;max-width:350px;
     z-index:9;position:relative;overflow:visible; border-right:1px solid #ec970b; border-bottom:1px solid #ec970b;">
     The Advisory Committee</h2>
