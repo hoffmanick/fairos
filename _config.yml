@@ -26,7 +26,7 @@ team_members:
     role: "Science Applications Leader"
     institution: "University of Arizona"
     picture: "\"./images/balk_headshot.jpg\""
-   -
+  -
     name: "Kitty Emery"
     role: "Science Applications Leader"
     institution: "University of Florida"   
@@ -69,7 +69,7 @@ advise_members:
     name: "Ricardo Punzalan"
     institution: "University of Michigan"
     picture: "\"./images/punzalan_headshot.jpg\""
-   -
+  -
     name: "Mark Uhen"
     institution: "George Mason University"   
     picture: "\"./images/uhen_headshot.jpg\""
