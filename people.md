@@ -18,11 +18,11 @@ permalink: /people
   <h1>Meet our Team</h1>
 </div>
 
-<h2 style="color:#42b7bf;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black;margin-bottom:0px;">The Principal Investigators</h2>
+<h2 style="color:#42b7bf;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black;margin-bottom:0px; background-color:#f0d2a1;padding-left:5%;max-width:350px;">The Principal Investigators</h2>
 
 <div class="text-block-main" style="flex-direction:row;flex-wrap:wrap;padding-top:0px;">
   {% for team_member in site.team_members %}
-      <div class="text-block-right" style="flex-direction:row; align-items:center;justify-content:space-around;border-bottom:1px solid #ec970b;max-width:350px;">
+      <div class="text-block-right" style="flex-direction:row; align-items:center;justify-content:space-around;border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; max-width:350px;">
         
         <div class="image">
           <img src={{ team_member.picture }} style="min-width:100px;">
