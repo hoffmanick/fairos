@@ -3,6 +3,12 @@ layout: home
 title: "home"
 permalink: /home
 ---
+<style>
+  .text-block-main, .text-block-right, .text-block-left {
+  flex-direction: column;
+  }
+</style>
+
 
 <div class="text-block-main">
 <h1> Mission </h1>
