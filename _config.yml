@@ -73,7 +73,6 @@ advise_members:
     name: "Mark Uhen"
     institution: "George Mason University"   
     picture: "\"./images/uhen_headshot.jpg\""
-  -
 ---
 defaults:
   -
