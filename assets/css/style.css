@@ -559,8 +559,8 @@ div.text-block-right {
   }
 
   section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
+    /* border:1px solid #e5e5e5;
+    border-width:1px 0; */
  /*   padding:20px 0;
     margin:5% 5% 5%; */
   }
@@ -596,7 +596,7 @@ div.text-block-right {
 
 @media print, screen and (max-width: 480px) {
   body {
-    padding:15px;
+    /* padding:15px; */
   }
 
   .downloads {
