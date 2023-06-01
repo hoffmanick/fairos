@@ -4,57 +4,6 @@ title: "about"
 permalink: /about
 ---
 
-<style>
- h1 h1 h2 h3 h4 h5 {
-   color: #42b7bf;
-   -webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: black;
-    }
-  p {
-    font-size: 20px;
-  }
-.text-block-right {
-  width:500px;
-  padding-bottom:20px;
-  padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-left: 25%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  background-image: linear-gradient(to left, white, #97b779); 
-  text-align: center;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-  .text-block-left {
-  width:500px;
-  padding-bottom:20px;
-  padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-left: -25%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  background-image: linear-gradient(to right, white, #97b779); 
-  text-align: center;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-  .text-block-main {
-  width:800px;
-  padding-bottom:20px;
-  padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-left: -5%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  background-image: linear-gradient(to left, white, #97b779); 
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-  .text-block-main  p {
-  font-size: 20px;
-}
- </style>
 
 
 <div class="text-block-main">
