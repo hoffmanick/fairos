@@ -13,11 +13,15 @@ permalink: /home
 
 <div class="text-block-main">
 <h1 style="font-size:40px;"> Mission </h1>
-<p>Our overarching aim is to build technical and
+  
+    <p>Our overarching aim is to build technical and
 social capacity among community-curated data repositories by supporting technical
-implementation of ethical open science (OS) principles and developing communities of practice focused on CARE (collective benefit, authority to control, responsible, and ethical) and FAIR (findable, accessible, interoperable, and reusable) principles. </p>
-  <img src="images/arrows-transp.png" alt="arrows" style="display:inline-block;vertical-align:middle;float:right;">>
-  </div>
+implementation of ethical open science (OS) principles and developing communities 
+of practice focused on CARE (collective benefit, authority to control, responsible, 
+and ethical) and FAIR (findable, accessible, interoperable, and reusable) principles. </p>
+  
+  <img src="images/arrows-transp.png" alt="arrows" style="display:inline-block;vertical-align:middle;float:right;width:228px;height:399.333px">>
+</div>
 
 
 <div class="text-block-left">
