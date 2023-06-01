@@ -8,51 +8,72 @@ logo: "/images/fairos-logo-transp.png"
 team_members:
   -
     name: "Jessica Blois"
-    role: "Principal Investigator"
+    role: "Project Leader"
     institution: "University of California, Merced"
     picture: "\"./images/blois_headshot.jpg\""
   -
-    name: "Meghan Balk"
-    role: "Co-Principal Investigator"
-    institution: "University of Arizona"
-    picture: "\"./images/balk_headshot.jpg\""
-  -
-    name: "Suzanne Pilaar Birch"
-    role: "Co-Principal Investigator"
-    institution: "University of Florida"
-    picture: "\"./images/birch_headshot.jpg\""
-  -
-    name: "Kitty Emery"
-    role: "Co-Principal Investigator"
-    institution: "University of Florida"   
-    picture: "\"./images/emery_headshot.jpg\""
-  -
     name: "Simon Goring"
-    role: "Co-Principal Investigator"
+    role: "Informatics Domain Leader"
     institution: "University of Wisconsin, Madison"
     picture: "\"./images/goring_headshot.jpg\""
   -
-    name: "Michelle LeFebvre"
-    role: "Co-Principal Investigator"
-    institution: "University of Florida"
-    picture: "\"./images/lefebvre_headshot.png\""
-  -
-    name: "Leigh Lieberman"
-    role: "Co-Principal Investigator"
-    institution: "Open Context"
-    picture: "\"./images/lieberman_headshot.jpg\""
-  -
     name: "Andrea Thomer"
-    role: "Co-Principal Investigator"
+    role: "Informatics Domain Leader"
     institution: "University of Arizona"
     picture: "\"./images/thomer_headshot.png\""
   -
+    name: "Meghan Balk"
+    role: "Science Applications Leader"
+    institution: "University of Arizona"
+    picture: "\"./images/balk_headshot.jpg\""
+   -
+    name: "Kitty Emery"
+    role: "Science Applications Leader"
+    institution: "University of Florida"   
+    picture: "\"./images/emery_headshot.jpg\""
+  -
+    name: "Leigh Lieberman"
+    role: "CARE Domain Leader"
+    institution: "Open Context"
+    picture: "\"./images/lieberman_headshot.jpg\""
+  - 
     name: "John W. Williams"
-    role: "Co-Principal Investigator"
+    role: "Care Domain Leader"
     institution: "University of Wisconsin, Madison"
     picture: "\"./images/williams_headshot.jpg\""
+  -  
+    name: "Suzanne Pilaar Birch"
+    role: "Science Applications Team"
+    institution: "University of Florida"
+    picture: "\"./images/birch_headshot.jpg\""
+  -
+    name: "Michelle LeFebvre"
+    role: "Science Applications and CARE Domain Teams"
+    institution: "University of Florida"
+    picture: "\"./images/lefebvre_headshot.png\""
 
-
+advise_members:
+  -
+    name: "Edward Davis"
+    institution: "University of Oregon Museum of Natural and Cultural History"
+    picture: "\"./images/davis_headshot.jpg\""
+  -
+    name: "Nick McKay"
+    institution: "Northern Arizona University"
+    picture: "\"./images/mckay_headshot.jpg\""
+  -
+    name: "Carrie Morrill"
+    institution: "National Oceanic and Atmospheric Administration"
+    picture: "\"./images/morrill_headshot.png\""
+  -
+    name: "Ricardo Punzalan"
+    institution: "University of Michigan"
+    picture: "\"./images/punzalan_headshot.jpg\""
+   -
+    name: "Mark Uhen"
+    institution: "George Mason University"   
+    picture: "\"./images/uhen_headshot.jpg\""
+  -
 ---
 defaults:
   -
