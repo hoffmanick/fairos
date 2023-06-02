@@ -6,6 +6,7 @@ permalink: /research
 <style>
   * {
   margin: 0px;
+  padding: 0px;
 }
 .text-block-main {
   display: grid;
