@@ -49,16 +49,16 @@ div.text-block-right {
     </div>
     <div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));justify-content:space-around;justify-items: space-around; padding-top:17px;margin-right:0px;" id="aimses">
       <div class="text-block-right" style="max-width:320px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:25px; border-left: 1px solid #ec970b; width:93%; padding-left:2%;">
-        <h3> <a href="https://hoffmanick.github.io/fairos/aim1">Aim 1</a>: Improve Interoperability and Reproducibility </h3>
+        <h3 style="border-bottom: 1px solid #ec970b;"> <a href="https://hoffmanick.github.io/fairos/aim1" style="font-size:1.4em">Aim 1:</a> Improve Interoperability and Reproducibility </h3>
         <p> We will a) develop guidance for interoperability among long-tail community-curated data resources and
         b) promote adoption of broader metadata standards. </p>
       </div>
       <div class="text-block-right" style="max-width:320px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:25px; border-left: 1px solid #ec970b; width:93%; padding-left:2%;">
-        <h3> <a href="https://hoffmanick.github.io/fairos/aim2">Aim 2</a>: Enable FAIR Data Curation and Stewardship </h3>
+        <h3 style="border-bottom: 1px solid #ec970b;"> <a href="https://hoffmanick.github.io/fairos/aim2" style="font-size:1.4em">Aim 2:</a> Enable FAIR Data Curation and Stewardship </h3>
         <p>  We will a) promote better data science and curation practices among disciplinary practitioners, with a particular focus on    early-career disciplinary         researchers and b) develop and promote best practices and standards for data stewardship. </p>
       </div>
       <div class="text-block-right" style="max-width:320px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:25px; border-left: 1px solid #ec970b; width:93%; padding-left:2%;">
-        <h3> <a href="https://hoffmanick.github.io/fairos/aim3">Aim 3</a>: Support Equity and Improve Access </h3>
+        <h3 style="border-bottom: 1px solid #ec970b;"> <a href="https://hoffmanick.github.io/fairos/aim3" style="font-size:1.4em">Aim 3:</a> Support Equity and Improve Access </h3>
         <p> We will democratize science in a manner that recognizes broader concepts of data ownership and ethical data curation. </p>
       </div>
       <div class="text-block-right" style="max-width:320px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:25px; border-left: 1px solid #ec970b; width:93%; padding-left:2%;">
