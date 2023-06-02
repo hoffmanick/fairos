@@ -19,6 +19,7 @@ div.text-block-right {
   }
 #stakes {
   margin-left: 0px;
+  margin-right: 0px;
   }
   h3 {
   color: #000;
@@ -84,7 +85,7 @@ div.text-block-right {
       <p style="align-self:start;padding-top:10px;" id="describe">We are pursuing three research aims.</p>
     </div>
     <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
-      <figure style="margin-right:0px;" id="stakes">
+      <figure id="stakes">
         <img src="./images/fairos-stakeholders.jpg" alt="Stakeholders" style="width=100%;">
         <figcaption>The sets of lead and affiliated data resources involved in this RCN. </figcaption>
       </figure>
