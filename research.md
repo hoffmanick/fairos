@@ -50,10 +50,16 @@ div.text-block-right {
     justify-content: center;
     justify-items: center;
      }
-  #heading-left, #heading-image {
+  #heading-left, #heading-image, #stakes {
     justify-content: center;
     justify-items: center;
     justify-self: center;
+   }
+  #heading-image {
+    padding-top:0px;
+   }
+  #heading-left {
+  padding-bottom:0px;
   }
   }
   
