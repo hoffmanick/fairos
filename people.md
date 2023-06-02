@@ -25,7 +25,7 @@ permalink: /people
       <div class="text-block-right" style="flex-direction:row; align-items:center;justify-content:space-around;border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; max-width:350px;">
         
         <div class="image">
-          <img src={{ team_member.picture }} style="min-width:100px;">
+          <img src={{ team_member.picture }} style="min-width:100px;border:1px solid #ec970b;">
         </div>
         
         <div class="text" style="text-align:center;">
@@ -45,7 +45,7 @@ permalink: /people
       <div class="text-block-right" style="flex-direction:row; align-items:center;justify-content:space-around;border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; max-width:350px;">
         
         <div class="image">
-          <img src={{ advise_member.picture }} style="min-width:100px;">
+          <img src={{ advise_member.picture }} style="min-width:100px;border:1px solid #ec970b;">
         </div>
         
         <div class="text" style="text-align:center;">
