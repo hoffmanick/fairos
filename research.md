@@ -12,13 +12,13 @@ permalink: /research
 </style>
 
 
-<div class="text-block-main" style="flex-direction:column;flex-wrap:wrap;">
+<div class="text-block-main">
   <div class="text-block-right">
     <h1 style="font-size:40px;"> Research </h1>
   </div>
   <div class="text-block-right">
     <figure>
-      <img src="./images/fairos-stakeholders.jpg" alt="Stakeholders" style="float:right;max-width:220px;">
+      <img src="./images/fairos-stakeholders.jpg" alt="Stakeholders" style="float:right;max-width:300px;">
       <figcaption>The sets of lead and affiliated data resources involved in this RCN. </figcaption>
     </figure>
   </div>
