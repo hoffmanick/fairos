@@ -4,7 +4,11 @@ title: research
 permalink: /research
 ---
 <style>
-
+.text-block-main {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  padding: 10px;
+  }
 </style>
 
 
@@ -14,7 +18,7 @@ permalink: /research
   </div>
   <div class="text-block-right">
     <figure>
-      <img src="./images/fairos-stakeholders.jpg" alt="Stakeholders" style="float:right">
+      <img src="./images/fairos-stakeholders.jpg" alt="Stakeholders" style="float:right;max-width:220px;">
       <figcaption>The sets of lead and affiliated data resources involved in this RCN. </figcaption>
     </figure>
   </div>
