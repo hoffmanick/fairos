@@ -61,6 +61,7 @@ div.text-block-right {
   
   #stakes {
   text-align: center;
+  margin-left:40px;
    }
   #heading-left {
   padding-bottom:0px;
