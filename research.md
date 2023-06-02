@@ -46,10 +46,15 @@ div.text-block-right {
   #stakes, #describe {
     width:200px;
      }
-  #block1 {
+  #headingblock {
     justify-content: center;
     justify-items: center;
      }
+  #heading-left, #heading-image {
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+  }
   }
   
 </style>
