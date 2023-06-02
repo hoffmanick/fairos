@@ -31,7 +31,7 @@ div.text-block-right {
       <p style="align-self:start;padding-top:10px;">We are pursuing three research aims.</p>
     </div>
     <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px;" id="heading-image">
-      <figure style="margin-left:0px;">
+      <figure style="margin-left:0px;margin-right:0px;">
         <img src="./images/fairos-stakeholders.jpg" alt="Stakeholders" style="max-width:460px;" id="stakes">
         <figcaption>The sets of lead and affiliated data resources involved in this RCN. </figcaption>
       </figure>
