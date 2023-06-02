@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "aim1"
+title: Aim 1
 permalink: /aim1
 ---
 
