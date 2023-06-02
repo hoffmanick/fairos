@@ -4,6 +4,13 @@ title: "aim1"
 permalink: /aim1
 ---
 
+<style>
+  @media print, screen and (max-width:480px) {
+   #heading-left {
+      padding-bottom: 0%;
+      }
+}
+  </style>
 <div class="text-block-main" style="display:grid;grid-template-columns: auto">
   
 <div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));background-image:linear-gradient(to left, #f0d2a1, #97b779);padding:0;align-content:center;" id="headingblock">
