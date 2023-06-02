@@ -20,12 +20,12 @@ div.text-block-right {
 </style>
 
 <div class="text-block-main" style="display:grid;grid-template-rows:auto auto;margin:0;padding-left:0;width:100%;" id="block1">
-  <div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fill, minmax(400px, 1fr));background-image:linear-gradient(to left, #f0d2a1, #97b779);padding-left:0;" id="headingblock">
-    <div class="text-block-right" style="display:grid;grid-template-rows:40px auto;background-color:transparent;">
+  <div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fill, minmax(400px, 1fr));background-image:linear-gradient(to left, #f0d2a1, #97b779);padding:0;" id="headingblock">
+    <div class="text-block-right" style="display:grid;grid-template-rows:40px auto;background-color:transparent;" id="heading-left">
       <h1 style="font-size:40px;height:40px;align-self:start;">Research</h1>
       <p style="align-self:start;padding-top:10px;">We are pursuing three research aims.</p>
     </div>
-    <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;">
+    <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;" id="heading-image">
       <figure>
         <img src="./images/fairos-stakeholders.jpg" alt="Stakeholders" style="max-width:500px;">
         <figcaption>The sets of lead and affiliated data resources involved in this RCN. </figcaption>
