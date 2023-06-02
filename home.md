@@ -20,7 +20,7 @@ implementation of ethical open science (OS) principles and developing communitie
 of practice focused on CARE (collective benefit, authority to control, responsible, 
 and ethical) and FAIR (findable, accessible, interoperable, and reusable) principles. </p>
   </div>
-  <img src="images/arrows-transp.png" alt="arrows" style="display:inline-block;vertical-align:middle;float:right;width:228px;height:399.333px:margin-right:5%;">
+  <img src="images/arrows-transp.png" alt="arrows" style="display:inline-block;vertical-align:middle;float:right;width:228px;height:399.333px;margin-right:5%;">
 </div>
 
 
