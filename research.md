@@ -5,10 +5,11 @@ permalink: /research
 ---
 <style>
 
-.text-block-main {
+div.text-block-main {
   display: grid;
   grid-template-rows: auto auto auto;
   margin-right:0px;
+  padding-bottom:0px;
   }
 div.text-block-right {
   margin-right:0px;
