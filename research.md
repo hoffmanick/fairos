@@ -17,6 +17,9 @@ div.text-block-right {
   width:100%;
   padding-left:0px;
   }
+  
+ @media print, screen and (max-width: 480px) {
+  }
 </style>
 
 <div class="text-block-main" style="display:grid;grid-template-rows:auto auto;margin:0;padding-left:0;width:100%;" id="block1">
@@ -25,7 +28,7 @@ div.text-block-right {
       <h1 style="font-size:40px;height:40px;align-self:start;">Research</h1>
       <p style="align-self:start;padding-top:10px;">We are pursuing three research aims.</p>
     </div>
-    <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;" id="heading-image">
+    <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:200px;" id="heading-image">
       <figure>
         <img src="./images/fairos-stakeholders.jpg" alt="Stakeholders" style="max-width:500px;">
         <figcaption>The sets of lead and affiliated data resources involved in this RCN. </figcaption>
