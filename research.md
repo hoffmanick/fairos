@@ -44,8 +44,12 @@ div.text-block-right {
   
  @media print, screen and (max-width: 480px) {
   #stakes, #describe {
-  width:200px;
-  }
+    width:200px;
+     }
+  #block1 {
+    justify-content: center;
+    justify-items: center;
+     }
   }
   
 </style>
