@@ -69,6 +69,9 @@ div.text-block-right {
    }
   #heading-left {
   padding-bottom:0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   }
   }
   
