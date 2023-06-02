@@ -13,14 +13,15 @@ permalink: /research
 div.text-block-right {
   margin-right:0px;
   padding-right:0px;
-  width:100%;}
+  width:100%;
+  padding-left:0px;}
 </style>
 
 
 <div class="text-block-main" style="display:grid;grid-template-rows:auto auto;margin:0;padding-left:0;width:100%;" id="block1">
   <div class="text-block-right" style="display:grid;grid-template-columns:auto auto;background-image:linear-gradient(to left, #f0d2a1, #97b779);padding-left:0;" id="headingblock">
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:transparent;">
-      <h1 style="font-size:40px;line-height:5px;">Research</h1>
+      <h1 style="font-size:40px;height:40px;">Research</h1>
       <p>We are pursuing three research aims.</p>
     </div>
     <div class="text-block-right" style="background-color:transparent;padding-left:0;">
