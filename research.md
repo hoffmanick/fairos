@@ -7,8 +7,9 @@ permalink: /research
 .text-block-main {
   display: grid;
   grid-template-rows: auto auto auto;
-  padding: 10px;
+  margin-right:0px;
   }
+.text-bloc
 </style>
 
 
