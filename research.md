@@ -52,11 +52,15 @@ div.text-block-right {
      }
   #heading-left, #heading-image, #stakes {
     justify-content: center;
-    justify-items: center;
+    /* justify-items: center; */
     justify-self: center;
    }
   #heading-image {
     padding-top:0px;
+   }
+  
+  #stakes {
+  text-align: center;
    }
   #heading-left {
   padding-bottom:0px;
