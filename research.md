@@ -24,9 +24,9 @@ div.text-block-right {
   <div class="text-block-right" style="display:grid;grid-template-columns:auto auto;background-image:linear-gradient(to left, #f0d2a1, #97b779);padding-left:0;" id="headingblock">
     <div class="text-block-right" style="display:grid;grid-template-rows:40px auto;background-color:transparent;">
       <h1 style="font-size:40px;height:40px;align-self:start;">Research</h1>
-      <p style="align-self:start;">We are pursuing three research aims.</p>
+      <p style="align-self:start;padding-top:10px;">We are pursuing three research aims.</p>
     </div>
-    <div class="text-block-right" style="background-color:transparent;padding-left:0;">
+    <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;">
       <figure>
         <img src="./images/fairos-stakeholders.jpg" alt="Stakeholders" style="max-width:500px;">
         <figcaption>The sets of lead and affiliated data resources involved in this RCN. </figcaption>
@@ -35,14 +35,8 @@ div.text-block-right {
   </div>
   
   <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:blue;padding:0;" id="meatblock">
-    <div class="text-block-right" style="display:grid;grid-template-columns:auto auto;">
+    <div class="text-block-right" style="display:grid;grid-template-columns:auto;">
       <h2>Project Aims</h2>
-       <div>
-        <figure>
-          <img src="./images/rcn_aims.png" alt="goals" style="display:block" align="absbottom">
-          <figcaption>The central aims, people, and outcomes that motivate this RCN. </figcaption>
-        </figure>
-       </div>
     </div>
     <div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fill, minmax(400px, 1fr));">
       <div class="text-block-right" style="max-width:400px;">
@@ -58,6 +52,12 @@ div.text-block-right {
         <h3> Aim 3: Support Equity and Improve Access </h3>
         <p> We will democratize science in a manner that recognizes broader concepts of data ownership and ethical data curation. </p>
       </div>
+      <div class="text-block-right" style="max-width:400px;">
+        <figure>
+          <img src="./images/rcn_aims.png" alt="goals" style="display:block" align="absbottom">
+          <figcaption>The central aims, people, and outcomes that motivate this RCN. </figcaption>
+        </figure>
+       </div>
     </div>
 </div>
   </section>
