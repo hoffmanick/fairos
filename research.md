@@ -35,7 +35,7 @@ div.text-block-right {
       <h1 style="font-size:40px;height:40px;align-self:start;">Research</h1>
       <p style="align-self:start;padding-top:10px;" id="describe">We are pursuing three research aims.</p>
     </div>
-    <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; width: 95%;" id="heading-image">
+    <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
       <figure style="margin-left:0px;margin-right:0px;" id="stakes">
         <img src="./images/fairos-stakeholders.jpg" alt="Stakeholders" style="max-width:460px;">
         <figcaption>The sets of lead and affiliated data resources involved in this RCN. </figcaption>
