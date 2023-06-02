@@ -18,10 +18,15 @@ div.text-block-right {
   padding-left:0px;
   }
   
+  h3 {
+  color: #000;
+  }
  @media print, screen and (max-width: 480px) {
   #stakes, #describe {
-  width:200px;}
+  width:200px;
   }
+  }
+  
 </style>
 
 <div class="text-block-main" style="display:grid;grid-template-rows:auto auto;margin:0;padding-left:0;width:100%;" id="block1">
@@ -43,20 +48,20 @@ div.text-block-right {
       <h2 style="margin-bottom:0px;padding-bottom:3px;border-bottom: 1px solid #ec970b;">Project Aims</h2>
     </div>
     <div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));justify-content:space-around;justify-items: space-around; padding-top:17px;margin-right:0px;" id="aimses">
-      <div class="text-block-right" style="max-width:320px;padding-left:0px;padding-top:0px;padding-bottom:0px;margin-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:25px; border-left: 1px solid #ec970b; width:95%;">
+      <div class="text-block-right" style="max-width:320px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:25px; border-left: 1px solid #ec970b; width:95%;">
         <h3> Aim 1: Improve Interoperability and Reproducibility </h3>
         <p> We will a) develop guidance for interoperability among long-tail community-curated data resources and
         b) promote adoption of broader metadata standards. </p>
       </div>
-      <div class="text-block-right" style="max-width:320px;padding-left:0px;padding-top:0px;padding-bottom:0px;margin-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:25px; border-left: 1px solid #ec970b; width:95%;">
+      <div class="text-block-right" style="max-width:320px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:25px; border-left: 1px solid #ec970b; width:95%;">
         <h3> Aim 2: Enable FAIR Data Curation and Stewardship </h3>
         <p>  We will a) promote better data science and curation practices among disciplinary practitioners, with a particular focus on    early-career disciplinary         researchers and b) develop and promote best practices and standards for data stewardship. </p>
       </div>
-      <div class="text-block-right" style="max-width:320px;padding-left:0px;padding-top:0px;padding-bottom:0px;margin-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:25px; border-left: 1px solid #ec970b; width:95%;">
+      <div class="text-block-right" style="max-width:320px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:25px; border-left: 1px solid #ec970b; width:95%;">
         <h3> Aim 3: Support Equity and Improve Access </h3>
         <p> We will democratize science in a manner that recognizes broader concepts of data ownership and ethical data curation. </p>
       </div>
-      <div class="text-block-right" style="max-width:320px;padding-left:0px;padding-top:0px;padding-bottom:0px;margin-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:25px;width:95%; border-left: 1px solid #ec970b;">
+      <div class="text-block-right" style="max-width:320px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:25px;width:95%; border-left: 1px solid #ec970b;">
         <figure>
           <img src="./images/rcn_aims.png" alt="goals" style="display:block" align="absbottom">
           <figcaption>The central aims, people, and outcomes that motivate this RCN. </figcaption>
