@@ -4,6 +4,9 @@ title: research
 permalink: /research
 ---
 <style>
+  * {
+  margin: 0px;
+}
 .text-block-main {
   display: grid;
   grid-template-rows: auto auto auto;
