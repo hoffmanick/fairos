@@ -11,6 +11,10 @@ permalink: /people
   height: 25%
   min-width: 100px;
   }  
+  
+div.text-block-main {
+  padding-left: 5%
+  }
 </style>
 
 
