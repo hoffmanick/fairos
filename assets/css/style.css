@@ -515,10 +515,10 @@ div.text-block-right {
   display: flex;
 }
   div.text-block-main {
-  width:95%;
+  width:100%;
   padding-bottom:20px;
   /* padding-top: 20px; */
-  padding-left: 5%;
+  /* padding-left: 5%; */
   /* margin-bottom: 5%; */
   background-image: linear-gradient(to left, #f0d2a1, #97b779); 
   /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
