@@ -4,10 +4,7 @@ title: research
 permalink: /research
 ---
 <style>
-  * {
-  margin: 0px;
-  padding: 0px;
-}
+
 .text-block-main {
   display: grid;
   grid-template-rows: auto auto auto;
@@ -19,7 +16,7 @@ permalink: /research
 </style>
 
 
-<div class="text-block-main" style="display:grid;grid-template-rows:auto auto;margin:0;padding:0;" id="block1">
+<div class="text-block-main" style="display:grid;grid-template-rows:auto auto;margin:0;padding-left:5%;" id="block1">
   <div class="text-block-right" style="display:grid;grid-template-columns:auto auto;background-image:linear-gradient(to left, #f0d2a1, #97b779);padding-left:0;" id="headingblock">
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:transparent;">
       <h1 style="font-size:40px;">Research</h1>
