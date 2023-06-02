@@ -60,6 +60,7 @@ div.text-block-main {
         </div>
       </div>
   {% endfor %} 
+    <br>
   </div>
   
-  <br>
+
