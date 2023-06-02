@@ -14,7 +14,7 @@ permalink: /home
 <div class="text-block-main">
 <h1 style="font-size:40px;"> Mission </h1>
   
-    <p style="font-size:calc(10px + 1.3vw);">Our overarching aim is to build technical and
+    <p style="font-size:calc(10px + 1.1vw);">Our overarching aim is to build technical and
 social capacity among community-curated data repositories by supporting technical
 implementation of ethical open science (OS) principles and developing communities 
 of practice focused on CARE (collective benefit, authority to control, responsible, 
