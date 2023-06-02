@@ -33,11 +33,11 @@ div.text-block-right {
     </div>
   </div>
   
-  <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:blue;padding:0;" id="meatblock">
-    <div class="text-block-right" style="display:grid;grid-template-columns:auto;">
+  <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:blue;padding:0px;" id="meatblock">
+    <div class="text-block-right" style="display:grid;grid-template-columns:auto;padding:0px;" id="aims-title">
       <h2>Project Aims</h2>
     </div>
-    <div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));">
+    <div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));justify-content:space-evenly;padding-top:0px;" id="aimses">
       <div class="text-block-right" style="max-width:300px;">
         <h3> Aim 1: Improve Interoperability and Reproducibility </h3>
         <p> We will a) develop guidance for interoperability among long-tail community-curated data resources and
