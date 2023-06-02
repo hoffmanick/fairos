@@ -37,7 +37,7 @@ div.text-block-right {
     </div>
     <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
       <figure style="margin-left:0px;margin-right:0px;" id="stakes">
-        <img src="./images/fairos-stakeholders.jpg" alt="Stakeholders" style="max-width:460px;">
+        <img src="./images/fairos-stakeholders.jpg" alt="Stakeholders" style="max-width:460px;width=100%">
         <figcaption>The sets of lead and affiliated data resources involved in this RCN. </figcaption>
       </figure>
     </div>
