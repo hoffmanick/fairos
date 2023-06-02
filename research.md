@@ -37,7 +37,7 @@ div.text-block-right {
     </div>
     <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
       <figure style="margin-left:0px;margin-right:0px;" id="stakes">
-        <img src="./images/fairos-stakeholders.jpg" alt="Stakeholders" style="max-width:460px;width=100%;">
+        <img src="./images/fairos-stakeholders.jpg" alt="Stakeholders" style="width=100%;">
         <figcaption>The sets of lead and affiliated data resources involved in this RCN. </figcaption>
       </figure>
     </div>
@@ -48,20 +48,20 @@ div.text-block-right {
       <h2 style="margin-bottom:0px;padding-bottom:3px;border-bottom: 1px solid #ec970b;">Project Aims</h2>
     </div>
     <div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fill, minmax(200px, 1fr));justify-content:space-around;justify-items: space-around; padding-top:17px;margin-right:0px;" id="aimses">
-      <div class="text-block-right" style="max-width:320px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:25px; border-left: 1px solid #ec970b; width:93%; padding-left:2%;">
+      <div class="text-block-right" style="max-width:320px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:3%; border-left: 1px solid #ec970b; width:90%; padding-left:2%;">
         <h3 style="border-bottom: 1px solid #ec970b;"> <a href="https://hoffmanick.github.io/fairos/aim1" style="font-size:1.4em">Aim 1:</a> Improve Interoperability and Reproducibility </h3>
         <p> We will a) develop guidance for interoperability among long-tail community-curated data resources and
         b) promote adoption of broader metadata standards. </p>
       </div>
-      <div class="text-block-right" style="max-width:320px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:25px; border-left: 1px solid #ec970b; width:93%; padding-left:2%;">
+      <div class="text-block-right" style="max-width:320px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:3%; border-left: 1px solid #ec970b; width:90%; padding-left:2%;">
         <h3 style="border-bottom: 1px solid #ec970b;"> <a href="https://hoffmanick.github.io/fairos/aim2" style="font-size:1.4em">Aim 2:</a> Enable FAIR Data Curation and Stewardship </h3>
         <p>  We will a) promote better data science and curation practices among disciplinary practitioners, with a particular focus on    early-career disciplinary         researchers and b) develop and promote best practices and standards for data stewardship. </p>
       </div>
-      <div class="text-block-right" style="max-width:320px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:25px; border-left: 1px solid #ec970b; width:93%; padding-left:2%;">
+      <div class="text-block-right" style="max-width:320px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:3%; border-left: 1px solid #ec970b; width:90%; padding-left:2%;">
         <h3 style="border-bottom: 1px solid #ec970b;"> <a href="https://hoffmanick.github.io/fairos/aim3" style="font-size:1.4em">Aim 3:</a> Support Equity and Improve Access </h3>
         <p> We will democratize science in a manner that recognizes broader concepts of data ownership and ethical data curation. </p>
       </div>
-      <div class="text-block-right" style="max-width:320px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:25px; border-left: 1px solid #ec970b; width:93%; padding-left:2%;">
+      <div class="text-block-right" style="max-width:320px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:3%; border-left: 1px solid #ec970b; width:90%; padding-left:2%;">
         <figure>
           <img src="./images/rcn_aims.png" alt="goals" style="display:block" align="absbottom">
           <figcaption>The central aims, people, and outcomes that motivate this RCN. </figcaption>
