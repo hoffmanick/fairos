@@ -19,6 +19,8 @@ div.text-block-right {
   }
   
  @media print, screen and (max-width: 480px) {
+  #stakes {
+  width:200px;}
   }
 </style>
 
@@ -28,9 +30,9 @@ div.text-block-right {
       <h1 style="font-size:40px;height:40px;align-self:start;">Research</h1>
       <p style="align-self:start;padding-top:10px;">We are pursuing three research aims.</p>
     </div>
-    <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:200px;" id="heading-image">
+    <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:500px;" id="heading-image">
       <figure>
-        <img src="./images/fairos-stakeholders.jpg" alt="Stakeholders" style="max-width:500px;">
+        <img src="./images/fairos-stakeholders.jpg" alt="Stakeholders" style="max-width:500px;" id="stakes">
         <figcaption>The sets of lead and affiliated data resources involved in this RCN. </figcaption>
       </figure>
     </div>
