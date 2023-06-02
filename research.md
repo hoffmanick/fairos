@@ -27,7 +27,7 @@ permalink: /research
   </div>
   
   <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:blue;" id="meatblock">
-    <div class="text-block-right">
+    <div class="text-block-right" style="display:grid;grid-template-columns:auto auto;">
       <h2>Project Aims</h2>
        <div>
         <figure>
