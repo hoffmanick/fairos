@@ -36,7 +36,7 @@ permalink: /research
         </figure>
        </div>
     </div>
-    <div class="text-block-right" stle="display:grid;grid-template-columns:repeat(auto-fill);">
+    <div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fill);">
       <div class="text-block-right" style="max-width:400px;">
         <h3> Aim 1: Improve Interoperability and Reproducibility </h3>
         <p> We will a) develop guidance for interoperability among long-tail community-curated data resources and
