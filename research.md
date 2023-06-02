@@ -30,7 +30,7 @@ div.text-block-right {
 </style>
 
 <div class="text-block-main" style="display:grid;grid-template-rows:auto auto;margin:0;padding-left:0;width:100%;" id="block1">
-  <div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(460px, 1fr));background-image:linear-gradient(to left, #f0d2a1, #97b779);padding:0;" id="headingblock">
+  <div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));background-image:linear-gradient(to left, #f0d2a1, #97b779);padding:0;" id="headingblock">
     <div class="text-block-right" style="display:grid;grid-template-rows:40px auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;" id="heading-left">
       <h1 style="font-size:40px;height:40px;align-self:start;">Research</h1>
       <p style="align-self:start;padding-top:10px;" id="describe">We are pursuing three research aims.</p>
@@ -47,7 +47,7 @@ div.text-block-right {
     <div class="text-block-right" style="display:grid;grid-template-columns:auto;padding:0px;" id="aims-title">
       <h2 style="margin-bottom:0px;padding-bottom:3px;border-bottom: 1px solid #ec970b;">Project Aims</h2>
     </div>
-    <div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));justify-content:space-around;justify-items: space-around; padding-top:17px;margin-right:0px;" id="aimses">
+    <div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fill, minmax(200px, 1fr));justify-content:space-around;justify-items: space-around; padding-top:17px;margin-right:0px;" id="aimses">
       <div class="text-block-right" style="max-width:320px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:25px; border-left: 1px solid #ec970b; width:93%; padding-left:2%;">
         <h3 style="border-bottom: 1px solid #ec970b;"> <a href="https://hoffmanick.github.io/fairos/aim1" style="font-size:1.4em">Aim 1:</a> Improve Interoperability and Reproducibility </h3>
         <p> We will a) develop guidance for interoperability among long-tail community-curated data resources and
