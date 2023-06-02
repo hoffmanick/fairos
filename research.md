@@ -9,7 +9,9 @@ permalink: /research
   grid-template-rows: auto auto auto;
   margin-right:0px;
   }
-.text-bloc
+.text-block-right {
+  margin-right:0px;
+  padding-right:0px;}
 </style>
 
 
