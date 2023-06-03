@@ -10,6 +10,8 @@ permalink: /nome
   }
 </style>
 
+{% include navbar2.html %}
+
 <div style="display:flex;flex-direction:row;background-color:#f0d2a1;">
 <div class="text-block-main" style="display:grid; padding-left:5%;align-content:center;width:95%; grid-template-rows:40px auto;">
 <h1 style="font-size:40px;"> Mission </h1>
