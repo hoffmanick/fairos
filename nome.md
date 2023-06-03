@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "nome"
-permalink: /
+permalink: /nome
 ---
 <style>
   .text-block-main, .text-block-right, .text-block-left {
