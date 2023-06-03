@@ -24,7 +24,7 @@ div.text-block-main {
     </div>
     <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
       <figure id="stakes">
-        <img src="./images/team.jpg" alt="Stakeholders" style="width=100%;">
+        <img src="./images/team.jpg" alt="Stakeholders" style="width=100%;border: 1px solid #ec970b;">
         <figcaption>Members of the Ethical FAIROS RCN at the first annual symposium, on the premises of the Biosphere 2, in Arizona, May 2023. Photo: Kitty Emery.</figcaption>
       </figure>
     </div>
