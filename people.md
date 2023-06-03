@@ -43,7 +43,7 @@ div.text-block-main {
             <img src={{ team_member.picture }} style="min-width:100px;border:1px solid #ec970b;">
           </div>
         
-          <div class="text" style="text-align:center;">
+          <div class="text" style="diplay:grid;grid-template-rows: auto auto auto; justify-content:start; align-content:center;">
             <p>{{ team_member.name }}</p>
             <p style="padding:12px;">{{ team_member.role }}</p>
             <p style="padding:12px;">{{ team_member.institution }} </p>
@@ -64,7 +64,7 @@ div.text-block-main {
             <img src={{ advise_member.picture }} style="min-width:100px;border:1px solid #ec970b;">
           </div>
         
-          <div class="text" style="text-align:center;">
+          <div class="text" style="style="diplay:grid;grid-template-rows: auto auto auto; justify-content:start; align-content:center;">
             <p>{{ advise_member.name }}</p>
             <p style="padding:12px;">{{ advise_member.institution }} </p>
           </div>
