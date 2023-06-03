@@ -6,7 +6,7 @@ date: 2023-05-20
 tags: tag
 image: "\"https://hoffmanick.github.io/fairos/images/Blois_group_3.jpeg\""
 alt: biosphere
-figcap: "\"Members of the FAIROS RCN gathered at the Biosphere 2 in Arizona to determine project goals. May 16-19, 2023.\""
+figcap: "Members of the FAIROS RCN gathered at the Biosphere 2 in Arizona to determine project goals. May 16-19, 2023."
 ---
 
 <style>
@@ -57,14 +57,6 @@ figcap: "\"Members of the FAIROS RCN gathered at the Biosphere 2 in Arizona to d
   font-size: 20px;
 }
  </style>
- 
- <div class="text-box-right">
-  <h2>Biosphere Workshop</h2>
-  <figure>
-  <img src="https://hoffmanick.github.io/fairos/images/Blois_group_3.jpeg" alt="Group Picture" style="display:inline-block" align="absbottom"/>
-  <figcaption>Members of the FAIROS RCN gathered at the Biosphere 2 in Arizona to determine project goals. May 16-19, 2023.</figcaption>
- </figure>
- </div>
 
 <div class="text-box-main">
 <p> This week, members of the FAIROS team convened at the Biosphere 2 facility in order to meet and develop project goals. 
