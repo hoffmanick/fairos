@@ -64,7 +64,7 @@ div.text-block-main {
             <img src={{ advise_member.picture }} style="min-width:100px;border:1px solid #ec970b;">
           </div>
         
-          <div class="text" style="style="diplay:grid;grid-template-rows: auto auto auto; justify-content:start; align-content:center;">
+          <div class="text" style="diplay:grid;grid-template-rows: auto auto auto; justify-content:start; align-content:center;">
             <p style="margin-top:2px;margin-bottom:2px;">{{ advise_member.name }}</p>
             <p style="margin-top:2px;margin-bottom:2px;">{{ advise_member.institution }} </p>
           </div>
