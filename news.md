@@ -26,7 +26,7 @@ permalink: /news
     </div>
   </div>
 
-<div class="text-block-right" style="display:grid;grid-template-rows:auto auto;padding-left:5%;width:95%;">
+<div class="text-block-right" style="display:grid;grid-template-columns:auto auto;padding-left:5%;width:95%;">
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;padding-left:0%;width:100%;">
       <h2>Recent Ethical FAIROS Items</h2>
       <ul>
@@ -39,6 +39,6 @@ permalink: /news
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto auto;padding-left:0%;width:100%;">
       <h2> FAIROS Events Calendar </h2>
       <p>Join us for webinars, workshops, and other events</p>
-      <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23B39DDB&ctz=America%2FChicago&title=Upcoming%20FAIROS%20Events&src=Y2U1NzRhZTM5Y2JhOTMyNDIyZDAzNjA1MzFlZDE1OGI0ZmQ4MjdiMDY1YmE3Yjk1YjMxNTk1MWVjYTYwNDVlOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%238E24AA?wmode=transparent" title = "FAIROS Events Calendar" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no" id="cal"> wmode="transparent" </iframe>
+      <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23B39DDB&ctz=America%2FChicago&title=Upcoming%20FAIROS%20Events&src=Y2U1NzRhZTM5Y2JhOTMyNDIyZDAzNjA1MzFlZDE1OGI0ZmQ4MjdiMDY1YmE3Yjk1YjMxNTk1MWVjYTYwNDVlOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%238E24AA?wmode=transparent" title = "FAIROS Events Calendar" style="border: 1px solid #ec970b;" width="400" height="300" frameborder="0" scrolling="no" id="cal"> wmode="transparent" </iframe>
     </div>
 </div>
