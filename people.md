@@ -37,13 +37,13 @@ div.text-block-main {
   <div class="text-block-right" style="flex-direction:row;flex-wrap:wrap;padding-top:0px;align-content:center;padding-left:0%;width:100%;">
   
     {% for team_member in site.team_members %}
-        <div class="text-block-right" style="padding-left:0%;width:100%;display:grid;grid-template-columns: auto auto; align-content:center;align-items:center;justify-content:space-between;border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; max-width:350px;">
+        <div class="text-block-right" style="padding-left:0%;width:100%;display:grid;grid-template-columns: auto auto; align-content:center;align-items:center;justify-content:space-evenly;justify-items:center;border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; max-width:350px;">
         
           <div class="image" style="padding:5px;">
             <img src={{ team_member.picture }} style="min-width:100px;border:1px solid #ec970b;">
           </div>
         
-          <div class="text" style="diplay:grid;grid-template-rows: auto auto auto; justify-content:start; align-content:center;">
+          <div class="text" style="diplay:grid;grid-template-rows: auto auto auto; justify-content:start; align-content:center;font-size:15px;">
             <p><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ team_member.name }}</span></p>
             <p><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ team_member.role }}</span></p>
             <p><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ team_member.institution }} </span></p>
@@ -58,13 +58,13 @@ div.text-block-main {
   <div class="text-block-right" style="flex-direction:row;flex-wrap:wrap;padding-top:0px;align-content:center;padding-left:0%;width:100%;">
   
       {% for advise_member in site.advise_members %}
-        <div class="text-block-right" style="padding-left:0%;width:100%;display:grid;grid-template-columns: auto auto; align-content:center;align-items:center;justify-content:space-between;border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; max-width:350px;">
+        <div class="text-block-right" style="padding-left:0%;width:100%;display:grid;grid-template-columns: auto auto; align-content:center;align-items:center;justify-content:space-evenly;justify-items:center;border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; max-width:350px;">
         
           <div class="image" style="padding:5px;">
             <img src={{ advise_member.picture }} style="min-width:100px;border:1px solid #ec970b;">
           </div>
         
-          <div class="text" style="diplay:grid;grid-template-rows: auto auto auto; justify-content:start; align-content:center;">
+          <div class="text" style="diplay:grid;grid-template-rows: auto auto auto; justify-content:start; align-content:center;font-size:15px;">
             <p><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ advise_member.name }}</span></p>
             <p><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ advise_member.institution }}</span></p>
           </div>
