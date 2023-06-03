@@ -10,6 +10,11 @@ permalink: /news
   z-index: 0;
   }
 
+@media print,screen and (max-width:620px) {
+  #cal {
+    width:200;
+  }
+ }
 </style>
 
 
@@ -26,8 +31,8 @@ permalink: /news
     </div>
   </div>
 
-<div class="text-block-right" style="display:grid;grid-template-columns:auto auto;padding-left:5%;width:95%;">
-    <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;padding-left:0%;width:100%;">
+<div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));padding-left:5%;width:95%;">
+    <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;padding-left:0%;width:100%;align-content:start;">
       <h2>Recent Ethical FAIROS Items</h2>
       <ul>
       {% for post in site.posts %}
