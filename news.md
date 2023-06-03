@@ -76,14 +76,31 @@ img {
 }
 </style>
 
-<h1> Ethical Open Science in the News </h1>
 
-{% for post in site.posts %}
-- {{ post.date | date_to_string }}: [{{ post.title }}]({{ post.url | relative_url }})
+<div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));background-image:linear-gradient(to left, #f0d2a1, #97b779);padding:0;margin-right:0;width:100%;" id="headingblock">
+    <div class="text-block-right" style="display:grid;grid-template-rows:40px auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;" id="heading-left">
+      <h1 style="font-size:40px;height:40px;align-self:start;">Ethical Open Science in the News</h1>
+      <p style="align-self:start;padding-top:10px;" id="describe">Learn about what we've been up to, and watch out for upcoming events.</p>
+    </div>
+    <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
+      <figure id="stakes">
+        <img src="./images/team.jpg" alt="Stakeholders" style="width=100%;border: 1px solid #ec970b;">
+        <figcaption>Some other image should go here?</figcaption>
+      </figure>
+    </div>
+  </div>
+
+<div class="text-block-right" style="display:grid;grid-template-rows:auto auto;padding-left:5%;width:95%;">
+    <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;padding-left:0%;width:100%;">
+      <h2>Recent Ethical FAIROS Items</h2>
+      {% for post in site.posts %}
+      - <p>{{ post.date | date_to_string }}: [{{ post.title }}]({{ post.url | relative_url }})</p>
 {% endfor %}
+    </div>
 
-<h2>FAIROS Events Calendar</h2>
-<p>Join us for webinars, workshops, and other events</p>
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23B39DDB&ctz=America%2FChicago&title=Upcoming%20FAIROS%20Events&src=Y2U1NzRhZTM5Y2JhOTMyNDIyZDAzNjA1MzFlZDE1OGI0ZmQ4MjdiMDY1YmE3Yjk1YjMxNTk1MWVjYTYwNDVlOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%238E24AA?wmode=transparent" title = "FAIROS Events Calendar" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no" id="cal"> wmode="transparent" </iframe>
-
-Return to [main page](home.md)
+    <div class="text-block-right" style="display:grid;grid-template-rows:auto auto auto;padding-left:0%;width:100%;">
+      <h2> FAIROS Events Calendar </h2>
+      <p>Join us for webinars, workshops, and other events</p>
+      <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23B39DDB&ctz=America%2FChicago&title=Upcoming%20FAIROS%20Events&src=Y2U1NzRhZTM5Y2JhOTMyNDIyZDAzNjA1MzFlZDE1OGI0ZmQ4MjdiMDY1YmE3Yjk1YjMxNTk1MWVjYTYwNDVlOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%238E24AA?wmode=transparent" title = "FAIROS Events Calendar" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no" id="cal"> wmode="transparent" </iframe>
+    </div>
+</div>
