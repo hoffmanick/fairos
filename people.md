@@ -17,10 +17,19 @@ div.text-block-main {
   }
 </style>
 
+<div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));background-image:linear-gradient(to left, #f0d2a1, #97b779);padding:0;" id="headingblock">
+    <div class="text-block-right" style="display:grid;grid-template-rows:40px auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;" id="heading-left">
+      <h1 style="font-size:40px;height:40px;align-self:start;">Meet our Team</h1>
+      <p style="align-self:start;padding-top:10px;" id="describe">We have a lead team of principal investigators, an external advisory committee, personnel, and other RCN members.</p>
+    </div>
+    <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
+      <figure id="stakes">
+        <img src="./images/team.jpg" alt="Stakeholders" style="width=100%;">
+        <figcaption>Members of the Ethical FAIROS RCN at the first annual symposium, on the premises of the Biosphere 2, in Arizona, May 2023. Photo: Kitty Emery.</figcaption>
+      </figure>
+    </div>
+  </div>
 
-<div class="text-block-main">
-  <h1>Meet our Team</h1>
-</div>
 
 <h2 style="color:#42b7bf;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black;margin-bottom:0px; background-color:#f0d2a1;margin-left:5%;padding-right:2.8%;padding-left:2%;max-width:350px;z-index:9;position:relative;overflow:visible; border-right:1px solid #ec970b; border-bottom:1px solid #ec970b;">The Principal Investigators</h2>
 <div class="text-block-main" style="flex-direction:row;flex-wrap:wrap;padding-top:0px;align-content:center;">
