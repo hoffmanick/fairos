@@ -47,13 +47,15 @@ h1#heading-left {
     </div>
   </div>
 
-<div class="text-block-right" style="display:grid;padding-left:5%;width:95%;" id="posts-calendar">
+<div class="text-block-right" style="display:grid;padding-left:3%;width:97%;" id="posts-calendar">
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;padding-left:0%;width:100%;align-content:start;">
-      <ul>
       {% for post in site.posts %}
-      <li style="border-top: 1px solid #ec970b;border-bottom: 1px solid #ec970b;"><p>{{ post.date | date_to_string }}: <a href="{{ post.url | relative_url }}">{{ post.title }}</a></p></li>
+      <div class="text-block-right" style="border-top: 1px solid #ec970b;border-bottom: 1px solid #ec970b;margin-right:2%;width:98%;padding-top:2%;padding-bottom:2%;">
+        <p style="font-size:14px;">{{ post.date | date_to_string }}</p>
+        <p><a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
+      </div>
 {% endfor %}
-      </ul>
+      
     </div>
 
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto auto;padding-left:0%;width:100%;">
