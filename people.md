@@ -43,10 +43,10 @@ div.text-block-main {
             <img src={{ team_member.picture }} style="min-width:100px;border:1px solid #ec970b;">
           </div>
         
-          <div class="text" style="diplay:grid;grid-template-rows: auto auto auto; justify-content:start; align-content:center;font-size:15px;">
-            <p><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ team_member.name }}</span></p>
-            <p><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ team_member.role }}</span></p>
-            <p><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ team_member.institution }} </span></p>
+          <div class="text" style="diplay:grid;grid-template-rows: auto auto auto; justify-content:start; align-content:center;">
+            <p style="font-size:15px;"><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ team_member.name }}</span></p>
+            <p style="font-size:15px;"><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ team_member.role }}</span></p>
+            <p style="font-size:15px;"><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ team_member.institution }} </span></p>
           </div>
         </div>
     {% endfor %} 
@@ -65,8 +65,8 @@ div.text-block-main {
           </div>
         
           <div class="text" style="diplay:grid;grid-template-rows: auto auto auto; justify-content:start; align-content:center;font-size:15px;">
-            <p><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ advise_member.name }}</span></p>
-            <p><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ advise_member.institution }}</span></p>
+            <p style="font-size:15px;"><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ advise_member.name }}</span></p>
+            <p style="font-size:15px;"><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ advise_member.institution }}</span></p>
           </div>
         </div>
       {% endfor %} 
