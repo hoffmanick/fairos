@@ -31,10 +31,10 @@ div.text-block-main {
   </div>
 
 <div class="text-block-right" style="display:grid;grid-template-rows:1.5em auto 1.5em auto;background-color:#f0d2a1;padding-left:0; width:100%;" id="meatblock">
-  <div class="text-block-right" style="display:grid;grid-template-columns:auto;padding:0px;" id="pi-title">
-  <h2 style="color:#42b7bf;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black;margin-bottom:0px; background-color:#f0d2a1;margin-left:5%;padding-right:2.8%;padding-left:2%;max-width:350px;z-  index:9;position:relative;overflow:visible; border-right:1px solid #ec970b; border-bottom:1px solid #ec970b;width:90.2%">The Principal Investigators</h2>
+  <div class="text-block-right" style="display:grid;grid-template-columns:auto;padding:0px;width:100%;" id="pi-title">
+  <h2 style="color:#42b7bf;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black;margin-bottom:0px; background-color:#f0d2a1;;z- index:9;position:relative;overflow:visible; border-right:1px solid #ec970b; border-bottom:1px solid #ec970b;width:100%">The Principal Investigators</h2>
   </div>
-  <div class="text-block-right" style="flex-direction:row;flex-wrap:wrap;padding-top:0px;align-content:center;">
+  <div class="text-block-right" style="flex-direction:row;flex-wrap:wrap;padding-top:0px;align-content:center;padding-left:0%;width:100%;">
   
     {% for team_member in site.team_members %}
         <div class="text-block-right" style="flex-direction:row; align-items:center;justify-content:space-around;border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; max-width:350px;">
@@ -53,9 +53,9 @@ div.text-block-main {
   </div>
 <br>
   <div class="text-block-right" style="display:grid;grid-template-columns:auto;padding:0px;" id="advise-title">
-   <h2 style="color:#42b7bf;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black;margin-bottom:0px; background-color:#f0d2a1;margin-left:5%;padding-right:2.8%;padding-left:2%;max-width:350px;z-index:9;position:relative;overflow:visible; border-right:1px solid #ec970b; border-bottom:1px solid #ec970b;width:90.2%">The Advisory Committee</h2>
+   <h2 style="color:#42b7bf;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black;margin-bottom:0px; background-color:#f0d2a1;z-index:9;position:relative;overflow:visible; border-right:1px solid #ec970b; border-bottom:1px solid #ec970b;width:100%;">The Advisory Committee</h2>
   </div>
-  <div class="text-block-right" style="flex-direction:row;flex-wrap:wrap;padding-top:0px;align-content:center;">
+  <div class="text-block-right" style="flex-direction:row;flex-wrap:wrap;padding-top:0px;align-content:center;padding-left:0%;width:100%;">
   
       {% for advise_member in site.advise_members %}
         <div class="text-block-right" style="flex-direction:row; align-items:center;justify-content:space-around;border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; max-width:350px;">
