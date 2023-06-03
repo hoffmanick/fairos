@@ -19,7 +19,7 @@ div.text-block-main {
   min-width:100px;
   }
   .prof-text {
-  width:150%;
+  width:130%;
   }
  @media print, screen and (max-width: 600px) {
   .profiles {
