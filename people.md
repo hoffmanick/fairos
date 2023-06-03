@@ -69,8 +69,8 @@ div.text-block-main {
             <p style="margin-top:2px;margin-bottom:2px;">{{ advise_member.institution }} </p>
           </div>
         </div>
-    {% endfor %} 
- </div>
+      {% endfor %} 
+  </div>
 </div>
   
   
