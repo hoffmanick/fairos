@@ -37,7 +37,7 @@ div.text-block-main {
   <div class="text-block-right" style="flex-direction:row;flex-wrap:wrap;padding-top:0px;align-content:center;padding-left:0%;width:100%;">
   
     {% for team_member in site.team_members %}
-        <div class="text-block-right" style="padding-left:0%;width:100%;display:grid;grid-template-columns: auto auto; align-content:center;justify-content:space-between;border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; max-width:350px;">
+        <div class="text-block-right" style="padding-left:0%;width:100%;display:grid;grid-template-columns: auto auto; align-content:center;align-items:center;justify-content:space-between;border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; max-width:350px;">
         
           <div class="image">
             <img src={{ team_member.picture }} style="min-width:100px;border:1px solid #ec970b;">
@@ -58,7 +58,7 @@ div.text-block-main {
   <div class="text-block-right" style="flex-direction:row;flex-wrap:wrap;padding-top:0px;align-content:center;padding-left:0%;width:100%;">
   
       {% for advise_member in site.advise_members %}
-        <div class="text-block-right" style="padding-left:0%;width:100%;display:grid;grid-template-columns: auto auto; align-content:center;justify-content:space-between;border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; max-width:350px;">
+        <div class="text-block-right" style="padding-left:0%;width:100%;display:grid;grid-template-columns: auto auto; align-content:center;align-items:center;justify-content:space-between;border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; max-width:350px;">
         
           <div class="image">
             <img src={{ advise_member.picture }} style="min-width:100px;border:1px solid #ec970b;">
