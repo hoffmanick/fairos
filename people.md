@@ -65,8 +65,8 @@ div.text-block-main {
           </div>
         
           <div class="text" style="diplay:grid;grid-template-rows: auto auto auto; justify-content:start; align-content:center;">
-            <p><span> style="margin-top:2px;margin-bottom:2px;display:inline;">{{ advise_member.name }}</p></span>
-            <p><span> style="margin-top:2px;margin-bottom:2px;display:inline;">{{ advise_member.institution }}</p></span>
+            <p><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ advise_member.name }}</span></p>
+            <p><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ advise_member.institution }}</span></p>
           </div>
         </div>
       {% endfor %} 
