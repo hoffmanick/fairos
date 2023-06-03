@@ -26,7 +26,7 @@ and ethical) and FAIR (findable, accessible, interoperable, and reusable) princi
 
 <div class="text-block-left">
 <h1> About </h1>
-  <p>Learn more <a href="about">about</a> this project. </p>
+  <p>Learn more about our <a href="funding">funding</a> structure, or meet our <a href="people">team members.</a></p>
   </div>
  
 <div class="text-block-right">
