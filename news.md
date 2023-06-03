@@ -12,6 +12,10 @@ permalink: /news
 h1#heading-left {
   font-size:40px;
   }
+  
+#posts-calendar {
+  grid-template-columns:66.666% 33.3333%;
+  }
 @media print,screen and (max-width:620px) {
   #cal {
     width:200px;
@@ -24,6 +28,8 @@ h1#heading-left {
   h1#heading-left {
    font-size:33px;
   }
+  #posts-calendar {
+  grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));}
  }
 </style>
 
@@ -41,7 +47,7 @@ h1#heading-left {
     </div>
   </div>
 
-<div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));padding-left:5%;width:95%;">
+<div class="text-block-right" style="display:grid;padding-left:5%;width:95%;" id="posts-calendar">
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;padding-left:0%;width:100%;align-content:start;">
       <h2>Recent Ethical FAIROS Items</h2>
       <ul>
