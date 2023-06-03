@@ -25,7 +25,7 @@ and ethical) and FAIR (findable, accessible, interoperable, and reusable) princi
 
 
 <div class="text-block-left">
-<h1> About </h1>
+<h1 style="box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);"> About </h1>
   <p>Learn more about our <a href="funding">funding</a> structure, or meet our <a href="people">team members.</a></p>
   </div>
  
