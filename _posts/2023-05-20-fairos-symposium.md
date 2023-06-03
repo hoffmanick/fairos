@@ -4,6 +4,7 @@ title: FAIROS Symposium
 author: Nick Hoffman
 date: 2023-05-20
 tags: tag
+image: https://hoffmanick.github.io/fairos/images/Blois_group_3.jpeg
 ---
 
 <style>
