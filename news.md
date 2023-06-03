@@ -9,7 +9,9 @@ permalink: /news
   position: relative;
   z-index: 0;
   }
-
+h1#heading-left {
+  font-size:40px;
+  }
 @media print,screen and (max-width:620px) {
   #cal {
     width:200px;
@@ -28,7 +30,7 @@ permalink: /news
 
 <div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));background-image:linear-gradient(to left, #f0d2a1, #97b779);padding:0;margin-right:0;width:100%;" id="headingblock">
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;" id="heading-left">
-      <h1 style="font-size:40px;height:40px;align-self:start;">Ethical Open Science in the News</h1>
+      <h1 style="height:40px;align-self:start;">Ethical Open Science in the News</h1>
       <p style="align-self:start;padding-top:10px;" id="describe">Learn about what we've been up to, and watch out for upcoming events.</p>
     </div>
     <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
