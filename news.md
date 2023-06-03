@@ -29,9 +29,11 @@ permalink: /news
 <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;padding-left:5%;width:95%;">
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;padding-left:0%;width:100%;">
       <h2>Recent Ethical FAIROS Items</h2>
+      <ul>
       {% for post in site.posts %}
-      - <p>{{ post.date | date_to_string }}: <a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
+      <li><p>{{ post.date | date_to_string }}: <a href="{{ post.url | relative_url }}">{{ post.title }}</a></p></li>
 {% endfor %}
+      </ul>
     </div>
 
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto auto;padding-left:0%;width:100%;">
