@@ -18,7 +18,7 @@ permalink: /funding
   </div>
 
 
-<div class="text-block-right" style="padding:0;margin:0;display:grid;grid-template-rows: auto;">
+<div class="text-block-right" style="padding:0;margin:0;width:100%;display:grid;grid-template-rows: auto;">
  
  <p>This project is supported by the National Science Foundation: 
   <ul>
