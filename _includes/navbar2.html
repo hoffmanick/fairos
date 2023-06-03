@@ -52,14 +52,14 @@
 .dropdown-content1 {
   display: none;
   position: absolute;
-  top: 86px;
+  top: 66px;
   z-index:10000;
 }
 
 .dropdown-content2 {
   display: none;
   position: absolute;
-  top: 86px;
+  top: 66px;
   z-index:10000;
 
 }
@@ -125,16 +125,20 @@ a, button {
 <div class="navbar">
   <div class="dropdown"><a href="#home">Home</a></div>
   <div class="dropdown">
-  <button class="dropbtn1" onclick="Func1()">About
+  <button class="dropbtn1" onclick="Func1()" style="position:absolute;z-index:10000">About
     <i class="fa fa-caret-down"></i>
   </button>
   <div class="dropdown-content2" id="drop1">
-    <a href="#">Funding</a>
-    <a href="#">People</a>
+    <div class='item'>
+    	<a href="#">Funding</a>
+    </div>
+    <div class='item'>   
+    	<a href="#">People</a>
+    </div>
   </div>
   </div>
   <div class="dropdown">
-  <button class="dropbtn2" onclick="Func2()">Research
+  <button class="dropbtn2" onclick="Func2()" style="position:absolute;z-index:9999">Research
     <i class="fa fa-caret-down"></i>
   </button>
   <div class="dropdown-content1" id="drop2">
