@@ -44,9 +44,9 @@ div.text-block-main {
           </div>
         
           <div class="text" style="diplay:grid;grid-template-rows: auto auto auto; justify-content:start; align-content:center;">
-            <p>{{ team_member.name }}</p>
-            <p style="padding:12px;">{{ team_member.role }}</p>
-            <p style="padding:12px;">{{ team_member.institution }} </p>
+            <p style="margin-top:2px;margin-bottom:2px;">{{ team_member.name }}</p>
+            <p style="margin-top:2px;margin-bottom:2px;">{{ team_member.role }}</p>
+            <p style="margin-top:2px;margin-bottom:2px;">{{ team_member.institution }} </p>
           </div>
         </div>
     {% endfor %} 
@@ -65,8 +65,8 @@ div.text-block-main {
           </div>
         
           <div class="text" style="style="diplay:grid;grid-template-rows: auto auto auto; justify-content:start; align-content:center;">
-            <p>{{ advise_member.name }}</p>
-            <p style="padding:12px;">{{ advise_member.institution }} </p>
+            <p style="margin-top:2px;margin-bottom:2px;">{{ advise_member.name }}</p>
+            <p style="margin-top:2px;margin-bottom:2px;">{{ advise_member.institution }} </p>
           </div>
         </div>
     {% endfor %} 
