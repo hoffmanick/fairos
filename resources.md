@@ -17,7 +17,7 @@ permalink: /resources
     </div>
   </div>
   
-<div class="text-block-right" style="display:grid;grid-template-rows:auto auto;">
+<div class="text-block-right" style="display:grid;grid-template-rows:auto auto;padding-left:5%;width:95%;">
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;">
       <h2> Educational Materials </h2>
       <p> Check out our educational material. </p>
