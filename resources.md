@@ -18,13 +18,13 @@ permalink: /resources
   </div>
   
 <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;">
-    <div class="text-block-right" style="display:grid;grid-template-columns:auto auto;">
+    <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;">
       <h2> Educational Materials </h2>
       <p> Check out our educational material. </p>
     </div>
 
-    <div class="text-block-right" style="display:grid;grid-template-columns:auto auto;">
+    <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;">
       <h2> Further Readings </h2>
       <p style="margin-bottom:0px;">Maybe you'd like to take a look at our <a href="https://www.zotero.org/groups/5074488/global_change_fairos/collections/JU24MBI5/collection">Zotero Bibliography</a></p>
     </div>
-  </div>
+</div>
