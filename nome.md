@@ -1,5 +1,4 @@
 ---
-layout: home
 title: "nome"
 permalink: /nome
 ---
@@ -10,6 +9,9 @@ permalink: /nome
   }
 </style>
 
+<br>
+<br>
+<br>
 <br>
 <br>
 {% include navbar2.html %}
