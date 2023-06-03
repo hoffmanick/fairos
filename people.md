@@ -57,9 +57,9 @@ div.text-block-main {
   <div class="text-block-right" style="flex-direction:row;flex-wrap:wrap;padding-top:0px;align-content:center;padding-left:0%;width:95%;margin-left:5%;">
   
       {% for advise_member in site.advise_members %}
-        <div class="text-block-right" style="padding-left:0%;width:100%;display:grid;grid-template-columns: auto auto; align-content:center;align-items:center;justify-content:space-evenly;justify-items:start;border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; max-width:350px;">
+        <div class="text-block-right" style="padding-left:0%;width:100%;display:grid;grid-template-columns: auto auto; align-content:center;align-items:center;justify-content:space-evenly;justify-items:start;border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; padding-top:0px;padding-bottom:0px;width:93%;padding-right:2%; margin-left:3%; border-left: 1px solid #ec970b; padding-left:2%;justify-items:center;max-width:290px;grid-auto-rows: 1fr;"">
 
-          <div class="text" style="diplay:grid;grid-template-rows: auto auto auto; justify-content:start; align-content:center;font-size:15px;padding-left:8%;width:92%;">
+          <div style="diplay:grid;grid-template-rows: auto auto auto; justify-content:start; align-content: center;font-size:15px;padding-left:8%;width:92%;padding-left:17%;width:150%;">
             <p style="font-size:15px;font-weight:bold;"><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ advise_member.name }}</span></p>
             <p style="font-size:15px;"><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ advise_member.institution }}</span></p>
           </div>
