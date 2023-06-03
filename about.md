@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "about"
-permalink: /about
+title: "Funding"
+permalink: /funding
 ---
 
 <div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));background-image:linear-gradient(to left, #f0d2a1, #97b779);padding:0;margin-right:0;width:100%;" id="headingblock">
