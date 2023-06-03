@@ -39,14 +39,14 @@ div.text-block-main {
     {% for team_member in site.team_members %}
         <div class="text-block-right" style="padding-left:0%;width:100%;display:grid;grid-template-columns: auto auto; align-content:center;align-items:center;justify-content:space-evenly;justify-items:center;border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; max-width:350px;">
         
-          <div class="image" style="padding:5px;">
-            <img src={{ team_member.picture }} style="min-width:100px;border:1px solid #ec970b;">
-          </div>
-        
           <div class="text" style="diplay:grid;grid-template-rows: auto auto auto; justify-content:start; align-content:center;">
             <p style="font-size:15px;font-weight:bold;"><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ team_member.name }}</span></p>
             <p style="font-size:15px;"><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ team_member.role }}</span></p>
             <p style="font-size:15px;"><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ team_member.institution }} </span></p>
+          </div>
+          
+          <div class="image" style="padding:5px;">
+            <img src={{ team_member.picture }} style="min-width:100px;border:1px solid #ec970b;">
           </div>
         </div>
     {% endfor %} 
@@ -59,15 +59,16 @@ div.text-block-main {
   
       {% for advise_member in site.advise_members %}
         <div class="text-block-right" style="padding-left:0%;width:100%;display:grid;grid-template-columns: auto auto; align-content:center;align-items:center;justify-content:space-evenly;justify-items:center;border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; max-width:350px;">
-        
-          <div class="image" style="padding:5px;">
-            <img src={{ advise_member.picture }} style="min-width:100px;border:1px solid #ec970b;">
-          </div>
-        
+
           <div class="text" style="diplay:grid;grid-template-rows: auto auto auto; justify-content:start; align-content:center;font-size:15px;">
             <p style="font-size:15px;font-weight:bold;"><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ advise_member.name }}</span></p>
             <p style="font-size:15px;"><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ advise_member.institution }}</span></p>
           </div>
+          
+          <div class="image" style="padding:5px;">
+            <img src={{ advise_member.picture }} style="min-width:100px;border:1px solid #ec970b;">
+          </div>
+          
         </div>
       {% endfor %} 
   </div>
