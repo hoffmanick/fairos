@@ -15,6 +15,15 @@ permalink: /people
 div.text-block-main {
   padding-left: 5%
   }
+ .profiles {
+  min-width:100px;
+  }
+ @media print, screen and (max-width: 600px) {
+  .profiles {
+  margin:40px;
+  min-width:80px;
+  }
+  }
 </style>
 
 <div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));background-image:linear-gradient(to left, #f0d2a1, #97b779);padding:0;margin-right:0;width:100%;" id="headingblock">
@@ -45,7 +54,7 @@ div.text-block-main {
           </div>
           
           <div class="image" style="padding:5px;">
-            <img src={{ team_member.picture }} style="min-width:100px;border:1px solid #ec970b;">
+            <img src={{ team_member.picture }} style="border:1px solid #ec970b;" class="profiles">
           </div>
         </div>
     {% endfor %} 
@@ -65,7 +74,7 @@ div.text-block-main {
           </div>
           
           <div class="image" style="padding:5px;">
-            <img src={{ advise_member.picture }} style="min-width:100px;border:1px solid #ec970b;">
+            <img src={{ advise_member.picture }} style="border:1px solid #ec970b;" class="profiles">
           </div>
           
         </div>
