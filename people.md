@@ -17,7 +17,7 @@ div.text-block-main {
   }
 </style>
 
-<div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));background-image:linear-gradient(to left, #f0d2a1, #97b779);padding:0;" id="headingblock">
+<div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));background-image:linear-gradient(to left, #f0d2a1, #97b779);padding:0;margin-right:0;" id="headingblock">
     <div class="text-block-right" style="display:grid;grid-template-rows:40px auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;" id="heading-left">
       <h1 style="font-size:40px;height:40px;align-self:start;">Meet our Team</h1>
       <p style="align-self:start;padding-top:10px;" id="describe">We have a lead team of principal investigators, an external advisory committee, personnel, and other RCN members.</p>
@@ -30,46 +30,48 @@ div.text-block-main {
     </div>
   </div>
 
-
-<h2 style="color:#42b7bf;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black;margin-bottom:0px; background-color:#f0d2a1;margin-left:5%;padding-right:2.8%;padding-left:2%;max-width:350px;z-index:9;position:relative;overflow:visible; border-right:1px solid #ec970b; border-bottom:1px solid #ec970b;">The Principal Investigators</h2>
-<div class="text-block-right" style="flex-direction:row;flex-wrap:wrap;padding-top:0px;align-content:center;">
-  
-  {% for team_member in site.team_members %}
-      <div class="text-block-right" style="flex-direction:row; align-items:center;justify-content:space-around;border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; max-width:350px;">
-        
-        <div class="image">
-          <img src={{ team_member.picture }} style="min-width:100px;border:1px solid #ec970b;">
-        </div>
-        
-        <div class="text" style="text-align:center;">
-          <p>{{ team_member.name }}</p>
-          <p style="padding:12px;">{{ team_member.role }}</p>
-          <p style="padding:12px;">{{ team_member.institution }} </p>
-        </div>
-      </div>
-  {% endfor %} 
-</div>
-
-<br>
-
-   <h2 style="color:#42b7bf;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black;margin-bottom:0px; background-color:#f0d2a1;margin-left:5%;padding-right:2.8%;padding-left:2%;max-width:350px;z-index:9;position:relative;overflow:visible; border-right:1px solid #ec970b; border-bottom:1px solid #ec970b;">The Advisory Committee</h2>
-<div class="text-block-right" style="flex-direction:row;flex-wrap:wrap;padding-top:0px;align-content:center;">
-  <!-- <div class="text-block-right" style="flex-direction:row; align-items:center;justify-content:space-around;border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; max-width:350px;"> -->
- 
-    {% for advise_member in site.advise_members %}
-      <div class="text-block-right" style="flex-direction:row; align-items:center;justify-content:space-around;border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; max-width:350px;">
-        
-        <div class="image">
-          <img src={{ advise_member.picture }} style="min-width:100px;border:1px solid #ec970b;">
-        </div>
-        
-        <div class="text" style="text-align:center;">
-          <p>{{ advise_member.name }}</p>
-          <p style="padding:12px;">{{ advise_member.institution }} </p>
-        </div>
-      </div>
-  {% endfor %} 
-    <br>
+<div class="text-block-right" style="display:grid;grid-template-rows:1.5em auto 1.5em auto;background-color:blue;padding:0px;" id="meatblock">
+  <div class="text-block-right" style="display:grid;grid-template-columns:auto;padding:0px;" id="pi-title">
+  <h2 style="color:#42b7bf;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black;margin-bottom:0px; background-color:#f0d2a1;margin-left:5%;padding-right:2.8%;padding-left:2%;max-width:350px;z-  index:9;position:relative;overflow:visible; border-right:1px solid #ec970b; border-bottom:1px solid #ec970b;">The Principal Investigators</h2>
   </div>
+  <div class="text-block-right" style="flex-direction:row;flex-wrap:wrap;padding-top:0px;align-content:center;">
   
-
+    {% for team_member in site.team_members %}
+        <div class="text-block-right" style="flex-direction:row; align-items:center;justify-content:space-around;border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; max-width:350px;">
+        
+          <div class="image">
+            <img src={{ team_member.picture }} style="min-width:100px;border:1px solid #ec970b;">
+          </div>
+        
+          <div class="text" style="text-align:center;">
+            <p>{{ team_member.name }}</p>
+            <p style="padding:12px;">{{ team_member.role }}</p>
+            <p style="padding:12px;">{{ team_member.institution }} </p>
+          </div>
+        </div>
+    {% endfor %} 
+  </div>
+<br>
+  <div class="text-block-right" style="display:grid;grid-template-columns:auto;padding:0px;" id="advise-title">
+   <h2 style="color:#42b7bf;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black;margin-bottom:0px; background-color:#f0d2a1;margin-left:5%;padding-right:2.8%;padding-left:2%;max-width:350px;z-index:9;position:relative;overflow:visible; border-right:1px solid #ec970b; border-bottom:1px solid #ec970b;">The Advisory Committee</h2>
+  </div>
+  <div class="text-block-right" style="flex-direction:row;flex-wrap:wrap;padding-top:0px;align-content:center;">
+  
+      {% for advise_member in site.advise_members %}
+        <div class="text-block-right" style="flex-direction:row; align-items:center;justify-content:space-around;border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; max-width:350px;">
+        
+          <div class="image">
+            <img src={{ advise_member.picture }} style="min-width:100px;border:1px solid #ec970b;">
+          </div>
+        
+          <div class="text" style="text-align:center;">
+            <p>{{ advise_member.name }}</p>
+            <p style="padding:12px;">{{ advise_member.institution }} </p>
+          </div>
+        </div>
+    {% endfor %} 
+ </div>
+</div>
+  
+  
+ 
