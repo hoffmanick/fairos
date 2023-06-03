@@ -4,7 +4,7 @@
   background-color: #333;
   font-family: Arial, Helvetica, sans-serif;
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(90px,110px));
+  grid-template-columns: repeat(auto-fill,minmax(90px,165px));
 }
 
 .navbar a {
@@ -30,6 +30,7 @@
   min-height:62.8px;
   align-self:center;
   line-height:62.8px;
+  width: 165px;
 }
 
 .dropdown .dropbtn {
@@ -123,27 +124,28 @@ a, button {
 
 <div class="navbar">
   <div class="dropdown"><a href="#home">Home</a></div>
-   <div class="dropdown"><a href="#news">News</a></div>
   <div class="dropdown">
-  <button class="dropbtn1" onclick="Func1()">Research
+  <button class="dropbtn1" onclick="Func1()">About
     <i class="fa fa-caret-down"></i>
   </button>
   <div class="dropdown-content2" id="drop1">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+    <a href="#">Funding</a>
+    <a href="#">People</a>
   </div>
   </div>
   <div class="dropdown">
-  <button class="dropbtn2" onclick="Func2()">About
+  <button class="dropbtn2" onclick="Func2()">Research
     <i class="fa fa-caret-down"></i>
   </button>
   <div class="dropdown-content1" id="drop2">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+    <a href="#">Research Overview</a>
+    <a href="#">Aim 1</a>
+    <a href="#">Aim 2</a>
+    <a href="#">Aim 3</a>
   </div>
   </div> 
+  <div class="dropdown"><a href="#news">Resources</a></div>
+  <div class="dropdown"><a href="#news">News & Events</a></div>
 </div>
 
 
