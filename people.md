@@ -34,12 +34,12 @@ div.text-block-main {
   <div class="text-block-right" style="display:grid;grid-template-columns:auto;padding:0px;width:100%;" id="pi-title">
   <h2 style="color:#42b7bf;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black;margin-bottom:0px; background-color:#f0d2a1;;z- index:9;position:relative;overflow:visible; border-right:1px solid #ec970b; border-bottom:1px solid #ec970b;width:100%">The Principal Investigators</h2>
   </div>
-  <div class="text-block-right" style="flex-direction:row;flex-wrap:wrap;padding-top:0px;align-content:center;padding-left:0%;width:100%;">
+  <div class="text-block-right" style="flex-direction:row;flex-wrap:wrap;padding-top:0px;align-content:center;padding-left:0%;width:95%;margin-left:5%;">
   
     {% for team_member in site.team_members %}
-        <div class="text-block-right" style="padding-left:0%;width:100%;display:grid;grid-template-columns: auto auto; align-content:center;align-items:center;justify-content:space-evenly;justify-items:center;border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; max-width:350px;">
+        <div class="text-block-right" style="padding-left:0%;width:100%;display:grid;grid-template-columns: auto auto; align-content:center;align-items:center;justify-content:space-evenly;justify-items:start;border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; max-width:350px;">
         
-          <div class="text" style="diplay:grid;grid-template-rows: auto auto auto; justify-content:start; align-content:center;">
+          <div class="text" style="diplay:grid;grid-template-rows: auto auto auto; justify-content:start; align-content:center;padding-left:8%;width:92%;">
             <p style="font-size:15px;font-weight:bold;"><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ team_member.name }}</span></p>
             <p style="font-size:15px;"><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ team_member.role }}</span></p>
             <p style="font-size:15px;"><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ team_member.institution }} </span></p>
@@ -55,12 +55,12 @@ div.text-block-main {
   <div class="text-block-right" style="display:grid;grid-template-columns:auto;padding:0px;" id="advise-title">
    <h2 style="color:#42b7bf;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black;margin-bottom:0px; background-color:#f0d2a1;z-index:9;position:relative;overflow:visible; border-right:1px solid #ec970b; border-bottom:1px solid #ec970b;width:100%;">The Advisory Committee</h2>
   </div>
-  <div class="text-block-right" style="flex-direction:row;flex-wrap:wrap;padding-top:0px;align-content:center;padding-left:0%;width:100%;">
+  <div class="text-block-right" style="flex-direction:row;flex-wrap:wrap;padding-top:0px;align-content:center;padding-left:0%;width:95%;margin-left:5%;">
   
       {% for advise_member in site.advise_members %}
-        <div class="text-block-right" style="padding-left:0%;width:100%;display:grid;grid-template-columns: auto auto; align-content:center;align-items:center;justify-content:space-evenly;justify-items:center;border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; max-width:350px;">
+        <div class="text-block-right" style="padding-left:0%;width:100%;display:grid;grid-template-columns: auto auto; align-content:center;align-items:center;justify-content:space-evenly;justify-items:start;border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; max-width:350px;">
 
-          <div class="text" style="diplay:grid;grid-template-rows: auto auto auto; justify-content:start; align-content:center;font-size:15px;">
+          <div class="text" style="diplay:grid;grid-template-rows: auto auto auto; justify-content:start; align-content:center;font-size:15px;padding-left:8%;width:92%;">
             <p style="font-size:15px;font-weight:bold;"><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ advise_member.name }}</span></p>
             <p style="font-size:15px;"><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ advise_member.institution }}</span></p>
           </div>
