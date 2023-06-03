@@ -17,7 +17,11 @@ permalink: /news
   #heading-left {
    padding-top:0px;
    padding-bottom:0px;
-   align-content:space-between;}
+   align-content:space-between;
+  }
+  h1#heading-left {
+   font-size:33px;
+  }
  }
 </style>
 
