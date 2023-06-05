@@ -5,6 +5,7 @@ title: Past Global Change Ethical FAIROS RCN
 description: Implementing FAIR and CARE principles in the historical sciences
 email: "globalchangefairos@gmail.com"
 logo: "/images/fairos-logo-transp.png"
+paginate: 10
 team_members:
   -
     name: "Jessica Blois"
