@@ -54,8 +54,8 @@ h1#heading-left {
           {% if post.image %} 
             <img src={{ post.image }} width="180vw" alt="{{ post.alt }}" style="max-width:500px;">
           {% endif %}
-          {% if post.image == empty %}
-            <div style="width:180vw;max-width:500px;">
+          {% if post.image == %}
+            <div class="test" style="width:180vw;max-width:500px;">
               <p>empty</p>
             </div>
           {% endif %}
