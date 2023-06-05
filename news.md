@@ -54,6 +54,10 @@ h1#heading-left {
           {% if post.image %} 
             <img src={{ post.image }} width="180vw" alt="{{ post.alt }}" style="max-width:500px;">
           {% endif %}
+          {% if post.image == empty %}
+            <div style="width:180vw;max-width:500px;">
+            </div>
+          {% endif %}
         <div style="display:grid;grid-template-rows: auto auto;padding-left:20px;align-content:start;">
         <p style="font-size:14px;">{{ post.date | date_to_string }}</p>
         <p><a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
