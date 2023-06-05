@@ -56,6 +56,7 @@ h1#heading-left {
           {% endif %}
           {% if post.image == empty %}
             <div style="width:180vw;max-width:500px;">
+              <p>empty</p>
             </div>
           {% endif %}
         <div style="display:grid;grid-template-rows: auto auto;padding-left:20px;align-content:start;">
