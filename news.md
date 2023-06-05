@@ -55,8 +55,8 @@ h1#heading-left {
             <img src={{ post.image }} width="180vw" alt="{{ post.alt }}" style="max-width:500px;">
           {% endif %}
           {% if post.image == %}
-            <div class="test" style="width:180vw;max-width:500px;">
-              <p>empty</p>
+            <div class="test" style="width:180px;">
+              <!-- <p style="">empty</p> -->
             </div>
           {% endif %}
         <div style="display:grid;grid-template-rows: auto auto;padding-left:20px;align-content:start;">
