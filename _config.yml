@@ -55,6 +55,10 @@ team_members:
 
 advise_members:
   -
+    name: "Tonya Connor"
+    institution: "University of North Dakota"
+    picture: "\"./images/connor_headshot.jpg\""
+  -
     name: "Edward Davis"
     institution: "University of Oregon Museum of Natural and Cultural History"
     picture: "\"./images/davis_headshot.jpg\""
