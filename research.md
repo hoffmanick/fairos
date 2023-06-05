@@ -50,7 +50,7 @@ div.text-block-right {
     width:200px;
      }
   #headingblock {
-    justify-content: center;
+    justify-content: left;
     justify-items: center;
      }
   #heading-left, #heading-image, #stakes {
