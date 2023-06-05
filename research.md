@@ -54,7 +54,7 @@ div.text-block-right {
     justify-items: center;
      }
   #heading-left, #heading-image, #stakes {
-    justify-content: center;
+    justify-content: left;
     /* justify-items: center; */
     justify-self: center;
    }
