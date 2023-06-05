@@ -9,54 +9,7 @@ alt: biosphere
 figcap: "Members of the FAIROS RCN gathered at the Biosphere 2 in Arizona to determine project goals. May 16-19, 2023."
 ---
 
-<style>
- h1 {
-   color: #42b7bf;
-   -webkit-text-stroke-width: 2px;
-   -webkit-text-stroke-color: black;
-    }
-  p {
-    font-size: 20px;
-  }
-.text-block-right {
-  width:500px;
-  padding-bottom:20px;
-  padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-left: 25%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  background-image: linear-gradient(to left, white, #97b779); 
-  text-align: center;
-}
-  .text-block-left {
-  width:500px;
-  padding-bottom:20px;
-  padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-left: -25%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  background-image: linear-gradient(to right, white, #97b779); 
-  text-align: center;
-}
-  .text-block-main {
-  width:800px;
-  padding-bottom:20px;
-  padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-left: -5%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  background-image: linear-gradient(to left, white, #97b779); 
-}
-  .text-block-main  p {
-  font-size: 20px;
-}
- </style>
+
 
 <div class="text-box-main">
 <p> This week, members of the FAIROS team convened at the Biosphere 2 facility in order to meet and develop project goals. 
