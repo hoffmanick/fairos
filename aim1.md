@@ -38,10 +38,6 @@ permalink: /aim1
   border: 2.5px solid #ec970b;
   }
 
-#clip {
-  position: absolute;
-  clip-path: inset(0 50px 0px 0);
-  }
   </style>
 <div class="text-block-main" style="display:grid;grid-template-columns: auto">
   
@@ -75,7 +71,14 @@ permalink: /aim1
               <li>4) points for further curatorial intervention—places where additional data curation could make records more accessible or interoperable.</li></p>
           </div>
         </div>
-        <li>A <strong>webinar series</strong> and a <strong>symposium hackathon</strong> to  build community between data managers and make progress on improving interoperability and data alignment across community-curated data repositories</li>
+        <button class="bttn" id="symp-hack" onclick="Func_symphack()">
+          <div><p>A <strong>webinar series</strong> and a <strong>symposium hackathon</strong> to  build community between data managers and make progress on improving interoperability and data alignment across community-curated data repositories</p></div>
+      </button>
+        <div class="collapse" id="readMore_symp-hack">
+          <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
+            <p>More about symposium</p>
+          </div>
+       </div>
           <li>The <strong>“Creating Interoperable Data” case study</strong></li>
           <li>A coalescence of these efforts into <strong>guidelines for data alignment</strong> between repositories and domains</li>
  </p>
@@ -88,6 +91,12 @@ function Func_infolandscape() {
   document.getElementById("readMore_info-landscape").classList.toggle("show");
   document.getElementById("info-landscape").classList.toggle("bttn_show");
 }
+
+function Func_symphack() {
+  document.getElementById("readMore_symp-hack").classList.toggle("show");
+  document.getElementById("symp-hack").classList.toggle("bttn_show");
+}
+
 
 
 </script>
