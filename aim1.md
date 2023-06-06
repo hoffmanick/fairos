@@ -40,7 +40,7 @@ permalink: /aim1
 
 #clip {
   position: absolute;
-  clip: rect(0, 100px, 200px, 0);
+  clip-path: inset(0, 50px, 0px, 0);
   }
   </style>
 <div class="text-block-main" style="display:grid;grid-template-columns: auto">
@@ -65,7 +65,7 @@ permalink: /aim1
         <button class="bttn" id="info-landscape" onclick="Func_infolandscape()">
           <div style="display:grid;grid-template-columns:4fr 1fr;">
             <div><p>Data manager outreach and an <strong>informatics landscape analysis</strong>, identifying gaps and opportunities for alignment in existing  infrastructures</p></div>
-            <div><img id="clip" src="images/plus-minus_sprite.png" alt="plus" /></div>
+            <div style="justify-self:center;"><img id="clip" src="images/plus-minus_sprite.png" alt="plus" /></div>
           </div></button>
         <div class="collapse" id="readMore_info-landscape">
           <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
