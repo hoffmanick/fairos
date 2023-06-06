@@ -92,12 +92,11 @@ permalink: /aim2
             </div>
       </div>
       <button class="bttn" id="year3" onclick="Func_year3()"> 
-          <div><p>Activities focused on best practices and standards for data stewardship include the <strong>Year 3 Webinar</strong> and <strong>Year 3 Hackathon</strong>, culminating in guidance on <strong>data stewardship best practices</strong> for Quaternary community-curated data repositories.</p></div>
+          <div><p>Activities focused on best practices and standards for data stewardship including the <strong>Year 3 Webinar</strong> and <strong>Year 3 Hackathon</strong>, and culminating in guidance on <strong>data stewardship best practices</strong> for Quaternary community-curated data repositories.</p></div>
       </button>
       <div class="collapse" id="readMore_year3">
           <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
             <p>Interoperability and reproducibility are only part of the FAIROS puzzle. Repositories require trust and practitioners require skills to support sustainable FAIROS practices. The  focus in Year 3 is on solidifying the adoption of better data science and curation practices to support  FAIROS practices in the future, and to preserve the critical role that small- and mid-scale data resources provide in the information architecture of the sciences. Support of best practices adoption will be undertaken  through continued engagement with early career researchers, while re-engaging members within the Informatics  domain to address technical gaps identified through the Years 1 and 2 hackathon efforts. Year 3 activities  will also focus on software practices that can support trust in online data repositories, including OAuth systems, data versioning, JSON-LD serialization, APIs, and other technical architecture that is required to  properly support FAIROS practices. As with previous years, there will be a series of webinars prior to the Year 3 symposium hackathon; the hackathon will focus on implementation of software practices within community-curated data repositories, and follow-up webinars will focus on developing and refining best-practices documentation for  implementing these applications and tools within Quaternary community-curated data repositories.
-Aim 3. Ethical Open 
 </p>
           </div>
       </div>
