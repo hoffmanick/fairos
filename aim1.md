@@ -47,7 +47,9 @@ permalink: /aim1
       <p>Five primary activities form the core of focus: 
         <button id="info-landscape" onclick="Func_infolandscape()">Data manager outreach and an <strong>informatics landscape analysis</strong>, identifying gaps and opportunities for alignment in existing  infrastructures </button>
         <div class="collapse" id="readMore_info-landscape">
+          <div class="read-more-content" >
           <p>Content about informatics landscape analysis</p>
+          </div>
         </div>
         <li>A <strong>webinar series</strong> and a <strong>symposium hackathon</strong> to  build community between data managers and make progress on improving interoperability and data alignment across community-curated data repositories</li>
           <li>The <strong>“Creating Interoperable Data” case study</strong></li>
