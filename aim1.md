@@ -25,16 +25,16 @@ permalink: /aim1
       </figure>
     </div>
   </div>
-  <div class="text-block-right" style="display:grid;grid-template-rows: auto auto;">
+  <div class="text-block-right" style="display:grid;grid-template-rows: auto auto;width:90%;padding-right:5%;padding-left:5%;">
     <h2>Overview</h2>
     <div>
-      <p>We will develop a network of data managers, research practitioners, disciplinary experts, and ECRs to  identify gaps and mismatches among Quaternary data resources, with the aim of improving interoperability among data resources. We will particularly prioritize: outreach to data managers and assessment of the current Quaternary informatics landscape; identifying areas for crosswalk development to resolve conflicts  between existing ontologies and to help support the adoption of CARE aims; identifying points of connection between repositories, where the addition of related identifiers could help bridge silos; and building on existing initiatives, such as ESIP’s Science on Schema to make data resources more open and interconnected.  </p>
+      <p>We will develop a network of data managers, research practitioners, disciplinary experts, and early career researchers to  identify gaps and mismatches among Quaternary data resources, with the aim of improving interoperability among data resources. We will particularly prioritize: outreach to data managers and assessment of the current Quaternary informatics landscape; identifying areas for crosswalk development to resolve conflicts  between existing ontologies and to help support the adoption of CARE aims; identifying points of connection between repositories, where the addition of related identifiers could help bridge silos; and building on existing initiatives, such as Earth Science Information Partners’ Science on Schema to make data resources more open and interconnected.  </p>
       <p>Five primary activities form the core of focus: 
-      <ul>
+      <ul style="font-size:20px;">
         <li>Data manager outreach and an <strong>informatics landscape analysis</strong>, identifying gaps and opportunities for alignment in existing  infrastructures. </li>
-        <li>We will also hold a <strong>webinar series</strong> and a <strong>symposium hackathon</strong> to  build community between data managers and make progress on improving interoperability and data alignment across community-curated data repositories.</li>
-          <li>We will also start working through the <strong>“Creating Interoperable Data” case study</strong>.</li>
-          <li>Finally, we will coalesce these efforts into <strong>guidelines for data alignment</strong> between repositories and domains.</li>
+        <li>A <strong>webinar series</strong> and a <strong>symposium hackathon</strong> to  build community between data managers and make progress on improving interoperability and data alignment across community-curated data repositories.</li>
+          <li>The <strong>“Creating Interoperable Data” case study</strong>.</li>
+          <li>A coalescence of these efforts into <strong>guidelines for data alignment</strong> between repositories and domains.</li>
       </ul></p>
     </div>
   </div>
