@@ -28,7 +28,11 @@ permalink: /aim1
   .bttn {
   background-color:transparent;
   cursor:pointer;
+  border: 0;
   border-bottom:1px solid #ec970b;
+  padding-bottom:3%;
+  font-size:17px;
+  text-align:left;
   }
   .bttn_show {
   border: 2.5px solid #ec970b;
@@ -56,7 +60,12 @@ permalink: /aim1
         <button class="bttn" id="info-landscape" onclick="Func_infolandscape()">Data manager outreach and an <strong>informatics landscape analysis</strong>, identifying gaps and opportunities for alignment in existing  infrastructures </button>
         <div class="collapse" id="readMore_info-landscape">
           <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-          <p>The aim of this analysis is to map the current Quaternary informatics landscape, evaluate current interoperability efforts, and recommend best practices going forward. Webinar discussions and symposia hackathons will be used to  better understand how data managers are using metadata standards and curating data. We will additionally conduct a structured evaluation of three widely used data resources spanning different data domains: Global Biodiversity Information Facility (GBIF),  the Open Context archaeological repository, and Neotoma Paleoecology Database. This evaluation approach will be grounded in prior informatics research on  metadata crosswalking and integration. We will evaluate 1) the semantic  <i>coverage</i> of each repository (e.g. what data elements are captured by each repository, and what are the  specific meanings of those elements?); 2) points of <i>convergence and conflict</i> between repositories (e.g. what data elements overlap and which are fundamentally mismatched?); 3) the <i>completeness</i> of records within repositories; and finally, 4) points for further curatorial intervention—places where additional data curation could make records more accessible or interoperable. </p>
+          <p>The aim of this analysis is to map the current Quaternary informatics landscape, evaluate current interoperability efforts, and recommend best practices going forward. Webinar discussions and symposia hackathons will be used to  better understand how data managers are using metadata standards and curating data. We will additionally conduct a structured evaluation of three widely used data resources spanning different data domains: Global Biodiversity Information Facility (GBIF),  the Open Context archaeological repository, and Neotoma Paleoecology Database. This evaluation approach will be grounded in prior informatics research on  metadata crosswalking and integration. </p>
+            <p>We will evaluate 
+              <li>1) the semantic  <i>coverage</i> of each repository (e.g. what data elements are captured by each repository, and what are the  specific meanings of those elements?); </li>
+              <li>2) points of <i>convergence and conflict</i> between repositories (e.g. what data elements overlap and which are fundamentally mismatched?);</li>
+              <li> 3) the <i>completeness</i> of records within repositories; and finally,</li>
+              <li>4) points for further curatorial intervention—places where additional data curation could make records more accessible or interoperable.</li></p>
           </div>
         </div>
         <li>A <strong>webinar series</strong> and a <strong>symposium hackathon</strong> to  build community between data managers and make progress on improving interoperability and data alignment across community-curated data repositories</li>
