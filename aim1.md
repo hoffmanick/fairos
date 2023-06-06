@@ -40,7 +40,7 @@ permalink: /aim1
 
 #clip {
   position: absolute;
-  clip-path: inset(0, 50px, 0px, 0);
+  clip-path: inset(0 50px 0px 0);
   }
   </style>
 <div class="text-block-main" style="display:grid;grid-template-columns: auto">
