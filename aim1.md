@@ -86,9 +86,15 @@ permalink: /aim1
 </p>
           </div>
        </div>
-          <li>The <strong>“Creating Interoperable Data” case study</strong></li>
+          <button class="bttn" id="case-study" onclick="Func_casestudy()"> 
+            <div><p>The <strong>“Creating Interoperable Data” case study</strong></p></div>
+      </button>
+          <div class="collapse" id="readMore_case-study">
+            <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
+              <p>more on case study</p>
+            </div>
+      </div>
           <li>A coalescence of these efforts into <strong>guidelines for data alignment</strong> between repositories and domains</li>
- </p>
     </div>
   </div>
 </div>
@@ -102,6 +108,11 @@ function Func_infolandscape() {
 function Func_symphack() {
   document.getElementById("readMore_symp-hack").classList.toggle("show");
   document.getElementById("symp-hack").classList.toggle("bttn_show");
+}
+
+  function Func_casestudy() {
+  document.getElementById("readMore_case-study").classList.toggle("show");
+  document.getElementById("case-study").classList.toggle("bttn_show");
 }
 
 
