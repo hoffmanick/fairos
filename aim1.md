@@ -16,7 +16,7 @@ permalink: /aim1
 <div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));background-image:linear-gradient(to left, #f0d2a1, 90%, #97b779);padding:0;align-content:center;" id="headingblock">
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;" id="heading-left">
       <h1 style="font-size:40px;"> Aim 1: Improve Interoperability and Reproducibility </h1>
-      <p style="align-self:start;padding-top:10px;" id="describe">We will a) develop guidance for interoperability among long-tail community-curated data resources and b) promote adoption of broader metadata standards. </p>
+      <p style="align-self:start;padding-top:10px;" id="describe">Building Interconnected and Open Data Resources</p>
     </div>
     <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
       <figure style="margin-left:0px;margin-right:0px;" id="stakes">
@@ -26,7 +26,16 @@ permalink: /aim1
     </div>
   </div>
   <div class="text-block-right" style="display:grid;grid-template-rows: auto auto;">
-    <h2>This is where I explain more</h2>
-    <p>About what aim 1 means</p>
+    <h2>Overview</h2>
+    <div>
+      <p>We will develop a network of data managers, research practitioners, disciplinary experts, and ECRs to  identify gaps and mismatches among Quaternary data resources, with the aim of improving interoperability among data resources. We will particularly prioritize: outreach to data managers and assessment of the current Quaternary informatics landscape; identifying areas for crosswalk development to resolve conflicts  between existing ontologies and to help support the adoption of CARE aims; identifying points of connection between repositories, where the addition of related identifiers could help bridge silos; and building on existing initiatives, such as ESIP’s Science on Schema to make data resources more open and interconnected.  </p>
+      <p>Five primary activities form the core of focus: 
+      <ul>
+        <li>Data manager outreach and an <strong>informatics landscape analysis</strong>, identifying gaps and opportunities for alignment in existing  infrastructures. </li>
+        <li>We will also hold a <strong>webinar series</strong> and a <strong>symposium hackathon</strong> to  build community between data managers and make progress on improving interoperability and data alignment across community-curated data repositories.</li>
+          <li>We will also start working through the <strong>“Creating Interoperable Data” case study</strong>.</li>
+          <li>Finally, we will coalesce these efforts into <strong>guidelines for data alignment</strong> between repositories and domains.</li>
+      </ul></p>
+    </div>
   </div>
 </div>
