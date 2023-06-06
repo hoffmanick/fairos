@@ -10,13 +10,45 @@ permalink: /aim3
       padding-bottom: 0%;
       }
 }
+  li {
+  font-size:20px;
+  color:#000;
+  }
+.collapse {
+  display: none;
+  top: 63px;
+  z-index:10000;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-bottom:5%;
+}
+
+.show {
+  display: grid;
+  grid-template-rows: auto;
+  
+}
+
+  .bttn {
+  background-color:transparent;
+  cursor:pointer;
+  border: 0;
+  border-bottom:1px solid #ec970b;
+  padding-top:1%;
+  font-size:17px;
+  text-align:left;
+  margin-bottom:4%;
+  }
+  .bttn_show {
+  border: 2.5px solid #ec970b;
+  }
+
   </style>
 <div class="text-block-main" style="display:grid;grid-template-columns: auto">
   
 <div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));background-image:linear-gradient(to left, #f0d2a1, 90%, #97b779);padding:0;align-content:center;" id="headingblock">
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;" id="heading-left">
-      <h1 style="font-size:40px;">Aim 3: Support Equity and Improve Access </h1>
-      <p style="align-self:start;padding-top:10px;" id="describe">We will democratize science in a manner that recognizes broader concepts of data ownership and ethical data curation. </p>
+      <h1 style="font-size:40px;"> Aim 3: Support Equity and Improve Access </h1>
+      <p style="align-self:start;padding-top:10px;" id="describe"> Ethical Open Data Science: Moving from CARE Principles to Practice </p>
     </div>
     <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
       <figure style="margin-left:0px;margin-right:0px;" id="stakes">
@@ -25,8 +57,56 @@ permalink: /aim3
       </figure>
     </div>
   </div>
-  <div class="text-block-right" style="display:grid;grid-template-rows: auto auto;">
-    <h2>This is where I explain more</h2>
-    <p>About what aim 3 means</p>
+  <div class="text-block-right" style="display:grid;grid-template-rows: auto auto;width:90%;padding-right:5%;padding-left:5%;">
+    <h2>Overview</h2>
+    <div>
+      <p>To advance the implementation of CARE best practices at all stages of the research data life cycle, we  have designed multiple overlapping efforts with clearly defined activities and deliverables.</p>
+        <button class="bttn" id="synth" onclick="Func_synth()">
+            <div><p> Foremost, a case study leading into an end-of-project <strong>synthesis paper</strong> will explore how to implement and operationalize CARE principles, then review these efforts, lessons learned, and recommendations for other fields.  We will use Open Context and the Neotoma Paleoecology Database as case study examples of how to advance CARE implementation in open community data resources in archaeology and paleoecology.</p></div>
+</button>
+        <div class="collapse" id="readMore_synth">
+          <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
+          <p>We will focus on two well-established open community data resources—Open Context and Neotoma—as  test cases for exploring how best to implement CARE practices in archaeological and paleoecological  datasets. CARE introduces a set of important technical requirements that need to be supported. For  example, data infrastructure needs to support Traditional Knowledge labels and notifications to help better express cultural aspects of data provenance and expectations for benefits sharing. Similarly, data infrastructure needs to be flexible enough to manage culturally specific systems of metadata documentation. These expanded and diversified sets of metadata needs will also need to be managed by curation workflows that inclusively represent stakeholder interests.</p>
+            
+<p>The exact form of implementation will vary among open data resources, and it is unlikely that a single solution will work for all. Hence, over the course of the symposia hackathons, webinars, and other activities, we will use Open Context and Neotoma as two representative instances of open community data resources in archaeology and paleoecology, with differing degrees of implementation of CARE principles and pre-existing relationships with Indigenous leaders and scholars. Symposia breakout sessions and hackathon  activities will help identify technical requirements to guide CARE principle-aligned improvements to Open Context and Neotoma, which can then serve as model examples for other data resources. To share these  advances with a broader community, a synthesis paper will be written in Year 3 that will  focus on best practices on implementing CARE in open Quaternary data resources.  
+ </p>
+          </div>
+        </div>
+        <button class="bttn" id="symp" onclick="Func_symp()">
+          <div><p><strong>Annual plenary symposia</strong> will have activities devoted to CARE principles and practice, so that all  CARE-related activities are in dialogue with other activities.</p></div>
+      </button>
+        <div class="collapse" id="readMore_symp">
+          <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
+            <p>All symposia will include activities specifically devoted to advancing FAIR and CARE principles, in order to  help set desired professional norms and provide examples of how CARE implementation can be advanced.  Symposia activities will emphasize the importance of CARE data principles at each stage of the research data lifecycle, from initial conceptualization of a project, to data collection and analysis, interpretation and  communication of results, and finally the long term curation and reuse of research data. In the early years  of our RCN activities, we will invite keynote speakers from Research Data Alliance, the Centre for Australian Biodiversity and Heritage (CABAH), and other organizations to provide model examples of advancing CARE, with breakout discussions on how to best advance CARE among participating open-data resources  and their networks of allied practitioners. In later years, we will review and discuss current efforts to begin  implementing CARE best practices in participating data resources.</p>
+          </div>
+       </div>
+          <button class="bttn" id="profs" onclick="Func_profs()"> 
+            <div><p><strong>Professional development workshops</strong>, to be held in Years 2 and 3, will focus on training practitioners and early career researchers. </p></div>
+      </button>
+          <div class="collapse" id="readMore_profs">
+            <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
+              <p>In addition to the annual symposia, we plan to lead multiple, virtual, synchronous workshops that are devoted to the professional development of informaticists (in Year 2) and early career researchers (in Year 3) who are interested in learning about CARE and how best to translate principles to action. These workshops will planned by a small working group in Year 1, then attended by RCN members as well as through open calls to the communities of paleo- and modern ecologists, environmental archaeologists, and paleoclimatologists, with early career researchers and members of descendent communities in particular encouraged to apply. Each workshop will likely be scheduled on a weekend day to better accommodate participants with other weekday commitments that may preclude their participation. Sessions will be recorded so that they can be shared with institute participants (especially in the event that they are unable to attend) and consulted for assessment purposes. Participants will be encouraged to do some reading and preparation in advance of each workshop, which will consist of short lectures and learning activities that contribute to the development of individual action plans for participants.</p>
+<p>Pilot professional development programs launched by Lieberman in 2021 for ECR members of the Archaeological Research Facility at the University of California-Berkeley and the American Society of Overseas Research demonstrated that, while an overwhelming majority of participants surveyed think working with data is important for them and their future careers, a similar majority felt that they lacked both the comfort and training, especially around ethical practices, to do so (Lieberman, forthcoming). These workshops aim to provide this kind of training specifically for individuals who do not have access to similar resources through their own institutions; in this way, we will be able to expand knowledge around applying CARE to underserved communities, providing mentorship and support so that participants can develop skills that are critically important for their success. Moreover, we aim to publish our curriculum open access so that others can adopt and adapt it for other contexts and audiences, exponentially increasing the number of people this work reaches. </p>
+            </div>
+      </div>
+    </div>
   </div>
 </div>
+
+<script>
+function Func_synth() {
+  document.getElementById("readMore_synth").classList.toggle("show");
+  document.getElementById("synth").classList.toggle("bttn_show");
+}
+
+function Func_symp() {
+  document.getElementById("readMore_symp").classList.toggle("show");
+  document.getElementById("symp").classList.toggle("bttn_show");
+}
+
+  function Func_profs() {
+  document.getElementById("readMore_profs").classList.toggle("show");
+  document.getElementById("profs").classList.toggle("bttn_show");
+}
+
+</script>
