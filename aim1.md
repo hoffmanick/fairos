@@ -33,6 +33,7 @@ permalink: /aim1
   padding-top:1%;
   font-size:17px;
   text-align:left;
+  margin-bottom:4%;
   }
   .bttn_show {
   border: 2.5px solid #ec970b;
@@ -57,7 +58,7 @@ permalink: /aim1
     <h2>Overview</h2>
     <div>
       <p>We will develop a network of data managers, research practitioners, disciplinary experts, and early career researchers to  identify gaps and mismatches among Quaternary data resources, with the aim of improving interoperability among data resources. We will particularly prioritize: outreach to data managers and assessment of the current Quaternary informatics landscape; identifying areas for crosswalk development to resolve conflicts  between existing ontologies and to help support the adoption of CARE aims; identifying points of connection between repositories, where the addition of related identifiers could help bridge silos; and building on existing initiatives, such as Earth Science Information Partners’ Science on Schema to make data resources more open and interconnected.  </p>
-      <p>Five primary activities form the core of focus: 
+      <p>Five primary activities form the core of focus:</p> 
         <button class="bttn" id="info-landscape" onclick="Func_infolandscape()">
             <div><p>Data manager outreach and an <strong>informatics landscape analysis</strong>, identifying gaps and opportunities for alignment in existing  infrastructures</p></div>
 </button>
