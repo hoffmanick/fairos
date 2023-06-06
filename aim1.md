@@ -37,6 +37,11 @@ permalink: /aim1
   .bttn_show {
   border: 2.5px solid #ec970b;
   }
+
+#clip {
+  position: absolute;
+  clip: rect(0, 100px, 200px, 0);
+  }
   </style>
 <div class="text-block-main" style="display:grid;grid-template-columns: auto">
   
@@ -57,7 +62,11 @@ permalink: /aim1
     <div>
       <p>We will develop a network of data managers, research practitioners, disciplinary experts, and early career researchers to  identify gaps and mismatches among Quaternary data resources, with the aim of improving interoperability among data resources. We will particularly prioritize: outreach to data managers and assessment of the current Quaternary informatics landscape; identifying areas for crosswalk development to resolve conflicts  between existing ontologies and to help support the adoption of CARE aims; identifying points of connection between repositories, where the addition of related identifiers could help bridge silos; and building on existing initiatives, such as Earth Science Information Partners’ Science on Schema to make data resources more open and interconnected.  </p>
       <p>Five primary activities form the core of focus: 
-        <button class="bttn" id="info-landscape" onclick="Func_infolandscape()">Data manager outreach and an <strong>informatics landscape analysis</strong>, identifying gaps and opportunities for alignment in existing  infrastructures </button>
+        <button class="bttn" id="info-landscape" onclick="Func_infolandscape()">
+          <div style="display:grid;grid-template-columns:4fr 1fr;">
+            <p>Data manager outreach and an <strong>informatics landscape analysis</strong>, identifying gaps and opportunities for alignment in existing  infrastructures</p>
+            <img id="clip" src="images/plus-minus_sprite.png" alt="plus" />
+          </div></button>
         <div class="collapse" id="readMore_info-landscape">
           <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
           <p>The aim of this analysis is to map the current Quaternary informatics landscape, evaluate current interoperability efforts, and recommend best practices going forward. Webinar discussions and symposia hackathons will be used to  better understand how data managers are using metadata standards and curating data. We will additionally conduct a structured evaluation of three widely used data resources spanning different data domains: Global Biodiversity Information Facility (GBIF),  the Open Context archaeological repository, and Neotoma Paleoecology Database. This evaluation approach will be grounded in prior informatics research on  metadata crosswalking and integration. </p>
