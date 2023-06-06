@@ -77,7 +77,7 @@ permalink: /aim1
           </div>
         </div>
         <button class="bttn" id="symp-hack" onclick="Func_symphack()">
-          <div><p>A <strong>webinar series</strong> and a <strong>symposium hackathon</strong> to  build community between data managers and make progress on improving interoperability and data alignment across community-curated data repositories</p></div>
+          <div><p>The Year 1 <strong>webinar series</strong> and a <strong>symposium hackathon</strong> to  build community between data managers and make progress on improving interoperability and data alignment across community-curated data repositories</p></div>
       </button>
         <div class="collapse" id="readMore_symp-hack">
           <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
