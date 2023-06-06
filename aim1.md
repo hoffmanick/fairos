@@ -64,8 +64,8 @@ permalink: /aim1
       <p>Five primary activities form the core of focus: 
         <button class="bttn" id="info-landscape" onclick="Func_infolandscape()">
           <div style="display:grid;grid-template-columns:4fr 1fr;">
-            <p>Data manager outreach and an <strong>informatics landscape analysis</strong>, identifying gaps and opportunities for alignment in existing  infrastructures</p>
-            <img id="clip" src="images/plus-minus_sprite.png" alt="plus" />
+            <div><p>Data manager outreach and an <strong>informatics landscape analysis</strong>, identifying gaps and opportunities for alignment in existing  infrastructures</p></div>
+            <div><img id="clip" src="images/plus-minus_sprite.png" alt="plus" /></div>
           </div></button>
         <div class="collapse" id="readMore_info-landscape">
           <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
