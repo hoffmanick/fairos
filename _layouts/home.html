@@ -2,4 +2,20 @@
 layout: default
 ---
 
+
+<header style="padding-top:5px;">
+  <div style="display:flex;flex-wrap:wrap; background-color:#42b7bf; align-items:center;justify-content:center;">
+          
+          <div class="flex-container" style="display:grid;grid-template-columns:auto auto;justify-content:space-evenly;">
+            {% if site.logo %}
+              <img src="{{site.logo | relative_url}}" alt="Logo" class="logo" style="padding-top:0px;padding-bottom:0px;"/>
+            {% endif %}
+          </div>
+          {% include navbar2.html %}
+        </div>
+        
+</header>
+
 {{ content }}
+  
+  
