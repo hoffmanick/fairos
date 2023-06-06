@@ -31,10 +31,10 @@ permalink: /aim1
       <p>We will develop a network of data managers, research practitioners, disciplinary experts, and early career researchers to  identify gaps and mismatches among Quaternary data resources, with the aim of improving interoperability among data resources. We will particularly prioritize: outreach to data managers and assessment of the current Quaternary informatics landscape; identifying areas for crosswalk development to resolve conflicts  between existing ontologies and to help support the adoption of CARE aims; identifying points of connection between repositories, where the addition of related identifiers could help bridge silos; and building on existing initiatives, such as Earth Science Information Partners’ Science on Schema to make data resources more open and interconnected.  </p>
       <p>Five primary activities form the core of focus: 
       <ul style="font-size:20px;">
-        <li>Data manager outreach and an <strong>informatics landscape analysis</strong>, identifying gaps and opportunities for alignment in existing  infrastructures. </li>
-        <li>A <strong>webinar series</strong> and a <strong>symposium hackathon</strong> to  build community between data managers and make progress on improving interoperability and data alignment across community-curated data repositories.</li>
-          <li>The <strong>“Creating Interoperable Data” case study</strong>.</li>
-          <li>A coalescence of these efforts into <strong>guidelines for data alignment</strong> between repositories and domains.</li>
+        <li>Data manager outreach and an <strong>informatics landscape analysis</strong>, identifying gaps and opportunities for alignment in existing  infrastructures </li>
+        <li>A <strong>webinar series</strong> and a <strong>symposium hackathon</strong> to  build community between data managers and make progress on improving interoperability and data alignment across community-curated data repositories</li>
+          <li>The <strong>“Creating Interoperable Data” case study</strong></li>
+          <li>A coalescence of these efforts into <strong>guidelines for data alignment</strong> between repositories and domains</li>
       </ul></p>
     </div>
   </div>
