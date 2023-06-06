@@ -13,11 +13,10 @@ permalink: /aim1
   
 .collapse {
   display: none;
-  position: absolute;
   top: 63px;
   z-index:10000;
-  margin-left:10%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-bottom:5%;
 }
 
 .show {
