@@ -77,7 +77,13 @@ permalink: /aim1
       </button>
         <div class="collapse" id="readMore_symp-hack">
           <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-            <p>More about symposium</p>
+            <p>The primary audience for the webinar series and symposium hackathon is data managers, with close interaction with disciplinary practitioners and other members of the broader community. A series of four webinars will be held prior to the symposium hackathon, to ensure that data managers have a common understanding of key concepts and toolsets applicable to the process of developing interoperable systems. These webinars will include opportunities for structured discussion to support the Mapping the Landscape project, as well as help build relationships between participants prior to the symposium hackathon.</p>
+              <p>Webinar topics will include 
+<li>1) an overview of common data standards (e.g. DublinCore, Science on Schema, Geoscience Standard Names);</li> 
+<li>2) how individuals can serialize their data formats to JSON-LD or other metadata schemes; and</li> 
+<li>3) how to support improving Findability and Interoperability through services such as DataCite, GeoCODEs  or other tools.<li></p>
+            <p>The hackathon aims to accelerate development of the community of practice established  through the webinars—to learn about ourselves, the work we have done in the past and wish to do in the  future, and start a full assessment of existing open data science resources and opportunities for improved  integration. Development of the hackathon will draw from discussions in webinars and be focused on  implementing solutions, specifically using the identified case studies from across the project to anchor discussions. Two webinars will follow the symposium, designed to support work arising from the in-person meeting.  
+</p>
           </div>
        </div>
           <li>The <strong>“Creating Interoperable Data” case study</strong></li>
