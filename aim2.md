@@ -67,7 +67,7 @@ permalink: /aim2
       </ol></p>
       <p>Activities aimed at promoting better data science and curation  practices among disciplinary practitioners will include:</p> 
         <button class="bttn" id="y2-web" onclick="Func_y2web()">
-            <div><p>The<strong>Year 2 Webinar and Hackathon</strong></p></div>
+            <div><p>The <strong>Year 2 Webinar and Hackathon</strong></p></div>
 </button>
         <div class="collapse" id="readMore_y2-web">
           <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
