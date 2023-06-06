@@ -117,7 +117,7 @@ permalink: /aim1
       </button>
       <div class="collapse" id="readMore_guidelines">
           <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-            <p>more on guidelines</p>
+            <p>Data managers will draw on findings from the Mapping the Landscape effort, webinars, hackathon, and the case study to develop specific guidelines for alignment between Quaternary data resources. Unlike many crosswalks, we will focus on aligning repositories rather than individual datasets, and will center the specific integration needs of the Quaternary community. Likely outcomes will include best practices for setting up repository APIs or  other access points; crosswalks between repository schemas; guidance for the implementation and use of  external APIs, such as ORCID, CrossRef, and DataCite, to help manage links to external data; and the use of Science on Schema or other external ontologies for reporting data.  </p>
           </div>
       </div>
     </div>
