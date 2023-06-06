@@ -30,7 +30,7 @@ permalink: /aim1
   cursor:pointer;
   border: 0;
   border-bottom:1px solid #ec970b;
-  padding-bottom:3%;
+  padding-top:1%;
   font-size:17px;
   text-align:left;
   }
