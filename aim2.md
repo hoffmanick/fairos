@@ -74,7 +74,7 @@ permalink: /aim2
         <li>science-driven and FAIR/CARE-enabled research activities  led by early career researchers, with close support from data managers, and </li>
         <li>support for the adoption of FAIR-aligned technology within community-curated data repositories based on outcomes from the Mapping the Landscape work and gaps identified  by the science-driven research activities.</li>
       </ol></p>
-      <p>Activities aimed at promoting better data science and curation  practices among disciplinary practitioners will include:</p> 
+      <h2>Activities</h2> 
         <button class="bttn" id="y2-web" onclick="Func_y2web()">
             <div><p>The <strong>Year 2 Webinar and Hackathon</strong></p></div>
 </button>
