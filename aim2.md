@@ -93,7 +93,7 @@ permalink: /aim2
           </div>
        </div>
           <button class="bttn" id="pracs" onclick="Func_pracs()"> 
-            <div><p>Engaging disciplinary practitioners beyond the RCN community through development of <strong>Community-Curated Data Repository guidance</strong> aimed at data contributors and hosting <strong>workshops at disciplinary conferences</strong></p></div>
+            <div><p><strong>Community-Curated Data Repository guidance</strong> aimed at data contributors and <strong>workshops at disciplinary conferences</strong></p></div>
       </button>
           <div class="collapse" id="readMore_pracs">
             <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
@@ -102,7 +102,7 @@ permalink: /aim2
             </div>
       </div>
       <button class="bttn" id="year3" onclick="Func_year3()"> 
-          <div><p>Activities focused on best practices and standards for data stewardship including the <strong>Year 3 Webinar</strong> and <strong>Year 3 Hackathon</strong>, and culminating in guidance on <strong>data stewardship best practices</strong> for Quaternary community-curated data repositories.</p></div>
+          <div><p>The <strong>Year 3 Webinar</strong> and <strong>Year 3 Hackathon</strong>, and guidance on <strong>data stewardship best practices</strong> for Quaternary community-curated data repositories.</p></div>
       </button>
       <div class="collapse" id="readMore_year3">
           <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
