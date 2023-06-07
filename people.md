@@ -47,7 +47,7 @@ div.text-block-main {
 
 <div class="text-block-right" style="display:grid;grid-template-rows:1.5em auto 1.5em auto;background-color:#f0d2a1;padding-left:0; width:100%;" id="meatblock">
   <div class="text-block-right" style="display:grid;grid-template-columns:auto;padding:0px;width:100%;" id="pi-title">
-  <h2 style="color:#42b7bf;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black;margin-bottom:0px; background-color:#f0d2a1;;z- index:9;position:relative;overflow:visible; border-bottom:1px solid #ec970b;width:100%">The Principal Investigators</h2>
+  <h2 style="color:#42b7bf;margin-bottom:0px; background-color:#f0d2a1;;z- index:9;position:relative;overflow:visible; border-bottom:1px solid #ec970b;width:100%">The Principal Investigators</h2>
   </div>
   <div class="text-block-right" style="flex-direction:row;flex-wrap:wrap;padding-top:0px;align-content:center;padding-left:0%;width:95%;margin-left:5%;">
   
@@ -67,7 +67,7 @@ div.text-block-main {
   </div>
 <br>
   <div class="text-block-right" style="display:grid;grid-template-columns:auto;padding:0px; width:100%;" id="advise-title">
-   <h2 style="color:#42b7bf;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black;margin-bottom:0px; background-color:#f0d2a1;z-index:9;position:relative;overflow:visible; border-bottom:1px solid #ec970b;width:100%;">The Advisory Committee</h2>
+   <h2 style="color:#42b7bf;margin-bottom:0px; background-color:#f0d2a1;z-index:9;position:relative;overflow:visible; border-bottom:1px solid #ec970b;width:100%;">The Advisory Committee</h2>
   </div>
   <div class="text-block-right" style="flex-direction:row;flex-wrap:wrap;padding-top:0px;align-content:center;padding-left:0%;width:95%;margin-left:5%;">
   
@@ -85,6 +85,26 @@ div.text-block-main {
           
         </div>
       {% endfor %} 
+  </div>
+<br>
+   <div class="text-block-right" style="display:grid;grid-template-columns:auto;padding:0px;width:100%;" id="personnel-title">
+  <h2 style="color:#42b7bf;margin-bottom:0px; background-color:#f0d2a1;;z- index:9;position:relative;overflow:visible; border-bottom:1px solid #ec970b;width:100%">Personnel</h2>
+  </div>
+  <div class="text-block-right" style="flex-direction:row;flex-wrap:wrap;padding-top:0px;align-content:center;padding-left:0%;width:95%;margin-left:5%;">
+  
+    {% for team_member in site.personnel_members %}
+        <div class="text-block-right" style="display:grid;grid-template-columns: auto auto; align-content:center;align-items:center;justify-content:space-evenly;border-bottom:1px solid #ec970b; border-right:1px solid #ec970b; padding-top:0px;padding-bottom:0px;width:93%;padding-right:2%; margin-left:3%; border-left: 1px solid #ec970b; padding-left:2%;justify-items:center;max-width:290px;grid-auto-rows: 1fr;">
+          <div style="diplay:grid;grid-template-rows: auto auto auto; justify-content:start; align-content:center;padding-left:40%;padding-right:10%;padding-top:10%;height:90%;align-self:start;" class="prof-text">
+            <p style="font-size:15px;font-weight:bold;"><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ team_member.name }}</span></p>
+            <p style="font-size:15px;"><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ team_member.role }}</span></p>
+            <p style="font-size:15px;"><span style="margin-top:2px;margin-bottom:2px;display:inline;">{{ team_member.institution }} </span></p>
+          </div>
+          
+          <div class="image" style="padding:5px;">
+            <img src={{ team_member.picture }} style="border:1px solid #ec970b;" class="profiles">
+          </div>
+        </div>
+    {% endfor %} 
   </div>
 </div>
   
