@@ -78,6 +78,39 @@ advise_members:
     name: "Mark Uhen"
     institution: "George Mason University"   
     picture: "\"./images/uhen_headshot.jpg\""
+    
+personnel_members:
+  -
+    name: "Melissa Cradic"
+    institution: "Open Context"
+    role: "Personnel"
+    picture: "\"./images/cradic_headshot.jpg\""
+  -
+    name: "Nicole Fuller"
+    institution: "Florida Museum of Natural History"
+    role: "Personnel"
+    picture: "\"./images/fuller_headshot.jpg\""
+  -
+    name: "Jen Green"
+    institution: "Florida Museum of Natural History"
+    role: "Personnel"
+    picture: "\"./images/green_headshot.jpg\""
+  -
+    name: "Nick Hoffman"
+    institution: "University of California, Merced"   
+    role: "Community Engagement Specialist"
+    picture: "\"./images/hoffman_headshot.jpg\""
+  -
+    name: "Eric Kansa"
+    institution: "Open Context"
+    role: "Senior Personnel"
+    picture: "\"./images/kansa_headshot.jpg\""
+  -
+    name: "Andrea's Postdoc"
+    institution: "University of Andrea"
+    role: "Interoperability Specialist"
+    picture: "\"./images/thomer_headshot.jpg\""
+
 ---
 defaults:
   -
