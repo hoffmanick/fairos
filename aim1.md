@@ -86,6 +86,7 @@ permalink: /aim1
               <li>points for further curatorial intervention—places where additional data curation could make records more accessible or interoperable.</li></ol></p>
           </div>
         </div>
+    <br>
         <button class="bttn" id="symp-hack" onclick="Func_symphack()">
           <div><p>The Year 1 <strong>webinar series</strong> and a <strong>symposium hackathon</strong></p></div>
       </button>
@@ -101,6 +102,7 @@ permalink: /aim1
 </p>
           </div>
        </div>
+  <br>
           <button class="bttn" id="case-study" onclick="Func_casestudy()"> 
             <div><p>The <strong>“Creating Interoperable Data” case study</strong></p></div>
       </button>
@@ -122,6 +124,7 @@ permalink: /aim1
 </p>
             </div>
       </div>
+    <br>
       <button class="bttn" id="guidelines" onclick="Func_guidelines()"> 
           <div><p><strong>Guidelines for data alignment</strong> between repositories and domains</p></div>
       </button>
