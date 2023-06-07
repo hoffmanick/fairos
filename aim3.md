@@ -83,6 +83,7 @@ permalink: /aim3
  </p>
           </div>
         </div>
+      <br>
         <button class="bttn" id="symp" onclick="Func_symp()">
           <div><p><strong>Annual plenary symposia</strong></p></div>
       </button>
