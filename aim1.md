@@ -117,7 +117,6 @@ permalink: /aim1
 </p>
             </div>
       </div>
-<br>
       <button class="bttn" id="guidelines" onclick="Func_guidelines()"> 
           <div><p>A coalescence of these efforts into <strong>guidelines for data alignment</strong> between repositories and domains</p></div>
       </button>
