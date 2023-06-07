@@ -109,7 +109,7 @@ personnel_members:
     name: "Andrea's Postdoc"
     institution: "University of Andrea"
     role: "Interoperability Specialist"
-    picture: "\"./images/thomer_headshot.jpg\""
+    picture: "\"./images/thomer_headshot.png\""
 
 ---
 defaults:
