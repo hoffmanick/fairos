@@ -42,11 +42,7 @@ permalink: /aim1
   .bttn:hover {
   background-color:#f0ddc0;
   }
-  
-  .bttn:hover {
-  color: #877d68;
-  font-weight:bold;
-  }
+
   .bttn_show {
   border: 2.5px solid #ec970b;
   }
@@ -121,7 +117,6 @@ permalink: /aim1
 </p>
             </div>
       </div>
- <br>
       <button class="bttn" id="guidelines" onclick="Func_guidelines()"> 
           <div><p>A coalescence of these efforts into <strong>guidelines for data alignment</strong> between repositories and domains</p></div>
       </button>
