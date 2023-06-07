@@ -38,6 +38,10 @@ permalink: /aim1
   text-align:left;
   margin-bottom:4%;
   }
+  
+  .bttn:hover {
+  background-color:#f0ddc0;
+  }
   .bttn_show {
   border: 2.5px solid #ec970b;
   }
