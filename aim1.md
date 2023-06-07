@@ -73,7 +73,7 @@ permalink: /aim1
       <p>We will develop a network of data managers, research practitioners, disciplinary experts, and early career researchers to  identify gaps and mismatches among Quaternary data resources, with the aim of improving interoperability among data resources. We will particularly prioritize: outreach to data managers and assessment of the current Quaternary informatics landscape; identifying areas for crosswalk development to resolve conflicts  between existing ontologies and to help support the adoption of CARE aims; identifying points of connection between repositories, where the addition of related identifiers could help bridge silos; and building on existing initiatives, such as Earth Science Information Partners’ Science on Schema to make data resources more open and interconnected.  </p>
       <h2>Activities</h2> 
         <button class="bttn" id="info-landscape" onclick="Func_infolandscape()">
-            <div><p>Data manager outreach and an <strong>informatics landscape analysis</strong>, identifying gaps and opportunities for alignment in existing  infrastructures</p></div>
+            <div><p>An <strong>informatics landscape analysis</strong></p></div>
 </button>
         <div class="collapse" id="readMore_info-landscape">
           <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
@@ -87,7 +87,7 @@ permalink: /aim1
           </div>
         </div>
         <button class="bttn" id="symp-hack" onclick="Func_symphack()">
-          <div><p>The Year 1 <strong>webinar series</strong> and a <strong>symposium hackathon</strong> to  build community between data managers and make progress on improving interoperability and data alignment across community-curated data repositories</p></div>
+          <div><p>The Year 1 <strong>webinar series</strong> and a <strong>symposium hackathon</strong></p></div>
       </button>
         <div class="collapse" id="readMore_symp-hack">
           <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
@@ -123,7 +123,7 @@ permalink: /aim1
             </div>
       </div>
       <button class="bttn" id="guidelines" onclick="Func_guidelines()"> 
-          <div><p>A coalescence of these efforts into <strong>guidelines for data alignment</strong> between repositories and domains</p></div>
+          <div><p><strong>Guidelines for data alignment</strong> between repositories and domains</p></div>
       </button>
       <div class="collapse" id="readMore_guidelines">
           <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
