@@ -43,8 +43,9 @@ permalink: /aim1
   background-color:#f0ddc0;
   }
   
-  .bttn p:hover {
+  .bttn:hover {
   color: #877d68;
+  font-weight:bold;
   }
   .bttn_show {
   border: 2.5px solid #ec970b;
