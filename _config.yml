@@ -104,7 +104,7 @@ personnel_members:
     name: "Eric Kansa"
     institution: "Open Context"
     role: "Senior Personnel"
-    picture: "\"./images/kansa_headshot.jpg\""
+    picture: "\"./images/kansa_headshot.png\""
   -
     name: "Andrea's Postdoc"
     institution: "University of Andrea"
