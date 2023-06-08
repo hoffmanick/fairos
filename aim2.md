@@ -92,13 +92,13 @@ permalink: /aim2
   </style>
 <div class="text-block-main" style="display:grid;grid-template-columns: auto; margin-right:0px; width:100%;">
   
-<div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));background-image:linear-gradient(to left, #f0d2a1, 90%, #97b779);padding:0;align-content:center;" id="headingblock">
+<div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));background-image:linear-gradient(to left, #f0d2a1, 90%, #97b779);padding:0;align-content:center;justify-content:space-between;" id="headingblock">
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;" id="heading-left">
       <h1 style="font-size:40px;"> Aim 2: Enable FAIR Data Curation and Stewardship </h1>
       <p style="align-self:start;padding-top:10px;" id="describe">Engaging Practitioners: Early Career Researchers, Disciplinary Scientists, and Data Managers</p>
     </div>
     <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
-      <figure style="margin-left:0px;margin-right:0px;max-width:300px;" id="neo">
+      <figure style="margin-left:0px;margin-right:0px;max-width:500px;" id="neo">
         <img src="./images/neotoma_ecosystem-transp.png" alt="neotoma-eco" style="width:100%">
         <figcaption id="cap">Neotoma's data ecosystem exemplifies the relationships between data managers and disciplinary practitioners in the Quaternary community. Williams, Grimm, Blois et al, 2018: The Neotoma Paleoecology Database, a multiproxy international, community-curated data resource.<i>Quaternary Research</i> </figcaption>
       </figure>
