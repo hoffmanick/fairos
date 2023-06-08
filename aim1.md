@@ -22,7 +22,7 @@ permalink: /aim1
   margin-bottom:5%;
 }
 
-.show {
+.show_b {
   display: grid;
   grid-template-rows: auto;
   
@@ -55,12 +55,12 @@ permalink: /aim1
   border: 2.5px solid #ec970b;
   }
 
-  .show {
+  .show_b {
   width:150%;
   }
   
   @media print, screen and (max-width: 720px) {
-  .show {
+  .show_b {
   width:200%;
   }
   }
@@ -160,22 +160,22 @@ permalink: /aim1
 
 <script>
 function Func_infolandscape() {
-  document.getElementById("readMore_info-landscape").classList.toggle("show");
+  document.getElementById("readMore_info-landscape").classList.toggle("show_b");
   document.getElementById("info-landscape").classList.toggle("bttn_show");
 }
 
 function Func_symphack() {
-  document.getElementById("readMore_symp-hack").classList.toggle("show");
+  document.getElementById("readMore_symp-hack").classList.toggle("show_b");
   document.getElementById("symp-hack").classList.toggle("bttn_show");
 }
 
   function Func_casestudy() {
-  document.getElementById("readMore_case-study").classList.toggle("show");
+  document.getElementById("readMore_case-study").classList.toggle("show_b");
   document.getElementById("case-study").classList.toggle("bttn_show");
 }
 
    function Func_guidelines() {
-  document.getElementById("readMore_guidelines").classList.toggle("show");
+  document.getElementById("readMore_guidelines").classList.toggle("show_b");
   document.getElementById("guidelines").classList.toggle("bttn_show");
 }
 
