@@ -69,6 +69,7 @@ permalink: /aim2
   padding: 1%;
   margin-left: 2%;
   width:86%;
+  bottom:1%;
   }
   
   #neo:hover #cap {
