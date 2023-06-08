@@ -123,14 +123,6 @@ permalink: /aim3
   }
   }
 
-      @media print, screen and (max-width: 580px) {
-  #cap {
-  left: unset;
-  right: 1%;
-  bottom: 1%;
-  }
-  }
-
    @media print, screen and (max-width: 860px) {
   .show_b {
   width:95%;}
