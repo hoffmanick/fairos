@@ -98,14 +98,14 @@ permalink: /aim3
       <h1 style="font-size:calc(20px + 3vw);"> Aim 3: Support Equity and Improve Access </h1>
       <p style="align-self:start;padding-top:10px;" id="describe"> Ethical Open Data Science: Moving from CARE Principles to Practice </p>
     </div>
-    <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
-      <figure style="margin-left:0px;margin-right:0px;max-width:200px;" id="pima">
+    <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;align-self:center;" id="heading-image">
+      <figure style="margin-left:0px;margin-right:0px;max-width:305px;width:120%;" id="pima">
         <img src="./images/pima.png" alt="Pima" style="width:100%">
         <figcaption id="cap">The 'Pima Indians Diabetes Data Set' is regularly used to train machine learning models, without the authority of and without benefit to the Akimel O'odham community from which the data derives. Radin, 2017: 'Digital Natives': How Medical and Indigenous Histories Matter for Big Data. <i>Osiris.</i></figcaption>
       </figure>
     </div>
   </div>
-  <div class="text-block-right" style="display:grid;grid-template-columns: repeat(auto-fit,400px);width:90%;padding-right:5%;padding-left:5%;overflow:hidden;justify-content:space-evenly;">
+  <div class="text-block-right" style="display:grid;grid-template-columns: repeat(auto-fit,400px);width:90%;padding-right:5%;padding-left:5%;justify-content:space-evenly;">
     <div>
     <h2>Overview</h2>
     <div>
