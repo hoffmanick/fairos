@@ -80,6 +80,38 @@ permalink: /aim3
   background-color: #f0d2a1;
   }
   
+  
+  #heading-left {
+  width:250%;
+  position: relative;
+  
+  }
+  
+ @media print,screen and (max-width: 945px) {
+  #heading-left {
+  width: 180%;
+  }
+  }
+  
+    @media print,screen and (max-width: 761px) {
+  #heading-left {
+  width: 130%;
+  }
+  }
+  
+     @media print,screen and (max-width: 701px) {
+  #heading-left {
+  width: 90%;
+  }
+  }
+  
+     @media print,screen and (max-width: 761px) {
+  #heading-left {
+  width: 130%;
+  }
+  }
+  
+  
   @media print,screen and (max-width: 680px) {
   .read-more-content p {
   font-size: 0.15em;
