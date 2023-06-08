@@ -74,6 +74,16 @@ permalink: /aim1
   #quilter:hover #cap {
   display:block;
   }
+    
+  .read-more-content {
+  background-color: #f0d2a1;
+  }
+  
+  @media print,screen and (max-width: 680px) {
+  .read-more-content p {
+  font-size: 0.15em;
+  }
+  }
   
   @media print, screen and (max-width: 720px) {
   .show_b {
