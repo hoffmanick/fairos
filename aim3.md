@@ -43,9 +43,12 @@ permalink: /aim3
   background-color:#f0ddc0;
   }
 
-    .bttn p:hover {
-  color:#70551d;
+   .bttn p:hover {
   font-weight:bold;
+  }
+  
+  strong {
+  color:white;
   }
   
   .bttn_show {
