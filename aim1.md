@@ -62,7 +62,12 @@ permalink: /aim1
   #cap {
   display:none;
   background-color: #f0d2a1;
-  position: absolute;
+  position: fixed;
+  max-width:180px;
+  left:80%;
+  border: 1px solid #ec970b;
+  padding: 2px;
+  margin:2px;
   }
   
   #quilter:hover #cap {
@@ -74,6 +79,7 @@ permalink: /aim1
   width:200%;
   }
   }
+  
   </style>
 <div class="text-block-main" style="display:grid;grid-template-columns: auto">
   
