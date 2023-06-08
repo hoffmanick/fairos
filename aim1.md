@@ -98,6 +98,12 @@ permalink: /aim1
   bottom: 1%;
   }
   }
+  
+   @media print, screen and (max-width: 860px) {
+  .show_b {
+  width:95%;}
+  }
+
   </style>
 <div class="text-block-main" style="display:grid;grid-template-columns: auto;margin-right:0px;width:100%;">
   
