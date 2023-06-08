@@ -119,7 +119,7 @@ permalink: /aim3
     </div>
     <div>
         <figure style="margin-left:0px;margin-right:0px;min-width:300px;" id="stakes">
-        <img src="./images/CARE_diagram_v6.png" alt="CARE Project Design" style="width:100%">
+        <img src="./images/CARE_diagram_v8.png" alt="CARE Project Design" style="width:100%">
         <figcaption style="text-align:center;"></figcaption>
         </figure>
     </div>
