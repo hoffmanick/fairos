@@ -104,7 +104,7 @@ permalink: /aim2
       </figure>
     </div>
   </div>
-  <div class="text-block-right" style="display:grid;grid-template-columns: 3fr 2fr;width:95%;padding-left:5%;overflow:hidden;">
+  <div class="text-block-right" style="display:grid;grid-template-columns: repeat(auto-fit, 200px);width:95%;padding-left:5%;overflow:hidden;">
     <div>
     <h2>Overview</h2>
     <div>
@@ -154,7 +154,7 @@ permalink: /aim2
     </div>
     </div>
   <div>
-        <figure style="margin-left:0px;margin-right:0px;min-width:300px;" id="stakes">
+        <figure style="margin-left:0px;margin-right:0px;min-width:220px;" id="stakes">
         <img src="./images/FAIR_Diagram_v5.png" alt="FAIR Project Design" style="width:100%">
         <figcaption style="text-align:center;"></figcaption>
         </figure>
