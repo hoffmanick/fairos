@@ -22,7 +22,7 @@ permalink: /aim2
   margin-bottom:5%;
 }
 
-.show {
+.show_b {
   display: grid;
   grid-template-rows: auto;
   
@@ -54,12 +54,12 @@ permalink: /aim2
   border: 2.5px solid #ec970b;
   }
   
-    .show {
+    .show_b {
   width:150%;
   }
   
   @media print, screen and (max-width: 720px) {
-  .show {
+  .show_b {
   width:200%;
   }
   }
@@ -139,22 +139,22 @@ permalink: /aim2
 
 <script>
 function Func_y2web() {
-  document.getElementById("readMore_y2-web").classList.toggle("show");
+  document.getElementById("readMore_y2-web").classList.toggle("show_b");
   document.getElementById("y2-web").classList.toggle("bttn_show");
 }
 
 function Func_oscasestudy() {
-  document.getElementById("readMore_os-casestudy").classList.toggle("show");
+  document.getElementById("readMore_os-casestudy").classList.toggle("show_b");
   document.getElementById("os-casestudy").classList.toggle("bttn_show");
 }
 
   function Func_pracs() {
-  document.getElementById("readMore_pracs").classList.toggle("show");
+  document.getElementById("readMore_pracs").classList.toggle("show_b");
   document.getElementById("pracs").classList.toggle("bttn_show");
 }
 
    function Func_year3() {
-  document.getElementById("readMore_year3").classList.toggle("show");
+  document.getElementById("readMore_year3").classList.toggle("show_b");
   document.getElementById("year3").classList.toggle("bttn_show");
 }
 
