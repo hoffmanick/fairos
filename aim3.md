@@ -110,6 +110,12 @@ permalink: /aim3
   #heading-left {
   width:132%;
   }}
+  
+   @media print, screen and (max-width: 860px) {
+  .show_b {
+  width:95%;}
+  }
+
 
   </style>
 <div class="text-block-main" style="display:grid;grid-template-columns: auto">
