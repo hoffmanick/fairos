@@ -101,7 +101,7 @@ permalink: /aim2
     <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
       <figure style="margin-left:0px;margin-right:0px;max-width:500px;" id="neo">
         <img src="./images/neotoma_ecosystem-transp.png" alt="neotoma-eco" style="width:100%">
-        <figcaption id="cap">Neotoma's data ecosystem exemplifies the relationships between data managers and disciplinary practitioners in the Quaternary community. Williams, Grimm, Blois et al, 2018: The Neotoma Paleoecology Database, a multiproxy international, community-curated data resource.<i>Quaternary Research</i> </figcaption>
+        <figcaption id="cap">Neotoma's data ecosystem exemplifies the relationships between data managers and disciplinary practitioners in the Quaternary community. Williams, Grimm, Blois et al, 2018: The Neotoma Paleoecology Database, a multiproxy international, community-curated data resource.<i>Quaternary Research.</i></figcaption>
       </figure>
     </div>
   </div>
