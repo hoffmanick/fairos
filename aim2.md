@@ -69,7 +69,8 @@ permalink: /aim2
       </figure>
     </div>
   </div>
-  <div class="text-block-right" style="display:grid;grid-template-rows: auto auto;width:90%;padding-right:5%;padding-left:5%;">
+  <div class="text-block-right" style="display:grid;grid-template-rows: 3fr 2fr;width:90%;padding-right:5%;padding-left:5%;">
+    <div>
     <h2>Overview</h2>
     <div>
       <p>As long-tail data disciplines, the Quaternary sciences have developed multiple mid-scale repositories containing large amounts of related but heterogeneously structured data. We must approach curation of this data—and data curation training—from two perspectives. On the one hand, we must work with disciplinary scientists to train them in best practices for collecting and publishing data to support dissemination and reuse; on the other hand, we must also work with the data  managers to design schema- and system-level best practices that facilitate data stewardship.</p>
@@ -115,6 +116,13 @@ permalink: /aim2
 </p>
           </div>
       </div>
+    </div>
+    </div>
+  <div>
+        <figure style="margin-left:0px;margin-right:0px;min-width:300px;" id="stakes">
+        <img src="./images/FAIR_Diagram_v5.png" alt="FAIR Project Design" style="width:100%">
+        <figcaption style="text-align:center;"></figcaption>
+        </figure>
     </div>
   </div>
 </div>
