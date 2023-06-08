@@ -44,8 +44,11 @@ permalink: /aim1
   }
 
     .bttn p:hover {
-  color:#70551d;
   font-weight:bold;
+  }
+  
+  strong: {
+  color:white;
   }
   
   .bttn_show {
