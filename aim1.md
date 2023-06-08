@@ -73,7 +73,7 @@ permalink: /aim1
   <div class="text-block-right" style="display:grid;grid-template-rows: auto auto;width:90%;padding-right:5%;padding-left:5%;">
     <h2>Overview</h2>
     <div>
-      <p>We will develop a network of data managers, research practitioners, disciplinary experts, and early career researchers to  identify gaps and mismatches among Quaternary data resources, with the aim of improving interoperability among data resources. We will particularly prioritize: outreach to data managers and assessment of the current Quaternary informatics landscape; identifying areas for crosswalk development to resolve conflicts  between existing ontologies and to help support the adoption of CARE aims; identifying points of connection between repositories, where the addition of related identifiers could help bridge silos; and building on existing initiatives, such as Earth Science Information Partners’ Science on Schema to make data resources more open and interconnected.  </p>
+      <p>We will develop a network of data managers, research practitioners, disciplinary experts, and early career researchers to  identify gaps and mismatches among Quaternary data resources, to improve interoperability among them. We will particularly prioritize: outreach to data managers and assessment of the current Quaternary informatics landscape; identifying areas for crosswalk development to resolve conflicts  between existing ontologies and to help support the adoption of CARE aims; identifying points of connection between repositories, where the addition of related identifiers could help bridge silos; and building on existing initiatives, such as Earth Science Information Partners’ Science on Schema to make data resources more open and interconnected.  </p>
       <h2>Activities</h2> 
         <button class="bttn" id="info-landscape" onclick="Func_infolandscape()">
             <div><p>An <strong>informatics landscape analysis</strong></p></div>
@@ -101,8 +101,7 @@ permalink: /aim1
 <li>an overview of common data standards (e.g. DublinCore, Science on Schema, Geoscience Standard Names)</li> 
 <li>how individuals can serialize their data formats to JSON-LD or other metadata schemes, and</li> 
 <li>how to improve findability and interoperability through services such as DataCite, GeoCODEs  or other tools.</li></ol></p>
-            <p>The hackathon aims to accelerate development of the community of practice established  through the webinars—to learn about ourselves, the work we have done in the past and wish to do in the  future, and start a full assessment of existing open data science resources and opportunities for improved  integration. Development of the hackathon will draw from discussions in webinars and be focused on  implementing solutions, specifically using the identified case studies from across the project to anchor discussions. Two webinars will follow the symposium, designed to support work arising from the in-person meeting.  
-</p>
+            <p>The hackathon aims to accelerate development of the community of practice established  through the webinars—to learn about ourselves, the work we have done in the past and wish to do in the  future, and start a full assessment of existing open data science resources and opportunities for improved  integration. Development of the hackathon will draw from discussions in webinars and be focused on  implementing solutions, specifically using the identified case studies from across the project to anchor discussions.</p>
           </div>
        </div>
   <br>
@@ -111,18 +110,11 @@ permalink: /aim1
       </button>
           <div class="collapse" id="readMore_case-study">
             <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-              <p>Many legacy Quaternary datasets are found in specimen-curation repositories, like museums, with database structures designed to capture specimen-specific long-tail data and often curated decades past without regard to FAIR or CARE principles. A guiding use case for this aim will focus on expanding FAIR data curation protocols from the ZooArchNet (ZAN) project to 
+              <p>Many legacy Quaternary datasets are found in specimen-curation repositories, like museums, with database structures designed to capture specimen-specific long-tail data and often curated decades past without regard to FAIR or CARE principles. This case study will focus on expanding FAIR data curation protocols from the ZooArchNet (ZAN) project to 
                 <ol>
 <li>link legacy museum-curated zooarcheological data across various community-curated data repositories, and</li>
                   <li>align with CARE guidelines and descendant  community priorities.</li></ol></p>
-<p>ZAN has created pathways to standardize, crosswalk and link zooarchaeological datasets across archaeological (with partner Open Context) and biological (VertNet/GBIF) repositories, including the implementation of a vital new Darwin Core Extension for the publication of chronometric age data for paleo/archaeological specimens.</p>
-          
-<p>In this case study, UF personnel will work with RCN informatics domain experts and repository data managers, in consultation with Indigenous stakeholders, to expand the ZAN protocols. Continued work on data standards alignments, Linked Open Data, and other intersectional methods will  be used to mobilize Darwin Core-enabled legacy zooarchaeological data from the Florida Museum curation database across multiple repositories including: 
-  <ol>
-<li>Neotoma (to update existing legacy records with complete Florida Museum datasets including isotope data),</li>
-<li>archaeological repositories Open Context and tDAR, and  extended specimen specific repositories such as CARD (for radiocarbon data), and</li>
-    <li>FuTRES (for metric data).</li>
-            </ol></p>
+<p>ZAN has already created pathways to standardize, crosswalk and link zooarchaeological datasets across archaeological and biological repositories. In this case study, UF personnel will work with RCN informatics domain experts and repository data managers, in consultation with Indigenous stakeholders, to expand the ZAN protocols. Continued work on data standards alignments, Linked Open Data, and other intersectional methods will  be used to mobilize Darwin Core-enabled legacy zooarchaeological data from the Florida Museum curation database across multiple repositories including.</p>
 <p>Our work will be grounded in consultation with descendant community members and tribal authorities to ensure that their interests are represented in our decisions of how to integrate CARE principles within open data sharing. Our tribal collaborators will form an integral part of our use case activities, ensuring that any data sharing is culturally appropriate, ethical, and in support of tribal priorities involving the documentation and protection of environmental resources and cultural heritage. This effort will represent a proof-of-concept workflow and produce best-practice guidelines for such interdisciplinary, inter-repository FAIR and CARE open sharing of legacy curated data that will be disseminated via workshops for the archaeological and zooarchaeological communities.  
 </p>
             </div>
@@ -133,7 +125,12 @@ permalink: /aim1
       </button>
       <div class="collapse" id="readMore_guidelines">
           <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-            <p>Data managers will draw on findings from the Mapping the Landscape effort, webinars, hackathon, and the case study to develop specific guidelines for alignment between Quaternary data resources. Unlike many crosswalks, we will focus on aligning repositories rather than individual datasets, and will center the specific integration needs of the Quaternary community. Likely outcomes will include best practices for setting up repository APIs or  other access points; crosswalks between repository schemas; guidance for the implementation and use of  external APIs, such as ORCID, CrossRef, and DataCite, to help manage links to external data; and the use of Science on Schema or other external ontologies for reporting data.  </p>
+            <p>Data managers will draw on findings from the Mapping the Landscape effort, webinars, hackathon, and the case study to develop specific guidelines for alignment between Quaternary data resources. Unlike many crosswalks, we will focus on aligning repositories rather than individual datasets, and will center the specific integration needs of the Quaternary community. Likely outcomes will include 
+              <ul>
+                <li>best practices for setting up repository APIs or other access points, </li> 
+                <li>crosswalks between repository schemas,</li>
+                <li>guidance for the implementation and use of external APIs to help manage links to external data, and</li>
+                <li>the use of Science on Schema or other external ontologies for reporting data.</li></ul>  </p>
           </div>
       </div>
     </div>
