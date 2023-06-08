@@ -119,7 +119,7 @@ permalink: /aim1
       </figure>
     </div>
   </div>
-  <div class="text-block-right" style="display:grid;grid-template-columns: repeat(auto-fit, 500px); width:95%;padding-left:5%;justify-content:space-evenly;">
+  <div class="text-block-right" style="display:grid;grid-template-columns: repeat(auto-fit, 400px); width:95%;padding-left:5%;justify-content:space-evenly;">
     <div>
     <h2>Overview</h2>
     <div>
