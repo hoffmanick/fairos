@@ -47,7 +47,7 @@ permalink: /aim1
   font-weight:bold;
   }
   
-  strong: {
+  strong {
   color:white;
   }
   
