@@ -76,6 +76,16 @@ permalink: /aim3
   display:block;
   }
   
+  .read-more-content {
+  background-color: #f0d2a1;
+  }
+  
+  @media print,screen and (max-width: 680px) {
+  .read-more-content p {
+  font-size: 0.15em;
+  }
+  }
+  
   @media print, screen and (max-width: 720px) {
   .show_b {
   width:200%;
