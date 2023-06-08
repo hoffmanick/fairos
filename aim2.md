@@ -58,14 +58,39 @@ permalink: /aim2
   width:150%;
   }
   
+  
+  #cap {
+  display:none;
+  background-color: #f0d2a1;
+  position: fixed;
+  max-width:180px;
+  right:1%;
+  border: 1px solid #ec970b;
+  padding: 1%;
+  margin-left: 2%;
+  width:86%;
+  }
+  
+  #neo:hover #cap {
+  display:block;
+  }
+  
   @media print, screen and (max-width: 720px) {
   .show_b {
   width:200%;
   }
   }
 
+      @media print, screen and (max-width: 580px) {
+  #cap {
+  left: unset;
+  right: 1%;
+  bottom: 1%;
+  }
+  }
+
   </style>
-<div class="text-block-main" style="display:grid;grid-template-columns: auto">
+<div class="text-block-main" style="display:grid;grid-template-columns: auto; margin-right:0px; width:100%;">
   
 <div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));background-image:linear-gradient(to left, #f0d2a1, 90%, #97b779);padding:0;align-content:center;" id="headingblock">
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;" id="heading-left">
@@ -73,13 +98,13 @@ permalink: /aim2
       <p style="align-self:start;padding-top:10px;" id="describe">Engaging Practitioners: Early Career Researchers, Disciplinary Scientists, and Data Managers</p>
     </div>
     <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
-      <figure style="margin-left:0px;margin-right:0px;" id="stakes">
-        <img src="./images/fairos-stakeholders.jpg" alt="Stakeholders" style="width:100%">
-        <figcaption>This image is relevant to aim 2 </figcaption>
+      <figure style="margin-left:0px;margin-right:0px;max-width:300px;" id="neo">
+        <img src="./images/neotoma_ecosystem-transp.png" alt="neotoma-eco" style="width:100%">
+        <figcaption id="cap">Neotoma's data ecosystem exemplifies the relationships between data managers and disciplinary practitioners in the Quaternary community. Williams, Grimm, Blois et al, 2018: The Neotoma Paleoecology Database, a multiproxy international, community-curated data resource.<i>Quaternary Research</i> </figcaption>
       </figure>
     </div>
   </div>
-  <div class="text-block-right" style="display:grid;grid-template-columns: 3fr 2fr;width:90%;padding-right:5%;padding-left:5%;">
+  <div class="text-block-right" style="display:grid;grid-template-columns: 3fr 2fr;width:95%;padding-left:5%;">
     <div>
     <h2>Overview</h2>
     <div>
