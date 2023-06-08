@@ -72,7 +72,7 @@ permalink: /aim3
   bottom:1%;
   }
   
-  #neo:hover #cap {
+  #pima:hover #cap {
   display:block;
   }
   
@@ -99,7 +99,7 @@ permalink: /aim3
       <p style="align-self:start;padding-top:10px;" id="describe"> Ethical Open Data Science: Moving from CARE Principles to Practice </p>
     </div>
     <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
-      <figure style="margin-left:0px;margin-right:0px;" id="stakes">
+      <figure style="margin-left:0px;margin-right:0px;max-width:200px;" id="pima">
         <img src="./images/pima.png" alt="Pima" style="width:100%">
         <figcaption id="cap">The 'Pima Indians Diabetes Data Set' is regularly used to train machine learning models, without the authority of and without benefit to the Akimel O'odham community from which the data derives. Radin, 2017: 'Digital Natives': How Medical and Indigenous Histories Matter for Big Data. <i>Osiris.</i></figcaption>
       </figure>
