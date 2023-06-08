@@ -64,10 +64,9 @@ permalink: /aim1
   background-color: #f0d2a1;
   position: fixed;
   max-width:180px;
-  left:80%;
+  right:1%;
   border: 1px solid #ec970b;
   padding: 1%;
-  margin-right:10%;
   margin-left: 2%;
   width:86%;
   }
@@ -81,23 +80,12 @@ permalink: /aim1
   width:200%;
   }
   }
-  
-    @media print, screen and (max-width: 1100px) {
-  #cap {
-  left: 70%;
-  }
-  }
-  
-    @media print, screen and (max-width: 720px) {
-  #cap {
-  left: 60%;
-  }
-  }
-  
+
       @media print, screen and (max-width: 617px) {
   #cap {
   left: unset;
-  right: 10%;
+  right: 1%;
+  bottom: 1%;
   }
   }
   </style>
