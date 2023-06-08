@@ -53,6 +53,16 @@ permalink: /aim2
   .bttn_show {
   border: 2.5px solid #ec970b;
   }
+  
+    .show {
+  width:150%;
+  }
+  
+  @media print, screen and (max-width: 720px) {
+  .show {
+  width:200%;
+  }
+  }
 
   </style>
 <div class="text-block-main" style="display:grid;grid-template-columns: auto">
@@ -69,7 +79,7 @@ permalink: /aim2
       </figure>
     </div>
   </div>
-  <div class="text-block-right" style="display:grid;grid-template-rows: 3fr 2fr;width:90%;padding-right:5%;padding-left:5%;">
+  <div class="text-block-right" style="display:grid;grid-template-columns: 3fr 2fr;width:90%;padding-right:5%;padding-left:5%;">
     <div>
     <h2>Overview</h2>
     <div>
