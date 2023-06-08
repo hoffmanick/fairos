@@ -58,7 +58,7 @@ permalink: /aim1
   </style>
 <div class="text-block-main" style="display:grid;grid-template-columns: auto">
   
-<div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));background-image:linear-gradient(to left, #f0d2a1, 90%, #97b779);padding:0;align-content:center;" id="headingblock">
+<div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));background-image:linear-gradient(to left, #f0d2a1, 90%, #97b779);padding:0;align-content:center;" id="headingblock">
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;" id="heading-left">
       <h1 style="font-size:40px;"> Aim 1: Improve Interoperability and Reproducibility </h1>
       <p style="align-self:start;padding-top:10px;" id="describe">Building Interconnected and Open Data Resources</p>
@@ -141,9 +141,9 @@ permalink: /aim1
       </div>
     </div>
     <div>
-        <figure style="margin-left:0px;margin-right:0px;" id="stakes">
+        <figure style="margin-left:0px;margin-right:0px;min-width:300px;" id="stakes">
         <img src="./images/FAIR_Diagram_v5.png" alt="FAIR Project Design" style="width:100%">
-        <figcaption>FAIR Project Design </figcaption>
+        <figcaption style="text-align:center;">FAIR Project Design </figcaption>
         </figure>
     </div>
   </div>
