@@ -81,10 +81,14 @@ display:none;
       <p style="align-self:start;padding-top:10px;" id="describe">Building Interconnected and Open Data Resources</p>
     </div>
     <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
-      <figure style="margin-left:0px;margin-right:0px;max-width:300px;" id="quilter">
+      <div style="display:grid; grid-template-rows: auto auto; margin-left:0px;margin-right:0px;max-width:300px;" id="quilter">
+        <div>
         <img src="./images/interoperable_quilt.png" alt="quilt" style="width:100%">
+        </div>
+        <div>
         <figcaption id="cap">Making systems interoperable is a kind of quilting. Image originally from Rocky Mountain Quilt Museum. Thomer and Rayburn, 2023: “A Patchwork of Data Systems”: Quilting as an Analytic Lens and Stabilizing Practice for Knowledge Infrastructures. <i>Science, Technology, & Human Values.</i></figcaption>
-      </figure>
+        </div>
+      </div>
     </div>
   </div>
   <div class="text-block-right" style="display:grid;grid-template-columns: 3fr 2fr; width:90%;padding-right:5%;padding-left:5%;">
