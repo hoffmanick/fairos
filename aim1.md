@@ -55,6 +55,15 @@ permalink: /aim1
   border: 2.5px solid #ec970b;
   }
 
+  .show {
+  width:150%;
+  }
+  
+  @media print, screen and (max-width: 720px) {
+  .show {
+  width:200%;
+  }
+  }
   </style>
 <div class="text-block-main" style="display:grid;grid-template-columns: auto">
   
