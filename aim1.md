@@ -104,15 +104,26 @@ permalink: /aim1
   width:95%;}
   }
 
+  
+    #heading-image {
+  width:120%;
+  }
+  
+      @media print, screen and (max-width: 660px) {
+  #heading-image {
+  width:90%;}
+  }
+
+  
   </style>
 <div class="text-block-main" style="display:grid;grid-template-columns: auto;margin-right:0px;width:100%;">
   
-<div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, 280px);background-image:linear-gradient(to left, #f0d2a1, 90%, #97b779);padding:0;align-content:center;justify-content:space-between;" id="headingblock">
+<div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, 280px);background-image:linear-gradient(to left, #f0d2a1, 90%, #97b779);padding:0;align-content:center;justify-content:space-evenly;" id="headingblock">
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;" id="heading-left">
       <h1 style="font-size:calc(20px + 3vw);"> Aim 1: Improve Interoperability and Reproducibility </h1>
       <p style="align-self:start;padding-top:10px;" id="describe">Building Interconnected and Open Data Resources</p>
     </div>
-    <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
+    <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%;" id="heading-image">
       <figure style="display:grid; grid-template-rows: auto auto; margin-left:0px;margin-right:0px;max-width:300px;width:120%;" id="quilter">
         <img src="./images/interoperable_quilt.png" alt="quilt" style="width:100%">
         <figcaption id="cap">Making systems interoperable is a kind of quilting. Image originally from Rocky Mountain Quilt Museum. Thomer and Rayburn, 2023: “A Patchwork of Data Systems”: Quilting as an Analytic Lens and Stabilizing Practice for Knowledge Infrastructures. <i>Science, Technology, & Human Values.</i></figcaption>
