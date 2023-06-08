@@ -62,14 +62,13 @@ permalink: /aim3
  #cap {
   display:none;
   background-color: #f0d2a1;
-  position: fixed;
+  position: absolute;
   max-width:180px;
-  right:1%;
   border: 1px solid #ec970b;
   padding: 1%;
   margin-left: 2%;
   width:86%;
-  bottom:1%;
+  bottom: -20%;
   }
   
   #pima:hover #cap {
