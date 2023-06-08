@@ -22,7 +22,7 @@ permalink: /aim3
   margin-bottom:5%;
 }
 
-.show {
+.show_b {
   display: grid;
   grid-template-rows: auto;
   
@@ -55,6 +55,15 @@ permalink: /aim3
   border: 2.5px solid #ec970b;
   }
 
+  .show_b {
+  width:150%;
+  }
+  
+  @media print, screen and (max-width: 720px) {
+  .show_b {
+  width:200%;
+  }
+  }
   </style>
 <div class="text-block-main" style="display:grid;grid-template-columns: auto">
   
@@ -70,7 +79,8 @@ permalink: /aim3
       </figure>
     </div>
   </div>
-  <div class="text-block-right" style="display:grid;grid-template-rows: auto auto;width:90%;padding-right:5%;padding-left:5%;">
+  <div class="text-block-right" style="display:grid;grid-template-columns: 3fr 2fr;width:90%;padding-right:5%;padding-left:5%;">
+    <div>
     <h2>Overview</h2>
     <div>
       <p>To advance the implementation of CARE best practices at all stages of the research data life cycle, we  have designed multiple overlapping efforts with clearly defined activities and deliverables.</p>
@@ -105,23 +115,30 @@ permalink: /aim3
 <p>While early career researchers tend to think that working with data is important for them and their future careers, many believe that they lack both the comfort and training, especially around ethical practices, to do so. These workshops aim to provide this kind of training specifically for individuals who do not have access to similar resources through their own institutions. In this way, we will be able to expand knowledge around applying CARE to underserved communities, providing mentorship and support so that participants can develop skills that are critically important for their success. Moreover, we aim to publish our curriculum open access so that others can adopt and adapt it for other contexts and audiences, exponentially increasing the number of people this work reaches. </p>
             </div>
       </div>
+      </div>
+    </div>
+    <div>
+        <figure style="margin-left:0px;margin-right:0px;min-width:300px;" id="stakes">
+        <img src="./images/CARE_diagram_v6.png" alt="CARE Project Design" style="width:100%">
+        <figcaption style="text-align:center;"></figcaption>
+        </figure>
     </div>
   </div>
 </div>
 
 <script>
 function Func_synth() {
-  document.getElementById("readMore_synth").classList.toggle("show");
+  document.getElementById("readMore_synth").classList.toggle("show_b");
   document.getElementById("synth").classList.toggle("bttn_show");
 }
 
 function Func_symp() {
-  document.getElementById("readMore_symp").classList.toggle("show");
+  document.getElementById("readMore_symp").classList.toggle("show_b");
   document.getElementById("symp").classList.toggle("bttn_show");
 }
 
   function Func_profs() {
-  document.getElementById("readMore_profs").classList.toggle("show");
+  document.getElementById("readMore_profs").classList.toggle("show_b");
   document.getElementById("profs").classList.toggle("bttn_show");
 }
 
