@@ -131,18 +131,7 @@ permalink: /aim3
   bottom: 1%;
   }
   }
-  
-  #heading-left {
-  width:95%;}
-@media print, screen and (min-width: 960px) {
-  #pima {
-  width:120%;
-  }
-  
-  #heading-left {
-  width:132%;
-  }}
-  
+
    @media print, screen and (max-width: 860px) {
   .show_b {
   width:95%;}
