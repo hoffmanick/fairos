@@ -70,7 +70,8 @@ permalink: /aim1
       </figure>
     </div>
   </div>
-  <div class="text-block-right" style="display:grid;grid-template-rows: auto auto;width:90%;padding-right:5%;padding-left:5%;">
+  <div class="text-block-right" style="display:grid;grid-template-columns: 3fr 2fr; width:90%;padding-right:5%;padding-left:5%;">
+    <div>
     <h2>Overview</h2>
     <div>
       <p>We will develop a network of data managers, research practitioners, disciplinary experts, and early career researchers focused on identifying gaps and mismatches among Quaternary data resources, in order to improve interoperability among them. We will particularly prioritize: <ul>
@@ -137,6 +138,12 @@ permalink: /aim1
                 <li>the use of Science on Schema or other external ontologies for reporting data.</li></ul>  </p>
           </div>
       </div>
+      </div>
+    </div>
+    <div>
+        <figure style="margin-left:0px;margin-right:0px;" id="stakes">
+        <img src="./images/FAIR_Diagram_v4_crop.jpg" alt="Stakeholders" style="width:100%">
+        <figcaption>FAIR Project Design </figcaption>
     </div>
   </div>
 </div>
