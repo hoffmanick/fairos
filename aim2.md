@@ -71,24 +71,24 @@ permalink: /aim2
   bottom: -3%;
   }
   
-  #title, #scrip {
+  #title, #describe {
   width:212%;
   }
   
   @media print, screen and (max-width: 1055px) {
-   #title, #scrip {
+   #title, #describe {
   width:190%;
   }
   }
   
     @media print, screen and (max-width: 635px) {
-   #title, #scrip {
+   #title, #describe {
   width:135%;
   }
   }
   
     @media print, screen and (max-width: 435px) {
-   #title, #scrip {
+   #title, #describe {
   width:100%;
   }
   }
@@ -123,7 +123,7 @@ permalink: /aim2
 <div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit,280px);background-image:linear-gradient(to left, #f0d2a1, 90%, #97b779);padding:0;align-content:center;justify-content:space-between;" id="headingblock">
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;position:relative;" id="heading-left">
       <h1 id="title" style="font-size:calc(20px + 3vw);"> Aim 2: Enable FAIR Data Curation and Stewardship </h1>
-      <p id="scrip" style="align-self:start;padding-top:10px;" id="describe">Engaging Early Career Researchers, Disciplinary Scientists, and Data Managers</p>
+      <p style="align-self:start;padding-top:10px;" id="describe">Engaging Early Career Researchers, Disciplinary Scientists, and Data Managers</p>
     </div>
     <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; align-self:center;" id="heading-image">
       <figure style="margin-left:0px;margin-right:0px;max-width:500px;" id="neo">
