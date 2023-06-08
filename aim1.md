@@ -81,7 +81,7 @@ permalink: /aim1
   }
   }
 
-      @media print, screen and (max-width: 617px) {
+      @media print, screen and (max-width: 580px) {
   #cap {
   left: unset;
   right: 1%;
@@ -89,11 +89,11 @@ permalink: /aim1
   }
   }
   </style>
-<div class="text-block-main" style="display:grid;grid-template-columns: auto">
+<div class="text-block-main" style="display:grid;grid-template-columns: auto;margin-right:0px;width:100%;">
   
-<div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));background-image:linear-gradient(to left, #f0d2a1, 90%, #97b779);padding:0;align-content:center;" id="headingblock">
+<div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, 280px);background-image:linear-gradient(to left, #f0d2a1, 90%, #97b779);padding:0;align-content:center;justify-content:space-between;" id="headingblock">
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;" id="heading-left">
-      <h1 style="font-size:40px;"> Aim 1: Improve Interoperability and Reproducibility </h1>
+      <h1 style="font-size:calc(20px + 3vw);"> Aim 1: Improve Interoperability and Reproducibility </h1>
       <p style="align-self:start;padding-top:10px;" id="describe">Building Interconnected and Open Data Resources</p>
     </div>
     <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
@@ -103,7 +103,7 @@ permalink: /aim1
       </figure>
     </div>
   </div>
-  <div class="text-block-right" style="display:grid;grid-template-columns: 3fr 2fr; width:90%;padding-right:5%;padding-left:5%;">
+  <div class="text-block-right" style="display:grid;grid-template-columns: 3fr 2fr; width:95%;padding-left:5%;overflow:hidden;">
     <div>
     <h2>Overview</h2>
     <div>
@@ -174,7 +174,7 @@ permalink: /aim1
       </div>
     </div>
     <div>
-        <figure style="margin-left:0px;margin-right:0px;min-width:300px;" id="stakes">
+        <figure style="margin-left:0px;margin-right:0px;min-width:220px;" id="fair-des">
         <img src="./images/FAIR_Diagram_v5.png" alt="FAIR Project Design" style="width:100%">
         <figcaption style="text-align:center;"></figcaption>
         </figure>
