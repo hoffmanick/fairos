@@ -21,6 +21,15 @@ div.text-block-main {
   .prof-text {
   width:130%;
   }
+  
+  #heading-image {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-left:0px;
+  margin-right:0px;
+  align-self:center;
+  }
+  
  @media print, screen and (max-width: 600px) {
   .profiles {
   margin-right:40px;
@@ -37,9 +46,9 @@ div.text-block-main {
       <h1 style="font-size:40px;align-self:start;">Meet our Team</h1>
       <p style="align-self:start;padding-top:10px;" id="describe">We have a lead team of principal investigators, an external advisory committee, personnel, and other RCN members.</p>
     </div>
-    <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
+    <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
       <figure id="stakes">
-        <img src="./images/rcn_org-chart_v2.png" alt="org-chart" style="width=100%;border: 1px solid #ec970b;">
+        <img src="./images/rcn_org-chart_v2.png" alt="org-chart" style="width=100%;">
         <figcaption></figcaption>
       </figure>
     </div>
