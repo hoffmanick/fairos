@@ -75,14 +75,33 @@ permalink: /aim2
   width:212%;
   }
   
+    @media print, screen and (max-width: 1070px) {
+  #describe {
+  width:190%;
+  }
+  }
+  
+      @media print, screen and (max-width: 1030px) {
+  #describe {
+  width:135%;
+  }
+  }
+  
+   @media print, screen and (max-width: 730px) {
+  #describe {
+  width:115%;
+  }
+  }
+  
+  
   @media print, screen and (max-width: 1055px) {
-   #title, #describe {
+   #title {
   width:190%;
   }
   }
   
     @media print, screen and (max-width: 635px) {
-   #title, #describe {
+   #title {
   width:135%;
   }
   }
@@ -116,6 +135,65 @@ permalink: /aim2
   #heading-image {
   width:90%;}
   }
+  
+   #main-text {
+  width: 200%;
+  position: relative;
+  } 
+  
+  #fair-des {
+  width:100%;
+  margin-left: -20%;
+  }
+  
+ @media print, screen and (max-width: 1300px) {
+  #main-text {
+  width: 170%;
+  } 
+  }
+
+  
+ @media print, screen and (max-width: 1215px) {
+    #fair-des {
+  width:100%;
+  margin-left: -10%;
+  }
+  }
+  
+   @media print, screen and (max-width: 1180px) {
+  #main-text {
+  width: 150%;
+  } 
+  
+    #fair-des {
+  width:100%;
+  margin-left: -5%;
+  }
+  }
+  
+     @media print, screen and (max-width: 1089px) {
+  #main-text {
+  width: 130%;
+  } 
+  
+    #fair-des {
+  width:100%;
+  margin-left: 0%;
+  }
+  }
+  
+       @media print, screen and (max-width: 980px) {
+  #main-text {
+  width: 110%;
+  } 
+  }
+
+         @media print, screen and (max-width: 890px) {
+  #main-text {
+  width: 100%;
+  } 
+  }
+  
 
   </style>
 <div class="text-block-main" style="display:grid;grid-template-columns: auto; margin-right:0px; width:100%;">
@@ -135,7 +213,7 @@ permalink: /aim2
   <div class="text-block-right" style="display:grid;grid-template-columns: repeat(auto-fit, 400px);width:95%;padding-left:5%;justify-content:space-evenly;">
     <div>
     <h2>Overview</h2>
-    <div>
+    <div id="main-text">
       <p>As long-tail data disciplines, the Quaternary sciences have developed multiple mid-scale repositories containing large amounts of related but heterogeneously structured data. We must approach curation of this data—and data curation training—from two perspectives. On the one hand, we must work with disciplinary scientists to train them in best practices for collecting and publishing data to support dissemination and reuse; on the other hand, we must also work with the data  managers to design schema- and system-level best practices that facilitate data stewardship.</p>
       <h2>Activities</h2> 
         <button class="bttn" id="y2-web" onclick="Func_y2web()">
@@ -182,7 +260,7 @@ permalink: /aim2
     </div>
     </div>
   <div>
-        <figure style="margin-left:0px;margin-right:0px;min-width:220px;" id="stakes">
+        <figure style="margin-left:0px;margin-right:0px;min-width:220px;" id="fair-des">
         <img src="./images/FAIR_Diagram_v5.png" alt="FAIR Project Design" style="width:100%">
         <figcaption style="text-align:center;"></figcaption>
         </figure>
