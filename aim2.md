@@ -68,7 +68,6 @@ permalink: /aim2
   padding: 1%;
   margin-left: 2%;
   width:86%;
-  bottom: -3%;
   }
   
   #title, #describe {
