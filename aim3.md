@@ -126,6 +126,65 @@ permalink: /aim3
    @media print, screen and (max-width: 860px) {
   .show_b {
   width:95%;}
+  
+   #main-text {
+  width: 200%;
+  position: relative;
+  } 
+  
+  #care-des {
+  width:100%;
+  margin-left: -20%;
+  }
+  
+ @media print, screen and (max-width: 1300px) {
+  #main-text {
+  width: 170%;
+  } 
+  }
+
+  
+ @media print, screen and (max-width: 1215px) {
+    #care-des {
+  width:100%;
+  margin-left: -10%;
+  }
+  }
+  
+   @media print, screen and (max-width: 1180px) {
+  #main-text {
+  width: 150%;
+  } 
+  
+    #care-des {
+  width:100%;
+  margin-left: -5%;
+  }
+  }
+  
+     @media print, screen and (max-width: 1089px) {
+  #main-text {
+  width: 130%;
+  } 
+  
+    #care-des {
+  width:100%;
+  margin-left: 0%;
+  }
+  }
+  
+       @media print, screen and (max-width: 980px) {
+  #main-text {
+  width: 110%;
+  } 
+  }
+
+         @media print, screen and (max-width: 890px) {
+  #main-text {
+  width: 100%;
+  } 
+  }
+  
   }
 
 
@@ -144,10 +203,10 @@ permalink: /aim3
       </figure>
     </div>
   </div>
-  <div class="text-block-right" style="display:grid;grid-template-columns: repeat(auto-fit,375px);width:88%;padding-right:7%;padding-left:5%;justify-content:space-evenly;">
+  <div class="text-block-right" style="display:grid;grid-template-columns: repeat(auto-fit,375px);width:88%;padding-right:7%;padding-left:5%;justify-content:space-between;">
     <div>
     <h2>Overview</h2>
-    <div>
+    <div id="main-text">
       <p>To advance the implementation of CARE best practices at all stages of the research data life cycle, we  have designed multiple overlapping efforts with clearly defined activities and deliverables.</p>
       <h2>Activities</h2>
         <button class="bttn" id="synth" onclick="Func_synth()">
@@ -183,7 +242,7 @@ permalink: /aim3
       </div>
     </div>
     <div>
-        <figure style="margin-left:0px;margin-right:0px;min-width:300px;" id="stakes">
+        <figure style="margin-right:0px;min-width:300px;" id="care-des">
         <img src="./images/CARE_diagram_v8.png" alt="CARE Project Design" style="width:100%">
         <figcaption style="text-align:center;"></figcaption>
         </figure>
