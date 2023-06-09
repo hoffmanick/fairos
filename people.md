@@ -30,6 +30,11 @@ div.text-block-main {
   align-self:center;
   }
   
+  #stakes {
+  margin-left:0px;
+  margin-right:0px;
+  }
+  
  @media print, screen and (max-width: 600px) {
   .profiles {
   margin-right:40px;
