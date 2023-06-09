@@ -68,7 +68,6 @@ permalink: /aim1
   padding: 1%;
   margin-left: 2%;
   width:86%;
-  bottom: -20%;
   }
   
   #quilter:hover #cap {
