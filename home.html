@@ -16,8 +16,33 @@ permalink: /
   
   #miss-faca {
   display:grid;
-  grid-template-columns: 2fr 2fr;
+  grid-template-columns: repeat(auto-fit, 650px);
+  justify-content: space-evenly;
   }
+  
+  @media print, screen (max-width:665px) {
+    #miss-faca{
+      grid-template-columns: repeat(auto-fit, 450px);
+      justify-content: center;
+    }
+  }
+  
+    @media print, screen (max-width:472px) {
+    #miss-faca{
+      grid-template-columns: repeat(auto-fit, 400px);
+      justify-content: center;
+    }
+  }
+  
+      @media print, screen (max-width:417px) {
+    #miss-faca{
+      grid-template-columns: repeat(auto-fit, 300px);
+      justify-content: center;
+    }
+  }
+  
+  
+  
 </style>
 
 <div style="display:grid;grid-template-columns: 2fr 200px; background-color:#f0d2a1; margin-left:5%; margin-right: 5%; border-bottom: 1px solid #ec970b;">
@@ -40,7 +65,7 @@ implementation of ethical open science (OS) principles and developing communitie
 of practice focused on CARE (collective benefit, authority to control, responsible, 
 and ethical) and FAIR (findable, accessible, interoperable, and reusable) principles.</p>
 </div>
-<div id="fair-care-dia">
+<div id="fair-care-dia" style="align-self:center;">
   <figure style="margin-left:0px;margin-right:0px;max-width:500px;" id="faca-des">
         <img src="./images/CARE_FAIR_diagram_v6.png" alt="faca" style="width:100%">
       </figure>
