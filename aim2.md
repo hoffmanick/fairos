@@ -42,7 +42,7 @@ permalink: /aim2
   background-color:#f0ddc0;
   }
 
-  .bttn p:hover {
+  .bttn:hover p {
   font-weight:bold;
   }
   
