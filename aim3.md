@@ -126,6 +126,8 @@ permalink: /aim3
    @media print, screen and (max-width: 860px) {
   .show_b {
   width:95%;}
+    
+  }
   
    #main-text {
   width: 200%;
@@ -184,8 +186,7 @@ permalink: /aim3
   width: 100%;
   } 
   }
-  
-  }
+
 
 
   </style>
