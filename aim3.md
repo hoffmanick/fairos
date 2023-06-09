@@ -58,8 +58,16 @@ permalink: /aim3
   
   .bttn_show {
   border: 2.5px solid #ec970b;
+  background-color:#f0ddc0;
   }
 
+  .bttn_show p {
+  font-weight:bold;
+  }
+  
+  .bttn_show strong {
+  font-weight:900;
+  }
   .show_b {
   width:150%;
   }
