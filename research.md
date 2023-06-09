@@ -82,7 +82,7 @@ div.text-block-right {
   <div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));background-image:linear-gradient(to left, #f0d2a1, 90%, #97b779);padding:0;" id="headingblock">
     <div class="text-block-right" style="display:grid;grid-template-rows:40px auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;" id="heading-left">
       <h1 style="font-size:calc(20px + 3vw);align-self:start;">Our Work</h1>
-      <p style="align-self:start;padding-top:10px;" id="describe">Building an open and just scientific community</p>
+      <p style="align-self:start;padding-top:10px;margin-top:3%;" id="describe">Building an open and just scientific community</p>
     </div>
     <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
       <figure id="stakes">
