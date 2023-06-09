@@ -47,6 +47,11 @@ permalink: /aim3
   font-weight:bold;
   }
   
+  .bttn:hover strong {
+  font-weight:900;
+  }
+  
+  
   strong {
   color:white;
   }
