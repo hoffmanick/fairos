@@ -105,7 +105,64 @@ permalink: /aim1
   #heading-image {
   width:90%;}
   }
+  
+ #main-text {
+  width: 200%;
+  position: relative;
+  } 
+  
+  #fair-des {
+  width:100%;
+  margin-left: -20%;
+  }
+  
+ @media print, screen and (max-width: 1300px) {
+  #main-text {
+  width: 170%;
+  } 
+  }
 
+  
+ @media print, screen and (max-width: 1215px) {
+    #fair-des {
+  width:100%;
+  margin-left: -10%;
+  }
+  }
+  
+   @media print, screen and (max-width: 1180px) {
+  #main-text {
+  width: 150%;
+  } 
+  
+    #fair-des {
+  width:100%;
+  margin-left: -5%;
+  }
+  }
+  
+     @media print, screen and (max-width: 1089px) {
+  #main-text {
+  width: 130%;
+  } 
+  
+    #fair-des {
+  width:100%;
+  margin-left: 0%;
+  }
+  }
+  
+       @media print, screen and (max-width: 980px) {
+  #main-text {
+  width: 110%;
+  } 
+  }
+
+         @media print, screen and (max-width: 890px) {
+  #main-text {
+  width: 100%;
+  } 
+  }
   
   </style>
 <div class="text-block-main" style="display:grid;grid-template-columns: auto;margin-right:0px;width:100%;">
@@ -122,10 +179,10 @@ permalink: /aim1
       </figure>
     </div>
   </div>
-  <div class="text-block-right" style="display:grid;grid-template-columns: repeat(auto-fit, 400px); width:95%;padding-left:5%;justify-content:space-evenly;">
+  <div class="text-block-right" style="display:grid;grid-template-columns: repeat(auto-fit, 400px); width:95%;padding-left:5%;justify-content:space-between;">
     <div>
     <h2>Overview</h2>
-    <div>
+    <div id="main-text">
       <p>We will develop a network of data managers, research practitioners, disciplinary experts, and early career researchers focused on identifying gaps and mismatches among Quaternary data resources, in order to improve interoperability among them. We will particularly prioritize: <ul>
       <li>outreach to data managers and assessment of the current Quaternary informatics landscape,</li>
       <li>identifying areas for crosswalk development to resolve conflicts between existing ontologies and to help support the adoption of CARE aims,</li>
@@ -193,7 +250,7 @@ permalink: /aim1
       </div>
     </div>
     <div>
-        <figure style="margin-left:0px;margin-right:0px;min-width:220px;" id="fair-des">
+        <figure style="margin-right:0px;min-width:220px;" id="fair-des">
         <img src="./images/FAIR_Diagram_v5.png" alt="FAIR Project Design" style="width:100%">
         <figcaption style="text-align:center;"></figcaption>
         </figure>
