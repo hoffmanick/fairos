@@ -60,6 +60,15 @@ permalink: /aim1
   background-color:#f0ddc0;
   }
 
+  .bttn_show p {
+  font-weight:bold;
+  }
+  
+  .bttn_show strong {
+  font-weight:900;
+  }
+
+  
   .show_b {
   width:150%;
   }
