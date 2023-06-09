@@ -57,6 +57,7 @@ permalink: /aim1
   
   .bttn_show {
   border: 2.5px solid #ec970b;
+  background-color:#f0ddc0;
   }
 
   .show_b {
