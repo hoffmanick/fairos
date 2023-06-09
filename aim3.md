@@ -68,7 +68,6 @@ permalink: /aim3
   padding: 1%;
   margin-left: 2%;
   width:86%;
-  bottom: -20%;
   }
   
   #pima:hover #cap {
