@@ -86,7 +86,7 @@ div.text-block-right {
     </div>
     <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
       <figure id="stakes">
-        <img src="./images/rcn_stakes-trans.png" alt="Stakeholders" style="width=100%;">
+        <img src="./images/rcn_stakes.png" alt="Stakeholders" style="width=100%;">
         <figcaption>The sets of lead and affiliated data resources involved in this RCN. </figcaption>
       </figure>
     </div>
