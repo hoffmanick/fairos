@@ -29,8 +29,25 @@ h1#heading-left {
    font-size:33px;
   }
   #posts-calendar {
-  grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));}
+  grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+  }
  }
+  
+  #cap {
+  display:none;
+  background-color: #f0d2a1;
+  position: absolute;
+  max-width:180px;
+  border: 1px solid #ec970b;
+  padding: 1%;
+  margin-left: 2%;
+  width:86%;
+  z-index:10000;
+  }
+  
+  #notes:hover #cap {
+  display:block;
+  }
 </style>
 
 
@@ -40,9 +57,10 @@ h1#heading-left {
       <p style="align-self:start;padding-top:10px;" id="describe">Learn about what we've been up to, and watch out for upcoming events.</p>
     </div>
     <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
-      <figure id="stakes">
-        <img src="./images/team.jpg" alt="Stakeholders" style="width=100%;border: 1px solid #ec970b;">
-        <figcaption>Some other image should go here?</figcaption>
+      <figure id="notes">
+        <img src="./images/akwesasne_notes_1978.png" alt="notes" style="width=100%;border: 1px solid #ec970b;">
+        <figcaption id="cap">Excerpt from a book review written by Gary Snyder in the Spring 1978 issue of Akwesasne Notes. Akwesasne Notes, “Akwesasne Notes vol. 10 no. 1,” 
+          American Indian Digital History Project, accessed June 12, 2023, http://www.aidhp.com/items/show/48.</figcaption>
       </figure>
     </div>
   </div>
