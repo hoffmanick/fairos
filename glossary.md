@@ -226,13 +226,19 @@ div.text-block-main {
   
 <div class="text-block-right" style="display:grid;grid-template-columns: repeat(auto-fit, 400px);width:95%;padding-left:5%;justify-content:space-between;">
     <div id="main-text">
-      <h2>Activities</h2> 
+      <h2>Key Terms</h2> 
         <button class="bttn" id="care" onclick="Func_care()">
             <div><p><strong>The CARE Principles</strong></p></div>
 </button>
         <div class="collapse" id="readMore_care">
           <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-          <p>The CARE principles (Collective Benefit, Authority, Responsibility and Ethics) were formulated by Stephanie Carroll and ... in collaboration with ... to ...</p>
+          <p><a href = https://datascience.codata.org/articles/10.5334/dsj-2020-043>The CARE principles</a> (Collective Benefit, Authority to Control, Responsibility and Ethics) were formulated by Stephanie Russo Carroll, Ibrahim Garba, Oscar L. Figueroa-Rodriguez and other members of the Research Data Alliance's International Indigenous Data Sovereignty Interest Group, in order to help navigate the tension between 1) protecting Indigenous rights and interests in Indigenous data, and 2) supporting open data. These principles assert that
+            <ol>
+              <li>the use of Indigenous data must yield collective benefit for Indigenous Peoples</li>
+              <li>the authority to control who has access to Indigenous data must lie with Indigenous Peoples</li>
+              <li>those who use Indigenous data must recognized their responsibility to build reciprocal relationships with the communities from which the data derives, and </li>
+              <li>the use of Indigenous data must occur in a fundamentally ethical framework.</li>
+            </ol></p>
           </div>
         </div>
     <br>
