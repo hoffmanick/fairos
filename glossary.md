@@ -214,9 +214,9 @@ div.text-block-main {
       <h1 style="font-size:calc(20px + 3vw);align-self:start;">Glossary</h1>
       <p style="align-self:start;padding-top:10px;" id="describe">Learn more about our key words.</p>
     </div>
-    <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
+    <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end; margin-right:5%; margin-left: 5%; width: 90%;max-width:250px;" id="heading-image">
       <figure id="scroll">
-        <img src="./images/scroll.png" alt="scroll" style="width=100%;">
+        <img src="./images/scroll-trans.png" alt="scroll" style="width=100%;max-width:250px;">
         <figcaption></figcaption>
       </figure>
     </div>
@@ -225,7 +225,6 @@ div.text-block-main {
   
   
 <div class="text-block-right" style="display:grid;grid-template-columns: repeat(auto-fit, 400px);width:95%;padding-left:5%;justify-content:space-between;">
-    <div>
     <div id="main-text">
       <h2>Activities</h2> 
         <button class="bttn" id="care" onclick="Func_care()">
@@ -245,6 +244,7 @@ div.text-block-main {
             <p>The FAIR principles (Findable, Accessible, Interoperable, and Reusable) were... to... </p>
           </div>
        </div>
+        <br>
           <button class="bttn" id="quat" onclick="Func_quat()"> 
             <div><p><strong>The Quaternary Research Community</strong></p></div>
       </button>
@@ -254,6 +254,7 @@ div.text-block-main {
                 a division of the Cenozoic Era. The Quaternary period began with the Pleistocene Epoch 2.58 million years ago and continues today.</p>
             </div>
       </div>
+        <br>
       <button class="bttn" id="data" onclick="Func_data()"> 
           <div><p><strong>Data Science Terminology</strong></p></div>
       </button>
@@ -263,14 +264,6 @@ div.text-block-main {
           </div>
       </div>
     </div>
-    </div>
-  <div>
-        <figure style="margin-right:0px;min-width:220px;" id="fair-des">
-        <img src="./images/FAIR_Diagram_v5.png" alt="FAIR Project Design" style="width:100%">
-        <figcaption style="text-align:center;"></figcaption>
-        </figure>
-    </div>
-  </div>
 </div>
 
 <script>
