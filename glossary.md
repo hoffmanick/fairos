@@ -248,7 +248,7 @@ div.text-block-main {
       </button>
         <div class="collapse" id="readMore_fair">
           <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-            <p>The FAIR principles (Findable, Accessible, Interoperable, and Reusable) were... to... </p>
+            <p><a href="https://www.nature.com/articles/sdata201618">The FAIR principles</a> (Findable, Accessible, Interoperable, and Reusable) were formalized by Mark D. Wilkinson, Michael Dumontier, IJsbrand Jan Aalbersberg and other participants 'Jointly Designing a Data Fairport' Workshop in Leiden, Netherlands, 2014. These data-centric principles assert that data and its metadata should be easily findable and described with rich metadata, universally accessible and free to use, interoperable among different data ecosystems, and able to be reused for future scientific analysis. </p>
           </div>
        </div>
         <br>
