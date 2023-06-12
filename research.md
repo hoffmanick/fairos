@@ -94,7 +94,7 @@ div.text-block-right {
   
   <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:blue;padding:0px;" id="meatblock">
     <div class="text-block-right" style="display:grid;grid-template-columns:auto;padding:0px;" id="aims-title">
-      <h2 style="margin-bottom:0px;padding-bottom:3px;border-bottom: 1px solid #ec970b;width:95%;padding-left:95%;">Project Aims</h2>
+      <h2 style="margin-bottom:0px;padding-bottom:3px;border-bottom: 1px solid #ec970b;width:95%;padding-left:5%;">Project Aims</h2>
     </div>
     <div class="text-block-right" style="display:grid;justify-content:space-around;padding-top:17px;margin-right:0px;padding-left:4.5%;width:95.5%;" id="aimses">
       <div class="text-block-right" style="max-width:500px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:3%; border-left: 1px solid #ec970b; width:90%; padding-left:2%;">
