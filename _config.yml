@@ -106,10 +106,10 @@ personnel_members:
     role: "Senior Personnel"
     picture: "\"./images/kansa_headshot.png\""
   -
-    name: "Andrea's Postdoc"
-    institution: "University of Andrea"
+    name: "Natalie Raia"
+    institution: "University of Arizona"
     role: "Interoperability Specialist"
-    picture: "\"./images/thomer_headshot.png\""
+    picture: "\"./images/raia_headshot.jpg\""
 
 ---
 defaults:
