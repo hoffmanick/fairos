@@ -49,7 +49,7 @@ div.text-block-main {
 <div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));background-image:linear-gradient(to left, #f0d2a1, 90%, #97b779);padding:0;margin-right:0;width:100%;" id="headingblock">
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;" id="heading-left">
       <h1 style="font-size:calc(20px + 3vw);align-self:start;">Meet our Team</h1>
-      <p style="align-self:start;padding-top:10px;" id="describe">We have a lead team of principal investigators, an external advisory committee, personnel, and other RCN members.</p>
+      <p style="align-self:start;padding-top:10px;" id="describe">Our team of principal investigators, advisors, personnel, and other RCN members is committed to building a just, open scientific community.</p>
     </div>
     <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
       <figure id="stakes">
