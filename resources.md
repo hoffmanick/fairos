@@ -24,6 +24,7 @@ permalink: /resources
 
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;padding-left:0%;width:100%;">
       <h2> Further Readings </h2>
-      <p style="margin-bottom:0px;">Take a look at our <a href="https://www.zotero.org/groups/5074488/global_change_fairos/collections/JU24MBI5/collection">bibliography</a> of scholarship on building just and open data infrastructure.</p>
+      <p style="margin-bottom:0px;">Take a look at our <a href="https://www.zotero.org/groups/5074488/global_change_fairos/library">bibliography</a> of scholarship on building just and open data infrastructure.</p>
     </div>
 </div>
+
