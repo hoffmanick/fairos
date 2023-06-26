@@ -10,6 +10,7 @@ div.text-block-main {
   grid-template-rows: auto auto auto;
   margin-right:0px;
   padding-bottom:0px;
+  background: #f0d2a1;
   }
 div.text-block-right {
   margin-right:0px;
@@ -92,14 +93,11 @@ div.text-block-right {
     </div>
   </div>
 
-<div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));padding:0;margin-left:20%;margin-right:20%;width:60%;" id="overview">
-  <p style="align-self:start;padding-top:10px;margin-top:3%; text-align:center;" id="general"> We aim to improve the data infrastructure for the Quaternary scientific community. We will modify our repositories of fossil specimen data to make data they hold more accessible and reusable. We will make these repositories more equitable as well, especially for the Indigenous nations from whose lands the fossils have been excavated. We will train those who manage these data and thos who use them in their research in best practices for maintaining accessibility and equity in the future. </p>
+<div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));padding:0;margin-left:15%;margin-right:15%;width:60%;padding-left:5%;padding-right:5%;border: 1px solid #ec970b;" id="overview">
+  <p style="align-self:start;padding-top:10px;margin-top:3%; text-align:center;" id="general"> We aim to improve the data infrastructure for the Quaternary scientific community. We will modify our repositories of fossil specimen data to make data they hold more accessible and reusable. We will make these repositories more equitable as well, especially for the Indigenous nations from whose lands the fossils have been excavated. We will train those who manage these data and those who use them for research purposes in best practices to maintain access and equity into the future. </p>
 </div>
   
   <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:blue;padding:0px;" id="meatblock">
-    <div class="text-block-right" style="display:grid;grid-template-columns:auto;padding:0px;" id="aims-title">
-      <h2 style="margin-bottom:0px;padding-bottom:3px;border-bottom: 1px solid #ec970b;width:95%;padding-left:5%;">Project Aims</h2>
-    </div>
     <div class="text-block-right" style="display:grid;justify-content:space-around;padding-top:17px;margin-right:0px;padding-left:4.5%;width:95.5%;" id="aimses">
       <div class="text-block-right" style="max-width:500px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:3%; border-left: 1px solid #ec970b; width:90%; padding-left:2%;">
         <h3 style="border-bottom: 1px solid #ec970b;"> <a href="https://hoffmanick.github.io/fairos/aim1" style="font-size:1.4em">Aim 1:</a> Improve Interoperability and Reproducibility </h3>
