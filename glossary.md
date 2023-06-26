@@ -237,7 +237,7 @@ div.text-block-main {
             <ol>
               <li>the use of Indigenous data must yield collective benefit for Indigenous Peoples</li>
               <li>the authority to control who has access to Indigenous data must lie with Indigenous Peoples</li>
-              <li>those who use Indigenous data must recognized their responsibility to build reciprocal relationships with the communities from which the data derives, and </li>
+              <li>those who use Indigenous data must recognize their responsibility to build reciprocal relationships with the communities from which the data derive, and </li>
               <li>the use of Indigenous data must occur in a fundamentally ethical framework.</li>
             </ol></p>
           </div>
