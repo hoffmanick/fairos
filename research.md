@@ -93,7 +93,7 @@ div.text-block-right {
     </div>
   </div>
 
-<div class="text-block-right" style="display:grid;grid-template-rows:repeat(auto-fit, minmax(200px, 1fr));padding:0;margin-top:1%; margin-left:15%;margin-right:15%;width:60%;padding-left:5%;padding-right:5%;border: 1px solid #ec970b;" id="overview">
+<div class="text-block-right" style="display:grid;padding:0;margin-top:1%; margin-left:15%;margin-right:15%;width:60%;padding-left:5%;padding-right:5%;border: 1px solid #ec970b;" id="overview">
   <p style="align-self:start;padding-top:10px; text-align:center;" id="general"> We aim to improve the data infrastructure for the Quaternary scientific community.</p> 
   <p>We will modify our repositories of fossil specimen data to make data they hold more <strong>accessible</strong>. We will make these repositories more <strong>equitable</strong> as well, especially for the Indigenous nations from whose lands the fossils have been excavated. We will train those who manage these data and those who use them for research purposes in <strong>best practices</strong> to maintain access and equity into the future. </p>
 </div>
@@ -107,7 +107,7 @@ div.text-block-right {
       </div>
       <div class="text-block-right" style="max-width:500px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:3%; border-left: 1px solid #ec970b; width:90%; padding-left:2%;">
         <h3 style="border-bottom: 1px solid #ec970b;"> <a href="https://hoffmanick.github.io/fairos/aim2" style="font-size:1.4em">Aim 2:</a> Enable FAIR Data Curation and Stewardship </h3>
-        <p>  We will promote better data science and curation practices among disciplinary practitioners, with a particular focus on early-career disciplinary researchers and develop and promote best practices and standards for data stewardship. </p>
+        <p style="text-align:center;">  We will promote better data science and curation practices among disciplinary practitioners, with a particular focus on early-career disciplinary researchers and develop and promote best practices and standards for data stewardship. </p>
       </div>
       <div class="text-block-right" style="max-width:500px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:3%; border-left: 1px solid #ec970b; width:90%; padding-left:2%;">
         <h3 style="border-bottom: 1px solid #ec970b;"> <a href="https://hoffmanick.github.io/fairos/aim3" style="font-size:1.4em">Aim 3:</a> Support Equity and Improve Access </h3>
