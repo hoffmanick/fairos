@@ -9,9 +9,9 @@ permalink: /resources
       <h1 style="font-size:calc(20px + 3vw);height:40px;align-self:start;">Resources</h1>
       <p style="align-self:start;padding-top:10px;margin:0px;margin-top:3%;" id="describe">Get connected to the tools that will enable you to implement ethical open science principles in your own work.</p>
     </div>
-    <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
+    <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:20%; margin-left: 60%; width: 20%;" id="heading-image">
       <figure id="stakes">
-        <img src="./images/needle.png" alt="needle" style="width=100%;border: 1px solid #ec970b;">
+        <img src="./images/needle.png" alt="needle" style="width=100%; max-width:150px;">
       </figure>
     </div>
   </div>
