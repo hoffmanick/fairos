@@ -93,7 +93,7 @@ div.text-block-right {
     </div>
   </div>
 
-<div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));padding:0;margin-top:1%; margin-left:15%;margin-right:15%;width:60%;padding-left:5%;padding-right:5%;border: 1px solid #ec970b;" id="overview">
+<div class="text-block-right" style="display:grid;grid-template-rows:repeat(auto-fit, minmax(200px, 1fr));padding:0;margin-top:1%; margin-left:15%;margin-right:15%;width:60%;padding-left:5%;padding-right:5%;border: 1px solid #ec970b;" id="overview">
   <p style="align-self:start;padding-top:10px; text-align:center;" id="general"> We aim to improve the data infrastructure for the Quaternary scientific community.</p> 
   <p>We will modify our repositories of fossil specimen data to make data they hold more <strong>accessible</strong>. We will make these repositories more <strong>equitable</strong> as well, especially for the Indigenous nations from whose lands the fossils have been excavated. We will train those who manage these data and those who use them for research purposes in <strong>best practices</strong> to maintain access and equity into the future. </p>
 </div>
