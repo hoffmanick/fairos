@@ -53,7 +53,7 @@ div.text-block-main {
     </div>
     <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
       <figure id="stakes">
-        <img src="./images/rcn_org-chart_v3.png" alt="org-chart" style="width=100%;">
+        <img src="./images/rcn_org-chart_v4.png" alt="org-chart" style="width=100%;">
         <figcaption></figcaption>
       </figure>
     </div>
