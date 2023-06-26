@@ -262,14 +262,14 @@ div.text-block-main {
             </div>
       </div>
         <br>
-      <button class="bttn" id="data" onclick="Func_data()"> 
+     <!-- <button class="bttn" id="data" onclick="Func_data()"> 
           <div><p><strong>Data Science Terminology</strong></p></div>
       </button>
       <div class="collapse" id="readMore_data">
           <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
             <p>What words like ontology mean?</p>
           </div>
-      </div>
+      </div> -->
     </div>
 </div>
 
