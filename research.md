@@ -91,6 +91,9 @@ div.text-block-right {
       </figure>
     </div>
   </div>
+<div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));background-image:linear-gradient(to left, #f0d2a1, 90%, #97b779);padding:0;" id="overview">
+  <p style="align-self:start;padding-top:10px;margin-top:3%;" id="general"> We aim to improve the data infrastructure for the Quaternary scientific community. We will modify our repositories of fossil specimen data to make data they hold more accessible and reusable. We will make these repositories more equitable as well, especially for the Indigenous nations from whose lands the fossils have been excavated. We will train those who manage these data and thos who use them in their research in best practices for maintaining accessibility and equity in the future. </p>
+</div>
   
   <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:blue;padding:0px;" id="meatblock">
     <div class="text-block-right" style="display:grid;grid-template-columns:auto;padding:0px;" id="aims-title">
