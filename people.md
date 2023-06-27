@@ -46,7 +46,7 @@ div.text-block-main {
   }
 </style>
 
-<div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));background-image:linear-gradient(to left, #f0d2a1, 90%, #97b779);padding:0;margin-right:0;width:100%;" id="headingblock">
+<div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));background-image:linear-gradient(to left, #fff, 90%, #97b779);padding:0;margin-right:0;width:100%;" id="headingblock">
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;" id="heading-left">
       <h1 style="font-size:calc(20px + 3vw);align-self:start;">Meet our Team</h1>
       <p style="align-self:start;padding-top:10px;" id="describe">Our team of principal investigators, advisors, personnel, and other RCN members is committed to building a just, open scientific community.</p>
@@ -59,9 +59,9 @@ div.text-block-main {
     </div>
   </div>
 
-<div class="text-block-right" style="display:grid;grid-template-rows:1.5em auto 1.5em auto;background-color:#f0d2a1;padding-left:0; width:100%;" id="meatblock">
+<div class="text-block-right" style="display:grid;grid-template-rows:1.5em auto 1.5em auto;background-color:#fff;padding-left:0; width:100%;" id="meatblock">
   <div class="text-block-right" style="display:grid;grid-template-columns:auto;padding:0px;margin-left:2%;width:98%;" id="pi-title">
-  <h2 style="color:#42b7bf;margin-bottom:0px; background-color:#f0d2a1;;z- index:9;position:relative;overflow:visible; border-bottom:1px solid #ec970b;width:100%">The Principal Investigators</h2>
+  <h2 style="color:#42b7bf;margin-bottom:0px; background-color:#fff;;z- index:9;position:relative;overflow:visible; border-bottom:1px solid #ec970b;width:100%">The Principal Investigators</h2>
   </div>
   <div class="text-block-right" style="flex-direction:row;flex-wrap:wrap;padding-top:20px;align-content:center;padding-left:0%;width:95%;margin-left:5%;">
   
@@ -81,7 +81,7 @@ div.text-block-main {
   </div>
 <br>
   <div class="text-block-right" style="display:grid;grid-template-columns:auto;padding:0px;margin-left:2%;width:98%;" id="advise-title">
-   <h2 style="color:#42b7bf;margin-bottom:0px; background-color:#f0d2a1;z-index:9;position:relative;overflow:visible; border-bottom:1px solid #ec970b;width:100%;">The Advisory Committee</h2>
+   <h2 style="color:#42b7bf;margin-bottom:0px; background-color:#fff;z-index:9;position:relative;overflow:visible; border-bottom:1px solid #ec970b;width:100%;">The Advisory Committee</h2>
   </div>
   <div class="text-block-right" style="flex-direction:row;flex-wrap:wrap;padding-top:0px;align-content:center;padding-left:0%;width:95%;margin-left:5%;">
   
@@ -102,7 +102,7 @@ div.text-block-main {
   </div>
 <br>
    <div class="text-block-right" style="display:grid;grid-template-columns:auto;padding:0px;margin-left:2%;width:98%;" id="personnel-title">
-  <h2 style="color:#42b7bf;margin-bottom:0px; background-color:#f0d2a1;;z- index:9;position:relative;overflow:visible; border-bottom:1px solid #ec970b;width:100%">Personnel</h2>
+  <h2 style="color:#42b7bf;margin-bottom:0px; background-color:#fff;;z- index:9;position:relative;overflow:visible; border-bottom:1px solid #ec970b;width:100%">Personnel</h2>
   </div>
   <div class="text-block-right" style="flex-direction:row;flex-wrap:wrap;padding-top:0px;align-content:center;padding-left:0%;width:95%;margin-left:5%;">
   
