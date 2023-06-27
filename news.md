@@ -35,7 +35,7 @@ h1#heading-left {
   
   #cap {
   display:none;
-  background-color: #f0d2a1;
+  background-color: #fff;
   position: absolute;
   max-width:180px;
   border: 1px solid #ec970b;
@@ -51,7 +51,7 @@ h1#heading-left {
 </style>
 
 
-<div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));background-image:linear-gradient(to left, #f0d2a1, 90%, #97b779);padding:0;margin-right:0;width:100%;" id="headingblock">
+<div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));background-image:linear-gradient(to left, #fff, 90%, #97b779);padding:0;margin-right:0;width:100%;" id="headingblock">
    <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;" id="heading-left">
       <h1 style="align-self:start;font-size:calc(20px + 3vw);">Ethical Open Science in the News</h1>
       <p style="align-self:start;padding-top:10px;" id="describe">Learn about what we've been up to, and watch out for upcoming events.</p>
@@ -88,6 +88,6 @@ h1#heading-left {
 
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto auto;padding-left:0%;width:100%;">
       <h2> FAIROS Events Calendar </h2>
-      <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23F0D2A1&ctz=America%2FChicago&title=Upcoming%20FAIROS%20Events&src=Y2U1NzRhZTM5Y2JhOTMyNDIyZDAzNjA1MzFlZDE1OGI0ZmQ4MjdiMDY1YmE3Yjk1YjMxNTk1MWVjYTYwNDVlOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23EC970B" title = "FAIROS Events Calendar" style="border: 1px solid #ec970b;width:95%;margin-right:5%;" width="400" height="300" frameborder="0" scrolling="no" id="cal"> wmode="transparent" </iframe>
+      <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23B39DDB&ctz=America%2FChicago&title=Upcoming%20FAIROS%20Events&src=Y2U1NzRhZTM5Y2JhOTMyNDIyZDAzNjA1MzFlZDE1OGI0ZmQ4MjdiMDY1YmE3Yjk1YjMxNTk1MWVjYTYwNDVlOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23EC970B" title = "FAIROS Events Calendar" style="border: 1px solid #ec970b;width:95%;margin-right:5%;" width="400" height="300" frameborder="0" scrolling="no" id="cal"> wmode="transparent" </iframe>
     </div>
 </div>
