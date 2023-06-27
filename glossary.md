@@ -38,7 +38,7 @@ div.text-block-main {
   z-index:10000;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   margin-bottom:5%;
-  background-color: #f0d2a1;
+  background-color: #fff;
 }
 
 .show_b {
@@ -58,7 +58,7 @@ div.text-block-main {
   margin-bottom:4%;
   }
   .bttn:hover {
-  background-color:#f0ddc0;
+  background-color:#faf3e8;
   }
 
   .bttn:hover p {
@@ -75,7 +75,7 @@ div.text-block-main {
   
   .bttn_show {
   border: 2.5px solid #ec970b;
-  background-color:#f0ddc0;
+  background-color:#fff;
   }
 
   .bttn_show p {
@@ -210,7 +210,7 @@ div.text-block-main {
 
 
 
-<div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));background-image:linear-gradient(to left, #f0d2a1, 90%, #97b779);padding:0;margin-right:0;width:100%;" id="headingblock">
+<div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));background-image:linear-gradient(to left, #fff, 90%, #97b779);padding:0;margin-right:0;width:100%;" id="headingblock">
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;" id="heading-left">
       <h1 style="font-size:calc(20px + 3vw);align-self:start;">Glossary</h1>
       <p style="align-self:start;padding-top:10px;" id="describe">Learn more about our key words.</p>
