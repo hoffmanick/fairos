@@ -265,7 +265,7 @@ permalink: /aim1
     </div>
     <div>
         <figure style="margin-right:0px;min-width:220px;" id="fair-des">
-        <img src="./images/FAIR Diagram_v7.png" alt="FAIR Project Design" style="width:100%">
+        <img src="./images/FAIR Diagram_v8.png" alt="FAIR Project Design" style="width:100%">
         <figcaption style="text-align:center;"></figcaption>
         </figure>
     </div>
