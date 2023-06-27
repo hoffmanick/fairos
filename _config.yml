@@ -83,17 +83,17 @@ personnel_members:
   -
     name: "Melissa Cradic"
     institution: "Open Context"
-    role: "Personnel"
+    role: "Digital Humanities Project Specialist"
     picture: "\"./images/cradic_headshot.jpg\""
   -
     name: "Nicole Fuller"
     institution: "Florida Museum of Natural History"
-    role: "Personnel"
+    role: "Senior Personnel"
     picture: "\"./images/fuller_headshot.jpg\""
   -
     name: "Jen Green"
     institution: "Florida Museum of Natural History"
-    role: "Personnel"
+    role: "Senior Personnel"
     picture: "\"./images/green_headshot.jpg\""
   -
     name: "Nick Hoffman"
