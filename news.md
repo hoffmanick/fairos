@@ -66,7 +66,7 @@ h1#heading-left {
   </div>
 
 <div class="text-block-right" style="display:grid;padding-left:3%;width:97%;" id="posts-calendar">
-    <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;padding-left:0%;width:100%;align-content:start;padding-top:0px;margin-top:20px;border-top: 1px solid #ec970b;margin-right:2%;width:98%;">
+    <div class="text-block-right" style="display:flex;flex-direction:row;grid-template-rows:auto auto;padding-left:0%;width:67%;align-content:start;padding-top:0px;margin-top:20px;border-top: 1px solid #ec970b;margin-right:2%;width:98%;">
       {% for post in site.posts %}
       <div class="text-block-right" style="display:grid; grid-template-columns: auto auto; justify-content: start; border-bottom: 1px solid #ec970b;width:95%;padding-top:2%;padding-bottom:2%;">
           {% if post.image %} 
@@ -86,7 +86,7 @@ h1#heading-left {
       
     </div>
 
-    <div class="text-block-right" style="display:grid;grid-template-rows:auto auto auto;padding-left:0%;width:100%;">
+    <div class="text-block-right" style="display:grid;grid-template-rows:auto auto auto;padding-left:0%;width:33%;">
       <h2> FAIROS Events Calendar </h2>
       <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23B39DDB&ctz=America%2FChicago&title=Upcoming%20FAIROS%20Events&src=Y2U1NzRhZTM5Y2JhOTMyNDIyZDAzNjA1MzFlZDE1OGI0ZmQ4MjdiMDY1YmE3Yjk1YjMxNTk1MWVjYTYwNDVlOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23EC970B" title = "FAIROS Events Calendar" style="border: 1px solid #ec970b;width:95%;margin-right:5%;" width="400" height="300" frameborder="0" scrolling="no" id="cal"> wmode="transparent" </iframe>
     </div>
