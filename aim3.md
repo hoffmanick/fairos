@@ -40,7 +40,7 @@ permalink: /aim3
   }
   
    .bttn:hover {
-  background-color:#f0ddc0;
+  background-color:#faf3e8;
   }
 
    .bttn:hover p {
@@ -53,12 +53,12 @@ permalink: /aim3
   
   
   strong {
-  color:white;
+  color:#ec970b;
   }
   
   .bttn_show {
   border: 2.5px solid #ec970b;
-  background-color:#f0ddc0;
+  background-color:#faf3e8;
   }
 
   .bttn_show p {
@@ -74,7 +74,7 @@ permalink: /aim3
   
  #cap {
   display:none;
-  background-color: #f0d2a1;
+  background-color: #fff;
   position: absolute;
   max-width:180px;
   border: 1px solid #ec970b;
@@ -89,37 +89,37 @@ permalink: /aim3
   }
   
   .read-more-content {
-  background-color: #f0d2a1;
+  background-color: #fff;
   }
   
   
   #heading-left {
-  width:250%;
+  width:100%;
   position: relative;
   
   }
   
  @media print,screen and (max-width: 945px) {
   #heading-left {
-  width: 180%;
+  width: 100%;
   }
   }
   
     @media print,screen and (max-width: 761px) {
   #heading-left {
-  width: 130%;
+  width: 100%;
   }
   }
   
      @media print,screen and (max-width: 701px) {
   #heading-left {
-  width: 90%;
+  width: 100%;
   }
   }
   
      @media print,screen and (max-width: 761px) {
   #heading-left {
-  width: 130%;
+  width: 100%;
   }
   }
   
@@ -205,17 +205,17 @@ permalink: /aim3
   </style>
 <div class="text-block-main" style="display:grid;grid-template-columns: auto">
   
-<div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, 280px);background-image:linear-gradient(to left, #f0d2a1, 90%, #97b779);padding:0;align-content:center;justify-content:space-between;" id="headingblock">
-    <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:transparent;padding-left:5%;align-content:center;" id="heading-left">
+<div class="text-block-right" style="display:grid;background-image:linear-gradient(to left, #fff, 90%, #97b779);padding:0;align-content:center;justify-content:space-between;" id="headingblock">
+    <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;" id="heading-left">
       <h1 style="font-size:calc(20px + 3vw);"> Aim 3: Support Equity and Improve Access </h1>
       <p style="align-self:start;padding-top:10px;" id="describe"> Ethical Open Data Science: Moving from CARE Principles to Practice </p>
     </div>
-    <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;align-self:center;" id="heading-image">
+   <!-- <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;align-self:center;" id="heading-image">
       <figure style="margin-left:0px;margin-right:0px;max-width:305px;" id="pima">
         <img src="./images/pima_trans.png" alt="Pima" style="width:100%">
         <figcaption id="cap">The 'Pima Indians Diabetes Data Set' is regularly used to train machine learning models, without the authorization of and without benefit to the Akimel O'odham community from which the data derives. Radin, 2017: 'Digital Natives': How Medical and Indigenous Histories Matter for Big Data. <i>Osiris.</i></figcaption>
       </figure>
-    </div>
+    </div> -->
   </div>
   <div class="text-block-right" style="display:grid;grid-template-columns: repeat(auto-fit,375px);width:88%;padding-right:7%;padding-left:5%;justify-content:space-between;">
     <div>
