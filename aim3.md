@@ -257,7 +257,7 @@ permalink: /aim3
     </div>
     <div>
         <figure style="margin-right:0px;min-width:300px;" id="care-des">
-        <img src="./images/CARE_diagram_v9.png" alt="CARE Project Design" style="width:100%">
+        <img src="./images/CARE_diagram_v12.png" alt="CARE Project Design" style="width:100%">
         <figcaption style="text-align:center;"></figcaption>
         </figure>
     </div>
