@@ -85,37 +85,37 @@ permalink: /aim2
   }
   
   #title, #describe {
-  width:212%;
+  width:100%;
   }
   
     @media print, screen and (max-width: 1070px) {
   #describe {
-  width:190%;
+  width:100%;
   }
   }
   
       @media print, screen and (max-width: 1030px) {
   #describe {
-  width:135%;
+  width:100%;
   }
   }
   
    @media print, screen and (max-width: 730px) {
   #describe {
-  width:115%;
+  width:100%;
   }
   }
   
   
   @media print, screen and (max-width: 1055px) {
    #title {
-  width:190%;
+  width:100%;
   }
   }
   
     @media print, screen and (max-width: 635px) {
    #title {
-  width:135%;
+  width:100%;
   }
   }
   
@@ -126,7 +126,7 @@ permalink: /aim2
   }
   
   #heading-image {
-  width:120%;
+  width:100%;
   }
   
   #neo:hover #cap {
