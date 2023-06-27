@@ -70,7 +70,7 @@ div.text-block-main {
   }
   
   strong {
-  color:white;
+  color: #ec970b;
   }
   
   .bttn_show {
@@ -215,12 +215,12 @@ div.text-block-main {
       <h1 style="font-size:calc(20px + 3vw);align-self:start;">Glossary</h1>
       <p style="align-self:start;padding-top:10px;" id="describe">Learn more about our key words.</p>
     </div>
-    <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end; margin-right:5%; margin-left: 5%; width: 90%;max-width:250px;" id="heading-image">
+   <!-- <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end; margin-right:5%; margin-left: 5%; width: 90%;max-width:250px;" id="heading-image">
       <figure id="scroll">
         <img src="./images/scroll-trans.png" alt="scroll" style="width=100%;max-width:250px;">
         <figcaption></figcaption>
       </figure>
-    </div>
+    </div> -->
   </div>
   
   
