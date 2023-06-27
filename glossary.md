@@ -75,7 +75,7 @@ div.text-block-main {
   
   .bttn_show {
   border: 2.5px solid #ec970b;
-  background-color:#fff;
+  background-color:#faf3e8;
   }
 
   .bttn_show p {
