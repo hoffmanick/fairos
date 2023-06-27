@@ -40,7 +40,7 @@ permalink: /aim1
   }
   
   .bttn:hover {
-  background-color:#f0ddc0;
+  background-color:#faf3e8;
   }
 
     .bttn:hover p {
@@ -52,12 +52,12 @@ permalink: /aim1
   }
   
   strong {
-  color:white;
+  color:#ec970b;
   }
   
   .bttn_show {
   border: 2.5px solid #ec970b;
-  background-color:#f0ddc0;
+  background-color:#faf3e8;
   }
 
   .bttn_show p {
@@ -75,7 +75,7 @@ permalink: /aim1
   
   #cap {
   display:none;
-  background-color: #f0d2a1;
+  background-color: #fff;
   position: absolute;
   max-width:180px;
   border: 1px solid #ec970b;
@@ -90,7 +90,7 @@ permalink: /aim1
   }
     
   .read-more-content {
-  background-color: #f0d2a1;
+  background-color: #fff;
   }
   
   @media print,screen and (max-width: 680px) {
@@ -181,17 +181,17 @@ permalink: /aim1
   </style>
 <div class="text-block-main" style="display:grid;grid-template-columns: auto;margin-right:0px;width:100%;">
   
-<div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, 280px);background-image:linear-gradient(to left, #f0d2a1, 90%, #97b779);padding:0;align-content:center;justify-content:space-between;" id="headingblock">
+<div class="text-block-right" style="display:grid;grid-template-columns:repeat(auto-fit, 280px);background-image:linear-gradient(to left, #fff, 90%, #97b779);padding:0;align-content:center;justify-content:space-between;" id="headingblock">
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:transparent;padding-left:10%;align-content:center;width:90%;position:relative;" id="heading-left">
       <h1 style="font-size:calc(20px + 3vw);"> Aim 1: Improve Interoperability and Reproducibility </h1>
       <p style="align-self:start;padding-top:10px;" id="describe">Building Interconnected and Open Data Resources</p>
     </div>
-    <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%;" id="heading-image">
+  <!--  <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%;" id="heading-image">
       <figure style="margin-left:0px;margin-right:0px;max-width:300px;width:120%;" id="quilter">
         <img src="./images/interoperable_quilt.png" alt="quilt" style="width:100%">
         <figcaption id="cap">Making systems interoperable is a kind of quilting. Image originally from Rocky Mountain Quilt Museum. Thomer and Rayburn, 2023: “A Patchwork of Data Systems”: Quilting as an Analytic Lens and Stabilizing Practice for Knowledge Infrastructures. <i>Science, Technology, & Human Values.</i></figcaption>
       </figure>
-    </div>
+    </div> -->
   </div>
   <div class="text-block-right" style="display:grid;grid-template-columns: repeat(auto-fit, 400px); width:95%;padding-left:5%;justify-content:space-between;">
     <div>
