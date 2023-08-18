@@ -87,7 +87,7 @@ div.text-block-right {
     </div>
     <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
       <figure id="stakes">
-        <img src="./images/rcn_stakes.png" alt="Stakeholders" style="width=100%;">
+        <img src="./images/rcn_aims-trans.png" alt="Stakeholders" style="width=100%;">
         <figcaption>The sets of lead and affiliated data resources involved in this RCN. </figcaption>
       </figure>
     </div>
@@ -113,11 +113,5 @@ div.text-block-right {
         <h3 style="border-bottom: 1px solid #ec970b;"> <a href="https://hoffmanick.github.io/fairos/aim3" style="font-size:1.4em">Aim 3:</a> Support Equity and Improve Access </h3>
         <p> We will democratize science in a manner that recognizes broader concepts of data ownership and ethical data curation. </p>
       </div>
-      <div class="text-block-right" style="max-width:500px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%;margin-left:3%; width:90%; padding-left:2%;">
-        <figure>
-          <img src="./images/rcn_aims-trans.png" alt="goals" style="display:block" align="absbottom">
-          <figcaption style="text-align:center;">The central aims, people, and outcomes that motivate this RCN. </figcaption>
-        </figure>
-       </div>
     </div>
 </div>
