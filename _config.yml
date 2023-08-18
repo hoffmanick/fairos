@@ -88,12 +88,12 @@ personnel_members:
   -
     name: "Nicole Fuller"
     institution: "Florida Museum of Natural History"
-    role: "Senior Personnel"
+    role: "Archaeology Collections Manager"
     picture: "\"./images/fuller_headshot.jpg\""
   -
     name: "Jen Green"
     institution: "Florida Museum of Natural History"
-    role: "Senior Personnel"
+    role: "Archaeology Collections Manager"
     picture: "\"./images/green_headshot.jpg\""
   -
     name: "Nick Hoffman"
@@ -103,7 +103,7 @@ personnel_members:
   -
     name: "Eric Kansa"
     institution: "Open Context"
-    role: "Senior Personnel"
+    role: "Program Director"
     picture: "\"./images/kansa_headshot.png\""
   -
     name: "Natalie Raia"
