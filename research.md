@@ -31,7 +31,7 @@ div.text-block-right {
    * User input values.
    */
   --grid-layout-gap: 10px;
-  --grid-column-count: 4;
+  --grid-column-count: 3;
   --grid-item--min-width: 220px;
 
   /**
