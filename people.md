@@ -122,10 +122,10 @@ div.text-block-main {
   </div>
 
 
-  <div class="text-block-right" style="display:grid;grid-template-columns:auto;padding:0px;margin-left:2%;width:98%;justify-content:center;" id="repository-image">
+  <div class="text-block-right" style="display:grid;grid-template-columns:auto;padding:0px;margin-left:2%;width:98%;" id="repository-image">
   <h2 style="color:#42b7bf;margin-bottom:0px; background-color:#fff;;z- index:9;position:relative;overflow:visible; border-bottom:1px solid #ec970b;width:100%">Related Repositories</h2>
   </div>
-  <div class="text-block-right" style="flex-direction:row;flex-wrap:wrap;padding-top:0px;align-content:center;padding-left:0%;width:95%;margin-left:5%;">
+  <div class="text-block-right" style="flex-direction:row;flex-wrap:wrap;padding-top:0px;align-content:center;padding-left:0%;width:90%;margin-left:5%;margin-right:5%; justify-content:center;">
    <img src="./images/rcn_stakes.png" style="border:1px solid #ec970b;margin-top:15px;">
   </div>
 </div>
