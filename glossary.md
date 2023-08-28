@@ -88,11 +88,6 @@ div.text-block-main {
   
  
   
-  
-  #title, #describe {
-  width:212%;
-  }
-  
 
 </style>
 
