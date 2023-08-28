@@ -37,7 +37,7 @@ div.text-block-main {
   
  @media print, screen and (max-width: 600px) {
   .profiles {
-  margin-right:40px;
+  <!-- margin-right:40px; -->
   min-width:80px;
   }
   .prof-text {
