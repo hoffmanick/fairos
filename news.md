@@ -66,7 +66,7 @@ h1#heading-left {
   </div>
 
 <div class="text-block-right" style="display:flex;flex-direction:row; flex-wrap:wrap;padding-left:3%;width:97%;" id="posts-calendar">
-    <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;padding-left:0%;width:67%;align-content:start;padding-top:0px;margin-top:20px;border-top: 1px solid #ec970b">
+    <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;padding-left:0%;width:67%;align-content:start;padding-top:0px;margin-top:20px;border-top: 1px solid #ec970b;min-width:293px;">
       {% for post in site.posts %}
       <div class="text-block-right" style="display:grid; grid-template-columns: auto auto; justify-content: start; border-bottom: 1px solid #ec970b;width:95%;padding-top:2%;padding-bottom:2%;">
           {% if post.image %} 
