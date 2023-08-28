@@ -87,7 +87,7 @@ h1#heading-left {
     </div>
 
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto auto;padding-left:0%;">
-      <h2> FAIROS Events Calendar </h2>
-      <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23B39DDB&ctz=America%2FChicago&title=Upcoming%20FAIROS%20Events&src=Y2U1NzRhZTM5Y2JhOTMyNDIyZDAzNjA1MzFlZDE1OGI0ZmQ4MjdiMDY1YmE3Yjk1YjMxNTk1MWVjYTYwNDVlOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23EC970B" title = "FAIROS Events Calendar" style="border: 1px solid #ec970b;width:95%;margin-right:5%;" width="400" height="500" frameborder="0" scrolling="no" id="cal"> wmode="transparent" </iframe>
+      <h2> EOS RCN Events Calendar </h2>
+      <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23B39DDB&ctz=America%2FChicago&title=Upcoming%20EOS%20RCN%20Events&src=Y2U1NzRhZTM5Y2JhOTMyNDIyZDAzNjA1MzFlZDE1OGI0ZmQ4MjdiMDY1YmE3Yjk1YjMxNTk1MWVjYTYwNDVlOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23EC970B" title = "EOS RCN Events Calendar" style="border: 1px solid #ec970b;width:95%;margin-right:5%;" width="400" height="500" frameborder="0" scrolling="no" id="cal"> wmode="transparent" </iframe>
     </div>
 </div>
