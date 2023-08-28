@@ -221,7 +221,7 @@ permalink: /aim3
     <div>
     <h2>Overview</h2>
     <div id="main-text">
-      <p>To advance the implementation of CARE best practices at all stages of the research data life cycle, we  have designed multiple overlapping efforts with clearly defined activities and deliverables.</p>
+      <p>We will advance the implementation of CARE best practices at all stages of the research data life cycle.</p>
       <h2>Activities</h2>
         <button class="bttn" id="synth" onclick="Func_synth()">
           <div><p><strong>Implementing CARE practices in Databases</strong></p></div>
