@@ -225,7 +225,7 @@ div.text-block-main {
   
   
   
-<div class="text-block-right" style="display:grid;grid-template-columns: repeat(auto-fit, 400px);width:95%;padding-left:5%;justify-content:space-between;">
+<div class="text-block-right" style="display:grid;;width:95%;padding-left:5%;justify-content:space-between;">
     <div id="main-text">
       <h2>Key Terms</h2> 
         <button class="bttn" id="care" onclick="Func_care()">
