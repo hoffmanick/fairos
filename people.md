@@ -7,7 +7,7 @@ permalink: /people
 <style>
   div.image {
   object-fit: contain;
-  width: 25%;
+  <!-- width: 25%; -->
   height: 25%
   min-width: 100px;
   }  
@@ -19,7 +19,7 @@ div.text-block-main {
   min-width:100px;
   }
   .prof-text {
-  width:130%;
+  <!-- width:130%; -->
   }
   
   #heading-image {
@@ -41,7 +41,7 @@ div.text-block-main {
   min-width:80px;
   }
   .prof-text {
-  width:130%;
+  <!-- width:130%; -->
   }
   }
 </style>
