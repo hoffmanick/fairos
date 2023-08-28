@@ -86,9 +86,7 @@ div.text-block-main {
   font-weight:900;
   }
   
-    .show_b {
-  width:150%;
-  }
+ 
   
   
   #title, #describe {
