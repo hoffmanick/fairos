@@ -70,7 +70,7 @@ permalink: /aim1
 
   
   .show_b {
-  width:150%;
+  <!-- width:150%; -->
   }
   
   #cap {
@@ -101,7 +101,7 @@ permalink: /aim1
   
   @media print, screen and (max-width: 720px) {
   .show_b {
-  width:200%;
+  <!-- width:200%; -->
   }
   }
 
@@ -112,7 +112,7 @@ permalink: /aim1
 
   
     #heading-image {
-  width:120%;
+  <!-- width:120%; -->
   }
   
       @media print, screen and (max-width: 660px) {
@@ -121,7 +121,7 @@ permalink: /aim1
   }
   
  #main-text {
-  width: 200%;
+  <!-- width: 200%; -->
   position: relative;
   } 
   
@@ -132,7 +132,7 @@ permalink: /aim1
   
  @media print, screen and (max-width: 1300px) {
   #main-text {
-  width: 170%;
+  <!-- width: 170%; -->
   } 
   }
 
@@ -146,7 +146,7 @@ permalink: /aim1
   
    @media print, screen and (max-width: 1180px) {
   #main-text {
-  width: 150%;
+  <!-- width: 150%; -->
   } 
   
     #fair-des {
@@ -157,7 +157,7 @@ permalink: /aim1
   
      @media print, screen and (max-width: 1089px) {
   #main-text {
-  width: 130%;
+  <!-- width: 130%; -->
   } 
   
     #fair-des {
@@ -168,7 +168,7 @@ permalink: /aim1
   
        @media print, screen and (max-width: 980px) {
   #main-text {
-  width: 110%;
+  <!-- width: 110%; -->
   } 
   }
 
@@ -187,7 +187,7 @@ permalink: /aim1
       <p style="align-self:start;padding-top:10px;" id="describe">Building Interconnected and Open Data Resources</p>
     </div>
   <!--  <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%;" id="heading-image">
-      <figure style="margin-left:0px;margin-right:0px;max-width:300px;width:120%;" id="quilter">
+      <figure style="margin-left:0px;margin-right:0px;max-width:300px;" id="quilter">
         <img src="./images/interoperable_quilt.png" alt="quilt" style="width:100%">
         <figcaption id="cap">Making systems interoperable is a kind of quilting. Image originally from Rocky Mountain Quilt Museum. Thomer and Rayburn, 2023: “A Patchwork of Data Systems”: Quilting as an Analytic Lens and Stabilizing Practice for Knowledge Infrastructures. <i>Science, Technology, & Human Values.</i></figcaption>
       </figure>
