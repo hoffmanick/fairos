@@ -217,7 +217,7 @@ permalink: /aim3
       </figure>
     </div> -->
   </div>
-  <div class="text-block-right" style="display:grid;grid-template-columns: repeat(auto-fit,375px);width:88%;padding-right:7%;padding-left:5%;justify-content:space-between;">
+  <div class="text-block-right" style="display:grid;width:88%;padding-right:7%;padding-left:5%;justify-content:space-between;">
     <div>
     <h2>Overview</h2>
     <div id="main-text">
