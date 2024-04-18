@@ -68,39 +68,39 @@ permalink: /research
   
 #a {
   grid-area: a;
-  background-color: #8ca0ff;
+ /* background-color: #8ca0ff; */
 }
 
 #b {
   grid-area: b;
-  background-color: #ffa08c;
+ /* background-color: #ffa08c; */
 }
 
 #c  {
   grid-area: c;
-  background-color: #ffff64;
+/*  background-color: #ffff64; */
 }
 
 #d  {
   grid-area: d;
-  background-color: #8cffa0;
+/*  background-color: #8cffa0; */
   text-align:center;
   align-content:center;
 }
 
 #e  {
   grid-area: e;
-  background-color: #8ca2d0;
+/*  background-color: #8ca2d0; */
 }
 
 #f  {
   grid-area: f;
-  background-color: #2ca2d0;
+/*  background-color: #2ca2d0; */
 }
 
 #g  {
   grid-area: g;
-  background-color: rgb(100,100,100);
+/*  background-color: rgb(100,100,100); */
 }
 
   
