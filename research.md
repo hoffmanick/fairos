@@ -5,6 +5,55 @@ permalink: /research
 ---
 <style>
 
+  #page {
+  display: grid;
+  width: 100%;
+  height: 550px;
+  grid-template-areas:
+    "a a b b"
+    "c d d  e"
+    "c d d  e"
+    "f f g g";
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#a {
+  grid-area: a;
+  background-color: #8ca0ff;
+}
+
+#b {
+  grid-area: b;
+  background-color: #ffa08c;
+}
+
+#c  {
+  grid-area: c;
+  background-color: #ffff64;
+}
+
+#d  {
+  grid-area: d;
+  background-color: #8cffa0;
+}
+
+#e  {
+  grid-area: e;
+  background-color: #8ca2d0;
+}
+
+#f  {
+  grid-area: f;
+  background-color: #2ca2d0;
+}
+
+#g  {
+  grid-area: g;
+  background-color: rgb(100,100,100);
+}
+
+  
 div.text-block-main {
   display: grid;
   grid-template-rows: auto auto auto;
@@ -114,4 +163,19 @@ div.text-block-right {
         <p> We will democratize science in a manner that recognizes broader concepts of data ownership and ethical data curation. </p>
       </div>
     </div>
+
+
+
+
+
+    <div id="page">
+  <div id="a">a</div>
+  <div id = 'b'>b</div>
+  <div id='c'>c</div>
+  <div id='d'>d
+  <h2>this is something</h2> </div>
+  <div id='e'>e</div>
+  <div id='f'>f</div>
+  <div id='g'>g</div>
+</div>
 </div>
