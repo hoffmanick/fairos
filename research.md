@@ -25,16 +25,17 @@ permalink: /research
     "c d d e"
     "c d d e"
     "f f g g";
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1.8fr 1fr 1fr 2fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-  .abtext p {
+  div.abtext p {
     font-size: 15px;
   }
 
   .abtext h4 {
     margin-bottom: 0px;
+    margin-top: 0px;
   }
   #comtext {
     background-color: #93c57e
@@ -44,11 +45,15 @@ permalink: /research
   }
 
   #repotext {
-    background-color: #46bec6
+    background-color: #46bec6;
+    top: 40%;
+    position:relative;
   }
 
     #outreachtext {
-    background-color: #ff9b01
+    background-color: #ff9b01;
+    position: relative;
+    top: 30%;
   }
   
   
@@ -205,7 +210,7 @@ div.text-block-right {
 
 
     <div id="page">
-  <div id="a">a
+  <div id="a">
   <div class="abtext" id="comtext">
     <h4>Annual Symposia</h4>
     <p>We are meeting yearly in person to think together about implementing ethical open science in our data ecosystems, furthering all our aims.</p>
@@ -217,7 +222,7 @@ div.text-block-right {
     <p>We meet monthly to discuss selections from the literature on the political economy of data.</p>
   </div></div>
   
-  <div id = 'b'>b
+  <div id = 'b'>
     <div class="abtext" id="interoptext">
     <h4>Mapping the Interoperability Landscape</h4>
       <p>We are interviewing data managers and disciplinary practitioners to map the ways they interoperate data, suprporting aims 1 and 3.</p>
@@ -227,19 +232,20 @@ div.text-block-right {
       <p>These pages offer greater transparency for users of Neotoma's data, a facet of aims 2 and 3.</p>
   </div></div>
   
-  <div id='c'>c</div>
+  <div id='c'></div>
   
   <div id='d'>
    <img src="./images/eos_circle.png" alt="circle" style="width:85%;max-width:750px;z-index:1; position:relative;"></div>
-  <div id='e'>e</div>
+   
+  <div id='e'></div>
   
-  <div id='f'>f
+  <div id='f'>
     <div class="abtext" id="repotext">
     <h4>Case studies: Neotoma, Open Context, Florida Museum</h4>
       <p>We are using our focal repositories as case studies for improving data governance and bolstering our commitment to Indigenous data sovereignty.</p>
   </div></div>
   
-  <div id='g'>g
+  <div id='g'>
       <div class="abtext" id="outreachtext">
     <h4>ECR Projects: Doing Ethical Open Science Across Disparate Data Types</h4>
         <p>We are working with early career researchers to.... ? </p>
