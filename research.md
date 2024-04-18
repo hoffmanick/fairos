@@ -10,11 +10,11 @@ permalink: /research
     margin-left: 5%;
     margin-right: 5%;
   width: 90%;
-  height: 110px;
+  height: 1100px;
   grid-template-areas:
     "a a b b"
-    "d d d d"
-    "d d d d"
+    "c d d e"
+    "c d d e"
     "f f g g";
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -38,6 +38,8 @@ permalink: /research
 #d  {
   grid-area: d;
   background-color: #8cffa0;
+  text-align:center;
+  align-content:center;
 }
 
 #e  {
@@ -175,7 +177,7 @@ div.text-block-right {
   <div id = 'b'>b</div>
   <div id='c'>c</div>
   <div id='d'>
-   <img src="./images/eos_circle.png" alt="circle" style="width=100%;"></div>
+   <img src="./images/eos_circle.png" alt="circle" style="width:85%;z-index:1; position:relative;"></div>
   <div id='e'>e</div>
   <div id='f'>f</div>
   <div id='g'>g</div>
