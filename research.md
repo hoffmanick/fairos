@@ -29,6 +29,13 @@ permalink: /research
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+  .abtext p {
+    font-size: 15px;
+  }
+
+  .abtext h4 {
+    margin-bottom: 0px;
+  }
   #comtext {
     background-color: #93c57e
   }
