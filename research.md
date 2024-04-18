@@ -25,7 +25,7 @@ permalink: /research
     "c d d e"
     "c d d e"
     "f f g g";
-  grid-template-rows: 1.8fr 1fr 1fr 2fr;
+  grid-template-rows: 5fr 0.5fr 0.5fr 5fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
@@ -38,22 +38,31 @@ permalink: /research
     margin-top: 0px;
   }
   #comtext {
-    background-color: #93c57e
+    background-color: #93c57e;
+    width:50%;
   }
   #interoptext {
-    background-color: #738995
+    background-color: #738995;
+    width: 65%;
+    position:relative;
+    left:25%;
+    top: 5%;
+
   }
 
   #repotext {
     background-color: #46bec6;
-    top: 40%;
+    top: 20%;
+    width:50%;
     position:relative;
   }
 
     #outreachtext {
     background-color: #ff9b01;
     position: relative;
-    top: 30%;
+    top: 5%;
+    width: 50%;
+    left: 40%;
   }
   
   
