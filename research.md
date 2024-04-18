@@ -5,6 +5,15 @@ permalink: /research
 ---
 <style>
 
+  h4 {
+  color:black;
+  }
+
+  .abtext {
+    width: 90%;
+    margin-left: 5%;
+    border: 2px solid black;
+  }
   #page {
   display: grid;
     margin-left: 5%;
@@ -192,34 +201,45 @@ div.text-block-right {
   <div id="a">a
   <div class="abtext" id="comtext">
     <h4>Annual Symposia</h4>
+    <p>We are meeting yearly in person to think together about implementing ethical open science in our data ecosystems, furthering all our aims.</p>
     <h4>Ethical Open Science Self-Reflection Survey</h4>
+    <p>Our self-reflection survey on our personal and institutional relationships to FAIR, CARE, and EOS have been guiding our subsequent actions.</p>
     <h4>Webinar Series</h4>
+    <p>We provide a forum for experts in informatics and ethics to share their work with us.</p>
     <h4>Reading Group</h4>
+    <p>We meet monthly to discuss selections from the literature on the political economy of data.</p>
   </div></div>
   
   <div id = 'b'>b
     <div class="abtext" id="interoptext">
     <h4>Mapping the Interoperability Landscape</h4>
+      <p>We are interviewing data managers and disciplinary practitioners to map the ways they interoperate data, suprporting aims 1 and 3.</p>
     <h4>Case Study: Linking data across repositories</h4>
+      <p>Using our focal repositories as a case study, we are developing a workflow to enhance data linkages, furthering all our aims.</p>
     <h4>Neotoma constituent database landing pages</h4>
+      <p>These pages offer greater transparency for users of Neotoma's data, a facet of aims 2 and 3.</p>
   </div></div>
   
   <div id='c'>c</div>
   
   <div id='d'>
-   <img src="./images/eos_circle.png" alt="circle" style="width:85%;z-index:1; position:relative;"></div>
+   <img src="./images/eos_circle.png" alt="circle" style="width:85%;max-width:750px;z-index:1; position:relative;"></div>
   <div id='e'>e</div>
   
   <div id='f'>f
     <div class="abtext" id="repotext">
     <h4>Case studies: Neotoma, Open Context, Florida Museum</h4>
+      <p>We are using our focal repositories as case studies for improving data governance and bolstering our commitment to Indigenous data sovereignty.</p>
   </div></div>
   
   <div id='g'>g
       <div class="abtext" id="outreachtext">
     <h4>ECR Projects: Doing Ethical Open Science Across Disparate Data Types</h4>
+        <p>We are working with early career researchers to.... ? </p>
         <h4>FAIR/CARE educational materials</h4>
+        <p>We are producing material for undergraduates studying data science and ecology to introduce them to principles of ethical open data management.</p>
         <h4>Data repository decision tree</h4>
+        <p>We are supporting early career researchers by providing them with a resource to guide their choice of repository for data or specimen upload.</p>
   </div></div>
   
 </div>
