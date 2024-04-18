@@ -189,32 +189,38 @@ div.text-block-right {
 
 
     <div id="page">
-  <div id="a">a</div>
+  <div id="a">a
   <div class="abtext" id="comtext">
     <h4>Annual Symposia</h4>
     <h4>Ethical Open Science Self-Reflection Survey</h4>
     <h4>Webinar Series</h4>
     <h4>Reading Group</h4>
-  </div>
-  <div id = 'b'>b</div>
+  </div></div>
+  
+  <div id = 'b'>b
     <div class="abtext" id="interoptext">
     <h4>Mapping the Interoperability Landscape</h4>
     <h4>Case Study: Linking data across repositories</h4>
     <h4>Neotoma constituent database landing pages</h4>
-  </div>
+  </div></div>
+  
   <div id='c'>c</div>
+  
   <div id='d'>
    <img src="./images/eos_circle.png" alt="circle" style="width:85%;z-index:1; position:relative;"></div>
   <div id='e'>e</div>
-  <div id='f'>f</div>
+  
+  <div id='f'>f
     <div class="abtext" id="repotext">
     <h4>Case studies: Neotoma, Open Context, Florida Museum</h4>
-  </div>
-  <div id='g'>g</div>
+  </div></div>
+  
+  <div id='g'>g
       <div class="abtext" id="outreachtext">
     <h4>ECR Projects: Doing Ethical Open Science Across Disparate Data Types</h4>
         <h4>FAIR/CARE educational materials</h4>
         <h4>Data repository decision tree</h4>
-  </div>
+  </div></div>
+  
 </div>
 </div>
