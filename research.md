@@ -7,12 +7,14 @@ permalink: /research
 
   #page {
   display: grid;
-  width: 100%;
-  height: 550px;
+    margin-left: 5%;
+    margin-right: 5%;
+  width: 90%;
+  height: 110px;
   grid-template-areas:
     "a a b b"
-    "c d d  e"
-    "c d d  e"
+    "d d d d"
+    "d d d d"
     "f f g g";
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -147,7 +149,7 @@ div.text-block-right {
   <p style="text-align:center;">We will modify our repositories of fossil specimen data to make their holdings more <strong>accessible</strong>. We will make these repositories more <strong>equitable</strong> as well, especially for the Indigenous nations from whose lands the fossils have been excavated. We will train those who manage these data and those who use them for research purposes in <strong>best practices</strong> to maintain access and equity into the future. </p>
 </div>
   
-  <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:blue;padding:0px;" id="meatblock">
+  <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:white;padding:0px;" id="meatblock">
     <div class="text-block-right" style="display:grid;justify-content:space-around;padding-top:17px;margin-right:0px;padding-left:4.5%;padding-right:4.5%;width:91%;" id="aimses">
       <div class="text-block-right" style="max-width:500px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:3%; border-left: 1px solid #ec970b; width:90%; padding-left:2%;">
         <h3 style="border-bottom: 1px solid #ec970b;"> <a href="https://hoffmanick.github.io/fairos/aim1" style="font-size:1.4em">Aim 1:</a> Improve Interoperability and Reproducibility </h3>
@@ -172,8 +174,8 @@ div.text-block-right {
   <div id="a">a</div>
   <div id = 'b'>b</div>
   <div id='c'>c</div>
-  <div id='d'>d
-  <h2>this is something</h2> </div>
+  <div id='d'>
+   <img src="./images/eos_circle.png" alt="circle" style="width=100%;"></div>
   <div id='e'>e</div>
   <div id='f'>f</div>
   <div id='g'>g</div>
