@@ -147,7 +147,7 @@ div.text-block-right {
   
  @media print, screen and (max-width: 680px) {
 
-   #interoptext, #repotext, #outreachtext, #comtext p {
+   #interoptext p, #repotext p, #outreachtext p, #comtext p {
      display: none;
    }
   #stakes, #describe {
