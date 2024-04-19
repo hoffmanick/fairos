@@ -145,7 +145,20 @@ div.text-block-right {
   grid-gap: var(--grid-layout-gap);
 }
   
- @media print, screen and (max-width: 480px) {
+ @media print, screen and (max-width: 680px) {
+
+     #page {
+  display: grid;
+    margin-left: 5%;
+    margin-right: 5%;
+  width: 90%;
+  height: 1100px;
+  grid-template-areas:
+    "c d d e"
+    "c d d e";
+  grid-template-rows: 5fr 0.5fr 0.5fr 5fr;
+  grid-template-columns: 1fr 1fr;
+}
 
    #interoptext, #repotext, #outreachtext, #comtext {
      display: none;
