@@ -147,20 +147,7 @@ div.text-block-right {
   
  @media print, screen and (max-width: 680px) {
 
-     #page {
-  display: grid;
-    margin-left: 5%;
-    margin-right: 5%;
-  width: 90%;
-  height: 1100px;
-  grid-template-areas:
-    "c d d e"
-    "c d d e";
-  grid-template-rows: 5fr 0.5fr 0.5fr 5fr;
-  grid-template-columns: 1fr 1fr;
-}
-
-   #interoptext, #repotext, #outreachtext, #comtext {
+   #interoptext, #repotext, #outreachtext, #comtext p {
      display: none;
    }
   #stakes, #describe {
