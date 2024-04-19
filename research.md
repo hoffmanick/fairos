@@ -64,7 +64,10 @@ permalink: /research
     width: 50%;
     left: 40%;
   }
-  
+
+      #interoptext strong, #repotext strong, #outreachtext strong, #comtext strong {
+     display: none;
+   }
   
 #a {
   grid-area: a;
@@ -146,6 +149,24 @@ div.text-block-right {
 }
   
  @media print, screen and (max-width: 680px) {
+     #page {
+  display: grid;
+    margin-left: 5%;
+    margin-right: 5%;
+  width: 90%;
+  height: 600px;
+  grid-template-areas:
+    "a a b b"
+    "c d d e"
+    "c d d e"
+    "f f g g";
+  grid-template-rows: 0.1fr 0.5fr 0.5fr 0.1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+    #interoptext strong, #repotext strong, #outreachtext strong, #comtext strong {
+     display: inline;
+   }
 
    #interoptext p, #repotext p, #outreachtext p, #comtext p {
      display: none;
@@ -179,7 +200,21 @@ div.text-block-right {
   margin-right: auto;
   }
   }
+
+
   
+ @media print, screen and (max-width: 490px) {
+   
+   #interoptext, #repotext, #outreachtext, #comtext {
+     display: none;
+   }
+
+   #page {
+     height: 400px;
+     grid-template-rows: 0fr 10fr 10fr 0fr;
+     grid-template-columns: 0fr 10fr 10fr 0fr;
+   }
+ }
 </style>
 
 <div class="text-block-main" style="display:grid;grid-template-rows:auto auto;margin:0;padding-left:0;width:100%;" id="block1">
@@ -225,23 +260,23 @@ div.text-block-right {
     <div id="page">
   <div id="a">
   <div class="abtext" id="comtext">
-    <h4>Annual Symposia</h4>
+    <h4>Annual Symposia</h4><strong>.</strong>
     <p>We are meeting yearly in person to think together about implementing ethical open science in our data ecosystems, furthering all our aims.</p>
-    <h4>Ethical Open Science Self-Reflection Survey</h4>
+    <h4>Ethical Open Science Self-Reflection Survey</h4><strong>.</strong>
     <p>Our self-reflection survey on our personal and institutional relationships to FAIR, CARE, and EOS have been guiding our subsequent actions.</p>
-    <h4>Webinar Series</h4>
+    <h4>Webinar Series</h4><strong>.</strong>
     <p>We provide a forum for experts in informatics and ethics to share their work with us.</p>
-    <h4>Reading Group</h4>
+    <h4>Reading Group</h4><strong>.</strong>
     <p>We meet monthly to discuss selections from the literature on the political economy of data.</p>
   </div></div>
   
   <div id = 'b'>
     <div class="abtext" id="interoptext">
-    <h4>Mapping the Interoperability Landscape</h4>
+    <h4>Mapping the Interoperability Landscape</h4><strong>.</strong>
       <p>We are interviewing data managers and disciplinary practitioners to map the ways they interoperate data, suprporting aims 1 and 3.</p>
-    <h4>Case Study: Linking data across repositories</h4>
+    <h4>Case Study: Linking data across repositories</h4><strong>.</strong>
       <p>Using our focal repositories as a case study, we are developing a workflow to enhance data linkages, furthering all our aims.</p>
-    <h4>Neotoma constituent database landing pages</h4>
+    <h4>Neotoma constituent database landing pages</h4><strong>.</strong>
       <p>These pages offer greater transparency for users of Neotoma's data, a facet of aims 2 and 3.</p>
   </div></div>
   
@@ -254,17 +289,17 @@ div.text-block-right {
   
   <div id='f'>
     <div class="abtext" id="repotext">
-    <h4>Case studies: Neotoma, Open Context, Florida Museum</h4>
+    <h4>Case studies: Neotoma, Open Context, Florida Museum</h4><strong>.</strong>
       <p>We are using our focal repositories as case studies for improving data governance and bolstering our commitment to Indigenous data sovereignty.</p>
   </div></div>
   
   <div id='g'>
       <div class="abtext" id="outreachtext">
-    <h4>ECR Projects: Doing Ethical Open Science Across Disparate Data Types</h4>
+    <h4>ECR Projects: Doing Ethical Open Science Across Disparate Data Types</h4><strong>.</strong>
         <p>We are working with early career researchers to.... ? </p>
-        <h4>FAIR/CARE educational materials</h4>
+        <h4>FAIR/CARE educational materials</h4><strong>.</strong>
         <p>We are producing material for undergraduates studying data science and ecology to introduce them to principles of ethical open data management.</p>
-        <h4>Data repository decision tree</h4>
+        <h4>Data repository decision tree</h4><strong>.</strong>
         <p>We are supporting early career researchers by providing them with a resource to guide their choice of repository for data or specimen upload.</p>
   </div></div>
   
