@@ -146,6 +146,10 @@ div.text-block-right {
 }
   
  @media print, screen and (max-width: 480px) {
+
+   #interoptext, #repotext, #outreachtext, #comtext {
+     display: none;
+   }
   #stakes, #describe {
     width:200px;
      }
