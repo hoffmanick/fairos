@@ -18,7 +18,7 @@ permalink: /research
   display: grid;
     margin-left: 5%;
     margin-right: 5%;
-  width: 90%;
+/*  width: 90%; */
   height: 1100px;
   grid-template-areas:
     "a a b b"
@@ -256,7 +256,7 @@ div.text-block-right {
 
 
 
-    <div id="page" style="max-width:600px;">
+    <div id="page" style="max-width:1100px;">
   <div id="a">
   <div class="abtext" id="comtext">
     <h4>Annual Symposia<strong>.</strong></h4>
@@ -282,7 +282,13 @@ div.text-block-right {
   <div id='c'></div>
   
   <div id='d'>
-   <img src="./images/eos_circle.png" alt="circle" style="width:85%;max-width:750px;z-index:1; position:relative;"></div>
+   <img src="./images/eos_circle.png" alt="circle" style="width:85%;max-width:750px;z-index:1; position:relative;" usemap="#image-map"></div>
+<map name="image-map">
+    <area target="_blank" alt="this" title="this" href="eos-rcn.github.io/web/home" coords="7,190,194,189,196,5,145,13,115,23,91,36,60,62,32,102,16,139,10,165,7,176" shape="poly">
+    <area target="_blank" alt="that" title="that" href="https://paleobiodb.org/#/" coords="5,199,7,223,7,241,12,258,17,272,24,285,34,297,44,316,61,333,73,341,83,353,96,357,113,366,132,376,151,383,169,384,187,384,188,196" shape="poly">
+    <area target="_blank" alt="other" title="other" href="https://earthlifeconsortium.org" coords="195,195,195,380,223,384,249,375,276,366,296,358,312,347,327,333,342,317,359,293,371,261,376,244,383,215,383,197" shape="poly">
+    <area target="_blank" alt="year" title="year" href="https://epicaustralia.org.au/" coords="199,7,198,181,197,188,383,189,383,159,375,125,357,89,333,61,311,41,279,20,238,5" shape="poly">
+</map>
    
   <div id='e'></div>
   
@@ -304,3 +310,13 @@ div.text-block-right {
   
 </div>
 </div>
+
+
+
+<script>
+
+  !function(){"use strict";function r(){function e(){var r={width:u.width/u.naturalWidth,height:u.height/u.naturalHeight},a={width:parseInt(window.getComputedStyle(u,null).getPropertyValue("padding-left"),10),height:parseInt(window.getComputedStyle(u,null).getPropertyValue("padding-top"),10)};i.forEach(function(e,t){var n=0;o[t].coords=e.split(",").map(function(e){var t=1==(n=1-n)?"width":"height";return a[t]+Math.floor(Number(e)*r[t])}).join(",")})}function t(e){return e.coords.replace(/ *, */g,",").replace(/ +/g,",")}function n(){clearTimeout(d),d=setTimeout(e,250)}function r(e){return document.querySelector('img[usemap="'+e+'"]')}var a=this,o=null,i=null,u=null,d=null;"function"!=typeof a._resize?(o=a.getElementsByTagName("area"),i=Array.prototype.map.call(o,t),u=r("#"+a.name)||r(a.name),a._resize=e,u.addEventListener("load",e,!1),window.addEventListener("focus",e,!1),window.addEventListener("resize",n,!1),window.addEventListener("readystatechange",e,!1),document.addEventListener("fullscreenchange",e,!1),u.width===u.naturalWidth&&u.height===u.naturalHeight||e()):a._resize()}function e(){function t(e){e&&(!function(e){if(!e.tagName)throw new TypeError("Object is not a valid DOM element");if("MAP"!==e.tagName.toUpperCase())throw new TypeError("Expected <MAP> tag, found <"+e.tagName+">.")}(e),r.call(e),n.push(e))}var n;return function(e){switch(n=[],typeof e){case"undefined":case"string":Array.prototype.forEach.call(document.querySelectorAll(e||"map"),t);break;case"object":t(e);break;default:throw new TypeError("Unexpected data type ("+typeof e+").")}return n}}"function"==typeof define&&define.amd?define([],e):"object"==typeof module&&"object"==typeof module.exports?module.exports=e():window.imageMapResize=e(),"jQuery"in window&&(window.jQuery.fn.imageMapResize=function(){return this.filter("map").each(r).end()})}();
+
+imageMapResize();
+  
+</script>
