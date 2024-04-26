@@ -24,10 +24,10 @@ permalink: /research
 /*  width: 90%; */
   height: 1100px;
   grid-template-areas:
-    "d a"
-    "d b"
-    "d f"
-    "d g";
+    "a d d b"
+    "e d d e"
+    "c d d c"
+    "f d d g";
 /*  grid-template-rows: 5fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr; */
 }
@@ -242,7 +242,7 @@ div.text-block-right {
   </div>
 
   
-  <div class="text-block-right" style="display:flex;flex-direction: row;flex-wrap:wrap;background-color:blue;padding:0px;" id="meatblock">
+  <div class="text-block-right" style="display:flex;flex-direction: row;flex-wrap:wrap;background-color:blue;padding:0px;justify-content:space-around;" id="meatblock">
 
     
     <div class="text-block-right" style="max-width:300px;display:grid;justify-content:space-around;padding-top:17px;margin-right:0px;padding-left:4.5%;padding-right:4.5%;width:91%;grid-template-columns:auto;" id="aimses">
@@ -289,7 +289,7 @@ div.text-block-right {
   <div id='c'></div>
   
   <div id='d'>
-   <img src="./images/eos_circle.png" alt="circle" style="width:85%;max-width:750px;z-index:1; position:relative;" usemap="#image-map"></div>
+   <img src="./images/eos_circle.png" alt="circle" style="width:calc(200px + 20vw);max-width:750px;z-index:1; position:relative;" usemap="#image-map"></div>
 <map name="image-map">
     <area target="_blank" alt="community" title="community" coords="7,190,194,189,196,5,145,13,115,23,91,36,60,62,32,102,16,139,10,165,7,176" shape="poly" onclick="func_community()">
     <area target="_blank" alt="repo governance" title="repo governance" coords="5,199,7,223,7,241,12,258,17,272,24,285,34,297,44,316,61,333,73,341,83,353,96,357,113,366,132,376,151,383,169,384,187,384,188,196" shape="poly" onclick="func_repogov()">
