@@ -291,10 +291,10 @@ div.text-block-right {
   <div id='d'>
    <img src="./images/eos_circle.png" alt="circle" style="width:85%;max-width:750px;z-index:1; position:relative;" usemap="#image-map"></div>
 <map name="image-map">
-    <area target="_blank" alt="community" title="this" coords="7,190,194,189,196,5,145,13,115,23,91,36,60,62,32,102,16,139,10,165,7,176" shape="poly" onclick="func_community()">
-    <area target="_blank" alt="repo_gov" title="that" coords="5,199,7,223,7,241,12,258,17,272,24,285,34,297,44,316,61,333,73,341,83,353,96,357,113,366,132,376,151,383,169,384,187,384,188,196" shape="poly" onclick="func_repogov()">
-    <area target="_blank" alt="outreach" title="other" coords="195,195,195,380,223,384,249,375,276,366,296,358,312,347,327,333,342,317,359,293,371,261,376,244,383,215,383,197" shape="poly" onclick="func_out()">
-    <area target="_blank" alt="interoperability" title="year"coords="199,7,198,181,197,188,383,189,383,159,375,125,357,89,333,61,311,41,279,20,238,5" shape="poly" onclick="func_interop()">
+    <area target="_blank" alt="community" title="community" coords="7,190,194,189,196,5,145,13,115,23,91,36,60,62,32,102,16,139,10,165,7,176" shape="poly" onclick="func_community()">
+    <area target="_blank" alt="repo governance" title="repo governance" coords="5,199,7,223,7,241,12,258,17,272,24,285,34,297,44,316,61,333,73,341,83,353,96,357,113,366,132,376,151,383,169,384,187,384,188,196" shape="poly" onclick="func_repogov()">
+    <area target="_blank" alt="outreach" title="outreach" coords="195,195,195,380,223,384,249,375,276,366,296,358,312,347,327,333,342,317,359,293,371,261,376,244,383,215,383,197" shape="poly" onclick="func_out()">
+    <area target="_blank" alt="interoperability" title="interoperability" coords="199,7,198,181,197,188,383,189,383,159,375,125,357,89,333,61,311,41,279,20,238,5" shape="poly" onclick="func_interop()">
 </map>
    
   <div id='e'></div>
@@ -332,22 +332,22 @@ imageMapResize();
 <script>
 function func_community() {
   document.getElementById("a").classList.toggle("toggler");
-  document.getElementById("care").classList.toggle("bttn_show");
+
 }
 
 function func_repogov() {
   document.getElementById("f").classList.toggle("toggler");
-  document.getElementById("fair").classList.toggle("bttn_show");
+
 }
 
   function func_out() {
   document.getElementById("g").classList.toggle("toggler");
-  document.getElementById("quat").classList.toggle("bttn_show");
+
 }
 
    function func_interop() {
   document.getElementById("b").classList.toggle("toggler");
-  document.getElementById("data").classList.toggle("bttn_show");
+
 }
 
 
