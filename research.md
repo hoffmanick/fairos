@@ -5,6 +5,9 @@ permalink: /research
 ---
 <style>
 
+  .toggler {
+    display:block;
+  }
   h4 {
   color:black;
   }
@@ -21,11 +24,11 @@ permalink: /research
 /*  width: 90%; */
   height: 1100px;
   grid-template-areas:
-    "a a b b"
-    "c d d e"
-    "c d d e"
-    "f f g g";
-  grid-template-rows: 5fr 0.5fr 0.5fr 5fr;
+    "d a"
+    "d b"
+    "d f"
+    "d g";
+  grid-template-rows: 5fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
@@ -106,6 +109,10 @@ permalink: /research
 /*  background-color: rgb(100,100,100); */
 }
 
+
+.begin {
+  display:none;
+}
   
 div.text-block-main {
   display: grid;
@@ -256,8 +263,8 @@ div.text-block-right {
 
 
 
-    <div id="page" style="max-width:1100px;">
-  <div id="a">
+    <div id="page" style="max-width:900px;">
+  <div id="a" class="begin">
   <div class="abtext" id="comtext">
     <h4>Annual Symposia<strong>.</strong></h4>
     <p>We are meeting yearly in person to think together about implementing ethical open science in our data ecosystems, furthering all our aims.</p>
@@ -269,7 +276,7 @@ div.text-block-right {
     <p>We meet monthly to discuss selections from the literature on the political economy of data.</p>
   </div></div>
   
-  <div id = 'b'>
+  <div id = 'b' class="begin">
     <div class="abtext" id="interoptext">
     <h4>Mapping the Interoperability Landscape<strong>.</strong></h4>
       <p>We are interviewing data managers and disciplinary practitioners to map the ways they interoperate data, suprporting aims 1 and 3.</p>
@@ -284,21 +291,21 @@ div.text-block-right {
   <div id='d'>
    <img src="./images/eos_circle.png" alt="circle" style="width:85%;max-width:750px;z-index:1; position:relative;" usemap="#image-map"></div>
 <map name="image-map">
-    <area target="_blank" alt="this" title="this" href="eos-rcn.github.io/web/home" coords="7,190,194,189,196,5,145,13,115,23,91,36,60,62,32,102,16,139,10,165,7,176" shape="poly">
-    <area target="_blank" alt="that" title="that" href="https://paleobiodb.org/#/" coords="5,199,7,223,7,241,12,258,17,272,24,285,34,297,44,316,61,333,73,341,83,353,96,357,113,366,132,376,151,383,169,384,187,384,188,196" shape="poly">
-    <area target="_blank" alt="other" title="other" href="https://earthlifeconsortium.org" coords="195,195,195,380,223,384,249,375,276,366,296,358,312,347,327,333,342,317,359,293,371,261,376,244,383,215,383,197" shape="poly">
-    <area target="_blank" alt="year" title="year" href="https://epicaustralia.org.au/" coords="199,7,198,181,197,188,383,189,383,159,375,125,357,89,333,61,311,41,279,20,238,5" shape="poly">
+    <area target="_blank" alt="community" title="this" coords="7,190,194,189,196,5,145,13,115,23,91,36,60,62,32,102,16,139,10,165,7,176" shape="poly" onclick="func_community()">
+    <area target="_blank" alt="repo_gov" title="that" coords="5,199,7,223,7,241,12,258,17,272,24,285,34,297,44,316,61,333,73,341,83,353,96,357,113,366,132,376,151,383,169,384,187,384,188,196" shape="poly" onclick="func_repogov()">
+    <area target="_blank" alt="outreach" title="other" coords="195,195,195,380,223,384,249,375,276,366,296,358,312,347,327,333,342,317,359,293,371,261,376,244,383,215,383,197" shape="poly" onclick="func_out()">
+    <area target="_blank" alt="interoperability" title="year"coords="199,7,198,181,197,188,383,189,383,159,375,125,357,89,333,61,311,41,279,20,238,5" shape="poly" onclick="func_interop()">
 </map>
    
   <div id='e'></div>
   
-  <div id='f'>
+  <div id='f' class="begin">
     <div class="abtext" id="repotext">
     <h4>Case studies: Neotoma, Open Context, Florida Museum<strong>.</strong></h4>
       <p>We are using our focal repositories as case studies for improving data governance and bolstering our commitment to Indigenous data sovereignty.</p>
   </div></div>
   
-  <div id='g'>
+  <div id='g' class="begin">
       <div class="abtext" id="outreachtext">
     <h4>ECR Projects: Doing Ethical Open Science Across Disparate Data Types<strong>.</strong></h4>
         <p>We are working with early career researchers to.... ? </p>
@@ -319,4 +326,30 @@ div.text-block-right {
 
 imageMapResize();
   
+</script>
+
+
+<script>
+function func_community() {
+  document.getElementById("a").classList.toggle("toggler");
+  document.getElementById("care").classList.toggle("bttn_show");
+}
+
+function func_repogov() {
+  document.getElementById("f").classList.toggle("toggler");
+  document.getElementById("fair").classList.toggle("bttn_show");
+}
+
+  function func_out() {
+  document.getElementById("g").classList.toggle("toggler");
+  document.getElementById("quat").classList.toggle("bttn_show");
+}
+
+   function func_interop() {
+  document.getElementById("b").classList.toggle("toggler");
+  document.getElementById("data").classList.toggle("bttn_show");
+}
+
+
+
 </script>
