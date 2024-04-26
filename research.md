@@ -28,8 +28,8 @@ permalink: /research
     "d b"
     "d f"
     "d g";
-  grid-template-rows: 5fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+/*  grid-template-rows: 5fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr; */
 }
 
   div.abtext p {
