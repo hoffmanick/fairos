@@ -332,21 +332,25 @@ imageMapResize();
 <script>
 function func_community() {
   document.getElementById("a").classList.toggle("toggler");
+  document.getElementById("a").classList.toggle("begin");
 
 }
 
 function func_repogov() {
   document.getElementById("f").classList.toggle("toggler");
+    document.getElementById("f").classList.toggle("begin");
 
 }
 
   function func_out() {
   document.getElementById("g").classList.toggle("toggler");
+      document.getElementById("g").classList.toggle("begin");
 
 }
 
    function func_interop() {
   document.getElementById("b").classList.toggle("toggler");
+       document.getElementById("b").classList.toggle("begin");
 
 }
 
