@@ -233,9 +233,13 @@ div.text-block-right {
       </figure>
     </div>
   </div>
-  <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:blue;padding:0px;" id="meatblock">
-    <div class="text-block-right" style="display:grid;justify-content:space-around;padding-top:17px;margin-right:0px;padding-left:4.5%;padding-right:4.5%;width:91%;" id="aimses">
-      <div class="text-block-right" style="max-width:500px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:3%; border-left: 1px solid #ec970b; width:90%; padding-left:2%;">
+
+  
+  <div class="text-block-right" style="display:grid;grid-template-columns:auto auto;background-color:blue;padding:0px;" id="meatblock">
+
+    
+    <div class="text-block-right" style="display:grid;justify-content:space-around;padding-top:17px;margin-right:0px;padding-left:4.5%;padding-right:4.5%;width:91%;grid-template-columns:auto;" id="aimses">
+      <div class="text-block-right" style="max-width:500px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:3%; border-left: 1px solid                #ec970b; width:90%; padding-left:2%;">
         <h3 style="border-bottom: 1px solid #ec970b;"> <a href="{{site.baseurl}}/aim1" style="font-size:1.4em">Aim 1: Improve Interoperability and Reproducibility</a></h3>
         <p style="text-align:center;"> We will develop guidance for interoperability and reproducibility among Quaternary community-curated data resources and
         promote adoption of broader and more equitable metadata standards. </p>
