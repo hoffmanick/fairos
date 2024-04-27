@@ -24,7 +24,7 @@ permalink: /research
  width: 90%; */
   height: 1100px;
   grid-template-areas:
-    "e d d c"
+    "h h h h"
     "e d d c"
     "e d d c"
     "a f g b";
@@ -71,7 +71,7 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
     background-color: #ff9b01;
     position: relative;
     width: 100%;
-    top: calc(-150% + 20vw)
+    top: calc(-150% + 20vw);
     left: 8%;
 
   }
@@ -106,6 +106,10 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
   grid-area: e;
 /*  background-color: #8ca2d0; */
 }
+
+  #h {
+    grid-area: h;
+  }
 
 #f  {
   grid-area: f;
@@ -279,10 +283,10 @@ div.text-block-right {
   <div id='d'>
    <img src="./images/eos_circle.png" alt="circle" style="width:calc(200px + 20vw);max-width:750px;z-index:1; position:relative;" usemap="#image-map"></div>
 <map name="image-map">
-    <area target="_blank" alt="community" title="community" coords="7,190,194,189,196,5,145,13,115,23,91,36,60,62,32,102,16,139,10,165,7,176" shape="poly" onclick="func_community()">
-    <area target="_blank" alt="repo governance" title="repo governance" coords="5,199,7,223,7,241,12,258,17,272,24,285,34,297,44,316,61,333,73,341,83,353,96,357,113,366,132,376,151,383,169,384,187,384,188,196" shape="poly" onclick="func_repogov()">
-    <area target="_blank" alt="outreach" title="outreach" coords="195,195,195,380,223,384,249,375,276,366,296,358,312,347,327,333,342,317,359,293,371,261,376,244,383,215,383,197" shape="poly" onclick="func_out()">
-    <area target="_blank" alt="interoperability" title="interoperability" coords="199,7,198,181,197,188,383,189,383,159,375,125,357,89,333,61,311,41,279,20,238,5" shape="poly" onclick="func_interop()">
+    <area target="_blank" style="cursor:pointer;" alt="community" title="community" coords="7,190,194,189,196,5,145,13,115,23,91,36,60,62,32,102,16,139,10,165,7,176" shape="poly" onclick="func_community()">
+    <area target="_blank" style="cursor:pointer;" alt="repo governance" title="repo governance" coords="5,199,7,223,7,241,12,258,17,272,24,285,34,297,44,316,61,333,73,341,83,353,96,357,113,366,132,376,151,383,169,384,187,384,188,196" shape="poly" onclick="func_repogov()">
+    <area target="_blank" style="cursor:pointer;" alt="outreach" title="outreach" coords="195,195,195,380,223,384,249,375,276,366,296,358,312,347,327,333,342,317,359,293,371,261,376,244,383,215,383,197" shape="poly" onclick="func_out()">
+    <area target="_blank" style="cursor:pointer;" alt="interoperability" title="interoperability" coords="199,7,198,181,197,188,383,189,383,159,375,125,357,89,333,61,311,41,279,20,238,5" shape="poly" onclick="func_interop()">
 </map>
    
   <div id='e'></div>
@@ -321,6 +325,14 @@ div.text-block-right {
         <p>We are producing material for undergraduates studying data science and ecology to introduce them to principles of ethical open data management.</p>
         <h4>Data repository decision tree<strong>.</strong></h4>
         <p>We are supporting early career researchers by providing them with a resource to guide their choice of repository for data or specimen upload.</p>
+      </div>
+    </div>
+
+    <div id='h'>
+      <div>
+        <h2>RCN Activities</h2>
+        <p>Our RCN Aims have so far coalesced around the following domains of activity. 
+        Click any sector of the circle below to learn more about that domain.</p>
       </div>
     </div>
   
