@@ -63,12 +63,16 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
     background-color: #46bec6;
     width:100%;
     position:relative;
+    top: -50%;
+    left: 8%;
   }
 
     #outreachtext {
     background-color: #ff9b01;
     position: relative;
     width: 100%;
+    top: -50%;
+    left: 8%;
 
   }
 
