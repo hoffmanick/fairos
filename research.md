@@ -42,11 +42,11 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
   }
   #comtext {
     background-color: #93c57e;
-    width:50%;
+    width:100%;
   }
   #interoptext {
     background-color: #738995;
-    width: 65%;
+    width: 100%;
     position:relative;
     left:25%;
     top: 5%;
@@ -56,7 +56,7 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
   #repotext {
     background-color: #46bec6;
     top: 20%;
-    width:50%;
+    width:100%;
     position:relative;
   }
 
@@ -64,7 +64,7 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
     background-color: #ff9b01;
     position: relative;
     top: 5%;
-    width: 50%;
+    width: 100%;
     left: 40%;
   }
 
