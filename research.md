@@ -24,10 +24,10 @@ permalink: /research
 /*  width: 90%; */
   height: 1100px;
   grid-template-areas:
-    "a d d b"
+    "a a b b"
     "e d d e"
     "c d d c"
-    "f d d g";
+    "f f g g";
 /*  grid-template-rows: 5fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr; */
 }
@@ -264,8 +264,8 @@ div.text-block-right {
 
 
     <div id="page" style="max-width:900px;">
-  <div id="a" class="begin">
-  <div class="abtext" id="comtext">
+  <div id="a">
+  <div class="abtext begin" id="comtext">
     <h4>Annual Symposia<strong>.</strong></h4>
     <p>We are meeting yearly in person to think together about implementing ethical open science in our data ecosystems, furthering all our aims.</p>
     <h4>Ethical Open Science Self-Reflection Survey<strong>.</strong></h4>
@@ -276,8 +276,8 @@ div.text-block-right {
     <p>We meet monthly to discuss selections from the literature on the political economy of data.</p>
   </div></div>
   
-  <div id = 'b' class="begin">
-    <div class="abtext" id="interoptext">
+  <div id = 'b'>
+    <div class="abtext begin" id="interoptext">
     <h4>Mapping the Interoperability Landscape<strong>.</strong></h4>
       <p>We are interviewing data managers and disciplinary practitioners to map the ways they interoperate data, suprporting aims 1 and 3.</p>
     <h4>Case Study: Linking data across repositories<strong>.</strong></h4>
@@ -299,14 +299,14 @@ div.text-block-right {
    
   <div id='e'></div>
   
-  <div id='f' class="begin">
-    <div class="abtext" id="repotext">
+  <div id='f'>
+    <div class="abtext begin" id="repotext">
     <h4>Case studies: Neotoma, Open Context, Florida Museum<strong>.</strong></h4>
       <p>We are using our focal repositories as case studies for improving data governance and bolstering our commitment to Indigenous data sovereignty.</p>
   </div></div>
   
-  <div id='g' class="begin">
-      <div class="abtext" id="outreachtext">
+  <div id='g'>
+      <div class="abtext begin" id="outreachtext">
     <h4>ECR Projects: Doing Ethical Open Science Across Disparate Data Types<strong>.</strong></h4>
         <p>We are working with early career researchers to.... ? </p>
         <h4>FAIR/CARE educational materials<strong>.</strong></h4>
@@ -331,26 +331,26 @@ imageMapResize();
 
 <script>
 function func_community() {
-  document.getElementById("a").classList.toggle("toggler");
-  document.getElementById("a").classList.toggle("begin");
+  document.getElementById("comtext").classList.toggle("toggler");
+  document.getElementById("comtext").classList.toggle("begin");
 
 }
 
 function func_repogov() {
-  document.getElementById("f").classList.toggle("toggler");
-    document.getElementById("f").classList.toggle("begin");
+  document.getElementById("repotext").classList.toggle("toggler");
+    document.getElementById("repotext").classList.toggle("begin");
 
 }
 
   function func_out() {
-  document.getElementById("g").classList.toggle("toggler");
-      document.getElementById("g").classList.toggle("begin");
+  document.getElementById("outreachtext").classList.toggle("toggler");
+      document.getElementById("outreachtext").classList.toggle("begin");
 
 }
 
    function func_interop() {
-  document.getElementById("b").classList.toggle("toggler");
-       document.getElementById("b").classList.toggle("begin");
+  document.getElementById("interoptext").classList.toggle("toggler");
+       document.getElementById("interoptext").classList.toggle("begin");
 
 }
 
