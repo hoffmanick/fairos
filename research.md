@@ -19,9 +19,9 @@ permalink: /research
   }
   #page {
   display: grid;
-    margin-left: 14%;
+ /*    margin-left: 14%;
     margin-right: 7%;
-/*  width: 90%; */
+ width: 90%; */
   height: 1100px;
   grid-template-areas:
     "e d d c"
