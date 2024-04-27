@@ -19,7 +19,7 @@ permalink: /research
   }
   #page {
   display: grid;
-    margin-left: 5%;
+    margin-left: 14%;
     margin-right: 7%;
 /*  width: 90%; */
   height: 1100px;
