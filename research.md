@@ -271,7 +271,7 @@ div.text-block-right {
 
 
 
-    <div id="page" style="max-width:900px;">
+    <div id="page" style="max-width:calc(200px + 32vw);">
 
   
   <div id='c'></div>
