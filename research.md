@@ -25,8 +25,8 @@ permalink: /research
   height: 1100px;
   grid-template-areas:
     "a a b b"
-    "e d d e"
-    "c d d c"
+    "e d d c"
+    "e d d c"
     "f f g g";
 /*  grid-template-rows: 5fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr; */
