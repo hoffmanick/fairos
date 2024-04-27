@@ -54,7 +54,7 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
     width: 100%;
     position:relative;
     top: -250%;
-    left: 20%;
+/*    left: 20%; */
 
 
   }
