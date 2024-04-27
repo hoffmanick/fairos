@@ -24,10 +24,10 @@ permalink: /research
 /*  width: 90%; */
   height: 1100px;
   grid-template-areas:
-    "a a b b"
-    "e d d c"
-    "e d d c"
-    "f f g g";
+    "a d d c"
+    "a d d c"
+    "a d d c"
+    "a d d c";
 /*  grid-template-rows: 5fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr; */
 }
@@ -264,6 +264,25 @@ div.text-block-right {
 
 
     <div id="page" style="max-width:900px;">
+
+  
+  <div id='c'></div>
+  
+  <div id='d'>
+   <img src="./images/eos_circle.png" alt="circle" style="width:calc(200px + 20vw);max-width:750px;z-index:1; position:relative;" usemap="#image-map"></div>
+<map name="image-map">
+    <area target="_blank" alt="community" title="community" coords="7,190,194,189,196,5,145,13,115,23,91,36,60,62,32,102,16,139,10,165,7,176" shape="poly" onclick="func_community()">
+    <area target="_blank" alt="repo governance" title="repo governance" coords="5,199,7,223,7,241,12,258,17,272,24,285,34,297,44,316,61,333,73,341,83,353,96,357,113,366,132,376,151,383,169,384,187,384,188,196" shape="poly" onclick="func_repogov()">
+    <area target="_blank" alt="outreach" title="outreach" coords="195,195,195,380,223,384,249,375,276,366,296,358,312,347,327,333,342,317,359,293,371,261,376,244,383,215,383,197" shape="poly" onclick="func_out()">
+    <area target="_blank" alt="interoperability" title="interoperability" coords="199,7,198,181,197,188,383,189,383,159,375,125,357,89,333,61,311,41,279,20,238,5" shape="poly" onclick="func_interop()">
+</map>
+   
+  <div id='e'></div>
+  
+  
+</div>
+
+<div id="new-block">
   <div id="a">
   <div class="abtext begin" id="comtext">
     <h4>Annual Symposia<strong>.</strong></h4>
@@ -285,20 +304,6 @@ div.text-block-right {
     <h4>Neotoma constituent database landing pages<strong>.</strong></h4>
       <p>These pages offer greater transparency for users of Neotoma's data, a facet of aims 2 and 3.</p>
   </div></div>
-  
-  <div id='c'></div>
-  
-  <div id='d'>
-   <img src="./images/eos_circle.png" alt="circle" style="width:calc(200px + 20vw);max-width:750px;z-index:1; position:relative;" usemap="#image-map"></div>
-<map name="image-map">
-    <area target="_blank" alt="community" title="community" coords="7,190,194,189,196,5,145,13,115,23,91,36,60,62,32,102,16,139,10,165,7,176" shape="poly" onclick="func_community()">
-    <area target="_blank" alt="repo governance" title="repo governance" coords="5,199,7,223,7,241,12,258,17,272,24,285,34,297,44,316,61,333,73,341,83,353,96,357,113,366,132,376,151,383,169,384,187,384,188,196" shape="poly" onclick="func_repogov()">
-    <area target="_blank" alt="outreach" title="outreach" coords="195,195,195,380,223,384,249,375,276,366,296,358,312,347,327,333,342,317,359,293,371,261,376,244,383,215,383,197" shape="poly" onclick="func_out()">
-    <area target="_blank" alt="interoperability" title="interoperability" coords="199,7,198,181,197,188,383,189,383,159,375,125,357,89,333,61,311,41,279,20,238,5" shape="poly" onclick="func_interop()">
-</map>
-   
-  <div id='e'></div>
-  
   <div id='f'>
     <div class="abtext begin" id="repotext">
     <h4>Case studies: Neotoma, Open Context, Florida Museum<strong>.</strong></h4>
@@ -307,15 +312,15 @@ div.text-block-right {
   
   <div id='g'>
       <div class="abtext begin" id="outreachtext">
-    <h4>ECR Projects: Doing Ethical Open Science Across Disparate Data Types<strong>.</strong></h4>
+        <h4>ECR Projects: Doing Ethical Open Science Across Disparate Data Types<strong>.</strong></h4>
         <p>We are working with early career researchers to.... ? </p>
         <h4>FAIR/CARE educational materials<strong>.</strong></h4>
         <p>We are producing material for undergraduates studying data science and ecology to introduce them to principles of ethical open data management.</p>
         <h4>Data repository decision tree<strong>.</strong></h4>
         <p>We are supporting early career researchers by providing them with a resource to guide their choice of repository for data or specimen upload.</p>
-  </div></div>
-  
-</div>
+      </div>
+    </div>
+  </div>
 </div>
 
 
