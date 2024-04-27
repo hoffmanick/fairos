@@ -48,14 +48,12 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
     background-color: #738995;
     width: 100%;
     position:relative;
-    left:25%;
-    top: 5%;
+
 
   }
 
   #repotext {
     background-color: #46bec6;
-    top: 20%;
     width:100%;
     position:relative;
   }
@@ -63,9 +61,9 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
     #outreachtext {
     background-color: #ff9b01;
     position: relative;
-    top: 5%;
+
     width: 100%;
-    left: 40%;
+
   }
 
       #interoptext strong, #repotext strong, #outreachtext strong, #comtext strong {
