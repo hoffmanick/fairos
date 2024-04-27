@@ -255,7 +255,7 @@ div.text-block-right {
   </div>
 
   
-  <div class="text-block-right" style="display:flex;flex-direction: row;flex-wrap:wrap;background-color:white;padding:0px;justify-content:space-around;" id="meatblock">
+  <div class="text-block-right" style="display:flex;flex-direction: row;flex-wrap:wrap;background-color:white;padding:0px;justify-content:center;" id="meatblock">
 
     
     <div class="text-block-right" style="max-width:300px;display:grid;justify-content:space-around;padding-top:17px;margin-right:0px;padding-left:4.5%;padding-right:4.5%;width:91%;grid-template-columns:auto;" id="aimses">
