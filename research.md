@@ -63,7 +63,7 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
     background-color: #46bec6;
     width:100%;
     position:relative;
-    top: calc(-120% + 18vw);
+    top: calc(-150% + 20vw);
     left: -8%;
   }
 
@@ -71,7 +71,7 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
     background-color: #ff9b01;
     position: relative;
     width: 100%;
-    top: -50%;
+    top: calc(-150% + 20vw)
     left: 8%;
 
   }
