@@ -24,10 +24,10 @@ permalink: /research
 /*  width: 90%; */
   height: 1100px;
   grid-template-areas:
-    "a d d c"
-    "a d d c"
-    "a d d c"
-    "a d d c";
+    "e d d c"
+    "e d d c"
+    "e d d c"
+    "a b g f";
 /*  grid-template-rows: 5fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr; */
 }
@@ -278,12 +278,7 @@ div.text-block-right {
 </map>
    
   <div id='e'></div>
-  
-  
-</div>
-
-<div id="new-block">
-  <div id="a">
+    <div id="a">
   <div class="abtext begin" id="comtext">
     <h4>Annual Symposia<strong>.</strong></h4>
     <p>We are meeting yearly in person to think together about implementing ethical open science in our data ecosystems, furthering all our aims.</p>
@@ -320,7 +315,10 @@ div.text-block-right {
         <p>We are supporting early career researchers by providing them with a resource to guide their choice of repository for data or specimen upload.</p>
       </div>
     </div>
-  </div>
+  
+</div>
+
+
 </div>
 
 
