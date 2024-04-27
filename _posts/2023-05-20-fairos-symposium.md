@@ -3,7 +3,7 @@ layout: post
 title: FAIROS Symposium
 author: Nick Hoffman
 date: 2023-05-20
-tags: tag
+tags: webinar
 image: "\"https://hoffmanick.github.io/fairos/images/Blois_group_3.jpeg\""
 alt: biosphere
 figcap: "Members of the FAIROS RCN gathered at the Biosphere 2 in Arizona to determine project goals. May 16-19, 2023."
