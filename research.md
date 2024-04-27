@@ -27,9 +27,9 @@ permalink: /research
     "e d d c"
     "e d d c"
     "e d d c"
-    "a b g f";
-/*  grid-template-rows: 5fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr; */
+    "a b f g";
+grid-template-rows: 0.1fr 0.1fr 500px 200px;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
 }
 
   div.abtext p {
