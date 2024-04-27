@@ -29,7 +29,7 @@ permalink: /research
     "e d d c"
     "a f g b";
 grid-template-rows: 0.1fr 0.1fr 500px 200px;
-  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-columns: 1fr calc(100px + 10vw) calc(100px + 10vw) 1fr; 
 }
 
   div.abtext p {
