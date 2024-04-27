@@ -298,7 +298,7 @@ div.text-block-right {
     <h4>Ethical Open Science Self-Reflection Survey<strong>.</strong></h4>
     <p>Our self-reflection survey on our personal and institutional relationships to FAIR, CARE, and EOS have been guiding our subsequent actions.</p>
     <h4>Webinar Series<strong>.</strong></h4>
-    <p>We provide a forum for experts in informatics and ethics to share their work with us.</p>
+    <p>We provide a forum for experts in informatics and ethics to share their work with us. Click <a href="https://hoffmanick.github.io/fairos/webinarview" target="_blank">here</a> for more info.</p>
     <h4>Reading Group<strong>.</strong></h4>
     <p>We meet monthly to discuss selections from the literature on the political economy of data.</p>
   </div></div>
