@@ -20,14 +20,14 @@ permalink: /research
   #page {
   display: grid;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 7%;
 /*  width: 90%; */
   height: 1100px;
   grid-template-areas:
     "e d d c"
     "e d d c"
     "e d d c"
-    "a b f g";
+    "a f g b";
 grid-template-rows: 0.1fr 0.1fr 500px 200px;
   grid-template-columns: 1fr 1fr 1fr 1fr; 
 }
@@ -39,15 +39,22 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
   .abtext h4 {
     margin-bottom: 0px;
     margin-top: 0px;
+
+    
   }
   #comtext {
     background-color: #93c57e;
     width:100%;
+    position:relative;
+    top: -250%;
+    left: -20%;
   }
   #interoptext {
     background-color: #738995;
     width: 100%;
     position:relative;
+    top: -250%;
+    left: 20%;
 
 
   }
@@ -61,7 +68,6 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
     #outreachtext {
     background-color: #ff9b01;
     position: relative;
-
     width: 100%;
 
   }
