@@ -30,7 +30,7 @@ permalink: /research
     "e d d c"
     "a f g b";
 grid-template-rows: 0.1fr 0.1fr 500px 200px;
-  grid-template-columns: 1fr calc(100px + 10vw) calc(100px + 10vw) 1fr; 
+  grid-template-columns: 200px calc(100px + 10vw) calc(100px + 10vw) 200px; 
 }
 
   div.abtext p {
@@ -276,7 +276,7 @@ div.text-block-right {
 
 
 <!-- max-width:calc(200px + 35vw);-->
-    <div id="page" style="width:800px;">
+    <div id="page" style="width:900px;">
 
   
   <div id='c'></div>
