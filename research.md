@@ -270,8 +270,8 @@ div.text-block-right {
     </div>
 
 
-
-    <div id="page" style="max-width:calc(200px + 35vw);">
+<!-- max-width:calc(200px + 35vw);-->
+    <div id="page" style="width:800px;">
 
   
   <div id='c'></div>
