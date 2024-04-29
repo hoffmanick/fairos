@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Aim 3
-permalink: /aim3
+title: Repositories Governance
+permalink: /governance
 ---
 
 <style>
@@ -207,7 +207,7 @@ permalink: /aim3
   
 <div class="text-block-right" style="display:grid;background-image:linear-gradient(to left, #fff, 90%, #97b779);padding:0;align-content:center;justify-content:space-between;" id="headingblock">
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;" id="heading-left">
-      <h1 style="font-size:calc(20px + 3vw);"> Aim 3: Support Equity and Improve Access </h1>
+      <h1 style="font-size:calc(20px + 3vw);">Repositories Governance</h1>
       <p style="align-self:start;padding-top:10px;" id="describe"> Ethical Open Data Science: Moving from CARE Principles to Practice </p>
     </div>
    <!-- <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;align-self:center;" id="heading-image">
