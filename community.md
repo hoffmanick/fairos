@@ -203,23 +203,26 @@ permalink: /community
         <li>identifying points of connection between repositories, where the addition of related identifiers could help bridge silos, and</li> 
         <li>building on existing initiatives to make data resources more open and interconnected.</li></ul></p>
       <h2>Activities</h2> 
+       <button class="bttn" id="symp" onclick="Func_symp()">
+          <div><p><strong>Structured Self-Reflection</strong></p></div>
+      </button>
+        <div class="collapse" id="readMore_symp">
+          <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
+            <p> RCN affiliates are engaging in a deep-dive reflection about ethical open science, FAIR, and CARE within both our personal scientific practice and within the policies of our organizations. We expect that our answers to these questions will change over time. The purpose of this self-reflection is to gain an initial honest assessment of where we as practitioners and where our repositories are now in terms of FAIR and CARE. </p>
+          </div>
+       </div>
+      <br>
         <button class="bttn" id="info-landscape" onclick="Func_infolandscape()">
-            <div><p>An <strong>informatics landscape analysis</strong></p></div>
+            <div><p><strong>Annual Symposia</strong></p></div>
 </button>
         <div class="collapse" id="readMore_info-landscape">
           <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-          <p>The aim of this analysis is to map the current Quaternary informatics landscape, evaluate current interoperability efforts, and recommend best practices going forward. Webinar discussions and symposia hackathons will be used to  better understand how data managers are using metadata standards and curating data. We will additionally conduct a structured evaluation of three widely used data resources spanning different data domains: Global Biodiversity Information Facility (GBIF),  the Open Context archaeological repository, and Neotoma Paleoecology Database. </p>
-            <p>We will evaluate 
-              <ol>
-              <li>the semantic  <i>coverage</i> of each repository (e.g. what data elements are captured by each repository, and what are the  specific meanings of those elements?) </li>
-              <li>points of <i>convergence and conflict</i> between repositories (e.g. what data elements overlap and which are fundamentally mismatched?)</li>
-              <li>the <i>completeness</i> of records within repositories, and</li>
-              <li>points for further curatorial intervention—places where additional data curation could make records more accessible or interoperable.</li></ol></p>
+          <p>We meet every year to check in with each other and say hi.</p>
           </div>
         </div>
     <br>
         <button class="bttn" id="symp-hack" onclick="Func_symphack()">
-          <div><p>The Year 1 <strong>webinar series</strong> and a <strong>symposium hackathon</strong></p></div>
+          <div><p><strong>Webinar series</strong></p></div>
       </button>
         <div class="collapse" id="readMore_symp-hack">
           <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
@@ -229,21 +232,16 @@ permalink: /community
 <li>an overview of common data standards (e.g. DublinCore, Science on Schema, Geoscience Standard Names)</li> 
 <li>how individuals can serialize their data formats to JSON-LD or other metadata schemes, and</li> 
 <li>how to improve findability and interoperability through services such as DataCite, GeoCODEs  or other tools.</li></ol></p>
-            <p>The hackathon aims to accelerate development of the community of practice established  through the webinars—to learn about ourselves, the work we have done in the past and wish to do in the  future, and start a full assessment of existing open data science resources and opportunities for improved  integration. Development of the hackathon will draw from discussions in webinars and be focused on  implementing solutions, specifically using the identified case studies from across the project to anchor discussions.</p>
+
           </div>
        </div>
   <br>
           <button class="bttn" id="case-study" onclick="Func_casestudy()"> 
-            <div><p>The <strong>“Creating Interoperable Data” case study</strong></p></div>
+            <div><p><strong>Reading Group</strong></p></div>
       </button>
           <div class="collapse" id="readMore_case-study">
             <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-              <p>Many legacy Quaternary datasets are found in specimen-curation repositories, like museums, with database structures designed to capture specimen-specific long-tail data and often curated decades past without regard to FAIR or CARE principles. This case study will focus on expanding FAIR data curation protocols from the ZooArchNet (ZAN) project to 
-                <ol>
-<li>link legacy museum-curated zooarcheological data across various community-curated data repositories, and</li>
-                  <li>align with CARE guidelines and descendant  community priorities.</li></ol></p>
-<p>ZAN has already created pathways to standardize, crosswalk and link zooarchaeological datasets across archaeological and biological repositories. In this case study, UF personnel will work with RCN informatics domain experts and repository data managers, in consultation with Indigenous stakeholders, to expand the ZAN protocols. Continued work on data standards alignments, Linked Open Data, and other intersectional methods will  be used to mobilize Darwin Core-enabled legacy zooarchaeological data from the Florida Museum curation database across multiple repositories.</p>
-<p>Our work will be grounded in consultation with descendant community members and tribal authorities to ensure that their interests are represented in our decisions of how to integrate CARE principles within open data sharing. Our tribal collaborators will form an integral part of our use case activities, ensuring that any data sharing is culturally appropriate, ethical, and in support of tribal priorities involving the documentation and protection of environmental resources and cultural heritage. This effort will represent a proof-of-concept workflow and produce best-practice guidelines for such interdisciplinary, inter-repository FAIR and CARE open sharing of legacy curated data that will be disseminated via workshops for the archaeological and zooarchaeological communities.  
+              <p>We're reading some good essays about colonial legacies in data and other things.
 </p>
             </div>
       </div>
@@ -292,6 +290,12 @@ function Func_symphack() {
   document.getElementById("readMore_guidelines").classList.toggle("show_b");
   document.getElementById("guidelines").classList.toggle("bttn_show");
 }
+
+  function Func_symp() {
+  document.getElementById("readMore_symp").classList.toggle("show_b");
+  document.getElementById("symp").classList.toggle("bttn_show");
+}
+
 
 
 
