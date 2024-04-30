@@ -122,7 +122,7 @@ permalink: /interoperability
   }
   
  #main-text {
-  width: 90%
+  width: 90%;
   position: relative;
   } 
   
