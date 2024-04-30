@@ -245,28 +245,9 @@ permalink: /community
 </p>
             </div>
       </div>
-    <br>
-      <button class="bttn" id="guidelines" onclick="Func_guidelines()"> 
-          <div><p><strong>Guidelines for data alignment</strong> between repositories and domains</p></div>
-      </button>
-      <div class="collapse" id="readMore_guidelines">
-          <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-            <p>Data managers will draw on findings from the Mapping the Landscape effort, webinars, hackathon, and the case study to develop specific guidelines for alignment between Quaternary data resources. Unlike many crosswalks, we will focus on aligning repositories rather than individual datasets, and will center the specific integration needs of the Quaternary community. Likely outcomes will include 
-              <ul>
-                <li>best practices for setting up repository APIs or other access points, </li> 
-                <li>crosswalks between repository schemas,</li>
-                <li>guidance for the implementation and use of external APIs to help manage links to external data, and</li>
-                <li>the use of Science on Schema or other external ontologies for reporting data.</li></ul>  </p>
-          </div>
-      </div>
       </div>
     </div>
-    <!-- <div>
-        <figure style="margin-right:0px;min-width:220px;" id="fair-des">
-        <img src="./images/FAIR Diagram_v8.png" alt="FAIR Project Design" style="width:100%">
-        <figcaption style="text-align:center;"></figcaption>
-        </figure>
-    </div> -->
+
   </div>
 </div>
 
