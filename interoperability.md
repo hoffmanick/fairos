@@ -197,25 +197,29 @@ permalink: /interoperability
       <p>The Quaternary sciences have developed multiple mid-scale repositories containing large amounts of related but heterogeneously structured data. We must approach curation of this data from two perspectives. On the one hand, we must work with disciplinary scientists to train them in best practices for collecting and publishing data to support dissemination and reuse; on the other hand, we must also work with the data  managers to design best practices that facilitate data stewardship.</p>
       <h2>Activities</h2> 
       <div style="display:grid">
+        <div id="buttons">
         <button class="bttn" id="info-landscape" onclick="Func_infolandscape()">
             <div><p><strong>An Informatics Landscape Analysis</strong></p></div>
 </button>
-        <div class="collapse" id="readMore_info-landscape">
-          <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-          <p>The aim of this analysis is to map the current Quaternary informatics landscape, evaluate current interoperability efforts, and recommend best practices going forward, with a focus on several widely used data resources spanning different domains. We will pay special attention to the power dynamics of these relationships: whose standards and best practices dominate, and whose are marginalized? </p>
-            <p>We will evaluate 
-              <ol>
-              <li>the semantic  <i>coverage</i> of each repository (e.g. what data elements are captured by each repository, and what are the  specific meanings of those elements?) </li>
-              <li>points of <i>convergence and conflict</i> between repositories (e.g. what data elements overlap and which are fundamentally mismatched?)</li>
-              <li>the <i>completeness</i> of records within repositories, and</li>
-              <li>points for further curatorial intervention—places where additional data curation could make records more accessible, interoperable, or ethical.</li></ol></p>
-          </div>
-        </div>
+      
   <br>
           <button class="bttn" id="case-study" onclick="Func_casestudy()"> 
             <div><p><strong>Creating Interoperable Data</strong></p></div>
       </button>
-          <div class="collapse" id="readMore_case-study">
+        
+    <br>
+          <button class="bttn" id="pracs" onclick="Func_pracs()"> 
+            <div><p><strong>Constituent Database Landing Pages</strong></p></div>
+      </button>
+      </div>
+      <div id="texts">
+          <div class="collapse" id="readMore_pracs">
+            <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
+              <p>Increase transparency of Neotoma</p>
+
+            </div>
+      </div>
+        <div class="collapse" id="readMore_case-study">
             <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
               <p>Many legacy Quaternary datasets are found in specimen-curation repositories, like museums, with database structures designed to capture specimen-specific long-tail data and often curated decades past without regard to FAIR or CARE principles. This case study will focus on expanding FAIR data curation protocols from the ZooArchNet (ZAN) project to 
                 <ol>
@@ -226,18 +230,18 @@ permalink: /interoperability
 </p>
             </div>
       </div>
-    <br>
-          <button class="bttn" id="pracs" onclick="Func_pracs()"> 
-            <div><p><strong>Constituent Database Landing Pages</strong></p></div>
-      </button>
-          <div class="collapse" id="readMore_pracs">
-            <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-              <p>Increase transparency of Neotoma</p>
-
-            </div>
-      </div>
-
-
+  <div class="collapse" id="readMore_info-landscape">
+          <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
+          <p>The aim of this analysis is to map the current Quaternary informatics landscape, evaluate current interoperability efforts, and recommend best practices going forward, with a focus on several widely used data resources spanning different domains. We will pay special attention to the power dynamics of these relationships: whose standards and best practices dominate, and whose are marginalized? </p>
+            <p>We will evaluate 
+              <ol>
+              <li>the semantic  <i>coverage</i> of each repository (e.g. what data elements are captured by each repository, and what are the  specific meanings of those elements?) </li>
+              <li>points of <i>convergence and conflict</i> between repositories (e.g. what data elements overlap and which are fundamentally mismatched?)</li>
+              <li>the <i>completeness</i> of records within repositories, and</li>
+              <li>points for further curatorial intervention—places where additional data curation could make records more accessible, interoperable, or ethical.</li></ol></p>
+          </div>
+        </div>
+</div>
     </div>
     </div>
 
