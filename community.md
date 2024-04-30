@@ -19,12 +19,13 @@ permalink: /community
   top: 63px;
   z-index:10000;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  margin-bottom:5%;
+ /* margin-bottom:5%; */
 }
 
 .show_b {
   display: grid;
   grid-template-rows: auto;
+  width: 90%;
   
 }
 
@@ -36,7 +37,7 @@ permalink: /community
   padding-top:1%;
   font-size:17px;
   text-align:left;
-  margin-bottom:4%;
+  margin-bottom:1%;
   }
   
   .bttn:hover {
