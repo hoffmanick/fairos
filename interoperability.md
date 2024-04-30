@@ -71,7 +71,7 @@ permalink: /interoperability
 
   
   .show_b {
-  <!-- width:150%; -->
+  border: 3px solid rgba(151,183,121,0.7);
   }
   
   #cap {
