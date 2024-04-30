@@ -25,7 +25,6 @@ permalink: /interoperability
 .show_b {
   display: grid;
   grid-template-rows: auto;
-  width: 90%;
   
 }
 
