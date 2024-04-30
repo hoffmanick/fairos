@@ -252,33 +252,54 @@ permalink: /interoperability
   function Func_infolandscape() {
   document.getElementById("readMore_info-landscape").classList.toggle("show_b");
   document.getElementById("info-landscape").classList.toggle("bttn_show");
+
+    if (document.getElementById("readMore_pracs").classList.contains("show_b")) {
+  document.getElementById("readMore_pracs").classList.toggle("show_b");
+  document.getElementById("pracs").classList.toggle("bttn_show");
+  }
+
+    if (document.getElementById("readMore_case-study").classList.contains("show_b")) {
+  document.getElementById("readMore_case-study").classList.toggle("show_b");
+  document.getElementById("case-study").classList.toggle("bttn_show");
+  }
+    
 }
 
 
   function Func_casestudy() {
   document.getElementById("readMore_case-study").classList.toggle("show_b");
   document.getElementById("case-study").classList.toggle("bttn_show");
+
+  if (document.getElementById("readMore_pracs").classList.contains("show_b")) {
+  document.getElementById("readMore_pracs").classList.toggle("show_b");
+  document.getElementById("pracs").classList.toggle("bttn_show");
+  }
+
+        if (document.getElementById("readMore_info-landscape").classList.contains("show_b")) {
+  document.getElementById("readMore_info-landscape").classList.toggle("show_b");
+  document.getElementById("info-landscape").classList.toggle("bttn_show");
+  }
+    
 }
 
-function Func_y2web() {
-  document.getElementById("readMore_y2-web").classList.toggle("show_b");
-  document.getElementById("y2-web").classList.toggle("bttn_show");
-}
 
-function Func_oscasestudy() {
-  document.getElementById("readMore_os-casestudy").classList.toggle("show_b");
-  document.getElementById("os-casestudy").classList.toggle("bttn_show");
-}
 
   function Func_pracs() {
   document.getElementById("readMore_pracs").classList.toggle("show_b");
   document.getElementById("pracs").classList.toggle("bttn_show");
+
+    if (document.getElementById("readMore_case-study").classList.contains("show_b")) {
+  document.getElementById("readMore_case-study").classList.toggle("show_b");
+  document.getElementById("case-study").classList.toggle("bttn_show");
+  }
+
+      if (document.getElementById("readMore_info-landscape").classList.contains("show_b")) {
+  document.getElementById("readMore_info-landscape").classList.toggle("show_b");
+  document.getElementById("info-landscape").classList.toggle("bttn_show");
+  }
+    
 }
 
-   function Func_year3() {
-  document.getElementById("readMore_year3").classList.toggle("show_b");
-  document.getElementById("year3").classList.toggle("bttn_show");
-}
 
 
 
