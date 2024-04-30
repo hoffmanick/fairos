@@ -218,29 +218,40 @@ permalink: /outreach
     <div id="main-text">
       <p>We will advance the implementation of CARE best practices at all stages of the research data life cycle.</p>
       <h2>Activities</h2>
-        <button class="bttn" id="synth" onclick="Func_synth()">
-          <div><p><strong>Implementing CARE practices in Databases</strong></p></div>
-</button>
-        <div class="collapse" id="readMore_synth">
-          <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-          <p>We will focus on two well-established open community data resources—Open Context and Neotoma—as  test cases for exploring how best to implement CARE practices in archaeological and paleoecological  datasets. CARE introduces a set of important technical requirements that need to be supported. For  example, data infrastructure needs to support Traditional Knowledge labels and notifications to help better express cultural aspects of data provenance and expectations for benefits sharing. Similarly, data infrastructure needs to be flexible enough to manage culturally specific systems of metadata documentation. These expanded and diversified sets of metadata needs will also need to be managed by curation workflows that inclusively represent stakeholder interests.</p>
-            
-<p>The exact form of implementation will vary among open data resources, and it is unlikely that a single solution will work for all. Hence, over the course of the symposia hackathons, webinars, and other activities, we will use Open Context and Neotoma as two representative instances of open community data resources in archaeology and paleoecology, with differing degrees of implementation of CARE principles and pre-existing relationships with Indigenous leaders and scholars. Symposia breakout sessions and hackathon  activities will help identify technical requirements to guide CARE principle-aligned improvements to Open Context and Neotoma, which can then serve as model examples for other data resources. 
- </p>
-          </div>
-        </div>
-      <br>
-     <button class="bttn" id="os-casestudy" onclick="Func_oscasestudy()">
+   <button class="bttn" id="os-casestudy" onclick="Func_oscasestudy()">
           <div><p><strong>Doing Open Science Across Disparate Data Types</strong></p></div>
       </button>
         <div class="collapse" id="readMore_os-casestudy">
           <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-            <p> Quaternary and modern organismal  and environmental data can be linked by place and time, despite differing data types. For example, organismal occurrence data is typically georeferenced with a latitude and longitude, as well as both date of collection and, for non-modern collections, temporal age of the  specimen. Workflows to combine organismal and environmental data (both paleo and modern) are already being created by many different data practitioners, but many are either not reproducible or not formalized into a published and shareable pipeline. By leveraging existing tools  to access and create interoperable data, and methods already commonly used by data practitioners to link data sources by spatial region and temporal span, we will create a model open science workflow aimed at data practitioners within the broader Quaternary science community. Developing this case study and workflow will highlight potential interoperability issues among Quaternary and modern data resources and feed into Aim 1 interoperability work. Using this workflow, we can create a simple biology-motivated case study investigating macro-scale biodiversity change in relation to environmental and anthropogenic changes. </p>
+            <p>Disparate data types are already being combined by data practitioners via linked open data (LOD). These linkages rely on knowing the spatial region and temporal span of an observation or data record. These workflows adhere to the FAIR data principles. </p>
+    <p>Similar to FAIR principles, CARE principles have become widely adopted - but seemingly only in the communities most obviously affected in the Natural Sciences: Indigenous, Archaeological, Anthropological, Zooarchaeological, and Ethnography disciplines. Much of the adherence to CARE has been through new, ground-up development of data resources. The incorporation of CARE into biological and paleontological data use is lacking, partly due to historic reasons and partly due to lack of awareness by communities.</p>
+    <p>Our goal is to incorporate CARE data principles and practices into already established data resources that adhere to FAIR and Open Science principles. While some of this work requires infrastructure building, much of this work can be done by influencing the practices of data users to effect change in the ethos of the next generation of data practitioners.</p>
+    <p>This project will have three outcomes: 1) the development of a working methodology for incorporating CARE practices into research that spans time and disciplines; 2) the use of this methodology for a scientific research endeavor; and 3) the teaching of this methodology to early career researchers, in order to effect change in our communities.</p>
+          </div>
+       </div>
+      <br>
+     <button class="bttn" id="synth" onclick="Func_synth()">
+          <div><p><strong>FAIR/CARE Educational Material</strong></p></div>
+      </button>
+        <div class="collapse" id="readMore_synth">
+          <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
+            <p> For data science students and ecology students, introduce them to the principles in the context of Quaternary data. </p>
           </div>
        </div>
   
       <br>
-   
+
+
+      <button class="bttn" id="symp" onclick="Func_symp()">
+          <div><p><strong>Database Recommender</strong></p></div>
+      </button>
+        <div class="collapse" id="readMore_symp">
+          <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
+            <p>Complex Quaternary data ecosystem, where should your data go? </p>
+          </div>
+       </div>
+  
+      <br>
       </div>
     </div>
 
