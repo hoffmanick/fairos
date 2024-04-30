@@ -19,12 +19,13 @@ permalink: /interoperability
   top: 63px;
   z-index:10000;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  margin-bottom:5%;
+ /* margin-bottom:5%; */
 }
 
 .show_b {
   display: grid;
   grid-template-rows: auto;
+  width: 90%;
   
 }
 
@@ -36,13 +37,14 @@ permalink: /interoperability
   padding-top:1%;
   font-size:17px;
   text-align:left;
-  margin-bottom:4%;
+  margin-bottom:1%;
   }
+  
   .bttn:hover {
   background-color:#faf3e8;
   }
 
-  .bttn:hover p {
+    .bttn:hover p {
   font-weight:bold;
   }
   
@@ -66,11 +68,11 @@ permalink: /interoperability
   .bttn_show strong {
   font-weight:900;
   }
+
   
-    .show_b {
-  width:150%;
+  .show_b {
+  <!-- width:150%; -->
   }
-  
   
   #cap {
   display:none;
@@ -84,73 +86,43 @@ permalink: /interoperability
   z-index:10000;
   }
   
-  #title, #describe {
-  width:100%;
-  }
-  
-    @media print, screen and (max-width: 1070px) {
-  #describe {
-  width:100%;
-  }
-  }
-  
-      @media print, screen and (max-width: 1030px) {
-  #describe {
-  width:100%;
-  }
-  }
-  
-   @media print, screen and (max-width: 730px) {
-  #describe {
-  width:100%;
-  }
-  }
-  
-  
-  @media print, screen and (max-width: 1055px) {
-   #title {
-  width:100%;
-  }
-  }
-  
-    @media print, screen and (max-width: 635px) {
-   #title {
-  width:100%;
-  }
-  }
-  
-    @media print, screen and (max-width: 435px) {
-   #title, #describe {
-  width:100%;
-  }
-  }
-  
-  #heading-image {
-  width:100%;
-  }
-  
-  #neo:hover #cap {
+  #quilter:hover #cap {
   display:block;
+  }
+    
+  .read-more-content {
+  background-color: #fff;
+  }
+  
+  @media print,screen and (max-width: 680px) {
+  .read-more-content p {
+  font-size: 0.15em;
+  }
   }
   
   @media print, screen and (max-width: 720px) {
   .show_b {
-  width:200%;
+  <!-- width:200%; -->
   }
   }
-  
-  @media print, screen and (max-width: 860px) {
+
+   @media print, screen and (max-width: 860px) {
   .show_b {
   width:95%;}
   }
+
   
-    @media print, screen and (max-width: 660px) {
+    #heading-image {
+  <!-- width:120%; -->
+  }
+  
+      @media print, screen and (max-width: 660px) {
   #heading-image {
   width:90%;}
   }
   
-   #main-text {
-  width: 200%;
+ #main-text {
+  <!-- width: 200%; -->
   position: relative;
   } 
   
@@ -161,7 +133,7 @@ permalink: /interoperability
   
  @media print, screen and (max-width: 1300px) {
   #main-text {
-  width: 170%;
+  <!-- width: 170%; -->
   } 
   }
 
@@ -175,7 +147,7 @@ permalink: /interoperability
   
    @media print, screen and (max-width: 1180px) {
   #main-text {
-  width: 150%;
+  <!-- width: 150%; -->
   } 
   
     #fair-des {
@@ -186,7 +158,7 @@ permalink: /interoperability
   
      @media print, screen and (max-width: 1089px) {
   #main-text {
-  width: 130%;
+  <!-- width: 130%; -->
   } 
   
     #fair-des {
@@ -197,7 +169,7 @@ permalink: /interoperability
   
        @media print, screen and (max-width: 980px) {
   #main-text {
-  width: 110%;
+  <!-- width: 110%; -->
   } 
   }
 
@@ -207,8 +179,8 @@ permalink: /interoperability
   } 
   }
   
-
   </style>
+  
 <div class="text-block-main" style="display:grid;grid-template-columns: auto; margin-right:0px; width:100%;">
   
 <div class="text-block-right" style="display:grid;background-image:linear-gradient(to left, #fff, 90%, #97b779);padding:0;align-content:center;justify-content:space-between;" id="headingblock">
