@@ -216,12 +216,7 @@ permalink: /interoperability
       <h1 id="title" style="font-size:calc(20px + 3vw);">Improving Interoperability</h1>
       <p style="align-self:start;padding-top:10px;" id="describe">Engaging Early Career Researchers, Disciplinary Scientists, and Data Managers</p>
     </div>
-    <!-- <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; align-self:center;" id="heading-image">
-      <figure style="margin-left:0px;margin-right:0px;max-width:500px;" id="neo">
-        <img src="./images/neo_trans.png" alt="neotoma-eco" style="width:100%">
-        <figcaption id="cap">Neotoma draws together a community of data managers and disciplinary practitioners working in Quaternary science. Williams, Grimm, Blois et al, 2018: The Neotoma Paleoecology Database, a multiproxy international, community-curated data resource. <i>Quaternary Research.</i></figcaption>
-      </figure>
-    </div> -->
+
   </div>
   <div class="text-block-right" style="display:grid;width:95%;padding-left:5%;justify-content:space-between;">
     <div>
@@ -229,36 +224,43 @@ permalink: /interoperability
     <div id="main-text">
       <p>The Quaternary sciences have developed multiple mid-scale repositories containing large amounts of related but heterogeneously structured data. We must approach curation of this data from two perspectives. On the one hand, we must work with disciplinary scientists to train them in best practices for collecting and publishing data to support dissemination and reuse; on the other hand, we must also work with the data  managers to design best practices that facilitate data stewardship.</p>
       <h2>Activities</h2> 
-        <button class="bttn" id="y2-web" onclick="Func_y2web()">
-            <div><p><strong>The Year 2 Webinar and Hackathon</strong></p></div>
+        <button class="bttn" id="info-landscape" onclick="Func_infolandscape()">
+            <div><p><strong>An Informatics Landscape Analysis</strong></p></div>
 </button>
-        <div class="collapse" id="readMore_y2-web">
+        <div class="collapse" id="readMore_info-landscape">
           <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-          <p>The Year 2 hackathon will be focused around science-driven use cases for community-curated data repository alignment and will be preceded by a series of four webinars, introducing early career researchers to the participating community-curated data repositories and to tools and approaches for data alignment. All participants will also be exposed to basic principles of software development through the use of adapted education modules, providing an opportunity to improve skills and to ensure all participants are able to engage fully in the workshop. Webinars following the hackathon will enable ongoing work, keep early career researchers engaged after the symposium, and support the resolution of any ongoing difficulties as participants return to their home institutions. </p>
+          <p>The aim of this analysis is to map the current Quaternary informatics landscape, evaluate current interoperability efforts, and recommend best practices going forward, with a focus on several widely used data resources spanning different domains. We will pay special attention to the power dynamics of these relationships: whose standards and best practices dominate, and whose are marginalized? </p>
+            <p>We will evaluate 
+              <ol>
+              <li>the semantic  <i>coverage</i> of each repository (e.g. what data elements are captured by each repository, and what are the  specific meanings of those elements?) </li>
+              <li>points of <i>convergence and conflict</i> between repositories (e.g. what data elements overlap and which are fundamentally mismatched?)</li>
+              <li>the <i>completeness</i> of records within repositories, and</li>
+              <li>points for further curatorial intervention—places where additional data curation could make records more accessible, interoperable, or ethical.</li></ol></p>
           </div>
         </div>
-    <br>
-        <button class="bttn" id="os-casestudy" onclick="Func_oscasestudy()">
-          <div><p><strong>Doing Open Science Across Disparate Data Types</strong></p></div>
+  <br>
+          <button class="bttn" id="case-study" onclick="Func_casestudy()"> 
+            <div><p><strong>Creating Interoperable Data</strong></p></div>
       </button>
-        <div class="collapse" id="readMore_os-casestudy">
-          <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-            <p> Quaternary and modern organismal  and environmental data can be linked by place and time, despite differing data types. For example, organismal occurrence data is typically georeferenced with a latitude and longitude, as well as both date of collection and, for non-modern collections, temporal age of the  specimen. Workflows to combine organismal and environmental data (both paleo and modern) are already being created by many different data practitioners, but many are either not reproducible or not formalized into a published and shareable pipeline. By leveraging existing tools  to access and create interoperable data, and methods already commonly used by data practitioners to link data sources by spatial region and temporal span, we will create a model open science workflow aimed at data practitioners within the broader Quaternary science community. Developing this case study and workflow will highlight potential interoperability issues among Quaternary and modern data resources and feed into Aim 1 interoperability work. Using this workflow, we can create a simple biology-motivated case study investigating macro-scale biodiversity change in relation to environmental and anthropogenic changes. </p>
-          </div>
-       </div>
+          <div class="collapse" id="readMore_case-study">
+            <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
+              <p>Many legacy Quaternary datasets are found in specimen-curation repositories, like museums, with database structures designed to capture specimen-specific long-tail data and often curated decades past without regard to FAIR or CARE principles. This case study will focus on expanding FAIR data curation protocols from the ZooArchNet (ZAN) project to 
+                <ol>
+<li>link legacy museum-curated zooarcheological data across various community-curated data repositories, and</li>
+                  <li>align with CARE guidelines and descendant  community priorities.</li></ol></p>
+<p>ZAN has already created pathways to standardize, crosswalk and link zooarchaeological datasets across archaeological and biological repositories. In this case study, UF personnel will work with RCN informatics domain experts and repository data managers, in consultation with Indigenous stakeholders, to expand the ZAN protocols. Continued work on data standards alignments, Linked Open Data, and other intersectional methods will  be used to mobilize Darwin Core-enabled legacy zooarchaeological data from the Florida Museum curation database across multiple repositories.</p>
+<p>Our work will be grounded in consultation with descendant community members and tribal authorities to ensure that their interests are represented in our decisions of how to integrate CARE principles within open data sharing. Our tribal collaborators will form an integral part of our use case activities, ensuring that any data sharing is culturally appropriate, ethical, and in support of tribal priorities involving the documentation and protection of environmental resources and cultural heritage. This effort will represent a proof-of-concept workflow and produce best-practice guidelines for such interdisciplinary, inter-repository FAIR and CARE open sharing of legacy curated data that will be disseminated via workshops for the archaeological and zooarchaeological communities.  
+</p>
+            </div>
+      </div>
+    <br>
           <button class="bttn" id="pracs" onclick="Func_pracs()"> 
-            <div><p><strong>Guidance for Practitioners</strong></p></div>
+            <div><p><strong>Constituent Database Landing Pages</strong></p></div>
       </button>
           <div class="collapse" id="readMore_pracs">
             <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-              <p>Given the complexity of data resources within our disciplinary communities, a key need is guidance aimed at data generators on the set of options for data curation within different disciplinary communities. Early career researchers will also be engaged in data curation, and one outcome of their activities will be documentation of best practices to support the onboarding of data. This documentation may include
-                <ul>
-                  <li>a resource describing the scope of data repositories amongst the community,</li> 
-                  <li>goals and aims of different community-curated data repositories,</li>
-                    <li>types of data and formats accepted by community-curated data repositories, and </li> 
-                  <li>checklists to facilitate ease of use.</li>
-              </ul></p>
-<p>The adoption of ethical open science principles depends not just on technical advances but also on establishing a culture of openness, literacy, and trust in FAIR and CARE principles. In order to disseminate ethical and open curatorial practices amongst the broader community, we will lead and facilitate training and outreach workshops at professional society meetings. To do this, we will convert the various best practices documentation into training videos and other introductory resources aimed at the core disciplinary practitioner communities. </p>
+              <p>Increase transparency of Neotoma</p>
+
             </div>
       </div>
       <button class="bttn" id="year3" onclick="Func_year3()"> 
@@ -282,6 +284,17 @@ permalink: /interoperability
 </div>
 
 <script>
+  function Func_infolandscape() {
+  document.getElementById("readMore_info-landscape").classList.toggle("show_b");
+  document.getElementById("info-landscape").classList.toggle("bttn_show");
+}
+
+
+  function Func_casestudy() {
+  document.getElementById("readMore_case-study").classList.toggle("show_b");
+  document.getElementById("case-study").classList.toggle("bttn_show");
+}
+
 function Func_y2web() {
   document.getElementById("readMore_y2-web").classList.toggle("show_b");
   document.getElementById("y2-web").classList.toggle("bttn_show");
