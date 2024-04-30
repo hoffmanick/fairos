@@ -217,7 +217,7 @@ permalink: /community
 </button>
         <div class="collapse" id="readMore_info-landscape">
           <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-          <p>We meet every year to check in with each other and say hi.</p>
+     <p>All symposia will include activities specifically devoted to advancing FAIR and CARE principles, in order to  help set desired professional norms and provide examples of how CARE implementation can be advanced.  Symposia activities will emphasize the importance of CARE data principles at each stage of the research data lifecycle, from initial conceptualization of a project, to data collection and analysis, interpretation and  communication of results, and finally the long term curation and reuse of research data. In the early years  of our RCN activities, we will invite keynote speakers from Research Data Alliance, the Centre for Australian Biodiversity and Heritage (CABAH), and other organizations to provide model examples of advancing CARE, with breakout discussions on how to best advance CARE among participating open-data resources  and their networks of allied practitioners. In later years, we will review and discuss current efforts to begin  implementing CARE best practices in participating data resources.</p>
           </div>
         </div>
     <br>
