@@ -19,12 +19,13 @@ permalink: /governance
   top: 63px;
   z-index:10000;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  margin-bottom:5%;
+ /* margin-bottom:5%; */
 }
 
 .show_b {
   display: grid;
   grid-template-rows: auto;
+  width: 90%;
   
 }
 
@@ -36,21 +37,20 @@ permalink: /governance
   padding-top:1%;
   font-size:17px;
   text-align:left;
-  margin-bottom:4%;
+  margin-bottom:1%;
   }
   
-   .bttn:hover {
+  .bttn:hover {
   background-color:#faf3e8;
   }
 
-   .bttn:hover p {
+    .bttn:hover p {
   font-weight:bold;
   }
   
   .bttn:hover strong {
   font-weight:900;
   }
-  
   
   strong {
   color:#ec970b;
@@ -68,11 +68,13 @@ permalink: /governance
   .bttn_show strong {
   font-weight:900;
   }
+
+  
   .show_b {
-  width:150%;
+  <!-- width:150%; -->
   }
   
- #cap {
+  #cap {
   display:none;
   background-color: #fff;
   position: absolute;
@@ -84,45 +86,13 @@ permalink: /governance
   z-index:10000;
   }
   
-  #pima:hover #cap {
+  #quilter:hover #cap {
   display:block;
   }
-  
+    
   .read-more-content {
   background-color: #fff;
   }
-  
-  
-  #heading-left {
-  width:100%;
-  position: relative;
-  
-  }
-  
- @media print,screen and (max-width: 945px) {
-  #heading-left {
-  width: 100%;
-  }
-  }
-  
-    @media print,screen and (max-width: 761px) {
-  #heading-left {
-  width: 100%;
-  }
-  }
-  
-     @media print,screen and (max-width: 701px) {
-  #heading-left {
-  width: 100%;
-  }
-  }
-  
-     @media print,screen and (max-width: 761px) {
-  #heading-left {
-  width: 100%;
-  }
-  }
-  
   
   @media print,screen and (max-width: 680px) {
   .read-more-content p {
@@ -132,35 +102,44 @@ permalink: /governance
   
   @media print, screen and (max-width: 720px) {
   .show_b {
-  width:200%;
+  <!-- width:200%; -->
   }
   }
 
    @media print, screen and (max-width: 860px) {
   .show_b {
   width:95%;}
-    
+  }
+
+  
+    #heading-image {
+  <!-- width:120%; -->
   }
   
-   #main-text {
-  width: 200%;
+      @media print, screen and (max-width: 660px) {
+  #heading-image {
+  width:90%;}
+  }
+  
+ #main-text {
+  <!-- width: 200%; -->
   position: relative;
   } 
   
-  #care-des {
+  #fair-des {
   width:100%;
   margin-left: -20%;
   }
   
  @media print, screen and (max-width: 1300px) {
   #main-text {
-  width: 170%;
+  <!-- width: 170%; -->
   } 
   }
 
   
  @media print, screen and (max-width: 1215px) {
-    #care-des {
+    #fair-des {
   width:100%;
   margin-left: -10%;
   }
@@ -168,10 +147,10 @@ permalink: /governance
   
    @media print, screen and (max-width: 1180px) {
   #main-text {
-  width: 150%;
+  <!-- width: 150%; -->
   } 
   
-    #care-des {
+    #fair-des {
   width:100%;
   margin-left: -5%;
   }
@@ -179,10 +158,10 @@ permalink: /governance
   
      @media print, screen and (max-width: 1089px) {
   #main-text {
-  width: 130%;
+  <!-- width: 130%; -->
   } 
   
-    #care-des {
+    #fair-des {
   width:100%;
   margin-left: 0%;
   }
@@ -190,7 +169,7 @@ permalink: /governance
   
        @media print, screen and (max-width: 980px) {
   #main-text {
-  width: 110%;
+  <!-- width: 110%; -->
   } 
   }
 
@@ -199,9 +178,7 @@ permalink: /governance
   width: 100%;
   } 
   }
-
-
-
+  
   </style>
 <div class="text-block-main" style="display:grid;grid-template-columns: auto">
   
