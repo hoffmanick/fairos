@@ -186,7 +186,7 @@ permalink: /interoperability
 <div class="text-block-right" style="display:grid;background-image:linear-gradient(to left, #fff, 90%, #97b779);padding:0;align-content:center;justify-content:space-between;" id="headingblock">
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;position:relative;" id="heading-left">
       <h1 id="title" style="font-size:calc(20px + 3vw);">Improving Interoperability</h1>
-      <p style="align-self:start;padding-top:10px;" id="describe">Engaging Early Career Researchers, Disciplinary Scientists, and Data Managers</p>
+      <p style="align-self:start;padding-top:10px;" id="describe">{something here about interoperability}</p>
     </div>
 
   </div>
@@ -196,6 +196,7 @@ permalink: /interoperability
     <div id="main-text">
       <p>The Quaternary sciences have developed multiple mid-scale repositories containing large amounts of related but heterogeneously structured data. We must approach curation of this data from two perspectives. On the one hand, we must work with disciplinary scientists to train them in best practices for collecting and publishing data to support dissemination and reuse; on the other hand, we must also work with the data  managers to design best practices that facilitate data stewardship.</p>
       <h2>Activities</h2> 
+      <div style="display:grid">
         <button class="bttn" id="info-landscape" onclick="Func_infolandscape()">
             <div><p><strong>An Informatics Landscape Analysis</strong></p></div>
 </button>
@@ -242,7 +243,7 @@ permalink: /interoperability
 
   </div>
 </div>
-
+</div>
 <script>
   function Func_infolandscape() {
   document.getElementById("readMore_info-landscape").classList.toggle("show_b");
