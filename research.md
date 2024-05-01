@@ -168,32 +168,21 @@ div.text-block-right {
   grid-gap: var(--grid-layout-gap);
 }
   
- @media print, screen and (max-width: 680px) {
-     #page {
-  display: grid;
-    margin-left: 5%;
-    margin-right: 5%;
-  width: 90%;
-  height: 600px;
-  grid-template-areas:
-    "a a b b"
-    "c d d e"
-    "c d d e"
-    "f f g g";
-  grid-template-rows: 0.1fr 0.5fr 0.5fr 0.1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
+ @media print, screen and (max-width: 1280px) {
+    #repotext, #outreachtext {
+      top: calc(-120% + 20vw);
+    }
 
-    #interoptext strong, #repotext strong, #outreachtext strong, #comtext strong {
+ /*   #interoptext strong, #repotext strong, #outreachtext strong, #comtext strong {
      display: inline;
    }
 
    #interoptext p, #repotext p, #outreachtext p, #comtext p {
      display: none;
-   }
+   } */
   #stakes, #describe {
     width:200px;
-     }
+     } 
   #headingblock {
     justify-content: left;
     justify-items: center;
