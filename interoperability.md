@@ -195,7 +195,7 @@ permalink: /interoperability
     <div id="main-text">
       <p>The Quaternary sciences have developed multiple mid-scale repositories containing large amounts of related but heterogeneously structured data. We must approach curation of this data from two perspectives. On the one hand, we must work with disciplinary scientists to train them in best practices for collecting and publishing data to support dissemination and reuse; on the other hand, we must also work with the data  managers to design best practices that facilitate data stewardship.</p>
       <h2>Activities</h2> 
-      <div style="display:grid;grid-template-columns:1fr 2fr;">
+      <div style="display:grid;grid-template-columns:1fr 2fr;height:830px;">
         <div id="buttons">
         <button class="bttn" id="info-landscape" onclick="Func_infolandscape()">
             <div><p><strong>An Informatics Landscape Analysis</strong></p></div>
