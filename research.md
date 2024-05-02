@@ -291,7 +291,7 @@ div.text-block-right {
 
 
   
- @media print, screen and (max-width: 490px) {
+/* @media print, screen and (max-width: 490px) {
    
    #interoptext, #repotext, #outreachtext, #comtext {
      display: none;
@@ -302,7 +302,7 @@ div.text-block-right {
      grid-template-rows: 0fr 10fr 10fr 0fr;
      grid-template-columns: 0fr 10fr 10fr 0fr;
    }
- }
+ } */
 </style>
 
 
