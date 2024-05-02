@@ -19,6 +19,7 @@ permalink: /research
     max-width: 200px;
   }
   #page {
+  width:900px;
   display: grid;
  /*    margin-left: 14%;
     margin-right: 7%;
@@ -272,7 +273,7 @@ div.text-block-right {
 
 
 <!-- max-width:calc(200px + 35vw);-->
-    <div id="page" style="width:900px;">
+    <div id="page">
 
   
   <div id='c'></div>
