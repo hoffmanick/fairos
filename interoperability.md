@@ -191,9 +191,13 @@ permalink: /interoperability
   </div>
   <div class="text-block-right" style="display:grid;width:95%;padding-left:5%;justify-content:space-between;">
     <div>
-    <h2>Overview</h2>
+     <h2>Overview</h2>
     <div id="main-text">
-      <p>The Quaternary sciences have developed multiple mid-scale repositories containing large amounts of related but heterogeneously structured data. We must approach curation of this data from two perspectives. On the one hand, we must work with disciplinary scientists to train them in best practices for collecting and publishing data to support dissemination and reuse; on the other hand, we must also work with the data  managers to design best practices that facilitate data stewardship.</p>
+      <p>We will develop a network of data managers, research practitioners, disciplinary experts, and early career researchers focused on identifying gaps and mismatches among Quaternary data resources, in order to improve interoperability among them. We will particularly prioritize: <ul>
+      <li>outreach to data managers and assessment of the current Quaternary informatics landscape,</li>
+      <li>identifying areas for crosswalk development to resolve conflicts between existing ontologies and to help support the adoption of CARE aims,</li>
+        <li>identifying points of connection between repositories, where the addition of related identifiers could help bridge silos, and</li> 
+        <li>building on existing initiatives to make data resources more open and interconnected.</li></ul></p>
       <h2>Activities</h2> 
       <div style="display:grid;grid-template-columns:1fr 2fr;height:830px;">
         <div id="buttons">
