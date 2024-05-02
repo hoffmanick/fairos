@@ -5,6 +5,13 @@ permalink: /research
 ---
 <style>
 
+  
+  .abtext2 {
+    width: 90%;
+    margin-left: 5%;
+    border: 2px solid black;
+    max-width: 200px;
+  }
   .toggler {
     display:block;
   }
