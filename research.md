@@ -89,9 +89,16 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
 
   }
 
+   #comtext2 {
+    background-color: #93c57e;
+    position:relative;
+    /*top: -250%;
+    left: -20%;*/
+  }
   #repotext2 {
     background-color: #46bec6;
     position:relative;
+    height: calc(85px + 10vw);
    /* top: calc(-150% + 20vw);
     left: -8%; */
   }
@@ -399,6 +406,18 @@ div.text-block-right {
     </div>
 
     <div id="i">
+    
+  <div class="abtext2 begin2" id="comtext2">
+    <h4>Annual Symposia<strong>.</strong></h4>
+    <p>We are meeting yearly in person to think together about implementing ethical open science in our data ecosystems, furthering all our aims.</p>
+    <h4>Ethical Open Science Self-Reflection Survey<strong>.</strong></h4>
+    <p>Our self-reflection survey on our personal and institutional relationships to FAIR, CARE, and EOS have been guiding our subsequent actions.</p>
+    <h4>Webinar Series<strong>.</strong></h4>
+    <p>We provide a forum for experts in informatics and ethics to share their work with us. Click <a href="https://hoffmanick.github.io/fairos/webinarview" target="_blank">here</a> for more info.</p>
+    <h4>Reading Group<strong>.</strong></h4>
+    <p>We meet monthly to discuss selections from the literature on the political economy of data.</p>
+  </div>
+  
       <div class="abtext2 begin2" id="outreachtext2">
         <h4>ECR Projects: Doing Ethical Open Science Across Disparate Data Types<strong>.</strong></h4>
         <p>We are working with early career researchers to.... ? </p>
@@ -458,8 +477,30 @@ function func_repogov() {
        document.getElementById("repotext2").classList.toggle("begin2");
      }
 
+          if (document.getElementById("comtext2").classList.contains("toggler")) {
+       document.getElementById("comtext2").classList.toggle("toggler");
+       document.getElementById("comtext2").classList.toggle("begin2");
+     }
 }
 
+   function func_community2() {
+  document.getElementById("comtext2").classList.toggle("toggler");
+      document.getElementById("comtext2").classList.toggle("begin2");
+
+     if (document.getElementById("repotext2").classList.contains("toggler")) {
+       document.getElementById("repotext2").classList.toggle("toggler");
+       document.getElementById("repotext2").classList.toggle("begin2");
+     }
+
+          if (document.getElementById("outreachtext2").classList.contains("toggler")) {
+       document.getElementById("outreachtext2").classList.toggle("toggler");
+       document.getElementById("outreachtext2").classList.toggle("begin2");
+     }
+
+}
+
+
+  
      function func_repogov2() {
   document.getElementById("repotext2").classList.toggle("toggler");
       document.getElementById("repotext2").classList.toggle("begin2");
@@ -467,6 +508,11 @@ function func_repogov() {
      if (document.getElementById("outreachtext2").classList.contains("toggler")) {
        document.getElementById("outreachtext2").classList.toggle("toggler");
        document.getElementById("outreachtext2").classList.toggle("begin2");
+     }
+
+                 if (document.getElementById("comtext2").classList.contains("toggler")) {
+       document.getElementById("comtext2").classList.toggle("toggler");
+       document.getElementById("comtext2").classList.toggle("begin2");
      }
 
 }
