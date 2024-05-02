@@ -107,7 +107,7 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
   #repotext2 {
     background-color: #46bec6;
     position:relative;
-    height: calc(85px + 10vw);
+    height: calc(305px - 20vw);
    /* top: calc(-150% + 20vw);
     left: -8%; */
   }
