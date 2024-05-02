@@ -191,6 +191,14 @@ div.text-block-right {
    #i {
      display: grid;
    }
+
+   #d {
+     display: none;
+   }
+
+   #a, #b, #f, #g {
+     display: none;
+   }
    
  }
   
