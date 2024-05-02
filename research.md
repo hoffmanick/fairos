@@ -188,8 +188,9 @@ div.text-block-right {
  @media print, screen and (max-width: 900px) {
    #page {
      width: 100%;
+     height: auto;
      grid-template-columns: 1fr 1fr 1fr 1fr;
-     grid-template-rows: 0.1fr 0fr 300px 200px;
+     grid-template-rows: 0.1fr 0fr 0.1fr 1fr;
      grid-template-areas: 
        "h h h h"
        "j j j j"
