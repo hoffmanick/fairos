@@ -78,6 +78,15 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
 
   }
 
+
+    #outreachtext2 {
+    background-color: #ff9b01;
+    position: relative;
+    width: 100%;
+    /*top: calc(-150% + 20vw);
+    left: 8%;*/
+
+  }
       #interoptext strong, #repotext strong, #outreachtext strong, #comtext strong {
      display: none;
    }
@@ -183,8 +192,8 @@ div.text-block-right {
      grid-template-rows: 0.1fr 0fr 300px 200px;
      grid-template-areas: 
        "h h h h"
-       "e j j c"
-       "e j j c"
+       "j j j j"
+       "j j j j"
        "i i i i";
    }
 
@@ -196,7 +205,7 @@ div.text-block-right {
      display: none;
    }
 
-   #a, #b, #f, #g {
+   #a, #b, #f, #g, #e, #c {
      display: none;
    }
    
