@@ -5,6 +5,10 @@ permalink: /research
 ---
 <style>
 
+  #j {
+    display: none;
+  }
+
   
   .abtext2 {
     margin-left: 5%;
@@ -85,6 +89,12 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
 
   }
 
+  #repotext2 {
+    background-color: #46bec6;
+    position:relative;
+   /* top: calc(-150% + 20vw);
+    left: -8%; */
+  }
 
     #outreachtext2 {
     background-color: #ff9b01;
@@ -192,6 +202,9 @@ div.text-block-right {
 }
 
  @media print, screen and (max-width: 900px) {
+   #j {
+     display:block;
+   }
    #page {
      width: 100%;
      height: auto;
@@ -329,13 +342,13 @@ div.text-block-right {
     <area target="_blank" style="cursor:pointer;" alt="interoperability" title="interoperability" coords="199,7,198,181,197,188,383,189,383,159,375,125,357,89,333,61,311,41,279,20,238,5" shape="poly" onclick="func_interop()">
 </map>
 
-<div id='j'>
+<div id='j' style="justify-self:center;">
    <img src="./images/eos_circle.png" alt="circle" style="width:calc(200px + 20vw);max-width:750px;z-index:1; position:relative;" usemap="#image-map2"></div>
 <map name="image-map2">
-    <area target="_blank" style="cursor:pointer;" alt="community" title="community" coords="7,190,194,189,196,5,145,13,115,23,91,36,60,62,32,102,16,139,10,165,7,176" shape="poly" onclick="func_community()">
-    <area target="_blank" style="cursor:pointer;" alt="repo governance" title="repo governance" coords="5,199,7,223,7,241,12,258,17,272,24,285,34,297,44,316,61,333,73,341,83,353,96,357,113,366,132,376,151,383,169,384,187,384,188,196" shape="poly" onclick="func_repogov()">
+    <area target="_blank" style="cursor:pointer;" alt="community" title="community" coords="7,190,194,189,196,5,145,13,115,23,91,36,60,62,32,102,16,139,10,165,7,176" shape="poly" onclick="func_community2()">
+    <area target="_blank" style="cursor:pointer;" alt="repo governance" title="repo governance" coords="5,199,7,223,7,241,12,258,17,272,24,285,34,297,44,316,61,333,73,341,83,353,96,357,113,366,132,376,151,383,169,384,187,384,188,196" shape="poly" onclick="func_repogov2()">
     <area target="_blank" style="cursor:pointer;" alt="outreach" title="outreach" coords="195,195,195,380,223,384,249,375,276,366,296,358,312,347,327,333,342,317,359,293,371,261,376,244,383,215,383,197" shape="poly" onclick="func_out2()">
-    <area target="_blank" style="cursor:pointer;" alt="interoperability" title="interoperability" coords="199,7,198,181,197,188,383,189,383,159,375,125,357,89,333,61,311,41,279,20,238,5" shape="poly" onclick="func_interop()">
+    <area target="_blank" style="cursor:pointer;" alt="interoperability" title="interoperability" coords="199,7,198,181,197,188,383,189,383,159,375,125,357,89,333,61,311,41,279,20,238,5" shape="poly" onclick="func_interop2()">
 </map>
    
   <div id='e'></div>
@@ -394,6 +407,11 @@ div.text-block-right {
         <h4>Data repository decision tree<strong>.</strong></h4>
         <p>We are supporting early career researchers by providing them with a resource to guide their choice of repository for data or specimen upload.</p>
       </div>
+
+        <div class="abtext2 begin2" id="repotext2">
+    <h4>Case studies: Neotoma, Open Context, Florida Museum<strong>.</strong></h4>
+      <p>We are using our focal repositories as case studies for improving data governance and bolstering our commitment to Indigenous data sovereignty.</p>
+  </div>
     </div>
   
 </div>
@@ -434,6 +452,22 @@ function func_repogov() {
    function func_out2() {
   document.getElementById("outreachtext2").classList.toggle("toggler");
       document.getElementById("outreachtext2").classList.toggle("begin2");
+
+     if (document.getElementById("repotext2").classList.contains("toggler") {
+       document.getElementById("repotext2").classList.toggle("toggler")
+       document.getElementById("repotext2").classList.toggle("begin2")
+     }
+
+}
+
+     function func_repogov2() {
+  document.getElementById("repotext2").classList.toggle("toggler");
+      document.getElementById("repotext2").classList.toggle("begin2");
+
+     if (document.getElementById("outreachtext2").classList.contains("toggler") {
+       document.getElementById("outreachtext2").classList.toggle("toggler")
+       document.getElementById("outreachtext2").classList.toggle("begin2")
+     }
 
 }
 
