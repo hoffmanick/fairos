@@ -89,6 +89,15 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
 
   }
 
+   #interoptext2 {
+    background-color: #738995;
+
+    position:relative;
+/*    top: -250%;
+    left: 20%; */
+
+
+  }
    #comtext2 {
     background-color: #93c57e;
     position:relative;
@@ -406,6 +415,15 @@ div.text-block-right {
     </div>
 
     <div id="i">
+
+        <div class="abtext2 begin2" id="interoptext2">
+    <h4>Mapping the Interoperability Landscape<strong>.</strong></h4>
+      <p>We are interviewing data managers and disciplinary practitioners to map the ways they interoperate data, suprporting aims 1 and 3.</p>
+    <h4>Case Study: Linking data across repositories<strong>.</strong></h4>
+      <p>Using our focal repositories as a case study, we are developing a workflow to enhance data linkages, furthering all our aims.</p>
+    <h4>Neotoma constituent database landing pages<strong>.</strong></h4>
+      <p>These pages offer greater transparency for users of Neotoma's data, a facet of aims 2 and 3.</p>
+  </div>
     
   <div class="abtext2 begin2" id="comtext2">
     <h4>Annual Symposia<strong>.</strong></h4>
@@ -481,6 +499,11 @@ function func_repogov() {
        document.getElementById("comtext2").classList.toggle("toggler");
        document.getElementById("comtext2").classList.toggle("begin2");
      }
+
+        if (document.getElementById("interoptext2").classList.contains("toggler")) {
+       document.getElementById("interoptext2").classList.toggle("toggler");
+       document.getElementById("interoptext2").classList.toggle("begin2");
+     }
 }
 
    function func_community2() {
@@ -495,6 +518,11 @@ function func_repogov() {
           if (document.getElementById("outreachtext2").classList.contains("toggler")) {
        document.getElementById("outreachtext2").classList.toggle("toggler");
        document.getElementById("outreachtext2").classList.toggle("begin2");
+     }
+
+        if (document.getElementById("interoptext2").classList.contains("toggler")) {
+       document.getElementById("interoptext2").classList.toggle("toggler");
+       document.getElementById("interoptext2").classList.toggle("begin2");
      }
 
 }
@@ -513,6 +541,32 @@ function func_repogov() {
                  if (document.getElementById("comtext2").classList.contains("toggler")) {
        document.getElementById("comtext2").classList.toggle("toggler");
        document.getElementById("comtext2").classList.toggle("begin2");
+     }
+
+                 if (document.getElementById("interoptext2").classList.contains("toggler")) {
+       document.getElementById("interoptext2").classList.toggle("toggler");
+       document.getElementById("interoptext2").classList.toggle("begin2");
+     }
+
+}
+
+     function func_interop2() {
+  document.getElementById("interoptext2").classList.toggle("toggler");
+      document.getElementById("interoptext2").classList.toggle("begin2");
+
+     if (document.getElementById("outreachtext2").classList.contains("toggler")) {
+       document.getElementById("outreachtext2").classList.toggle("toggler");
+       document.getElementById("outreachtext2").classList.toggle("begin2");
+     }
+
+                 if (document.getElementById("comtext2").classList.contains("toggler")) {
+       document.getElementById("comtext2").classList.toggle("toggler");
+       document.getElementById("comtext2").classList.toggle("begin2");
+     }
+
+        if (document.getElementById("repotext2").classList.contains("toggler")) {
+       document.getElementById("repotext2").classList.toggle("toggler");
+       document.getElementById("repotext2").classList.toggle("begin2");
      }
 
 }
