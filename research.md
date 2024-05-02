@@ -7,10 +7,10 @@ permalink: /research
 
   
   .abtext2 {
-    width: 90%;
     margin-left: 5%;
     border: 2px solid black;
-    max-width: 200px;
+    margin-right: 5%;
+    width: 90%;
   }
   .toggler {
     display:block;
@@ -89,7 +89,6 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
     #outreachtext2 {
     background-color: #ff9b01;
     position: relative;
-    width: 100%;
     /*top: calc(-150% + 20vw);
     left: 8%;*/
 
@@ -196,7 +195,7 @@ div.text-block-right {
    #page {
      width: 100%;
      height: auto;
-     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-columns: 1fr 10px 10px 1fr;
      grid-template-rows: 0.1fr 0fr 0.1fr 1fr;
      grid-template-areas: 
        "h h h h"
