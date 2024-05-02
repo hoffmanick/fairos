@@ -81,7 +81,11 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
       #interoptext strong, #repotext strong, #outreachtext strong, #comtext strong {
      display: none;
    }
-  
+
+  #i {
+    grid-area: i;
+    display: none;
+  }
 #a {
   grid-area: a;
  /* background-color: #8ca0ff; */
@@ -125,6 +129,9 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
 
 
 .begin {
+  display:none;
+}
+  .begin2 {
   display:none;
 }
   
@@ -173,6 +180,16 @@ div.text-block-right {
    #page {
      width: 100%;
      grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-rows: 0.1fr 0fr 300px 200px;
+     grid-template-areas: 
+       "h h h h"
+       "e j j c"
+       "e j j c"
+       "i i i i";
+   }
+
+   #i {
+     display: grid;
    }
    
  }
@@ -287,6 +304,15 @@ div.text-block-right {
     <area target="_blank" style="cursor:pointer;" alt="outreach" title="outreach" coords="195,195,195,380,223,384,249,375,276,366,296,358,312,347,327,333,342,317,359,293,371,261,376,244,383,215,383,197" shape="poly" onclick="func_out()">
     <area target="_blank" style="cursor:pointer;" alt="interoperability" title="interoperability" coords="199,7,198,181,197,188,383,189,383,159,375,125,357,89,333,61,311,41,279,20,238,5" shape="poly" onclick="func_interop()">
 </map>
+
+<div id='j'>
+   <img src="./images/eos_circle.png" alt="circle" style="width:calc(200px + 20vw);max-width:750px;z-index:1; position:relative;" usemap="#image-map2"></div>
+<map name="image-map2">
+    <area target="_blank" style="cursor:pointer;" alt="community" title="community" coords="7,190,194,189,196,5,145,13,115,23,91,36,60,62,32,102,16,139,10,165,7,176" shape="poly" onclick="func_community()">
+    <area target="_blank" style="cursor:pointer;" alt="repo governance" title="repo governance" coords="5,199,7,223,7,241,12,258,17,272,24,285,34,297,44,316,61,333,73,341,83,353,96,357,113,366,132,376,151,383,169,384,187,384,188,196" shape="poly" onclick="func_repogov()">
+    <area target="_blank" style="cursor:pointer;" alt="outreach" title="outreach" coords="195,195,195,380,223,384,249,375,276,366,296,358,312,347,327,333,342,317,359,293,371,261,376,244,383,215,383,197" shape="poly" onclick="func_out2()">
+    <area target="_blank" style="cursor:pointer;" alt="interoperability" title="interoperability" coords="199,7,198,181,197,188,383,189,383,159,375,125,357,89,333,61,311,41,279,20,238,5" shape="poly" onclick="func_interop()">
+</map>
    
   <div id='e'></div>
     <div id="a">
@@ -334,6 +360,17 @@ div.text-block-right {
         Click any sector of the circle below to learn more about that domain.</p>
       </div>
     </div>
+
+    <div id="i">
+      <div class="abtext2 begin2" id="outreachtext2">
+        <h4>ECR Projects: Doing Ethical Open Science Across Disparate Data Types<strong>.</strong></h4>
+        <p>We are working with early career researchers to.... ? </p>
+        <h4>FAIR/CARE educational materials<strong>.</strong></h4>
+        <p>We are producing material for undergraduates studying data science and ecology to introduce them to principles of ethical open data management.</p>
+        <h4>Data repository decision tree<strong>.</strong></h4>
+        <p>We are supporting early career researchers by providing them with a resource to guide their choice of repository for data or specimen upload.</p>
+      </div>
+    </div>
   
 </div>
 
@@ -367,6 +404,12 @@ function func_repogov() {
   function func_out() {
   document.getElementById("outreachtext").classList.toggle("toggler");
       document.getElementById("outreachtext").classList.toggle("begin");
+
+}
+
+   function func_out2() {
+  document.getElementById("outreachtext2").classList.toggle("toggler");
+      document.getElementById("outreachtext2").classList.toggle("begin2");
 
 }
 
