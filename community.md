@@ -25,7 +25,7 @@ permalink: /community
 .show_b {
   display: grid;
   grid-template-rows: auto;
-  width: 90%;
+ /* width: 90%; */
   
 }
 
@@ -180,29 +180,23 @@ permalink: /community
   }
   
   </style>
-<div class="text-block-main" style="display:grid;grid-template-columns: auto;margin-right:0px;width:100%;">
+<div class="text-block-main" style="display:grid;grid-template-columns: auto;margin-right:0px;width:90%;">
   
 <div class="text-block-right" style="display:grid;background-image:linear-gradient(to left, #fff, 90%, #97b779);padding:0;align-content:center;justify-content:space-between;" id="headingblock">
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;position:relative;" id="heading-left">
       <h1 style="font-size:calc(20px + 3vw);">Community Building & Reflection</h1>
-      <p style="align-self:start;padding-top:10px;" id="describe">Building Interconnected and Open Data Resources</p>
+      <p style="align-self:start;padding-top:10px;" id="describe">Prefiguring ethical open science</p>
     </div>
-  <!--  <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%;" id="heading-image">
-      <figure style="margin-left:0px;margin-right:0px;max-width:300px;" id="quilter">
-        <img src="./images/interoperable_quilt.png" alt="quilt" style="width:100%">
-        <figcaption id="cap">Making systems interoperable is a kind of quilting. Image originally from Rocky Mountain Quilt Museum. Thomer and Rayburn, 2023: “A Patchwork of Data Systems”: Quilting as an Analytic Lens and Stabilizing Practice for Knowledge Infrastructures. <i>Science, Technology, & Human Values.</i></figcaption>
-      </figure>
-    </div> -->
   </div>
+  
   <div class="text-block-right" style="display:grid; width:95%;padding-left:5%;justify-content:space-between;">
     <div>
     <h2>Overview</h2>
     <div id="main-text">
-      <p>We will develop a network of data managers, research practitioners, disciplinary experts, and early career researchers focused on identifying gaps and mismatches among Quaternary data resources, in order to improve interoperability among them. We will particularly prioritize: <ul>
-      <li>outreach to data managers and assessment of the current Quaternary informatics landscape,</li>
-      <li>identifying areas for crosswalk development to resolve conflicts between existing ontologies and to help support the adoption of CARE aims,</li>
-        <li>identifying points of connection between repositories, where the addition of related identifiers could help bridge silos, and</li> 
-        <li>building on existing initiatives to make data resources more open and interconnected.</li></ul></p>
+      <p>We will convene a community of Western and Indigenous scholars who care about Quaternary data
+        in order to imagine and prefigure a community of Quaternary scientists and data stewards
+      who are sensitive to our discipline's colonial history and the unjust operations of power 
+    in science as currently configured.</p>
       <h2>Activities</h2> 
        <button class="bttn" id="symp" onclick="Func_symp()">
           <div><p><strong>Structured Self-Reflection</strong></p></div>
