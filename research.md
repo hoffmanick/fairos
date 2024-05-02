@@ -454,8 +454,8 @@ function func_repogov() {
       document.getElementById("outreachtext2").classList.toggle("begin2");
 
      if (document.getElementById("repotext2").classList.contains("toggler") {
-       document.getElementById("repotext2").classList.toggle("toggler")
-       document.getElementById("repotext2").classList.toggle("begin2")
+       document.getElementById("repotext2").classList.toggle("toggler");
+       document.getElementById("repotext2").classList.toggle("begin2");
      }
 
 }
@@ -465,8 +465,8 @@ function func_repogov() {
       document.getElementById("repotext2").classList.toggle("begin2");
 
      if (document.getElementById("outreachtext2").classList.contains("toggler") {
-       document.getElementById("outreachtext2").classList.toggle("toggler")
-       document.getElementById("outreachtext2").classList.toggle("begin2")
+       document.getElementById("outreachtext2").classList.toggle("toggler");
+       document.getElementById("outreachtext2").classList.toggle("begin2");
      }
 
 }
