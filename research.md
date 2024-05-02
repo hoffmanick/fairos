@@ -167,6 +167,13 @@ div.text-block-right {
   grid-template-columns: repeat(auto-fill, minmax(max(var(--grid-item--min-width), var(--grid-item--max-width)), 1fr));
   grid-gap: var(--grid-layout-gap);
 }
+
+ @media print, screen and (max-width: 900px) {
+   #page {
+     width: 100%;
+   }
+   
+ }
   
  @media print, screen and (max-width: 1280px) {
     #repotext, #outreachtext {
