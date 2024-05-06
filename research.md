@@ -409,8 +409,8 @@ div.text-block-right {
     <div id='h'>
       <div>
         <h2>RCN Activities</h2>
-        <p>Our RCN Aims have so far coalesced around the following domains of activity. 
-        Click any sector of the circle below to learn more about that domain.</p>
+        <p>Our project has three overarching aims. In our first years, they have coalesced in these sets of activities. 
+        Click any sector of the circle below to learn more about that category.</p>
       </div>
     </div>
 
