@@ -5,9 +5,26 @@ permalink: /research
 ---
 <style>
 
-  #j {
+ /* #j {
     display: none;
-  }
+  }*/
+
+  #j {
+     display:block;
+   }
+
+   #i {
+     display: grid;
+   }
+
+   #d {
+     display: none;
+   }
+
+   #a, #b, #f, #g, #e, #c {
+     display: none;
+   }
+   
 
   
   .abtext2 {
@@ -133,50 +150,52 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
      display: none;
    }
 
-  #i {
+  /* #i {
     grid-area: i;
     display: none;
   }
 #a {
   grid-area: a;
- /* background-color: #8ca0ff; */
+  background-color: #8ca0ff; 
 }
 
 #b {
   grid-area: b;
- /* background-color: #ffa08c; */
+  background-color: #ffa08c; 
 }
 
 #c  {
   grid-area: c;
-/*  background-color: #ffff64; */
-}
+  background-color: #ffff64; 
+} 
 
 #d  {
   grid-area: d;
-/*  background-color: #8cffa0; */
+  background-color: #8cffa0; 
   text-align:center;
   align-content:center;
-}
+} */
 
-#e  {
-  grid-area: e;
-/*  background-color: #8ca2d0; */
-}
+
 
   #h {
     grid-area: h;
   }
 
-#f  {
+/* #f  {
   grid-area: f;
-/*  background-color: #2ca2d0; */
+ background-color: #2ca2d0; 
+}
+
+  #e  {
+  grid-area: e;
+  background-color: #8ca2d0; 
 }
 
 #g  {
   grid-area: g;
-/*  background-color: rgb(100,100,100); */
-}
+  background-color: rgb(100,100,100); 
+} */
 
 
 .begin {
@@ -228,9 +247,7 @@ div.text-block-right {
 }
 
  @media print, screen and (max-width: 900px) {
-   #j {
-     display:block;
-   }
+
    #page {
      width: 100%;
      height: auto;
@@ -241,6 +258,9 @@ div.text-block-right {
        "j j j j"
        "j j j j"
        "i i i i";
+   }  
+   #j {
+     display:block;
    }
 
    #i {
