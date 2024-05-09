@@ -30,19 +30,29 @@ permalink: /research
     max-width: 200px;
   }
   #page {
+     grid-template-columns: 1fr 10px 10px 1fr;
+     grid-template-rows: 0.1fr 0fr 0.1fr 1fr;
+     grid-template-areas: 
+       "h h h h"
+       "j j j j"
+       "j j j j"
+       "i i i i";
+
+
+    
   width:900px;
   display: grid;
  /*    margin-left: 14%;
     margin-right: 7%;
  width: 90%; */
   height: 1100px;
-  grid-template-areas:
+/*  grid-template-areas:
     "h h h h"
     "e d d c"
     "e d d c"
     "a f g b";
 grid-template-rows: 0.1fr 0.1fr 500px 200px;
-  grid-template-columns: 200px calc(100px + 10vw) calc(100px + 10vw) 200px; 
+  grid-template-columns: 200px calc(100px + 10vw) calc(100px + 10vw) 200px; */
 }
 
   div.abtext p {
