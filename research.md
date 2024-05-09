@@ -355,7 +355,7 @@ div.text-block-right {
   <div class="text-block-right" style="display:flex;flex-direction: row;flex-wrap:wrap;background-color:white;padding:0px;margin-left:2%;" id="meatblock">
 
     
-    <div class="text-block-right" style="max-width:700px;display:grid;justify-content:space-around;padding-top:17px;margin-right:0px;padding-left:0%;padding-right:4.5%;width:91%;grid-template-columns:auto;height:760px;" id="aimses">
+    <div class="text-block-right" style="max-width:700px;display:grid;justify-content:space-around;padding-top:17px;margin-right:0px;padding-left:0%;padding-right:4.5%;width:91%;grid-template-columns:auto;height:max(calc(35vw),650px);" id="aimses">
       <div class="text-block-right" style="max-width:700px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:3%; border-left: 1px solid                #ec970b; width:90%; padding-left:2%;">
         <h3 style="border-bottom: 1px solid #ec970b;"> <a href="{{site.baseurl}}/aim1" style="font-size:1.4em">Aim 1: Improve Interoperability and Reproducibility</a></h3>
         <p style="text-align:center;"> We will develop guidance for interoperability and reproducibility among Quaternary community-curated data resources and
