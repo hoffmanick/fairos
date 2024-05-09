@@ -248,7 +248,12 @@ div.text-block-right {
 
  @media print, screen and (max-width: 900px) {
 
-  /* #page {
+   #page {
+     width: 100%;
+     height: auto;
+
+   }  /*
+    #page {
      width: 100%;
      height: auto;
      grid-template-columns: 1fr 10px 10px 1fr;
