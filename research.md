@@ -344,18 +344,18 @@ div.text-block-right {
       <h1 style="font-size:calc(20px + 3vw);align-self:start;">Our Work</h1>
       <p style="align-self:start;padding-top:10px;margin-top:3%;" id="describe">We aim to improve data infrastructure for the Quaternary scientific community.</p>
     </div>
-    <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
+<!--    <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end;max-width:460px; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
       <figure id="stakes">
         <img src="./images/rcn_aims-trans.png" alt="Stakeholders" style="width=100%;">
       </figure>
-    </div>
+    </div> -->
   </div>
 
   
   <div class="text-block-right" style="display:flex;flex-direction: row;flex-wrap:wrap;background-color:white;padding:0px;margin-left:2%;" id="meatblock">
 
     
-    <div class="text-block-right" style="max-width:700px;display:grid;justify-content:space-around;padding-top:17px;margin-right:0px;padding-left:0%;padding-right:4.5%;width:91%;grid-template-columns:auto;" id="aimses">
+    <div class="text-block-right" style="max-width:700px;display:grid;justify-content:space-around;padding-top:17px;margin-right:0px;padding-left:0%;padding-right:4.5%;width:91%;grid-template-columns:auto;height:760px;" id="aimses">
       <div class="text-block-right" style="max-width:500px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:3%; border-left: 1px solid                #ec970b; width:90%; padding-left:2%;">
         <h3 style="border-bottom: 1px solid #ec970b;"> <a href="{{site.baseurl}}/aim1" style="font-size:1.4em">Aim 1: Improve Interoperability and Reproducibility</a></h3>
         <p style="text-align:center;"> We will develop guidance for interoperability and reproducibility among Quaternary community-curated data resources and
