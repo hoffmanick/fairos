@@ -47,7 +47,7 @@ permalink: /research
     max-width: 200px;
   }
   #page {
-    grid-template-columns: 0.1fr 0.4fr 0fr 40fr
+    grid-template-columns: 0.1fr 0.4fr 0fr 40fr;
      grid-template-rows: 0.1fr 0fr 0.1fr 1fr;
      grid-template-areas: 
        "h h h h"
