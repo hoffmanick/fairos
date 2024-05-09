@@ -248,7 +248,7 @@ div.text-block-right {
 
  @media print, screen and (max-width: 900px) {
 
-   #page {
+  /* #page {
      width: 100%;
      height: auto;
      grid-template-columns: 1fr 10px 10px 1fr;
@@ -273,7 +273,7 @@ div.text-block-right {
 
    #a, #b, #f, #g, #e, #c {
      display: none;
-   }
+   } */
    
  }
   
@@ -356,16 +356,16 @@ div.text-block-right {
 
     
     <div class="text-block-right" style="max-width:700px;display:grid;justify-content:space-around;padding-top:17px;margin-right:0px;padding-left:0%;padding-right:4.5%;width:91%;grid-template-columns:auto;height:760px;" id="aimses">
-      <div class="text-block-right" style="max-width:500px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:3%; border-left: 1px solid                #ec970b; width:90%; padding-left:2%;">
+      <div class="text-block-right" style="max-width:700px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:3%; border-left: 1px solid                #ec970b; width:90%; padding-left:2%;">
         <h3 style="border-bottom: 1px solid #ec970b;"> <a href="{{site.baseurl}}/aim1" style="font-size:1.4em">Aim 1: Improve Interoperability and Reproducibility</a></h3>
         <p style="text-align:center;"> We will develop guidance for interoperability and reproducibility among Quaternary community-curated data resources and
         promote adoption of broader and more equitable metadata standards. </p>
       </div>
-      <div class="text-block-right" style="max-width:500px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:3%; border-left: 1px solid #ec970b; width:90%; padding-left:2%;">
+      <div class="text-block-right" style="max-width:700px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:3%; border-left: 1px solid #ec970b; width:90%; padding-left:2%;">
         <h3 style="border-bottom: 1px solid #ec970b;"> <a href="{{site.baseurl}}/aim2" style="font-size:1.4em">Aim 2:  Advance Data Curation and Stewardship</a></h3>
         <p style="text-align:center;">  We will promote better data science and curation practices among disciplinary practitioners, with a particular focus on early-career researchers, and develop and promote best practices and standards for ethical data stewardship. </p>
       </div>
-      <div class="text-block-right" style="max-width:500px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:3%; border-left: 1px solid #ec970b; width:90%; padding-left:2%;">
+      <div class="text-block-right" style="max-width:700px;padding-left:0px;padding-top:0px;padding-bottom:0px;padding-right:5%; border-bottom: 1px solid #ec970b; border-right: 1px solid #ec970b; margin-left:3%; border-left: 1px solid #ec970b; width:90%; padding-left:2%;">
         <h3 style="border-bottom: 1px solid #ec970b;"> <a href="{{site.baseurl}}/aim3" style="font-size:1.4em">Aim 3: Support Equity and Improve Access</a></h3>
         <p style="text-align:center;"> We will democratize science in a manner that recognizes broader concepts of data ownership and ethical data curation. </p>
       </div>
