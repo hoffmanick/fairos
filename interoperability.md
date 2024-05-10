@@ -5,6 +5,7 @@ permalink: /interoperability
 ---
 
 <style>
+  
   @media print, screen and (max-width:480px) {
    #heading-left {
       padding-bottom: 0%;
@@ -199,7 +200,7 @@ permalink: /interoperability
         <li>identifying points of connection between repositories, where the addition of related identifiers could help bridge silos, and</li> 
         <li>building on existing initiatives to make data resources more open and interconnected.</li></ul></p>
       <h2>Activities</h2> 
-      <div style="display:grid;grid-template-columns:1fr 2fr;height:830px;">
+      <div style="display:grid;grid-template-columns:1fr 2fr;height:fit-content;">
         <div id="buttons">
         <button class="bttn" id="info-landscape" onclick="Func_infolandscape()">
             <div><p><strong>An Informatics Landscape Analysis</strong></p></div>
@@ -215,7 +216,7 @@ permalink: /interoperability
             <div><p><strong>Constituent Database Landing Pages</strong></p></div>
       </button>
       </div>
-      <div id="texts">
+      <div id="texts" style="margin-left:2vw;">
           <div class="collapse" id="readMore_pracs">
             <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
               <p>Increase transparency of Neotoma</p>
