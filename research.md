@@ -309,7 +309,7 @@ div.text-block-right {
      display: none;
    } */
   #stakes, #describe {
-    width:200px;
+   /* width:200px; */
      } 
   #headingblock {
     justify-content: left;
