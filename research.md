@@ -33,6 +33,7 @@ permalink: /research
     margin-right: 0%;
     width: 95%;
    height: fit-content;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   }
 
  .abtext2 h4 {
