@@ -134,7 +134,7 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
   #repotext2 {
     background-color: #46bec6;
     position:relative;
-    height: calc(305px - 20vw);
+    height: 260px;
    /* top: calc(-150% + 20vw);
     left: -8%; */
   }
@@ -357,7 +357,7 @@ div.text-block-right {
   </div>
 
   
-  <div class="text-block-right" style="display:flex;flex-direction: row;flex-wrap:wrap;background-color:white;padding:0px;margin-left:4%;" id="meatblock">
+  <div class="text-block-right" style="display:flex;flex-direction: row;flex-wrap:wrap;background-color:white;padding:0px;margin-left:4%;width:96%;" id="meatblock">
 
     
     <div class="text-block-right" style="max-width:700px;display:grid;justify-content:space-around;padding-top:17px;margin-right:0px;padding-left:0%;padding-right:4.5%;width:91%;grid-template-columns:auto;height:max(calc(25vw),550px);" id="aimses">
