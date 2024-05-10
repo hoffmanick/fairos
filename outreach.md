@@ -5,6 +5,7 @@ permalink: /outreach
 ---
 
 <style>
+  
   @media print, screen and (max-width:480px) {
    #heading-left {
       padding-bottom: 0%;
@@ -25,7 +26,6 @@ permalink: /outreach
 .show_b {
   display: grid;
   grid-template-rows: auto;
-  width: 90%;
   
 }
 
@@ -71,7 +71,7 @@ permalink: /outreach
 
   
   .show_b {
-  <!-- width:150%; -->
+  border: 3px solid rgba(151,183,121,0.7);
   }
   
   #cap {
@@ -122,7 +122,7 @@ permalink: /outreach
   }
   
  #main-text {
-  <!-- width: 200%; -->
+  width: 90%;
   position: relative;
   } 
   
@@ -180,81 +180,123 @@ permalink: /outreach
   }
   
   </style>
-<div class="text-block-main" style="display:grid;grid-template-columns: auto">
+  
+<div class="text-block-main" style="display:grid;grid-template-columns: auto; margin-right:0px; width:100%;">
   
 <div class="text-block-right" style="display:grid;background-image:linear-gradient(to left, #fff, 90%, #97b779);padding:0;align-content:center;justify-content:space-between;" id="headingblock">
-    <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;" id="heading-left">
-      <h1 style="font-size:calc(20px + 3vw);">Outreach & Education</h1>
-      <p style="align-self:start;padding-top:10px;" id="describe"> Ethical Open Data Science: Moving from CARE Principles to Practice </p>
+    <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;position:relative;" id="heading-left">
+      <h1 id="title" style="font-size:calc(20px + 3vw);">Outreach & Education</h1>
+      <p style="align-self:start;padding-top:10px;" id="describe">Training for the next
+      generation of Quaternary informaticians</p>
     </div>
 
   </div>
-  <div class="text-block-right" style="display:grid;width:88%;padding-right:7%;padding-left:5%;justify-content:space-between;">
+  <div class="text-block-right" style="display:grid;width:95%;padding-left:5%;justify-content:space-between;">
     <div>
-    <h2>Overview</h2>
+     <h2>Overview</h2>
     <div id="main-text">
-      <p>We will advance the implementation of CARE best practices at all stages of the research data life cycle.</p>
-      <h2>Activities</h2>
-   <button class="bttn" id="os-casestudy" onclick="Func_oscasestudy()">
-          <div><p><strong>Doing Open Science Across Disparate Data Types</strong></p></div>
+      <p>We will provide resources to scholars at a variety of career-levels in order to help them navigate an increasingly complex data ecosystem and to practice ethical science in their work.</p>
+      <h2>Activities</h2> 
+      <div style="display:grid;grid-template-columns:1fr 2fr;height:fit-content;">
+        <div id="buttons">
+        <button class="bttn" id="info-landscape" onclick="Func_infolandscape()">
+            <div><p><strong>Doing Open Science Across Disparate Data Types</strong></p></div>
+</button>
+      
+  <br>
+          <button class="bttn" id="case-study" onclick="Func_casestudy()"> 
+            <div><p><strong>FAIR/CARE Educational Material</strong></p></div>
       </button>
-        <div class="collapse" id="readMore_os-casestudy">
-          <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-            <p>Disparate data types are already being combined by data practitioners via linked open data (LOD). These linkages rely on knowing the spatial region and temporal span of an observation or data record. These workflows adhere to the FAIR data principles. </p>
-    <p>Similar to FAIR principles, CARE principles have become widely adopted - but seemingly only in the communities most obviously affected in the Natural Sciences: Indigenous, Archaeological, Anthropological, Zooarchaeological, and Ethnography disciplines. Much of the adherence to CARE has been through new, ground-up development of data resources. The incorporation of CARE into biological and paleontological data use is lacking, partly due to historic reasons and partly due to lack of awareness by communities.</p>
-    <p>Our goal is to incorporate CARE data principles and practices into already established data resources that adhere to FAIR and Open Science principles. While some of this work requires infrastructure building, much of this work can be done by influencing the practices of data users to effect change in the ethos of the next generation of data practitioners.</p>
-    <p>This project will have three outcomes: 1) the development of a working methodology for incorporating CARE practices into research that spans time and disciplines; 2) the use of this methodology for a scientific research endeavor; and 3) the teaching of this methodology to early career researchers, in order to effect change in our communities.</p>
-          </div>
-       </div>
-      <br>
-     <button class="bttn" id="synth" onclick="Func_synth()">
-          <div><p><strong>FAIR/CARE Educational Material</strong></p></div>
+        
+    <br>
+          <button class="bttn" id="pracs" onclick="Func_pracs()"> 
+            <div><p><strong>Database Recommender</strong></p></div>
       </button>
-        <div class="collapse" id="readMore_synth">
-          <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-            <p> For data science students and ecology students, introduce them to the principles in the context of Quaternary data. </p>
-          </div>
-       </div>
-  
-      <br>
-
-
-      <button class="bttn" id="symp" onclick="Func_symp()">
-          <div><p><strong>Database Recommender</strong></p></div>
-      </button>
-        <div class="collapse" id="readMore_symp">
-          <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-            <p>Complex Quaternary data ecosystem, where should your data go? </p>
-          </div>
-       </div>
-  
-      <br>
       </div>
+      <div id="texts" style="margin-left:2vw;">
+          <div class="collapse" id="readMore_pracs">
+            <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
+              <p>Complex Quaternary data ecosystem, where should your data go?</p>
+
+            </div>
+      </div>
+        <div class="collapse" id="readMore_case-study">
+            <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
+              <p>For data science students and ecology students, introduce them to the principles in the context of Quaternary data.
+</p>
+            </div>
+      </div>
+  <div class="collapse" id="readMore_info-landscape">
+          <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
+          <p>Disparate data types are already being combined by data practitioners via linked open data (LOD). These linkages rely on knowing the spatial region and temporal span of an observation or data record. These workflows adhere to the FAIR data principles.</p>
+
+<p>Similar to FAIR principles, CARE principles have become widely adopted - but seemingly only in the communities most obviously affected in the Natural Sciences: Indigenous, Archaeological, Anthropological, Zooarchaeological, and Ethnography disciplines. Much of the adherence to CARE has been through new, ground-up development of data resources. The incorporation of CARE into biological and paleontological data use is lacking, partly due to historic reasons and partly due to lack of awareness by communities.</p>
+
+<p>Our goal is to incorporate CARE data principles and practices into already established data resources that adhere to FAIR and Open Science principles. While some of this work requires infrastructure building, much of this work can be done by influencing the practices of data users to effect change in the ethos of the next generation of data practitioners.</p>
+
+<p>This project will have three outcomes: 1) the development of a working methodology for incorporating CARE practices into research that spans time and disciplines; 2) the use of this methodology for a scientific research endeavor; and 3) the teaching of this methodology to early career researchers, in order to effect change in our communities.</p>
+          </div>
+        </div>
+</div>
+    </div>
     </div>
 
   </div>
 </div>
-
+</div>
 <script>
-function Func_synth() {
-  document.getElementById("readMore_synth").classList.toggle("show_b");
-  document.getElementById("synth").classList.toggle("bttn_show");
+  function Func_infolandscape() {
+  document.getElementById("readMore_info-landscape").classList.toggle("show_b");
+  document.getElementById("info-landscape").classList.toggle("bttn_show");
+
+    if (document.getElementById("readMore_pracs").classList.contains("show_b")) {
+  document.getElementById("readMore_pracs").classList.toggle("show_b");
+  document.getElementById("pracs").classList.toggle("bttn_show");
+  }
+
+    if (document.getElementById("readMore_case-study").classList.contains("show_b")) {
+  document.getElementById("readMore_case-study").classList.toggle("show_b");
+  document.getElementById("case-study").classList.toggle("bttn_show");
+  }
+    
 }
 
-function Func_symp() {
-  document.getElementById("readMore_symp").classList.toggle("show_b");
-  document.getElementById("symp").classList.toggle("bttn_show");
+
+  function Func_casestudy() {
+  document.getElementById("readMore_case-study").classList.toggle("show_b");
+  document.getElementById("case-study").classList.toggle("bttn_show");
+
+  if (document.getElementById("readMore_pracs").classList.contains("show_b")) {
+  document.getElementById("readMore_pracs").classList.toggle("show_b");
+  document.getElementById("pracs").classList.toggle("bttn_show");
+  }
+
+        if (document.getElementById("readMore_info-landscape").classList.contains("show_b")) {
+  document.getElementById("readMore_info-landscape").classList.toggle("show_b");
+  document.getElementById("info-landscape").classList.toggle("bttn_show");
+  }
+    
 }
 
-  function Func_profs() {
-  document.getElementById("readMore_profs").classList.toggle("show_b");
-  document.getElementById("profs").classList.toggle("bttn_show");
+
+
+  function Func_pracs() {
+  document.getElementById("readMore_pracs").classList.toggle("show_b");
+  document.getElementById("pracs").classList.toggle("bttn_show");
+
+    if (document.getElementById("readMore_case-study").classList.contains("show_b")) {
+  document.getElementById("readMore_case-study").classList.toggle("show_b");
+  document.getElementById("case-study").classList.toggle("bttn_show");
+  }
+
+      if (document.getElementById("readMore_info-landscape").classList.contains("show_b")) {
+  document.getElementById("readMore_info-landscape").classList.toggle("show_b");
+  document.getElementById("info-landscape").classList.toggle("bttn_show");
+  }
+    
 }
 
-  
-function Func_oscasestudy() {
-  document.getElementById("readMore_os-casestudy").classList.toggle("show_b");
-  document.getElementById("os-casestudy").classList.toggle("bttn_show");
-}
+
+
 
 </script>
