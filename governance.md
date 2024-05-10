@@ -5,6 +5,7 @@ permalink: /governance
 ---
 
 <style>
+  
   @media print, screen and (max-width:480px) {
    #heading-left {
       padding-bottom: 0%;
@@ -25,7 +26,6 @@ permalink: /governance
 .show_b {
   display: grid;
   grid-template-rows: auto;
-  width: 90%;
   
 }
 
@@ -71,7 +71,7 @@ permalink: /governance
 
   
   .show_b {
-  <!-- width:150%; -->
+  border: 3px solid rgba(151,183,121,0.7);
   }
   
   #cap {
@@ -122,7 +122,7 @@ permalink: /governance
   }
   
  #main-text {
-  <!-- width: 200%; -->
+  width: 90%;
   position: relative;
   } 
   
@@ -180,52 +180,102 @@ permalink: /governance
   }
   
   </style>
-<div class="text-block-main" style="display:grid;grid-template-columns: auto">
+  
+<div class="text-block-main" style="display:grid;grid-template-columns: auto; margin-right:0px; width:100%;">
   
 <div class="text-block-right" style="display:grid;background-image:linear-gradient(to left, #fff, 90%, #97b779);padding:0;align-content:center;justify-content:space-between;" id="headingblock">
-    <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;" id="heading-left">
-      <h1 style="font-size:calc(20px + 3vw);">Repositories Governance</h1>
-      <p style="align-self:start;padding-top:10px;" id="describe"> Ethical Open Data Science: Moving from CARE Principles to Practice </p>
+    <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;position:relative;" id="heading-left">
+      <h1 id="title" style="font-size:calc(20px + 3vw);">Repositories Governance</h1>
+      <p style="align-self:start;padding-top:10px;" id="describe">Moving from principles to practices</p>
     </div>
 
   </div>
-  <div class="text-block-right" style="display:grid;width:88%;padding-right:7%;padding-left:5%;justify-content:space-between;">
+  <div class="text-block-right" style="display:grid;width:95%;padding-left:5%;justify-content:space-between;">
     <div>
-    <h2>Overview</h2>
+     <h2>Overview</h2>
     <div id="main-text">
-      <p>We will advance the implementation of CARE best practices at all stages of the research data life cycle.</p>
-      <h2>Activities</h2>
-          <button class="bttn" id="synth" onclick="Func_synth()">
-          <div><p><strong>Implementing Ethical Open Science Practices and CARE Principles within Databases</strong></p></div>
+      <p>We will advance the implementation of CARE and other ethical best practices at all stages of the research data life cycle.</p>
+      <h2>Activities</h2> 
+      <div style="display:grid;grid-template-columns:1fr 2fr;height:fit-content;">
+        <div id="buttons">
+        <button class="bttn" id="info-landscape" onclick="Func_infolandscape()">
+            <div><p><strong>Implementing Ethical Open Science Practices and CARE Principles within Databases</strong></p></div>
 </button>
-        <div class="collapse" id="readMore_synth">
+      </div>
+      <div id="texts" style="margin-left:2vw;">
+  <div class="collapse" id="readMore_info-landscape">
           <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-          <p>We will focus on two well-established open community data resources—Open Context and Neotoma—as  test cases for exploring how best to implement CARE practices in archaeological and paleoecological  datasets. CARE introduces a set of important technical requirements that need to be supported. For  example, data infrastructure needs to support Traditional Knowledge labels and notifications to help better express cultural aspects of data provenance and expectations for benefits sharing. Similarly, data infrastructure needs to be flexible enough to manage culturally specific systems of metadata documentation. These expanded and diversified sets of metadata needs will also need to be managed by curation workflows that inclusively represent stakeholder interests.</p>
-            
-<p>The exact form of implementation will vary among open data resources, and it is unlikely that a single solution will work for all. Hence, over the course of the symposia hackathons, webinars, and other activities, we will use Open Context and Neotoma as two representative instances of open community data resources in archaeology and paleoecology, with differing degrees of implementation of CARE principles and pre-existing relationships with Indigenous leaders and scholars. Symposia breakout sessions and hackathon  activities will help identify technical requirements to guide CARE principle-aligned improvements to Open Context and Neotoma, which can then serve as model examples for other data resources. 
- </p>
+ <p>We will focus on two well-established open community data resources—Open Context and Neotoma—as test cases for exploring how best to implement CARE practices in archaeological and paleoecological datasets. CARE introduces a set of important technical requirements that need to be supported. For example, data infrastructure needs to support Traditional Knowledge labels and notifications to help better express cultural aspects of data provenance and expectations for benefits sharing. Similarly, data infrastructure needs to be flexible enough to manage culturally specific systems of metadata documentation. These expanded and diversified sets of metadata needs will also need to be managed by curation workflows that inclusively represent stakeholder interests.</p>
+
+<p>The exact form of implementation will vary among open data resources, and it is unlikely that a single solution will work for all. Hence, over the course of the symposia hackathons, webinars, and other activities, we will use Open Context and Neotoma as two representative instances of open community data resources in archaeology and paleoecology, with differing degrees of implementation of CARE principles and pre-existing relationships with Indigenous leaders and scholars. Symposia breakout sessions and hackathon activities will help identify technical requirements to guide CARE principle-aligned improvements to Open Context and Neotoma, which can then serve as model examples for other data resources.</p>
+            <p>We will evaluate 
+              <ol>
+              <li>the semantic  <i>coverage</i> of each repository (e.g. what data elements are captured by each repository, and what are the  specific meanings of those elements?) </li>
+              <li>points of <i>convergence and conflict</i> between repositories (e.g. what data elements overlap and which are fundamentally mismatched?)</li>
+              <li>the <i>completeness</i> of records within repositories, and</li>
+              <li>points for further curatorial intervention—places where additional data curation could make records more accessible, interoperable, or ethical.</li></ol></p>
           </div>
         </div>
-      </div>
+</div>
+    </div>
     </div>
 
   </div>
 </div>
-
+</div>
 <script>
-function Func_synth() {
-  document.getElementById("readMore_synth").classList.toggle("show_b");
-  document.getElementById("synth").classList.toggle("bttn_show");
+  function Func_infolandscape() {
+  document.getElementById("readMore_info-landscape").classList.toggle("show_b");
+  document.getElementById("info-landscape").classList.toggle("bttn_show");
+
+    if (document.getElementById("readMore_pracs").classList.contains("show_b")) {
+  document.getElementById("readMore_pracs").classList.toggle("show_b");
+  document.getElementById("pracs").classList.toggle("bttn_show");
+  }
+
+    if (document.getElementById("readMore_case-study").classList.contains("show_b")) {
+  document.getElementById("readMore_case-study").classList.toggle("show_b");
+  document.getElementById("case-study").classList.toggle("bttn_show");
+  }
+    
 }
 
-function Func_symp() {
-  document.getElementById("readMore_symp").classList.toggle("show_b");
-  document.getElementById("symp").classList.toggle("bttn_show");
+
+  function Func_casestudy() {
+  document.getElementById("readMore_case-study").classList.toggle("show_b");
+  document.getElementById("case-study").classList.toggle("bttn_show");
+
+  if (document.getElementById("readMore_pracs").classList.contains("show_b")) {
+  document.getElementById("readMore_pracs").classList.toggle("show_b");
+  document.getElementById("pracs").classList.toggle("bttn_show");
+  }
+
+        if (document.getElementById("readMore_info-landscape").classList.contains("show_b")) {
+  document.getElementById("readMore_info-landscape").classList.toggle("show_b");
+  document.getElementById("info-landscape").classList.toggle("bttn_show");
+  }
+    
 }
 
-  function Func_profs() {
-  document.getElementById("readMore_profs").classList.toggle("show_b");
-  document.getElementById("profs").classList.toggle("bttn_show");
+
+
+  function Func_pracs() {
+  document.getElementById("readMore_pracs").classList.toggle("show_b");
+  document.getElementById("pracs").classList.toggle("bttn_show");
+
+    if (document.getElementById("readMore_case-study").classList.contains("show_b")) {
+  document.getElementById("readMore_case-study").classList.toggle("show_b");
+  document.getElementById("case-study").classList.toggle("bttn_show");
+  }
+
+      if (document.getElementById("readMore_info-landscape").classList.contains("show_b")) {
+  document.getElementById("readMore_info-landscape").classList.toggle("show_b");
+  document.getElementById("info-landscape").classList.toggle("bttn_show");
+  }
+    
 }
+
+
+
 
 </script>
