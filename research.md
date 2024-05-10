@@ -129,7 +129,7 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
 
    #interoptext2 {
     border: 3px solid #738995;
-
+    background-color: rgba(115,137,149,0.3);
     position:relative;
 /*    top: -250%;
     left: 20%; */
@@ -138,12 +138,14 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
   }
    #comtext2 {
     border: 3px solid #93c57e;
+    background-color: rgba(147,197,126,0.3);
     position:relative;
     /*top: -250%;
     left: -20%;*/
   }
   #repotext2 {
     border: 3px solid #46bec6;
+    background-color: rgba(70,190,198,0.3);
     position:relative;
    /*  height: 260px;
    top: calc(-150% + 20vw);
@@ -152,6 +154,7 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
 
     #outreachtext2 {
     border: 3px solid #ff9b01;
+    background-color: rgba(255,155,1,0.3);
     position: relative;
     /*top: calc(-150% + 20vw);
     left: 8%;*/
