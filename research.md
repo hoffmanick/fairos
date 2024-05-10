@@ -30,9 +30,19 @@ permalink: /research
   .abtext2 {
     margin-left: 5%;
     border: 2px solid black;
-    margin-right: 5%;
-    width: 90%;
+    margin-right: 0%;
+    width: 95%;
+   height: fit-content;
   }
+
+ .abtext2 h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+ }
+
+ .abtext2 p {
+  font-size:15px;
+ }
   .toggler {
     display:block;
   }
@@ -134,8 +144,8 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
   #repotext2 {
     background-color: #46bec6;
     position:relative;
-    height: 260px;
-   /* top: calc(-150% + 20vw);
+   /*  height: 260px;
+   top: calc(-150% + 20vw);
     left: -8%; */
   }
 
