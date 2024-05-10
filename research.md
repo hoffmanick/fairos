@@ -41,7 +41,7 @@ permalink: /research
  }
 
  .abtext2 p {
-  font-size:15px;
+  font-size:15px !important;
  }
   .toggler {
     display:block;
@@ -127,7 +127,7 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
   }
 
    #interoptext2 {
-    background-color: #738995;
+    border: 3px solid #738995;
 
     position:relative;
 /*    top: -250%;
@@ -136,13 +136,13 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
 
   }
    #comtext2 {
-    background-color: #93c57e;
+    border: 3px solid #93c57e;
     position:relative;
     /*top: -250%;
     left: -20%;*/
   }
   #repotext2 {
-    background-color: #46bec6;
+    border: 3px solid #46bec6;
     position:relative;
    /*  height: 260px;
    top: calc(-150% + 20vw);
@@ -150,7 +150,7 @@ grid-template-rows: 0.1fr 0.1fr 500px 200px;
   }
 
     #outreachtext2 {
-    background-color: #ff9b01;
+    border: 3px solid #ff9b01;
     position: relative;
     /*top: calc(-150% + 20vw);
     left: 8%;*/
