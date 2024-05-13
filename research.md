@@ -432,7 +432,7 @@ div.text-block-right {
   <div id = 'b'>
     <div class="abtext begin" id="interoptext">
     <h4>Mapping the Interoperability Landscape<strong>.</strong></h4>
-      <p>We are interviewing data managers and disciplinary practitioners to map the ways they interoperate data, suprporting aims 1 and 3.</p>
+      <p>We are interviewing data managers and disciplinary practitioners to map the ways they interoperate data, supporting aims 1 and 3.</p>
     <h4>Case Study: Linking data across repositories<strong>.</strong></h4>
       <p>Using our focal repositories as a case study, we are developing a workflow to enhance data linkages, furthering all our aims.</p>
     <h4>Neotoma constituent database landing pages<strong>.</strong></h4>
@@ -447,7 +447,8 @@ div.text-block-right {
   <div id='g'>
       <div class="abtext begin" id="outreachtext">
         <h4>ECR Projects: Doing Ethical Open Science Across Disparate Data Types<strong>.</strong></h4>
-        <p>We are working with early career researchers to.... ? </p>
+        <p>We are working with early career researchers to develop and use a working methodology that incorporates CARE practices
+        into research that spans time and disciplines. </p>
         <h4>FAIR/CARE educational materials<strong>.</strong></h4>
         <p>We are producing material for undergraduates studying data science and ecology to introduce them to principles of ethical open data management.</p>
         <h4>Data repository decision tree<strong>.</strong></h4>
