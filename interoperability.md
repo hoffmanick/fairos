@@ -187,6 +187,13 @@ permalink: /interoperability
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;position:relative;" id="heading-left">
       <h1 id="title" style="font-size:calc(20px + 3vw);">Improving Interoperability</h1>
       <p style="align-self:start;padding-top:10px;" id="describe">Building interconnected and open data resources</p>
+          <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
+      <figure id="stakes">
+        <img src="./images/rcn_aims-trans.png
+" alt="org-chart" style="width=100%;">
+        <figcaption></figcaption>
+      </figure>
+    </div>
     </div>
 
   </div>
