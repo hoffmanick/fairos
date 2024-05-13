@@ -190,7 +190,7 @@ permalink: /governance
     </div>
                   <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
       <figure id="stakes">
-        <img src="./images/rcn_aims-trans.png
+        <img src="./images/eos_circle.png
 " alt="org-chart" style="width=100%;">
         <figcaption></figcaption>
       </figure>
