@@ -183,11 +183,20 @@ permalink: /community
   
 <div class="text-block-main" style="display:grid;grid-template-columns: auto; margin-right:0px; width:100%;">
   
-<div class="text-block-right" style="display:grid;background-image:linear-gradient(to left, #fff, 90%, #97b779);padding:0;align-content:center;justify-content:space-between;" id="headingblock">
+<div class="text-block-right" style="display:grid;background-image:linear-gradient(to left, #fff, 90%, #97b779);padding:0;align-content:center;justify-content:space-between;grid-template-columns:3fr 1fr;" id="headingblock">
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;position:relative;" id="heading-left">
       <h1 id="title" style="font-size:calc(20px + 3vw);">Community Building & Reflection</h1>
       <p style="align-self:start;padding-top:10px;" id="describe">Convening stakeholders in Quaternary data</p>
     </div>
+
+                  <div class="text-block-right" style="background-color:transparent;padding-left:0;float:right;justify-self:end; margin-right:5%; margin-left: 5%; width: 90%;" id="heading-image">
+      <figure id="stakes">
+        <img src="./images/eos_circle.png
+" alt="org-chart" style="width=100%;">
+        <figcaption></figcaption>
+      </figure>
+    </div>
+
 
   </div>
   <div class="text-block-right" style="display:grid;width:95%;padding-left:5%;justify-content:space-between;">
