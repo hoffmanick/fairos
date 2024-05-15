@@ -470,9 +470,10 @@ div.text-block-right {
     <h4>Mapping the Interoperability Landscape<strong>.</strong></h4>
       <p>We are interviewing data managers and disciplinary practitioners to map the ways they interoperate data, supporting aims 1 and 3.</p>
     <h4>Case Study: Linking data across repositories<strong>.</strong></h4>
-      <p>Using our focal repositories as a case study, we are developing a workflow to enhance data linkages, furthering all our aims.</p>
+      <p>Using our focal repositories as case studies, we are developing a workflow to enhance data linkages, furthering all our aims.</p>
     <h4>Neotoma constituent database landing pages<strong>.</strong></h4>
       <p>These pages offer greater transparency for users of Neotoma's data, a facet of aims 2 and 3.</p>
+      <p>Click <a href="https://hoffmanick.github.io/fairos/interoperability" target="_blank">here</a> to learn more.</p>
   </div>
     
   <div class="abtext2 begin2" id="comtext2">
@@ -483,7 +484,8 @@ div.text-block-right {
     <h4>Webinar Series<strong>.</strong></h4>
     <p>We provide a forum for experts in informatics and ethics to share their work with us. Click <a href="https://hoffmanick.github.io/fairos/webinarview" target="_blank">here</a> for more info.</p>
     <h4>Reading Group<strong>.</strong></h4>
-    <p>We meet monthly to discuss selections from the literature on the political economy of data.</p>
+    <p>We meet monthly to discuss selections from the literature on the political economy of biodiversity data.</p>
+   <p>Click <a href="https://hoffmanick.github.io/fairos/community" target="_blank">here</a> to learn more.</p>
   </div>
   
       <div class="abtext2 begin2" id="outreachtext2">
@@ -494,11 +496,13 @@ div.text-block-right {
         <p>We are producing material for undergraduates studying data science and ecology to introduce them to principles of ethical open data management.</p>
         <h4>Data repository decision tree<strong>.</strong></h4>
         <p>We are supporting early career researchers by providing them with a resource to guide their choice of repository for data or specimen upload.</p>
+        <p>Click <a href="https://hoffmanick.github.io/fairos/outreach" target="_blank">here</a> to learn more.</p>
       </div>
 
         <div class="abtext2 begin2" id="repotext2">
     <h4>Case studies: Neotoma, Open Context, Florida Museum<strong>.</strong></h4>
       <p>We are using our focal repositories as case studies for improving data governance and bolstering our commitment to Indigenous data sovereignty.</p>
+      <p>Click <a href="https://hoffmanick.github.io/fairos/governance" target="_blank">here</a> to learn more.</p>
   </div>
     </div>
   
