@@ -227,7 +227,8 @@ permalink: /interoperability
       <div id="texts" style="margin-left:2vw;">
           <div class="collapse" id="readMore_pracs">
             <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-              <p>Increase transparency of Neotoma</p>
+              <p>One of our focal repositories, the <a href="https://www.neotomadb.org/" target="_blank">Neotoma Paleoecology Database</a>, is a federated database constituted by a set of more specialized paleoecological databases that focus on the curation of data from some particular configuration of time, space, and proxy type. We are developing landing pages for these constituent Neotoma databases that offer up-to-date information on the spatial and temporal coverage od the database in question, as well as information on the kinds of datasets contained in the database, the people who have contributed data to the database, and the growth of the database over time. These constituent database landing pages increase the transparency of Neotoma's holdings, allowing for enhanced exploration of paleoecological data. They also facilitate the identification of errors in our stewardship (for instance, they make it easy to see records that purport to concern 8 billion year old pollen!)</p>
+              <p>In addition to the development of these database landing pages, we have modified Neotoma's already existing dataset landing pages to include cultural provenance information at the site level. We have begun to map the extent of Indigenous territories intersecting Neotoma sites as recorded in the <a href="https://native-land.ca/" target="_blank">Native Land</a> project, and link to the Native Land landing pages for those territories.</p>
 
             </div>
       </div>
