@@ -203,7 +203,7 @@ permalink: /outreach
     <div>
      <h2>Overview</h2>
     <div id="main-text">
-      <p>We will provide resources to scholars at a variety of career-levels in order to help them navigate an increasingly complex data ecosystem and to practice ethical science in their work.</p>
+      <p>We will provide resources to scholars at a variety of career levels in order to help them navigate an increasingly complex data ecosystem and to practice ethical science in their work.</p>
       <h2>Activities</h2> 
       <div style="display:grid;grid-template-columns:1fr 2fr;height:fit-content;">
         <div id="buttons">
@@ -224,13 +224,13 @@ permalink: /outreach
       <div id="texts" style="margin-left:2vw;">
           <div class="collapse" id="readMore_pracs">
             <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-              <p>Complex Quaternary data ecosystem, where should your data go?</p>
+              <p>Quaternary science often yields heterogeneous datasets. These complex records can include physical specimens (e.g., faunal remains, sediment cores, human artifacts), assemblage-level occurrence data, trait measurements (e.g., stable isotopic ratios, osteometrics), and chronologies. There exists a corresponding array of repositories that specialize in the curation of each of these distinct data elements. While these resources enable high-quality Quaternary data preservation, they also present disciplinary practitioners with the daunting task of navigating an increasingly opaque data ecosystem. One must know the resource exists to deposit data there. As well, repositories may overlap in scope, and choosing the better resource for data upload often depends on tacit expertise. We are developing database recommender tools to make knowledge around choice of database for data upload explicit where it has previously been tacit. This tool will take as input some basic datasets parameters (e.g., time and region, kind of specimen, kind of measurement) and output an expert recommendation based in the communal knowledge of the Quaternary science community.</p>
 
             </div>
       </div>
         <div class="collapse" id="readMore_case-study">
             <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-              <p>For data science students and ecology students, introduce them to the principles in the context of Quaternary data.
+              <p>In order to propagate principles of ethical open science forward across the next generation of scientists, we need to introduce future scientists to principles of data science and Indigenous data governance early in their academic careers. We are therefore developing modular curricula, which can be inserted into introductory undergraduate courses in data science or ecology, to familiarize students with the FAIR principles and CARE principles. Students will explore case studies focused on Quaternary data that cause them to consider the oftentimes invisible infrastructure and practices that enable FAIR data curation, as well as explore what gaps there are in Quaternary data with regard to FAIR. Students will also be asked to consider the ways in which the collection of Quaternary data has been braided together with histories of colonial violence against Indigenous peoples. They will have the opportunity to think about what interventions CARE principles can make in reversing such legacies of violence, and what it would mean to practice CARE from the beginning of the data lifecycle.
 </p>
             </div>
       </div>
