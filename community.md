@@ -234,7 +234,7 @@ permalink: /community
               <li>an overview of the past and present intertwining of paleontology with structures of domination, and </li>
               <li>a guide from LocalContexts on using their cultural metadata fields.</li>
               </ul>
-              Click <a href="https://hoffmanick.github.io/fairos/webinarview" target="_blank">here</a> to learn more.</p>
+             <p> Click <a href="https://hoffmanick.github.io/fairos/webinarview" target="_blank">here</a> to learn more.</p></p>
 
             </div>
       </div>
