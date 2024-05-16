@@ -233,7 +233,8 @@ permalink: /community
               <li>a series of introductions to Quaternary databases,</li>
               <li>an overview of the past and present intertwining of paleontology with structures of domination, and </li>
               <li>a guide from LocalContexts on using their cultural metadata fields.</li>
-              </ul></p>
+              </ul>
+              Click <a href="https://hoffmanick.github.io/fairos/webinarview" target="_blank">here</a> to learn more.</p>
 
             </div>
       </div>
