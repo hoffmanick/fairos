@@ -228,13 +228,12 @@ permalink: /community
       <div id="texts" style="margin-left:2vw;">
           <div class="collapse" id="readMore_pracs">
             <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-              <p>The primary audience for the webinar series and symposium hackathon is data managers, with close interaction with disciplinary practitioners and other members of the broader community. A series of four webinars will be held prior to the symposium hackathon, to ensure that data managers have a common understanding of key concepts and toolsets applicable to the process of developing interoperable systems. These webinars will include opportunities for structured discussion to support the Mapping the Landscape project, as well as help build relationships between participants prior to the symposium hackathon.</p>
-
-<p>Webinar topics will include
-
-<ol><li>an overview of common data standards (e.g. DublinCore, Science on Schema, Geoscience Standard Names)</li>
-<li>how individuals can serialize their data formats to JSON-LD or other metadata schemes, and</li>
-<li>how to improve findability and interoperability through services such as DataCite, GeoCODEs or other tools.</li></ol></p>
+              <p>We have organized a webinar series for experts in informatics to offer lessons to our community. Topics so far have included
+              <ul>
+              <li>a series of introductions to Quaternary databases,</li>
+              <li>an overview of the past and present intertwining of paleontology with structures of domination, and </li>
+              <li>a guide from LocalContexts on using their cultural metadata fields.</li>
+              </ul></p>
 
             </div>
       </div>
