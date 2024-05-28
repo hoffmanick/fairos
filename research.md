@@ -470,9 +470,9 @@ div.text-block-right {
 
         <div class="abtext2 begin2" id="interoptext2">
     <h4>Mapping the Interoperability Landscape<strong>.</strong></h4>
-      <p>We are interviewing data managers and disciplinary practitioners to map the ways they interoperate data, supporting aims 1 and 3.</p>
+      <p>We are interviewing data managers and disciplinary practitioners to understand use, needs, vision, and ethics of community-curated data resources, supporting Aims 1 and 3.</p>
     <h4>Case Study: Linking data across repositories<strong>.</strong></h4>
-      <p>Using our focal repositories as case studies, we are developing a workflow to enhance data linkages, furthering all our aims.</p>
+      <p>Using our focal repositories as case studies, we are developing workflows to surface points where interoperability is inhibited and work toward enhancing data linkages, furthering all our aims.</p>
     <h4>Neotoma constituent database landing pages<strong>.</strong></h4>
       <p>These pages offer greater transparency for users of Neotoma's data, a facet of aims 2 and 3.</p>
       <p>Click <a href="https://hoffmanick.github.io/fairos/interoperability" target="_blank">here</a> to learn more.</p>
@@ -480,9 +480,9 @@ div.text-block-right {
     
   <div class="abtext2 begin2" id="comtext2">
     <h4>Annual Symposia<strong>.</strong></h4>
-    <p>We are meeting yearly in person to think together about implementing ethical open science in our data ecosystems, furthering all our aims.</p>
+    <p>We meet yearly in person to advance project aims, with focused time for group reflection on how to implement ethical open science in our data ecosystems.</p>
     <h4>Ethical Open Science Self-Reflection Survey<strong>.</strong></h4>
-    <p>Our self-reflection survey on our personal and institutional relationships to FAIR, CARE, and EOS have been guiding our subsequent actions.</p>
+    <p>We developed a self-reflection tool on our personal and institutional relationships to FAIR, CARE, and EOS to guide our subsequent actions.</p>
     <h4>Webinar Series<strong>.</strong></h4>
     <p>We provide a forum for experts in informatics and ethics to share their work with us. Click <a href="https://hoffmanick.github.io/fairos/webinarview" target="_blank">here</a> for more info.</p>
     <h4>Reading Group<strong>.</strong></h4>
@@ -492,18 +492,17 @@ div.text-block-right {
   
       <div class="abtext2 begin2" id="outreachtext2">
         <h4>ECR Projects: Doing Ethical Open Science Across Disparate Data Types<strong>.</strong></h4>
-        <p>We are working with early career researchers to develop and use a working methodology that incorporates CARE practices
-        into research that spans time and disciplines.</p>
+        <p>We are working with early career researchers to develop and use a working methodology that integrates ethical open science into scientific practice.</p>
         <h4>FAIR/CARE educational materials<strong>.</strong></h4>
-        <p>We are producing material for undergraduates studying data science and ecology to introduce them to principles of ethical open data management.</p>
+        <p>We are developing college-level educational materials to introduce students to principles of ethical open data management.</p>
         <h4>Data repository decision tree<strong>.</strong></h4>
-        <p>We are supporting early career researchers by providing them with a resource to guide their choice of repository for data or specimen upload.</p>
+        <p>We are supporting Quaternary science researchers by developing a resource to guide their choice of repository for data upload.</p>
         <p>Click <a href="https://hoffmanick.github.io/fairos/outreach" target="_blank">here</a> to learn more.</p>
       </div>
 
         <div class="abtext2 begin2" id="repotext2">
     <h4>Case studies: Neotoma, Open Context, Florida Museum<strong>.</strong></h4>
-      <p>We are using our focal repositories as case studies for improving data governance and bolstering our commitment to Indigenous data sovereignty.</p>
+      <p>We are using our focal repositories as case studies for improving data governance and bolstering our commitment to ethical open data broadly, including Indigenous data sovereignty.</p>
       <p>Click <a href="https://hoffmanick.github.io/fairos/governance" target="_blank">here</a> to learn more.</p>
   </div>
     </div>
