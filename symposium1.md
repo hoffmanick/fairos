@@ -46,10 +46,10 @@ permalink: /symposium1
       <li>May 18th
       <ol type="A">
       <li>Roundtable 1: Mapping the informatics landscape </li>
-      <liRoundtable 2: CAREful data curation</li>
+      <li>Roundtable 2: CAREful data curation</li>
       <li>Roundtable 3: Authority to control, curate, and govern</li>
       <li>Roundtable 4: Data repositories as works in progress</li>
-      <liRoundtable 5: Collective benefit</li>
+      <li>Roundtable 5: Collective benefit</li>
       <li>Roundtable 6: Pathways to collaboration</li>
       </ol></li>
       <li>May 19th
