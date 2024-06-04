@@ -4,6 +4,13 @@ title: "Symposium 1"
 permalink: /symposium1
 ---
 
+<style>
+    ol, li {
+        color: black;
+        font-size:20px;
+    }
+</style>
+
 <div class="text-block-right" style="display:grid;background-image:linear-gradient(to left, #fff, 90%, #97b779);padding:0;margin-right:0;width:100%;" id="headingblock">
     <div class="text-block-right" style="display:grid;grid-template-rows:40px auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;" id="heading-left">
       <h1 style="font-size:calc(20px + 3vw);height:40px;align-self:start;">Symposium 1</h1>
