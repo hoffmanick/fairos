@@ -18,11 +18,11 @@ permalink: /symposium1
     </div>
   </div>
   
-<div class="text-block-right" style="display:grid;grid-template-rows:auto auto;padding-left:5%;width:95%;">
-    <div id="left">
+<div class="text-block-right" style="display:grid;grid-template-columns:auto auto;padding-left:5%;width:95%;">
+    <div id="left" style="border-left:1px solid #ec970b;padding:5px;">
         <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;padding-left:0%;width:100%;">
           <h2>Setting</h2>
-          <p style="margin-bottom:0px;">Symposium 1 took place from May 17-19, 2023, at the Biosphere 2 in Oracle Arizona.</p>
+          <p style="margin-bottom:0px;">Symposium 1 took place from May 17-19, 2023, at the Biosphere 2 in Oracle, Arizona.</p>
         </div>
 
 
@@ -36,7 +36,7 @@ permalink: /symposium1
     </div>
         </div>
 
-        <div id="right">
+        <div id="right" style="border-left:1px solid #ec970b;padding:5px;">
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;padding-left:0%;width:100%;">
       <h2> Agenda </h2>
       <p><ol>
