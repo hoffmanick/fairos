@@ -29,9 +29,9 @@ permalink: /symposium1
          <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;padding-left:0%;width:100%;">
       <h2>Goals</h2>
       <p style="margin-bottom:0px;">At Symposium 1, we convened our RCN in full for the first time. Our goals were <ol>
-      <li>to do this, </li>
-      <li>to do that, and</li>
-      <li>to do these.</li>
+      <li>to reflect on our positionalities as Quaternary researchers, </li>
+      <li>to reflect on the colonial legacies of the Quaternary sciences, and </li>
+      <li>to plan broadly the goals and actions our RCN members would pursue over the coming year.</li>
       </ol></p>
     </div>
         </div>
