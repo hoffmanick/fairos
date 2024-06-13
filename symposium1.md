@@ -19,10 +19,13 @@ permalink: /symposium1
   </div>
   
 <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;padding-left:5%;width:95%;">
+    <div id="left">
         <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;padding-left:0%;width:100%;">
-      <h2>Setting</h2>
-      <p style="margin-bottom:0px;">Symposium 1 took place from May 17-19, 2023, at the Biosphere 2 in Oracle Arizona.</p>
-    </div>
+          <h2>Setting</h2>
+          <p style="margin-bottom:0px;">Symposium 1 took place from May 17-19, 2023, at the Biosphere 2 in Oracle Arizona.</p>
+        </div>
+
+
          <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;padding-left:0%;width:100%;">
       <h2>Goals</h2>
       <p style="margin-bottom:0px;">At Symposium 1, we convened our RCN in full for the first time. Our goals were <ol>
@@ -31,7 +34,9 @@ permalink: /symposium1
       <li>to do these.</li>
       </ol></p>
     </div>
-    
+        </div>
+
+        <div id="right">
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;padding-left:0%;width:100%;">
       <h2> Agenda </h2>
       <p><ol>
@@ -59,6 +64,7 @@ permalink: /symposium1
       <li>Action group discussion</li>
       </ol></li>
       </ol> </p>
+    </div>
     </div>
 
 
