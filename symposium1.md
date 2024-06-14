@@ -11,7 +11,7 @@ permalink: /symposium2023
     }
 </style>
 
-<div class="text-block-right" style="display:grid;background-image:linear-gradient(to left, #fff, 90%, #97b779);padding:0;margin-right:0;width:100%;" id="headingblock">
+<div class="text-block-right" style="display:grid;background-image:linear-gradient(to left, #fff, 90%, #97b779);padding:0;margin-right:0;width:100%;height:150px;" id="headingblock">
     <div class="text-block-right" style="display:grid;grid-template-rows:40px auto;background-color:transparent;padding-left:5%;align-content:center;width:95%;" id="heading-left">
       <h1 style="font-size:calc(20px + 3vw);height:40px;align-self:start; padding-bottom:10px;">Symposium 2023</h1>
     </div>
