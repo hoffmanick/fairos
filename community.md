@@ -203,7 +203,7 @@ permalink: /community
     <div>
      <h2>Overview</h2>
     <div id="main-text">
-      <p>We will convene a community of Western and Indigenous scholars who care about Quaternary data in order to imagine and prefigure a community of Quaternary scientists and data stewards who are sensitive to our discipline's colonial history and the unjust operations of power in science as currently configured.</p>
+      <p>We are creating a community-based network focused on facilitating dialogue and collaboration among communities and individuals who are vested in different forms of environmental data about the past, including their cultural and natural provenance and stewardship. We actively reflect on Western scientific approaches to open Quaternary science, and aim to facilitate cross-cultural dialogue across disciplinary, professional, and personal cultural backgrounds and traditions of participants.</p>
       <h2>Activities</h2> 
       <div style="display:grid;grid-template-columns:1fr 2fr;height:fit-content;">
         <div id="buttons">
@@ -240,13 +240,15 @@ permalink: /community
       </div>
         <div class="collapse" id="readMore_case-study">
             <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-              <p>All symposia will include activities specifically devoted to advancing FAIR and CARE principles, in order to help set desired professional norms and provide examples of how CARE implementation can be advanced. Symposia activities will emphasize the importance of CARE data principles at each stage of the research data lifecycle, from initial conceptualization of a project, to data collection and analysis, interpretation and communication of results, and finally the long term curation and reuse of research data. In the early years of our RCN activities, we will invite keynote speakers from Research Data Alliance, the Centre for Australian Biodiversity and Heritage (CABAH), and other organizations to provide model examples of advancing CARE, with breakout discussions on how to best advance CARE among participating open-data resources and their networks of allied practitioners. In later years, we will review and discuss current efforts to begin implementing CARE best practices in participating data resources.
+              <p>We meet yearly in-person to advance project aims, with focused time for group reflection on how to think together about implementing ethical open science in our data ecosystems, furthering all our aims. All symposia will include activities specifically devoted to advancing FAIR and CARE principles, in order to help set desired professional norms and provide examples of how CARE implementation can be advanced. 
+              <a target="_blank" href="https://hoffmanick.github.io/fairos/symposium2023">Agenda: Symposium 1 (2023)</a>
+              <a>Agenda Symposium 2 (2024)</a>
 </p>
             </div>
       </div>
   <div class="collapse" id="readMore_info-landscape">
           <div class="read-more-content" style="width:90%;padding-left:5%;padding-right:5%;padding-top:2%;padding-bottom:2%;">
-          <p>RCN affiliates are engaging in a deep-dive reflection about ethical open science, FAIR, and CARE within both our personal scientific practice and within the policies of our organizations. We expect that our answers to these questions will change over time. The purpose of this self-reflection is to gain an initial honest assessment of where we as practitioners and where our repositories are now in terms of FAIR and CARE.</p>
+          <p>RCN affilLed by Lieberman, LeFebvre, Thomer, and Balk, we developed a structured self-reflection tool to engage in a deep-dive reflection about ethical open science, FAIR, and CARE within both our personal scientific practice and within the policies of our organizations. We expect that our answers to these questions will change over time. The purpose of this self-reflection is to gain an initial honest assessment of where we are as practitioners and where our repositories are now in terms of implementing the FAIR and CARE principles in our scholarship.</p>
           </div>
         </div>
 
