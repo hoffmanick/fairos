@@ -41,7 +41,7 @@ permalink: /symposium2023
     <div class="text-block-right" style="display:grid;grid-template-rows:auto auto;padding-left:0%;width:100%;">
       <h2> Agenda </h2>
       <p>
-      <p>May 17th</p>
+      <p>May 17th:</p>
       <ol type="A">
       <li>Welcome (Biosphere 2 Deputy Director, Jessica Blois)</li>
       <li>Introductions</li>
@@ -52,7 +52,7 @@ permalink: /symposium2023
       <li>CARE Panel Discussion (Stephanie Carroll, Simon Haberle...)</li>
       </ol>
       
-      <p>May 18th</p>
+      <p>May 18th:</p>
       <ol type="A">
       <li>Roundtable 1: Mapping the informatics landscape </li>
       <li>Roundtable 2: CAREful data curation</li>
@@ -61,7 +61,7 @@ permalink: /symposium2023
       <li>Roundtable 5: Collective benefit</li>
       <li>Roundtable 6: Pathways to collaboration</li>
       </ol>
-      <p>May 19th</p>
+      <p>May 19th:</p>
        <ol type="A">
       <li>Roundtable report backs, reflection and discussion</li>
       <li>Looking ahead</li>
